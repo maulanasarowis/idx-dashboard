@@ -190,6 +190,8 @@ def download_with_retry(symbol: str, period: str, interval: str, attempts: int =
         try:
             df = yf.download(symbol, period=period, interval=interval, progress=False, auto_adjust=True)
             if not df.empty:
+                if isinstance(df.columns, pd.MultiIndex):
+                    df.columns = df.columns.get_level_values(0)
                 return df, None
             last_error = "data kosong"
         except Exception as e:
