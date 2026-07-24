@@ -1,29 +1,58 @@
 {
-  "generated_at": "2026-07-24T07:30:09.201887+00:00",
+  "generated_at": "2026-07-24T07:58:19.623182+00:00",
   "ihsg": {
-    "last": null,
-    "change_pct": null,
-    "error": "float() argument must be a string or a real number, not 'Series'"
+    "last": 6217.02587890625,
+    "change_pct": -1.56,
+    "error": null
   },
-  "global_context": {},
+  "global_context": {
+    "Dow Jones": {
+      "last": 51711.65,
+      "change_pct": -0.97
+    },
+    "Nasdaq": {
+      "last": 25137.69,
+      "change_pct": -2.15
+    },
+    "Nikkei 225": {
+      "last": 64611.15,
+      "change_pct": -2.73
+    },
+    "Hang Seng": {
+      "last": 24934.37,
+      "change_pct": -1.1
+    },
+    "USD/IDR": {
+      "last": 17950.0,
+      "change_pct": 0.18
+    },
+    "Brent Crude": {
+      "last": 92.77,
+      "change_pct": -7.87
+    },
+    "Emas (Gold)": {
+      "last": 4050.3,
+      "change_pct": 0.09
+    }
+  },
   "top_picks": [
     {
       "ticker": "ANTM",
-      "last_price": 2990.0,
-      "rsi": 53.2,
-      "macd_hist": 16.81,
-      "ma20": 2915.0,
+      "last_price": 3010.0,
+      "rsi": 54.7,
+      "macd_hist": 18.09,
+      "ma20": 2916.0,
       "ma50": 2837.0,
       "support": 2550.0,
       "resistance": 3190.0,
       "buy_area": [
         2537.0,
-        2944.0
+        2945.0
       ],
       "tp": [
-        3726.0,
-        4218.0,
-        4954.0
+        3776.0,
+        4288.0,
+        5054.0
       ],
       "stop_loss": 2499.0,
       "rrr": 1.5,
@@ -34,47 +63,47 @@
         "score": 1.0,
         "headlines": [
           "Rekomendasi Saham Ajaib Sekuritas Hari Ini (ANTM, INDY, ESSA) - Ajaib",
-          "Bisikan Katalis Saham-saham Emas ANTM, MDKA, BRMS Cs - Bisnis Indonesia Premium",
           "BlackRock Balik Akumulasi Saham Aneka Tambang (ANTM) - Bloomberg Technoz",
+          "Bisikan Katalis Saham-saham Emas ANTM, MDKA, BRMS Cs - Bisnis Indonesia Premium",
           "Anomali Saham ANTM; Rebound Saat Emas Koreksi, Analis Ingatkan Risiko Value Trap - KONTAN",
           "Prospek Emas Belum Pudar, Peluang Saham ANTM-MDKA Cs Masih Terbuka - RCTI+"
         ]
       },
       "volume_signal": {
-        "ratio": 0.51,
+        "ratio": 0.59,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 269516018300.0,
+        "avg_daily_value_idr": 270751892450.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": true,
-        "ma8": 2836.0
+        "ma8": 2839.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:28:59.469859+00:00"
+      "_generated_at": "2026-07-24T07:56:56.195442+00:00"
     },
     {
       "ticker": "BMRI",
-      "last_price": 4170.0,
-      "rsi": 55.8,
-      "macd_hist": 19.45,
-      "ma20": 4150.0,
+      "last_price": 4190.0,
+      "rsi": 56.8,
+      "macd_hist": 20.73,
+      "ma20": 4151.0,
       "ma50": 4150.0,
       "support": 3800.0,
       "resistance": 4520.0,
       "buy_area": [
         3781.0,
-        4192.0
+        4193.0
       ],
       "tp": [
-        4821.0,
-        5255.0,
-        5906.0
+        4871.0,
+        5325.0,
+        6006.0
       ],
       "stop_loss": 3736.0,
       "rrr": 1.5,
@@ -82,7 +111,7 @@
       "trend_up": true,
       "sentiment": {
         "label": "Positif",
-        "score": 0.5,
+        "score": 0.6,
         "headlines": [
           "BMRI, BNI dan BRI Lepas Bisnis Asset Manajemen ke Danantara - Bloomberg Technoz",
           "Realisasi Laba BMRI Semester I-2026 di Atas Konsensus, Rekomendasi Saham Masih Buy - kontan.co.id",
@@ -92,175 +121,22 @@
         ]
       },
       "volume_signal": {
-        "ratio": 1.6,
+        "ratio": 1.91,
         "signal": "Distribution (volume tinggi + harga turun)",
         "unusual": true
       },
       "liquidity": {
-        "avg_daily_value_idr": 628496526900.0,
+        "avg_daily_value_idr": 638802511200.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": true,
-        "ma8": 4135.0
+        "ma8": 4138.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:07.463900+00:00"
-    },
-    {
-      "ticker": "CMRY",
-      "last_price": 4620.0,
-      "rsi": 65.0,
-      "macd_hist": 0.07,
-      "ma20": 4555.0,
-      "ma50": 4495.0,
-      "support": 4270.0,
-      "resistance": 4760.0,
-      "buy_area": [
-        4249.0,
-        4601.0
-      ],
-      "tp": [
-        5258.0,
-        5682.0,
-        6320.0
-      ],
-      "stop_loss": 4195.0,
-      "rrr": 1.5,
-      "confidence": 100,
-      "trend_up": true,
-      "sentiment": {
-        "label": "Positif",
-        "score": 0.33,
-        "headlines": [
-          "CMRY bagi dividen Rp1,58 triliun, yield setara 4,52% - IDNFinancials.com",
-          "Rekomendasi Sektor Konsumer Overweight, CMRY Berpotensi Punya Mesin Pertumbuhan Baru - Bareksa.com",
-          "Free Float Saham Cimory (CMRY) Mencapai 18,53%, Lampaui Batas Minimal - SWA.co.id",
-          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (ADRO, TLKM, CMRY) - Ajaib",
-          "Intip Rekomendasi Saham dan Prospek Cisarua Mountain (CMRY) di Semester II-2026 - kontan.co.id"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.89,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 7690787900.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": true,
-        "ma8": 4470.0
-      },
-      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:14.138418+00:00"
-    },
-    {
-      "ticker": "ICBP",
-      "last_price": 6950.0,
-      "rsi": 63.9,
-      "macd_hist": 39.05,
-      "ma20": 6723.0,
-      "ma50": 6524.0,
-      "support": 6299.0,
-      "resistance": 7125.0,
-      "buy_area": [
-        6268.0,
-        6790.0
-      ],
-      "tp": [
-        8021.0,
-        8735.0,
-        9806.0
-      ],
-      "stop_loss": 6236.0,
-      "rrr": 1.5,
-      "confidence": 100,
-      "trend_up": true,
-      "sentiment": {
-        "label": "Positif",
-        "score": 1.0,
-        "headlines": [
-          "ICBP Golden Cross Terbentuk: Sinyal & Level Kunci - JournalArta",
-          "Aroma Cuan Besar Saham Emiten Grup Salim - investor.id",
-          "Siap-siap Banjir Dividen Akhir Juli: Cek ICBP, INDF hingga BRPT - maybanktrade.co.id",
-          "11 Saham Cum Date Hari Ini (6/7): INDF, ICBP, hingga MTEL Siap Tebar Dividen! - Ajaib",
-          "ICBP & INDF Bagi Dividen Jumbo, Estimasi Yield hingga 4-4,3%, Rekomendasi Buy - Bareksa.com"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.6,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 20421733412.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": true,
-        "ma8": 6529.0
-      },
-      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:30.463941+00:00"
-    },
-    {
-      "ticker": "INDF",
-      "last_price": 6800.0,
-      "rsi": 61.3,
-      "macd_hist": 10.67,
-      "ma20": 6671.0,
-      "ma50": 6466.0,
-      "support": 6323.0,
-      "resistance": 7000.0,
-      "buy_area": [
-        6291.0,
-        6738.0
-      ],
-      "tp": [
-        7607.0,
-        8145.0,
-        8952.0
-      ],
-      "stop_loss": 6262.0,
-      "rrr": 1.5,
-      "confidence": 100,
-      "trend_up": true,
-      "sentiment": {
-        "label": "Positif",
-        "score": 1.0,
-        "headlines": [
-          "Rekomendasi Saham Tim Analis Bareksa Hari Ini: INDF, HMSP & ITMG - Bareksa.com",
-          "Dividen Akhir Juli 2026 Cair! Ini Jadwal Pembagian ICBP, INDF, BRPT, MTEL, dan ERAA - Ajaib",
-          "INDF Bagi Dividen Rp290 per Saham, Fokus Jaga Pangsa Pasar dan Profit - Emitennews.com",
-          "Cum Date Tiba, Hari Ini Kesempatan Akhir Dapat Dividen Rp 29.000/Lot Dari Saham INDF - kontan.co.id",
-          "Siap-siap Banjir Dividen Akhir Juli: Cek ICBP, INDF hingga BRPT - maybanktrade.co.id"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.37,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 36201943718.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": true,
-        "ma8": 6468.0
-      },
-      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:32.449670+00:00"
+      "_generated_at": "2026-07-24T07:57:05.381804+00:00"
     },
     {
       "ticker": "MDKA",
@@ -296,12 +172,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.63,
+        "ratio": 0.68,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 81587746639.0,
+        "avg_daily_value_idr": 81811850539.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -311,13 +187,13 @@
         "ma8": 2662.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:45.735069+00:00"
+      "_generated_at": "2026-07-24T07:57:50.982500+00:00"
     },
     {
       "ticker": "MIKA",
-      "last_price": 1750.0,
-      "rsi": 60.5,
-      "macd_hist": 2.63,
+      "last_price": 1755.0,
+      "rsi": 61.4,
+      "macd_hist": 2.95,
       "ma20": 1720.0,
       "ma50": 1645.0,
       "support": 1655.0,
@@ -327,9 +203,9 @@
         1737.0
       ],
       "tp": [
-        1932.0,
-        2052.0,
-        2234.0
+        1944.0,
+        2070.0,
+        2259.0
       ],
       "stop_loss": 1629.0,
       "rrr": 1.5,
@@ -347,40 +223,40 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.46,
+        "ratio": 0.5,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 9625141500.0,
+        "avg_daily_value_idr": 9645234600.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": true,
-        "ma8": 1650.0
+        "ma8": 1651.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:47.480688+00:00"
+      "_generated_at": "2026-07-24T07:57:53.332403+00:00"
     },
     {
       "ticker": "RAJA",
-      "last_price": 875.0,
-      "rsi": 55.9,
-      "macd_hist": 0.86,
-      "ma20": 853.0,
+      "last_price": 890.0,
+      "rsi": 58.0,
+      "macd_hist": 1.82,
+      "ma20": 854.0,
       "ma50": 764.0,
       "support": 669.0,
       "resistance": 980.0,
       "buy_area": [
         666.0,
-        861.0
+        862.0
       ],
       "tp": [
-        1223.0,
-        1455.0,
-        1803.0
+        1260.0,
+        1508.0,
+        1878.0
       ],
       "stop_loss": 643.0,
       "rrr": 1.5,
@@ -398,22 +274,22 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.53,
+        "ratio": 0.56,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 181541764412.0,
+        "avg_daily_value_idr": 181917912912.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": true,
-        "ma8": 780.0
+        "ma8": 782.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:56.192542+00:00"
+      "_generated_at": "2026-07-24T07:58:04.225375+00:00"
     },
     {
       "ticker": "UNTR",
@@ -449,12 +325,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.48,
+        "ratio": 0.62,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 97378580750.0,
+        "avg_daily_value_idr": 98128692125.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -464,7 +340,7 @@
         "ma8": 23694.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:30:07.332709+00:00"
+      "_generated_at": "2026-07-24T07:58:16.757611+00:00"
     },
     {
       "ticker": "AADI",
@@ -500,12 +376,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.95,
+        "ratio": 1.02,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 71357408000.0,
+        "avg_daily_value_idr": 71636659875.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -515,519 +391,7 @@
         "ma8": 8241.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:28:52.657561+00:00"
-    }
-  ],
-  "all_results": [
-    {
-      "ticker": "ANTM",
-      "last_price": 2990.0,
-      "rsi": 53.2,
-      "macd_hist": 16.81,
-      "ma20": 2915.0,
-      "ma50": 2837.0,
-      "support": 2550.0,
-      "resistance": 3190.0,
-      "buy_area": [
-        2537.0,
-        2944.0
-      ],
-      "tp": [
-        3726.0,
-        4218.0,
-        4954.0
-      ],
-      "stop_loss": 2499.0,
-      "rrr": 1.5,
-      "confidence": 100,
-      "trend_up": true,
-      "sentiment": {
-        "label": "Positif",
-        "score": 1.0,
-        "headlines": [
-          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (ANTM, INDY, ESSA) - Ajaib",
-          "Bisikan Katalis Saham-saham Emas ANTM, MDKA, BRMS Cs - Bisnis Indonesia Premium",
-          "BlackRock Balik Akumulasi Saham Aneka Tambang (ANTM) - Bloomberg Technoz",
-          "Anomali Saham ANTM; Rebound Saat Emas Koreksi, Analis Ingatkan Risiko Value Trap - KONTAN",
-          "Prospek Emas Belum Pudar, Peluang Saham ANTM-MDKA Cs Masih Terbuka - RCTI+"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.51,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 269516018300.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": true,
-        "ma8": 2836.0
-      },
-      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:28:59.469859+00:00"
-    },
-    {
-      "ticker": "BMRI",
-      "last_price": 4170.0,
-      "rsi": 55.8,
-      "macd_hist": 19.45,
-      "ma20": 4150.0,
-      "ma50": 4150.0,
-      "support": 3800.0,
-      "resistance": 4520.0,
-      "buy_area": [
-        3781.0,
-        4192.0
-      ],
-      "tp": [
-        4821.0,
-        5255.0,
-        5906.0
-      ],
-      "stop_loss": 3736.0,
-      "rrr": 1.5,
-      "confidence": 100,
-      "trend_up": true,
-      "sentiment": {
-        "label": "Positif",
-        "score": 0.5,
-        "headlines": [
-          "BMRI, BNI dan BRI Lepas Bisnis Asset Manajemen ke Danantara - Bloomberg Technoz",
-          "Realisasi Laba BMRI Semester I-2026 di Atas Konsensus, Rekomendasi Saham Masih Buy - kontan.co.id",
-          "Ikat Fasilitas dari Bank Mandiri, Saham HRTA Rontok - Emitennews.com",
-          "IHSG Dibuka ke Zona Merah: Saham BMRI, TPIA hingga BBCA Ambrol - Bisnis.com - Market",
-          "Fakta Baru BBRI Cs - investor.id"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 1.6,
-        "signal": "Distribution (volume tinggi + harga turun)",
-        "unusual": true
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 628496526900.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": true,
-        "ma8": 4135.0
-      },
-      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:07.463900+00:00"
-    },
-    {
-      "ticker": "CMRY",
-      "last_price": 4620.0,
-      "rsi": 65.0,
-      "macd_hist": 0.07,
-      "ma20": 4555.0,
-      "ma50": 4495.0,
-      "support": 4270.0,
-      "resistance": 4760.0,
-      "buy_area": [
-        4249.0,
-        4601.0
-      ],
-      "tp": [
-        5258.0,
-        5682.0,
-        6320.0
-      ],
-      "stop_loss": 4195.0,
-      "rrr": 1.5,
-      "confidence": 100,
-      "trend_up": true,
-      "sentiment": {
-        "label": "Positif",
-        "score": 0.33,
-        "headlines": [
-          "CMRY bagi dividen Rp1,58 triliun, yield setara 4,52% - IDNFinancials.com",
-          "Rekomendasi Sektor Konsumer Overweight, CMRY Berpotensi Punya Mesin Pertumbuhan Baru - Bareksa.com",
-          "Free Float Saham Cimory (CMRY) Mencapai 18,53%, Lampaui Batas Minimal - SWA.co.id",
-          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (ADRO, TLKM, CMRY) - Ajaib",
-          "Intip Rekomendasi Saham dan Prospek Cisarua Mountain (CMRY) di Semester II-2026 - kontan.co.id"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.89,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 7690787900.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": true,
-        "ma8": 4470.0
-      },
-      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:14.138418+00:00"
-    },
-    {
-      "ticker": "ICBP",
-      "last_price": 6950.0,
-      "rsi": 63.9,
-      "macd_hist": 39.05,
-      "ma20": 6723.0,
-      "ma50": 6524.0,
-      "support": 6299.0,
-      "resistance": 7125.0,
-      "buy_area": [
-        6268.0,
-        6790.0
-      ],
-      "tp": [
-        8021.0,
-        8735.0,
-        9806.0
-      ],
-      "stop_loss": 6236.0,
-      "rrr": 1.5,
-      "confidence": 100,
-      "trend_up": true,
-      "sentiment": {
-        "label": "Positif",
-        "score": 1.0,
-        "headlines": [
-          "ICBP Golden Cross Terbentuk: Sinyal & Level Kunci - JournalArta",
-          "Aroma Cuan Besar Saham Emiten Grup Salim - investor.id",
-          "Siap-siap Banjir Dividen Akhir Juli: Cek ICBP, INDF hingga BRPT - maybanktrade.co.id",
-          "11 Saham Cum Date Hari Ini (6/7): INDF, ICBP, hingga MTEL Siap Tebar Dividen! - Ajaib",
-          "ICBP & INDF Bagi Dividen Jumbo, Estimasi Yield hingga 4-4,3%, Rekomendasi Buy - Bareksa.com"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.6,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 20421733412.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": true,
-        "ma8": 6529.0
-      },
-      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:30.463941+00:00"
-    },
-    {
-      "ticker": "INDF",
-      "last_price": 6800.0,
-      "rsi": 61.3,
-      "macd_hist": 10.67,
-      "ma20": 6671.0,
-      "ma50": 6466.0,
-      "support": 6323.0,
-      "resistance": 7000.0,
-      "buy_area": [
-        6291.0,
-        6738.0
-      ],
-      "tp": [
-        7607.0,
-        8145.0,
-        8952.0
-      ],
-      "stop_loss": 6262.0,
-      "rrr": 1.5,
-      "confidence": 100,
-      "trend_up": true,
-      "sentiment": {
-        "label": "Positif",
-        "score": 1.0,
-        "headlines": [
-          "Rekomendasi Saham Tim Analis Bareksa Hari Ini: INDF, HMSP & ITMG - Bareksa.com",
-          "Dividen Akhir Juli 2026 Cair! Ini Jadwal Pembagian ICBP, INDF, BRPT, MTEL, dan ERAA - Ajaib",
-          "INDF Bagi Dividen Rp290 per Saham, Fokus Jaga Pangsa Pasar dan Profit - Emitennews.com",
-          "Cum Date Tiba, Hari Ini Kesempatan Akhir Dapat Dividen Rp 29.000/Lot Dari Saham INDF - kontan.co.id",
-          "Siap-siap Banjir Dividen Akhir Juli: Cek ICBP, INDF hingga BRPT - maybanktrade.co.id"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.37,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 36201943718.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": true,
-        "ma8": 6468.0
-      },
-      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:32.449670+00:00"
-    },
-    {
-      "ticker": "MDKA",
-      "last_price": 2690.0,
-      "rsi": 47.9,
-      "macd_hist": 14.91,
-      "ma20": 2640.0,
-      "ma50": 2638.0,
-      "support": 2349.0,
-      "resistance": 2930.0,
-      "buy_area": [
-        2337.0,
-        2666.0
-      ],
-      "tp": [
-        3280.0,
-        3672.0,
-        4262.0
-      ],
-      "stop_loss": 2297.0,
-      "rrr": 1.5,
-      "confidence": 100,
-      "trend_up": true,
-      "sentiment": {
-        "label": "Positif",
-        "score": 1.0,
-        "headlines": [
-          "Bisikan Katalis Saham-saham Emas ANTM, MDKA, BRMS Cs - Bisnis Indonesia Premium",
-          "MDKA Ada Penggerak, Muncul Target Harga - investor.id",
-          "Prospek Emas Belum Pudar, Peluang Saham ANTM-MDKA Cs Masih Terbuka - RCTI+",
-          "Prospek Emas Belum Pudar, Peluang Saham ANTM-MDKA Cs Masih Terbuka - IDX Channel",
-          "Mesin Emas MDKA Bekerja, Proyek Raksasa Tambang Pani Bisa Jadi Kunci Cuan - TrenAsia"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.63,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 81587746639.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": false,
-        "ma8": 2662.0
-      },
-      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:45.735069+00:00"
-    },
-    {
-      "ticker": "MIKA",
-      "last_price": 1750.0,
-      "rsi": 60.5,
-      "macd_hist": 2.63,
-      "ma20": 1720.0,
-      "ma50": 1645.0,
-      "support": 1655.0,
-      "resistance": 1790.0,
-      "buy_area": [
-        1647.0,
-        1737.0
-      ],
-      "tp": [
-        1932.0,
-        2052.0,
-        2234.0
-      ],
-      "stop_loss": 1629.0,
-      "rrr": 1.5,
-      "confidence": 100,
-      "trend_up": true,
-      "sentiment": {
-        "label": "Positif",
-        "score": 0.33,
-        "headlines": [
-          "MIKA Tebar Dividen Jumbo! Pemegang Saham Bakal Kantongi Rp43 per Lembar, Cair 10 Juli - pasardana.id",
-          "Daya Tarik Saham-saham Kesehatan MIKA, SILO, HEAL Cs - Bisnis Indonesia Premium",
-          "Mitra Keluarga (MIKA) Kandidat Kuat Peraih ‘The Best Investortrust Companies 2026’ - InvestorTrust",
-          "Rekomendasi Saham Tim Analis Bareksa: MYOR, SCMA & MIKA, IHSG Diprediksi Melemah - Bareksa.com",
-          "Prospek Emiten RS Bakal Semakin Sehat Tahun Ini, Pilih Saham MIKA, HEAL atau SILO? - KONTAN"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.46,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 9625141500.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": true,
-        "ma8": 1650.0
-      },
-      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:47.480688+00:00"
-    },
-    {
-      "ticker": "RAJA",
-      "last_price": 875.0,
-      "rsi": 55.9,
-      "macd_hist": 0.86,
-      "ma20": 853.0,
-      "ma50": 764.0,
-      "support": 669.0,
-      "resistance": 980.0,
-      "buy_area": [
-        666.0,
-        861.0
-      ],
-      "tp": [
-        1223.0,
-        1455.0,
-        1803.0
-      ],
-      "stop_loss": 643.0,
-      "rrr": 1.5,
-      "confidence": 100,
-      "trend_up": true,
-      "sentiment": {
-        "label": "Positif",
-        "score": 1.0,
-        "headlines": [
-          "Tren Positif Saham Usai Menggelar Stock Split, Katalis Positif atau Cuma Ikut Tren? - KONTAN",
-          "Blackrock Diam-diam Akumulasi Saham RAJA - Market - Bloomberg Technoz",
-          "RAJA Bagi Dividen Gelar Stock Split 1:5 - maybanktrade.co.id",
-          "Rekomendasi Saham Tim Analis Bareksa Hari Ini: RAJA, TAPG & TOBA - Bareksa.com",
-          "Saham RAJA Siapkan Stock Split 1:5, Berikut Jadwal Pelaksanaannya! - Ajaib"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.53,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 181541764412.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": true,
-        "ma8": 780.0
-      },
-      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:56.192542+00:00"
-    },
-    {
-      "ticker": "UNTR",
-      "last_price": 25475.0,
-      "rsi": 63.5,
-      "macd_hist": 22.03,
-      "ma20": 24908.0,
-      "ma50": 23914.0,
-      "support": 21975.0,
-      "resistance": 27650.0,
-      "buy_area": [
-        21865.0,
-        25157.0
-      ],
-      "tp": [
-        31300.0,
-        35182.0,
-        41007.0
-      ],
-      "stop_loss": 21592.0,
-      "rrr": 1.5,
-      "confidence": 100,
-      "trend_up": true,
-      "sentiment": {
-        "label": "Positif",
-        "score": 0.67,
-        "headlines": [
-          "Kinerja United Tractors (UNTR) Hingga Mei 2026 Tersendat, Begini Prospek Sahamnya - kontan.co.id",
-          "Simak Rekomendasi Teknikal Saham BREN, ACES, dan UNTR untuk Kamis (23/7) - TradingView",
-          "IHSG Ditutup Melemah usai BI Tahan Suku Bunga, Saham AMMN hingga UNTR Lesu - Bisnis.com - Market",
-          "UNTR Eksekusi Buyback Saham, Investor Bersiap Untung? - KabarBursa.com",
-          "Bedah Saham UNTR, Bagaimana Prospeknya Tahun 2026? - Ajaib"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.48,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 97378580750.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": false,
-        "ma8": 23694.0
-      },
-      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:30:07.332709+00:00"
-    },
-    {
-      "ticker": "AADI",
-      "last_price": 8875.0,
-      "rsi": 81.8,
-      "macd_hist": 86.11,
-      "ma20": 8372.0,
-      "ma50": 8117.0,
-      "support": 7725.0,
-      "resistance": 9200.0,
-      "buy_area": [
-        7686.0,
-        8456.0
-      ],
-      "tp": [
-        10776.0,
-        12042.0,
-        13943.0
-      ],
-      "stop_loss": 7608.0,
-      "rrr": 1.5,
-      "confidence": 95,
-      "trend_up": true,
-      "sentiment": {
-        "label": "Positif",
-        "score": 0.33,
-        "headlines": [
-          "BRI Danareksa Sekuritas Unggul Saham AADI dan ITMG - achmadnurhidayat.id",
-          "IHSG Punya Peluang Menguat hingga 6.545, Cek Analisa Saham AADI, CUAN, PTBA, dan VKTR - IDX Channel",
-          "AADI dan ITMG di Garis Terdepan - investor.id",
-          "Ekspor Batu Bara Dihentikan Sementara, AADI & ITMG Dinilai Paling Terdampak - Bareksa.com",
-          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (AADI, AKRA, RMKE) - Ajaib"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.95,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 71357408000.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": false,
-        "ma8": 8241.0
-      },
-      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:28:52.657561+00:00"
+      "_generated_at": "2026-07-24T07:56:48.263655+00:00"
     },
     {
       "ticker": "ACES",
@@ -1063,12 +427,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.67,
+        "ratio": 0.74,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 5240702460.0,
+        "avg_daily_value_idr": 5259574430.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -1078,25 +442,25 @@
         "ma8": 336.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:28:53.644924+00:00"
+      "_generated_at": "2026-07-24T07:56:49.332270+00:00"
     },
     {
       "ticker": "ADRO",
-      "last_price": 2530.0,
-      "rsi": 70.9,
-      "macd_hist": 15.57,
-      "ma20": 2409.0,
-      "ma50": 2340.0,
+      "last_price": 2540.0,
+      "rsi": 72.2,
+      "macd_hist": 16.21,
+      "ma20": 2410.0,
+      "ma50": 2341.0,
       "support": 2240.0,
       "resistance": 2590.0,
       "buy_area": [
         2229.0,
-        2433.0
+        2434.0
       ],
       "tp": [
-        3014.0,
-        3338.0,
-        3822.0
+        3040.0,
+        3372.0,
+        3872.0
       ],
       "stop_loss": 2207.0,
       "rrr": 1.5,
@@ -1109,27 +473,27 @@
           "Saham ADRO (Alamtri): Panduan Lengkap Kinerja & Dividen 2026 - Pluang",
           "Indeks Bisnis-27 Dibuka Koreksi, Saham AKRA-ADRO Mampu Melaju - Bisnis.com - Market",
           "IHSG Berpeluang Menguat Terbatas Senin (20/7), Analis Rekomendasi Saham ADRO dan ITMG - TradingView",
-          "ADRO Masuki Babak Baru, Target Harga Sahamnya juga Baru - investor.id",
+          "BERITA POPULER: Target Harga Saham ADRO Terbaru hingga Harga Emas Perhiasan Kokoh - investor.id",
           "Saham Alamtri Resources (ADRO) Telah Melonjak Lebih dari 40 Persen Sejak Awal Tahun, Ada Kabar Apa? - Sinar Harapan - Sinar Harapan"
         ]
       },
       "volume_signal": {
-        "ratio": 0.8,
+        "ratio": 0.86,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 66188025800.0,
+        "avg_daily_value_idr": 66432225200.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": true,
-        "ma8": 2338.0
+        "ma8": 2339.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:28:55.671667+00:00"
+      "_generated_at": "2026-07-24T07:56:51.606864+00:00"
     },
     {
       "ticker": "AKRA",
@@ -1165,12 +529,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.9,
+        "ratio": 1.02,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 24023808150.0,
+        "avg_daily_value_idr": 24167882150.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -1180,25 +544,537 @@
         "ma8": 1291.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:28:56.500814+00:00"
+      "_generated_at": "2026-07-24T07:56:52.878044+00:00"
+    }
+  ],
+  "all_results": [
+    {
+      "ticker": "ANTM",
+      "last_price": 3010.0,
+      "rsi": 54.7,
+      "macd_hist": 18.09,
+      "ma20": 2916.0,
+      "ma50": 2837.0,
+      "support": 2550.0,
+      "resistance": 3190.0,
+      "buy_area": [
+        2537.0,
+        2945.0
+      ],
+      "tp": [
+        3776.0,
+        4288.0,
+        5054.0
+      ],
+      "stop_loss": 2499.0,
+      "rrr": 1.5,
+      "confidence": 100,
+      "trend_up": true,
+      "sentiment": {
+        "label": "Positif",
+        "score": 1.0,
+        "headlines": [
+          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (ANTM, INDY, ESSA) - Ajaib",
+          "BlackRock Balik Akumulasi Saham Aneka Tambang (ANTM) - Bloomberg Technoz",
+          "Bisikan Katalis Saham-saham Emas ANTM, MDKA, BRMS Cs - Bisnis Indonesia Premium",
+          "Anomali Saham ANTM; Rebound Saat Emas Koreksi, Analis Ingatkan Risiko Value Trap - KONTAN",
+          "Prospek Emas Belum Pudar, Peluang Saham ANTM-MDKA Cs Masih Terbuka - RCTI+"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 0.59,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 270751892450.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": true,
+        "ma8": 2839.0
+      },
+      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
+      "_generated_at": "2026-07-24T07:56:56.195442+00:00"
+    },
+    {
+      "ticker": "BMRI",
+      "last_price": 4190.0,
+      "rsi": 56.8,
+      "macd_hist": 20.73,
+      "ma20": 4151.0,
+      "ma50": 4150.0,
+      "support": 3800.0,
+      "resistance": 4520.0,
+      "buy_area": [
+        3781.0,
+        4193.0
+      ],
+      "tp": [
+        4871.0,
+        5325.0,
+        6006.0
+      ],
+      "stop_loss": 3736.0,
+      "rrr": 1.5,
+      "confidence": 100,
+      "trend_up": true,
+      "sentiment": {
+        "label": "Positif",
+        "score": 0.6,
+        "headlines": [
+          "BMRI, BNI dan BRI Lepas Bisnis Asset Manajemen ke Danantara - Bloomberg Technoz",
+          "Realisasi Laba BMRI Semester I-2026 di Atas Konsensus, Rekomendasi Saham Masih Buy - kontan.co.id",
+          "Ikat Fasilitas dari Bank Mandiri, Saham HRTA Rontok - Emitennews.com",
+          "IHSG Dibuka ke Zona Merah: Saham BMRI, TPIA hingga BBCA Ambrol - Bisnis.com - Market",
+          "Fakta Baru BBRI Cs - investor.id"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 1.91,
+        "signal": "Distribution (volume tinggi + harga turun)",
+        "unusual": true
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 638802511200.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": true,
+        "ma8": 4138.0
+      },
+      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
+      "_generated_at": "2026-07-24T07:57:05.381804+00:00"
+    },
+    {
+      "ticker": "MDKA",
+      "last_price": 2690.0,
+      "rsi": 47.9,
+      "macd_hist": 14.91,
+      "ma20": 2640.0,
+      "ma50": 2638.0,
+      "support": 2349.0,
+      "resistance": 2930.0,
+      "buy_area": [
+        2337.0,
+        2666.0
+      ],
+      "tp": [
+        3280.0,
+        3672.0,
+        4262.0
+      ],
+      "stop_loss": 2297.0,
+      "rrr": 1.5,
+      "confidence": 100,
+      "trend_up": true,
+      "sentiment": {
+        "label": "Positif",
+        "score": 1.0,
+        "headlines": [
+          "Bisikan Katalis Saham-saham Emas ANTM, MDKA, BRMS Cs - Bisnis Indonesia Premium",
+          "MDKA Ada Penggerak, Muncul Target Harga - investor.id",
+          "Prospek Emas Belum Pudar, Peluang Saham ANTM-MDKA Cs Masih Terbuka - RCTI+",
+          "Prospek Emas Belum Pudar, Peluang Saham ANTM-MDKA Cs Masih Terbuka - IDX Channel",
+          "Mesin Emas MDKA Bekerja, Proyek Raksasa Tambang Pani Bisa Jadi Kunci Cuan - TrenAsia"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 0.68,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 81811850539.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": false,
+        "ma8": 2662.0
+      },
+      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
+      "_generated_at": "2026-07-24T07:57:50.982500+00:00"
+    },
+    {
+      "ticker": "MIKA",
+      "last_price": 1755.0,
+      "rsi": 61.4,
+      "macd_hist": 2.95,
+      "ma20": 1720.0,
+      "ma50": 1645.0,
+      "support": 1655.0,
+      "resistance": 1790.0,
+      "buy_area": [
+        1647.0,
+        1737.0
+      ],
+      "tp": [
+        1944.0,
+        2070.0,
+        2259.0
+      ],
+      "stop_loss": 1629.0,
+      "rrr": 1.5,
+      "confidence": 100,
+      "trend_up": true,
+      "sentiment": {
+        "label": "Positif",
+        "score": 0.33,
+        "headlines": [
+          "MIKA Tebar Dividen Jumbo! Pemegang Saham Bakal Kantongi Rp43 per Lembar, Cair 10 Juli - pasardana.id",
+          "Daya Tarik Saham-saham Kesehatan MIKA, SILO, HEAL Cs - Bisnis Indonesia Premium",
+          "Mitra Keluarga (MIKA) Kandidat Kuat Peraih ‘The Best Investortrust Companies 2026’ - InvestorTrust",
+          "Rekomendasi Saham Tim Analis Bareksa: MYOR, SCMA & MIKA, IHSG Diprediksi Melemah - Bareksa.com",
+          "Prospek Emiten RS Bakal Semakin Sehat Tahun Ini, Pilih Saham MIKA, HEAL atau SILO? - KONTAN"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 0.5,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 9645234600.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": true,
+        "ma8": 1651.0
+      },
+      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
+      "_generated_at": "2026-07-24T07:57:53.332403+00:00"
+    },
+    {
+      "ticker": "RAJA",
+      "last_price": 890.0,
+      "rsi": 58.0,
+      "macd_hist": 1.82,
+      "ma20": 854.0,
+      "ma50": 764.0,
+      "support": 669.0,
+      "resistance": 980.0,
+      "buy_area": [
+        666.0,
+        862.0
+      ],
+      "tp": [
+        1260.0,
+        1508.0,
+        1878.0
+      ],
+      "stop_loss": 643.0,
+      "rrr": 1.5,
+      "confidence": 100,
+      "trend_up": true,
+      "sentiment": {
+        "label": "Positif",
+        "score": 1.0,
+        "headlines": [
+          "Tren Positif Saham Usai Menggelar Stock Split, Katalis Positif atau Cuma Ikut Tren? - KONTAN",
+          "Blackrock Diam-diam Akumulasi Saham RAJA - Market - Bloomberg Technoz",
+          "RAJA Bagi Dividen Gelar Stock Split 1:5 - maybanktrade.co.id",
+          "Rekomendasi Saham Tim Analis Bareksa Hari Ini: RAJA, TAPG & TOBA - Bareksa.com",
+          "Saham RAJA Siapkan Stock Split 1:5, Berikut Jadwal Pelaksanaannya! - Ajaib"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 0.56,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 181917912912.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": true,
+        "ma8": 782.0
+      },
+      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
+      "_generated_at": "2026-07-24T07:58:04.225375+00:00"
+    },
+    {
+      "ticker": "UNTR",
+      "last_price": 25475.0,
+      "rsi": 63.5,
+      "macd_hist": 22.03,
+      "ma20": 24908.0,
+      "ma50": 23914.0,
+      "support": 21975.0,
+      "resistance": 27650.0,
+      "buy_area": [
+        21865.0,
+        25157.0
+      ],
+      "tp": [
+        31300.0,
+        35182.0,
+        41007.0
+      ],
+      "stop_loss": 21592.0,
+      "rrr": 1.5,
+      "confidence": 100,
+      "trend_up": true,
+      "sentiment": {
+        "label": "Positif",
+        "score": 0.67,
+        "headlines": [
+          "Kinerja United Tractors (UNTR) Hingga Mei 2026 Tersendat, Begini Prospek Sahamnya - kontan.co.id",
+          "Simak Rekomendasi Teknikal Saham BREN, ACES, dan UNTR untuk Kamis (23/7) - TradingView",
+          "IHSG Ditutup Melemah usai BI Tahan Suku Bunga, Saham AMMN hingga UNTR Lesu - Bisnis.com - Market",
+          "UNTR Eksekusi Buyback Saham, Investor Bersiap Untung? - KabarBursa.com",
+          "Bedah Saham UNTR, Bagaimana Prospeknya Tahun 2026? - Ajaib"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 0.62,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 98128692125.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": false,
+        "ma8": 23694.0
+      },
+      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
+      "_generated_at": "2026-07-24T07:58:16.757611+00:00"
+    },
+    {
+      "ticker": "AADI",
+      "last_price": 8875.0,
+      "rsi": 81.8,
+      "macd_hist": 86.11,
+      "ma20": 8372.0,
+      "ma50": 8117.0,
+      "support": 7725.0,
+      "resistance": 9200.0,
+      "buy_area": [
+        7686.0,
+        8456.0
+      ],
+      "tp": [
+        10776.0,
+        12042.0,
+        13943.0
+      ],
+      "stop_loss": 7608.0,
+      "rrr": 1.5,
+      "confidence": 95,
+      "trend_up": true,
+      "sentiment": {
+        "label": "Positif",
+        "score": 0.33,
+        "headlines": [
+          "BRI Danareksa Sekuritas Unggul Saham AADI dan ITMG - achmadnurhidayat.id",
+          "IHSG Punya Peluang Menguat hingga 6.545, Cek Analisa Saham AADI, CUAN, PTBA, dan VKTR - IDX Channel",
+          "AADI dan ITMG di Garis Terdepan - investor.id",
+          "Ekspor Batu Bara Dihentikan Sementara, AADI & ITMG Dinilai Paling Terdampak - Bareksa.com",
+          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (AADI, AKRA, RMKE) - Ajaib"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 1.02,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 71636659875.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": false,
+        "ma8": 8241.0
+      },
+      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
+      "_generated_at": "2026-07-24T07:56:48.263655+00:00"
+    },
+    {
+      "ticker": "ACES",
+      "last_price": 358.0,
+      "rsi": 68.8,
+      "macd_hist": 1.35,
+      "ma20": 344.0,
+      "ma50": 331.0,
+      "support": 318.0,
+      "resistance": 368.0,
+      "buy_area": [
+        316.0,
+        347.0
+      ],
+      "tp": [
+        426.0,
+        470.0,
+        538.0
+      ],
+      "stop_loss": 313.0,
+      "rrr": 1.51,
+      "confidence": 95,
+      "trend_up": true,
+      "sentiment": {
+        "label": "Positif",
+        "score": 1.0,
+        "headlines": [
+          "Simak Rekomendasi Teknikal Saham BREN, ACES, dan UNTR untuk Kamis (23/7) - TradingView",
+          "Comeback Ace Hardware Ancam Azko? Analis Ungkap Prospek Saham ACES, MDIY, dan MAPI - KONTAN",
+          "IHSG Rawan Koreksi, Ritel Bisa Cermati Saham CUAN, PTBA, BREN, hingga ACES - Kompas.com",
+          "ACES tebar dividen Rp548 miliar, rekor payout tertinggi - IDNFinancials.com",
+          "Pilah-pilih Saham Ritel-Konsumer MAPI, AMRT, ACES Cs Semester II/2026 - Bisnis Indonesia Premium"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 0.74,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 5259574430.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": true,
+        "ma8": 336.0
+      },
+      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
+      "_generated_at": "2026-07-24T07:56:49.332270+00:00"
+    },
+    {
+      "ticker": "ADRO",
+      "last_price": 2540.0,
+      "rsi": 72.2,
+      "macd_hist": 16.21,
+      "ma20": 2410.0,
+      "ma50": 2341.0,
+      "support": 2240.0,
+      "resistance": 2590.0,
+      "buy_area": [
+        2229.0,
+        2434.0
+      ],
+      "tp": [
+        3040.0,
+        3372.0,
+        3872.0
+      ],
+      "stop_loss": 2207.0,
+      "rrr": 1.5,
+      "confidence": 95,
+      "trend_up": true,
+      "sentiment": {
+        "label": "Positif",
+        "score": 1.0,
+        "headlines": [
+          "Saham ADRO (Alamtri): Panduan Lengkap Kinerja & Dividen 2026 - Pluang",
+          "Indeks Bisnis-27 Dibuka Koreksi, Saham AKRA-ADRO Mampu Melaju - Bisnis.com - Market",
+          "IHSG Berpeluang Menguat Terbatas Senin (20/7), Analis Rekomendasi Saham ADRO dan ITMG - TradingView",
+          "BERITA POPULER: Target Harga Saham ADRO Terbaru hingga Harga Emas Perhiasan Kokoh - investor.id",
+          "Saham Alamtri Resources (ADRO) Telah Melonjak Lebih dari 40 Persen Sejak Awal Tahun, Ada Kabar Apa? - Sinar Harapan - Sinar Harapan"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 0.86,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 66432225200.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": true,
+        "ma8": 2339.0
+      },
+      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
+      "_generated_at": "2026-07-24T07:56:51.606864+00:00"
+    },
+    {
+      "ticker": "AKRA",
+      "last_price": 1435.0,
+      "rsi": 68.5,
+      "macd_hist": 14.62,
+      "ma20": 1332.0,
+      "ma50": 1305.0,
+      "support": 1195.0,
+      "resistance": 1520.0,
+      "buy_area": [
+        1189.0,
+        1345.0
+      ],
+      "tp": [
+        1836.0,
+        2102.0,
+        2503.0
+      ],
+      "stop_loss": 1168.0,
+      "rrr": 1.5,
+      "confidence": 95,
+      "trend_up": true,
+      "sentiment": {
+        "label": "Positif",
+        "score": 1.0,
+        "headlines": [
+          "AKR Corporindo (AKRA) Tebar Dividen Rp 50 per Saham, Cair 14 Agustus 2026 - Kompas.com",
+          "AKR Corporindo (AKRA) Akan Tebar Dividen Interim Rp 50 per Saham - kontan.co.id",
+          "Laba AKR Corporindo (AKRA) Loncat, Ada Dividen Interim, Segini per Saham - investor.id",
+          "AKRA Jadwal Dividen Interim Rp1 Triliun, Cum Date 31 Juli - Emitennews.com",
+          "AKRA Bagi Dividen Rp1 Triliun, Laba Tembus Rp1,43 Triliun - Bisnis.com - Market"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 1.02,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 24167882150.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": true,
+        "ma8": 1291.0
+      },
+      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
+      "_generated_at": "2026-07-24T07:56:52.878044+00:00"
     },
     {
       "ticker": "AMMN",
-      "last_price": 4040.0,
-      "rsi": 65.6,
-      "macd_hist": 69.28,
-      "ma20": 3672.0,
-      "ma50": 3512.0,
+      "last_price": 4100.0,
+      "rsi": 67.8,
+      "macd_hist": 73.11,
+      "ma20": 3675.0,
+      "ma50": 3513.0,
       "support": 3070.0,
       "resistance": 4410.0,
       "buy_area": [
         3055.0,
-        3709.0
+        3712.0
       ],
       "tp": [
-        5658.0,
-        6738.0,
-        8356.0
+        5808.0,
+        6948.0,
+        8656.0
       ],
       "stop_loss": 2961.0,
       "rrr": 1.5,
@@ -1216,30 +1092,30 @@
         ]
       },
       "volume_signal": {
-        "ratio": 1.05,
+        "ratio": 1.12,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 281772264750.0,
+        "avg_daily_value_idr": 283222015850.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": true,
-        "ma8": 3611.0
+        "ma8": 3619.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:28:57.364471+00:00"
+      "_generated_at": "2026-07-24T07:56:53.887315+00:00"
     },
     {
       "ticker": "ARTO",
-      "last_price": 1255.0,
-      "rsi": 67.2,
-      "macd_hist": 18.56,
+      "last_price": 1260.0,
+      "rsi": 67.6,
+      "macd_hist": 18.88,
       "ma20": 1152.0,
-      "ma50": 1087.0,
+      "ma50": 1088.0,
       "support": 860.0,
       "resistance": 1435.0,
       "buy_area": [
@@ -1247,9 +1123,9 @@
         1163.0
       ],
       "tp": [
-        1924.0,
-        2370.0,
-        3039.0
+        1936.0,
+        2388.0,
+        3064.0
       ],
       "stop_loss": 809.0,
       "rrr": 1.5,
@@ -1267,40 +1143,91 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.5,
+        "ratio": 0.55,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 14761626650.0,
+        "avg_daily_value_idr": 14795447450.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": true,
-        "ma8": 1066.0
+        "ma8": 1067.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:00.395258+00:00"
+      "_generated_at": "2026-07-24T07:56:57.451340+00:00"
+    },
+    {
+      "ticker": "CMRY",
+      "last_price": 4630.0,
+      "rsi": 65.3,
+      "macd_hist": 0.71,
+      "ma20": 4556.0,
+      "ma50": 4495.0,
+      "support": 4270.0,
+      "resistance": 4760.0,
+      "buy_area": [
+        4249.0,
+        4601.0
+      ],
+      "tp": [
+        5282.0,
+        5718.0,
+        6370.0
+      ],
+      "stop_loss": 4195.0,
+      "rrr": 1.5,
+      "confidence": 95,
+      "trend_up": true,
+      "sentiment": {
+        "label": "Positif",
+        "score": 0.33,
+        "headlines": [
+          "CMRY bagi dividen Rp1,58 triliun, yield setara 4,52% - IDNFinancials.com",
+          "Rekomendasi Sektor Konsumer Overweight, CMRY Berpotensi Punya Mesin Pertumbuhan Baru - Bareksa.com",
+          "Free Float Saham Cimory (CMRY) Mencapai 18,53%, Lampaui Batas Minimal - SWA.co.id",
+          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (ADRO, TLKM, CMRY) - Ajaib",
+          "Intip Rekomendasi Saham dan Prospek Cisarua Mountain (CMRY) di Semester II-2026 - kontan.co.id"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 0.97,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 7723431900.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": true,
+        "ma8": 4471.0
+      },
+      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
+      "_generated_at": "2026-07-24T07:57:13.192501+00:00"
     },
     {
       "ticker": "DEWA",
-      "last_price": 444.0,
-      "rsi": 77.4,
-      "macd_hist": 15.46,
+      "last_price": 450.0,
+      "rsi": 79.5,
+      "macd_hist": 15.85,
       "ma20": 354.0,
       "ma50": 347.0,
       "support": 273.0,
       "resistance": 486.0,
       "buy_area": [
         271.0,
-        357.0
+        358.0
       ],
       "tp": [
-        722.0,
-        906.0,
-        1184.0
+        736.0,
+        928.0,
+        1214.0
       ],
       "stop_loss": 259.0,
       "rrr": 1.5,
@@ -1310,36 +1237,36 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
-          "“Dewa Saham” Beraksi? Apartemen Mewah Agora Garden Kembali Terjual, Pembeli Berusia 32 Tahun Bayar NT$940 Juta Tunai! - rti.org.tw",
           "Saham BUMI dan DEWA Melejit, Meski IHSG Tergelincir - investor.id",
-          "Saham DEWA Melonjak Lagi, Respons Positif Pasar Atas Rencana Diversifikasi Bisnis - Indo Premier Sekuritas",
-          "Saham DEWA Rebound Usai Kontrak Baru, Simak Target Harga dari BCA dan Sinarmas - KONTAN",
-          "Saham Grup Bakrie Lanjut Reli, DEWA Paling Terdepan - RCTI+"
+          "Daftar Saham PER Terendah & Tertinggi LQ45 (21 Juli 2026), DEWA dan CUAN Jadi Sorotan - kontan.co.id",
+          "Saham Grup Bakrie Lanjut Reli, DEWA Paling Terdepan - IDX Channel",
+          "Saham DEWA dan CUAN Meledak saat IHSG Melonjak - investor.id",
+          "Saham Emiten Grup Bakrie Disorot - Halaman 2 - investor.id"
         ]
       },
       "volume_signal": {
-        "ratio": 1.05,
+        "ratio": 1.14,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 307581805304.0,
+        "avg_daily_value_idr": 309432721964.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": true,
-        "ma8": 340.0
+        "ma8": 341.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:17.865431+00:00"
+      "_generated_at": "2026-07-24T07:57:17.767031+00:00"
     },
     {
       "ticker": "DSNG",
-      "last_price": 1350.0,
-      "rsi": 97.6,
-      "macd_hist": 22.92,
+      "last_price": 1340.0,
+      "rsi": 93.2,
+      "macd_hist": 22.28,
       "ma20": 1193.0,
       "ma50": 1178.0,
       "support": 1110.0,
@@ -1349,9 +1276,9 @@
         1205.0
       ],
       "tp": [
-        1738.0,
-        1998.0,
-        2386.0
+        1714.0,
+        1962.0,
+        2336.0
       ],
       "stop_loss": 1091.0,
       "rrr": 1.5,
@@ -1369,28 +1296,28 @@
         ]
       },
       "volume_signal": {
-        "ratio": 1.05,
+        "ratio": 1.18,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 4333021525.0,
+        "avg_daily_value_idr": 4362999525.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": false,
-        "ma8": 1164.0
+        "ma8": 1163.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:19.132952+00:00"
+      "_generated_at": "2026-07-24T07:57:18.826367+00:00"
     },
     {
       "ticker": "ELSA",
-      "last_price": 670.0,
-      "rsi": 72.0,
-      "macd_hist": 7.61,
+      "last_price": 675.0,
+      "rsi": 73.5,
+      "macd_hist": 7.93,
       "ma20": 617.0,
       "ma50": 594.0,
       "support": 505.0,
@@ -1400,9 +1327,9 @@
         623.0
       ],
       "tp": [
-        938.0,
-        1118.0,
-        1386.0
+        951.0,
+        1135.0,
+        1411.0
       ],
       "stop_loss": 491.0,
       "rrr": 1.5,
@@ -1420,12 +1347,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.65,
+        "ratio": 0.72,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 18234932800.0,
+        "avg_daily_value_idr": 18301796500.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -1435,13 +1362,13 @@
         "ma8": 592.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:20.072110+00:00"
+      "_generated_at": "2026-07-24T07:57:19.871564+00:00"
     },
     {
       "ticker": "ERAA",
-      "last_price": 402.0,
-      "rsi": 85.9,
-      "macd_hist": 6.38,
+      "last_price": 404.0,
+      "rsi": 88.0,
+      "macd_hist": 6.51,
       "ma20": 356.0,
       "ma50": 347.0,
       "support": 322.0,
@@ -1451,9 +1378,9 @@
         359.0
       ],
       "tp": [
-        531.0,
-        617.0,
-        746.0
+        536.0,
+        624.0,
+        756.0
       ],
       "stop_loss": 316.0,
       "rrr": 1.5,
@@ -1471,40 +1398,40 @@
         ]
       },
       "volume_signal": {
-        "ratio": 1.16,
+        "ratio": 1.29,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 20438990588.0,
+        "avg_daily_value_idr": 20580635328.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": true,
-        "ma8": 347.0
+        "ma8": 348.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:22.850675+00:00"
+      "_generated_at": "2026-07-24T07:57:23.279705+00:00"
     },
     {
       "ticker": "GGRM",
-      "last_price": 17450.0,
-      "rsi": 72.3,
-      "macd_hist": 78.65,
-      "ma20": 16509.0,
-      "ma50": 15765.0,
+      "last_price": 17475.0,
+      "rsi": 72.8,
+      "macd_hist": 80.24,
+      "ma20": 16511.0,
+      "ma50": 15766.0,
       "support": 15058.0,
       "resistance": 17950.0,
       "buy_area": [
         14982.0,
-        16675.0
+        16676.0
       ],
       "tp": [
-        21455.0,
-        24125.0,
-        28130.0
+        21518.0,
+        24212.0,
+        28255.0
       ],
       "stop_loss": 14780.0,
       "rrr": 1.5,
@@ -1522,30 +1449,132 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.83,
+        "ratio": 0.96,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 17986356881.0,
+        "avg_daily_value_idr": 18105617256.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": true,
-        "ma8": 15780.0
+        "ma8": 15783.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:25.687159+00:00"
+      "_generated_at": "2026-07-24T07:57:26.861016+00:00"
+    },
+    {
+      "ticker": "ICBP",
+      "last_price": 6975.0,
+      "rsi": 65.5,
+      "macd_hist": 40.65,
+      "ma20": 6724.0,
+      "ma50": 6525.0,
+      "support": 6299.0,
+      "resistance": 7125.0,
+      "buy_area": [
+        6268.0,
+        6792.0
+      ],
+      "tp": [
+        8084.0,
+        8822.0,
+        9931.0
+      ],
+      "stop_loss": 6236.0,
+      "rrr": 1.5,
+      "confidence": 95,
+      "trend_up": true,
+      "sentiment": {
+        "label": "Positif",
+        "score": 1.0,
+        "headlines": [
+          "ICBP Golden Cross Terbentuk: Sinyal & Level Kunci - JournalArta",
+          "Aroma Cuan Besar Saham Emiten Grup Salim - investor.id",
+          "Siap-siap Banjir Dividen Akhir Juli: Cek ICBP, INDF hingga BRPT - maybanktrade.co.id",
+          "11 Saham Cum Date Hari Ini (6/7): INDF, ICBP, hingga MTEL Siap Tebar Dividen! - Ajaib",
+          "ICBP & INDF Bagi Dividen Jumbo, Estimasi Yield hingga 4-4,3%, Rekomendasi Buy - Bareksa.com"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 0.67,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 20500479662.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": true,
+        "ma8": 6533.0
+      },
+      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
+      "_generated_at": "2026-07-24T07:57:32.630942+00:00"
+    },
+    {
+      "ticker": "INDF",
+      "last_price": 6850.0,
+      "rsi": 65.2,
+      "macd_hist": 13.86,
+      "ma20": 6674.0,
+      "ma50": 6467.0,
+      "support": 6323.0,
+      "resistance": 7000.0,
+      "buy_area": [
+        6291.0,
+        6740.0
+      ],
+      "tp": [
+        7732.0,
+        8320.0,
+        9202.0
+      ],
+      "stop_loss": 6262.0,
+      "rrr": 1.5,
+      "confidence": 95,
+      "trend_up": true,
+      "sentiment": {
+        "label": "Positif",
+        "score": 1.0,
+        "headlines": [
+          "Rekomendasi Saham Tim Analis Bareksa Hari Ini: INDF, HMSP & ITMG - Bareksa.com",
+          "Dividen Akhir Juli 2026 Cair! Ini Jadwal Pembagian ICBP, INDF, BRPT, MTEL, dan ERAA - Ajaib",
+          "INDF Bagi Dividen Rp290 per Saham, Fokus Jaga Pangsa Pasar dan Profit - Emitennews.com",
+          "Cum Date Tiba, Hari Ini Kesempatan Akhir Dapat Dividen Rp 29.000/Lot Dari Saham INDF - kontan.co.id",
+          "Siap-siap Banjir Dividen Akhir Juli: Cek ICBP, INDF hingga BRPT - maybanktrade.co.id"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 0.42,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 36318385218.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": true,
+        "ma8": 6474.0
+      },
+      "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
+      "_generated_at": "2026-07-24T07:57:35.017485+00:00"
     },
     {
       "ticker": "INTP",
-      "last_price": 4600.0,
-      "rsi": 72.7,
-      "macd_hist": 17.53,
-      "ma20": 4455.0,
-      "ma50": 4348.0,
+      "last_price": 4610.0,
+      "rsi": 73.7,
+      "macd_hist": 18.17,
+      "ma20": 4456.0,
+      "ma50": 4349.0,
       "support": 4060.0,
       "resistance": 4750.0,
       "buy_area": [
@@ -1553,9 +1582,9 @@
         4500.0
       ],
       "tp": [
-        5479.0,
-        6065.0,
-        6944.0
+        5504.0,
+        6100.0,
+        6994.0
       ],
       "stop_loss": 4014.0,
       "rrr": 1.5,
@@ -1573,40 +1602,40 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.35,
+        "ratio": 0.44,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 6349573900.0,
+        "avg_daily_value_idr": 6379862650.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": true,
-        "ma8": 4285.0
+        "ma8": 4286.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:35.285099+00:00"
+      "_generated_at": "2026-07-24T07:57:38.659028+00:00"
     },
     {
       "ticker": "ITMG",
-      "last_price": 24450.0,
-      "rsi": 86.1,
-      "macd_hist": 134.58,
-      "ma20": 23364.0,
-      "ma50": 22919.0,
+      "last_price": 24525.0,
+      "rsi": 86.5,
+      "macd_hist": 139.37,
+      "ma20": 23368.0,
+      "ma50": 22920.0,
       "support": 21825.0,
       "resistance": 24775.0,
       "buy_area": [
         21716.0,
-        23597.0
+        23601.0
       ],
       "tp": [
-        28730.0,
-        31582.0,
-        35862.0
+        28917.0,
+        31845.0,
+        36237.0
       ],
       "stop_loss": 21597.0,
       "rrr": 1.5,
@@ -1624,22 +1653,22 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.8,
+        "ratio": 0.88,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 24896777125.0,
+        "avg_daily_value_idr": 25002238750.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": false,
-        "ma8": 22972.0
+        "ma8": 22981.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:37.298597+00:00"
+      "_generated_at": "2026-07-24T07:57:40.990100+00:00"
     },
     {
       "ticker": "PGEO",
@@ -1675,12 +1704,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.72,
+        "ratio": 0.74,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 20702761150.0,
+        "avg_daily_value_idr": 20728173450.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -1690,14 +1719,14 @@
         "ma8": 914.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:51.282846+00:00"
+      "_generated_at": "2026-07-24T07:57:58.210880+00:00"
     },
     {
       "ticker": "TAPG",
-      "last_price": 1685.0,
-      "rsi": 69.2,
-      "macd_hist": 16.74,
-      "ma20": 1563.0,
+      "last_price": 1700.0,
+      "rsi": 72.6,
+      "macd_hist": 17.69,
+      "ma20": 1564.0,
       "ma50": 1508.0,
       "support": 1425.0,
       "resistance": 1745.0,
@@ -1706,9 +1735,9 @@
         1579.0
       ],
       "tp": [
-        2112.0,
-        2398.0,
-        2825.0
+        2150.0,
+        2450.0,
+        2900.0
       ],
       "stop_loss": 1400.0,
       "rrr": 1.5,
@@ -1718,36 +1747,36 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
-          "George Oetomo Realisasikan Divestasi, 150 Ribu Saham TAPG Dilepas ke Pasar - pasardana.id",
           "Rekomendasi Saham Tim Analis Bareksa Hari Ini: RAJA, TAPG & TOBA - Bareksa.com",
+          "George Oetomo Realisasikan Divestasi, 150 Ribu Saham TAPG Dilepas ke Pasar - pasardana.id",
           "Direktur TAPG Kurangi Porsi Sahamnya, Sisa Segini - Emitennews.com",
           "Rekomendasi Saham Hari Ini: Ada BULL, LSIP, hingga MEDC - CNBC Indonesia",
           "TAPG tetapkan dividen final Rp91 per lembar, TP Rachmat raup miliaran - IDNFinancials.com"
         ]
       },
       "volume_signal": {
-        "ratio": 0.8,
+        "ratio": 1.07,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 20422304950.0,
+        "avg_daily_value_idr": 20722550175.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": false,
-        "ma8": 1530.0
+        "ma8": 1532.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:30:03.306063+00:00"
+      "_generated_at": "2026-07-24T07:58:12.219201+00:00"
     },
     {
       "ticker": "TOWR",
-      "last_price": 402.0,
-      "rsi": 71.4,
-      "macd_hist": 4.4,
+      "last_price": 400.0,
+      "rsi": 69.4,
+      "macd_hist": 4.28,
       "ma20": 383.0,
       "ma50": 380.0,
       "support": 352.0,
@@ -1757,12 +1786,12 @@
         387.0
       ],
       "tp": [
-        488.0,
-        544.0,
-        630.0
+        482.0,
+        538.0,
+        620.0
       ],
       "stop_loss": 345.0,
-      "rrr": 1.51,
+      "rrr": 1.49,
       "confidence": 95,
       "trend_up": true,
       "sentiment": {
@@ -1777,12 +1806,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.82,
+        "ratio": 0.88,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 15728698120.0,
+        "avg_daily_value_idr": 15781495970.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -1792,25 +1821,25 @@
         "ma8": 372.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:30:05.354688+00:00"
+      "_generated_at": "2026-07-24T07:58:14.614821+00:00"
     },
     {
       "ticker": "BBCA",
-      "last_price": 6200.0,
-      "rsi": 53.1,
-      "macd_hist": 5.89,
-      "ma20": 6152.0,
-      "ma50": 5990.0,
+      "last_price": 6250.0,
+      "rsi": 55.3,
+      "macd_hist": 9.08,
+      "ma20": 6155.0,
+      "ma50": 5992.0,
       "support": 5550.0,
       "resistance": 6625.0,
       "buy_area": [
         5522.0,
-        6214.0
+        6217.0
       ],
       "tp": [
-        7304.0,
-        8040.0,
-        9144.0
+        7429.0,
+        8215.0,
+        9394.0
       ],
       "stop_loss": 5464.0,
       "rrr": 1.5,
@@ -1828,22 +1857,22 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.6,
+        "ratio": 0.64,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 1134062665875.0,
+        "avg_daily_value_idr": 1136618343125.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": true,
-        "ma8": 6047.0
+        "ma8": 6053.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:02.396562+00:00"
+      "_generated_at": "2026-07-24T07:56:59.853755+00:00"
     },
     {
       "ticker": "SMRA",
@@ -1879,12 +1908,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 1.47,
+        "ratio": 1.49,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 4965847490.0,
+        "avg_daily_value_idr": 4972133910.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -1894,28 +1923,28 @@
         "ma8": 290.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:30:01.301011+00:00"
+      "_generated_at": "2026-07-24T07:58:10.176759+00:00"
     },
     {
       "ticker": "KLBF",
-      "last_price": 720.0,
-      "rsi": 41.2,
-      "macd_hist": 0.06,
+      "last_price": 725.0,
+      "rsi": 42.4,
+      "macd_hist": 0.38,
       "ma20": 741.0,
       "ma50": 747.0,
       "support": 700.0,
       "resistance": 810.0,
       "buy_area": [
         696.0,
-        748.0
+        749.0
       ],
       "tp": [
-        768.0,
-        800.0,
-        848.0
+        780.0,
+        818.0,
+        873.0
       ],
       "stop_loss": 688.0,
-      "rrr": 1.5,
+      "rrr": 1.49,
       "confidence": 80,
       "trend_up": false,
       "sentiment": {
@@ -1930,28 +1959,28 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.41,
+        "ratio": 0.44,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 51908102075.0,
+        "avg_daily_value_idr": 52002937225.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": false,
-        "macd_bullish": false,
-        "ma8": 735.0
+        "macd_bullish": true,
+        "ma8": 736.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:41.110084+00:00"
+      "_generated_at": "2026-07-24T07:57:45.533520+00:00"
     },
     {
       "ticker": "SIDO",
-      "last_price": 370.0,
-      "rsi": 52.4,
-      "macd_hist": 0.57,
+      "last_price": 372.0,
+      "rsi": 55.0,
+      "macd_hist": 0.7,
       "ma20": 376.0,
       "ma50": 383.0,
       "support": 362.0,
@@ -1961,12 +1990,12 @@
         380.0
       ],
       "tp": [
-        386.0,
-        398.0,
-        414.0
+        392.0,
+        404.0,
+        424.0
       ],
       "stop_loss": 359.0,
-      "rrr": 1.45,
+      "rrr": 1.54,
       "confidence": 80,
       "trend_up": false,
       "sentiment": {
@@ -1981,12 +2010,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.76,
+        "ratio": 0.83,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 6028915680.0,
+        "avg_daily_value_idr": 6050213020.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -1996,58 +2025,7 @@
         "ma8": 372.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:59.121257+00:00"
-    },
-    {
-      "ticker": "CPIN",
-      "last_price": 3210.0,
-      "rsi": 60.0,
-      "macd_hist": 39.55,
-      "ma20": 3142.0,
-      "ma50": 3441.0,
-      "support": 3010.0,
-      "resistance": 3400.0,
-      "buy_area": [
-        2995.0,
-        3174.0
-      ],
-      "tp": [
-        3566.0,
-        3802.0,
-        4158.0
-      ],
-      "stop_loss": 2973.0,
-      "rrr": 1.5,
-      "confidence": 70,
-      "trend_up": false,
-      "sentiment": {
-        "label": "Positif",
-        "score": 0.71,
-        "headlines": [
-          "Daftar Saham PER Terendah & Tertinggi LQ45 (23 Juli 2026), BUMI dan CPIN Jadi Sorotan - kontan.co.id",
-          "Analisis Saham CPIN: Menguat 3.12%: Sinyal & Level Kunci - JournalArta",
-          "CPIN, JPFA, MAIN, Siapa Paling Dijagokan? - investor.id",
-          "Jalan Lapang Emiten Unggas CPIN, JPFA Cs di Sisa 2026 - Bisnis Indonesia Premium",
-          "Mirae Asset Pasang Target Harga CPIN Rp5.550, Nilai Saham Berpeluang Naik 81% - SWA.co.id"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.75,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 38824528800.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": false,
-        "macd_bullish": false,
-        "ma8": 3211.0
-      },
-      "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:15.038990+00:00"
+      "_generated_at": "2026-07-24T07:58:07.810636+00:00"
     },
     {
       "ticker": "EMTK",
@@ -2083,12 +2061,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.95,
+        "ratio": 0.99,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 18038547415.0,
+        "avg_daily_value_idr": 18079383015.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -2098,7 +2076,7 @@
         "ma8": 526.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:21.197094+00:00"
+      "_generated_at": "2026-07-24T07:57:20.961991+00:00"
     },
     {
       "ticker": "EXCL",
@@ -2128,18 +2106,18 @@
         "headlines": [
           "Spektrum Mengorbit Saham TLKM, EXCL, dan ISAT - investor.id",
           "DSSA ungkap tujuan ambil alih entitas pengendali EXCL - IDNFinancials.com",
-          "EXCL, ISAT, dan TLKM Menangi Lelang Frekuensi, Bersiap Perluas Jaringan 5G - Ajaib",
           "Kode Keras untuk Pemegang Saham TLKM, ISAT, dan EXCL Usai Lelang Frekuensi 'Jumbo' - Bisnis Indonesia Premium",
+          "EXCL, ISAT, dan TLKM Menangi Lelang Frekuensi, Bersiap Perluas Jaringan 5G - Ajaib",
           "Lelang Spektrum Perkuat Prospek Emiten Telekomunikasi, Cermati Saham TLKM, ISAT, EXCL - kontan.co.id"
         ]
       },
       "volume_signal": {
-        "ratio": 1.09,
+        "ratio": 1.19,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 12897319300.0,
+        "avg_daily_value_idr": 12957843500.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -2149,7 +2127,7 @@
         "ma8": 2535.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:24.746694+00:00"
+      "_generated_at": "2026-07-24T07:57:25.725855+00:00"
     },
     {
       "ticker": "GOTO",
@@ -2185,12 +2163,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.11,
+        "ratio": 0.1,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 4747507750.0,
+        "avg_daily_value_idr": 4745348750.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -2200,7 +2178,7 @@
         "ma8": 50.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:26.462099+00:00"
+      "_generated_at": "2026-07-24T07:57:28.106441+00:00"
     },
     {
       "ticker": "JSMR",
@@ -2236,12 +2214,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.79,
+        "ratio": 0.81,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 10269025750.0,
+        "avg_daily_value_idr": 10281174250.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -2251,7 +2229,7 @@
         "ma8": 2732.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:38.983981+00:00"
+      "_generated_at": "2026-07-24T07:57:43.475833+00:00"
     },
     {
       "ticker": "KPIG",
@@ -2287,12 +2265,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 1.02,
+        "ratio": 1.09,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 9788234085.0,
+        "avg_daily_value_idr": 9818709685.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -2302,25 +2280,25 @@
         "ma8": 81.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:42.185380+00:00"
+      "_generated_at": "2026-07-24T07:57:46.556918+00:00"
     },
     {
       "ticker": "PANI",
-      "last_price": 6125.0,
-      "rsi": 54.4,
-      "macd_hist": 83.84,
-      "ma20": 6049.0,
-      "ma50": 6632.0,
+      "last_price": 6150.0,
+      "rsi": 55.2,
+      "macd_hist": 85.44,
+      "ma20": 6050.0,
+      "ma50": 6633.0,
       "support": 5500.0,
       "resistance": 6675.0,
       "buy_area": [
         5472.0,
-        6109.0
+        6110.0
       ],
       "tp": [
-        7252.0,
-        8002.0,
-        9129.0
+        7314.0,
+        8090.0,
+        9254.0
       ],
       "stop_loss": 5374.0,
       "rrr": 1.5,
@@ -2338,29 +2316,29 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.49,
+        "ratio": 0.56,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 26790841750.0,
+        "avg_daily_value_idr": 26889288625.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": false,
         "macd_bullish": false,
-        "ma8": 6233.0
+        "ma8": 6236.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:49.184780+00:00"
+      "_generated_at": "2026-07-24T07:57:55.819335+00:00"
     },
     {
       "ticker": "SMGR",
-      "last_price": 1455.0,
-      "rsi": 56.1,
-      "macd_hist": 18.02,
-      "ma20": 1456.0,
+      "last_price": 1465.0,
+      "rsi": 57.5,
+      "macd_hist": 18.65,
+      "ma20": 1457.0,
       "ma50": 1582.0,
       "support": 1380.0,
       "resistance": 1550.0,
@@ -2369,9 +2347,9 @@
         1471.0
       ],
       "tp": [
-        1606.0,
-        1708.0,
-        1859.0
+        1632.0,
+        1742.0,
+        1909.0
       ],
       "stop_loss": 1354.0,
       "rrr": 1.5,
@@ -2389,73 +2367,22 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.84,
+        "ratio": 0.89,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 23757552625.0,
+        "avg_daily_value_idr": 23814692850.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": false,
         "macd_bullish": false,
-        "ma8": 1474.0
+        "ma8": 1475.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:30:00.182476+00:00"
-    },
-    {
-      "ticker": "ADMR",
-      "last_price": 1480.0,
-      "rsi": 58.8,
-      "macd_hist": 12.27,
-      "ma20": 1464.0,
-      "ma50": 1494.0,
-      "support": 1330.0,
-      "resistance": 1625.0,
-      "buy_area": [
-        1323.0,
-        1479.0
-      ],
-      "tp": [
-        1744.0,
-        1920.0,
-        2184.0
-      ],
-      "stop_loss": 1304.0,
-      "rrr": 1.5,
-      "confidence": 65,
-      "trend_up": false,
-      "sentiment": {
-        "label": "Positif",
-        "score": 1.0,
-        "headlines": [
-          "Outlook Moody’s Negatif, Kenapa IHSG Lanjut Naik? ADMR & BREN Susul Rally? - maybanktrade.co.id",
-          "Saham-saham yang Masih ‘Ketinggalan’, Tapi Punya Sisi Menarik, Ini Bocorannya - investor.id",
-          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (BBRI, INET, ADMR) - Ajaib",
-          "ADMR Bagi Dividen US$120 Juta, Cek Potensi Yield dan Jadwal Lengkapnya - Bareksa.com",
-          "Penutupan LQ45 Hari Ini: INKP dan ADMR Moncer - TrenAsia"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 1.44,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 29621967650.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": false,
-        "ma8": 1470.0
-      },
-      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:28:54.527682+00:00"
+      "_generated_at": "2026-07-24T07:58:09.081712+00:00"
     },
     {
       "ticker": "BBRI",
@@ -2491,12 +2418,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.73,
+        "ratio": 0.81,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 742195046350.0,
+        "avg_daily_value_idr": 745146595550.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -2506,7 +2433,7 @@
         "ma8": 2852.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:04.646718+00:00"
+      "_generated_at": "2026-07-24T07:57:02.082352+00:00"
     },
     {
       "ticker": "BBTN",
@@ -2522,11 +2449,11 @@
         1203.0
       ],
       "tp": [
-        1492.0,
-        1670.0,
-        1937.0
+        1494.0,
+        1672.0,
+        1941.0
       ],
-      "stop_loss": 1047.0,
+      "stop_loss": 1046.0,
       "rrr": 1.5,
       "confidence": 65,
       "trend_up": false,
@@ -2542,12 +2469,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.34,
+        "ratio": 0.44,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 24951072200.0,
+        "avg_daily_value_idr": 25077296200.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -2557,13 +2484,13 @@
         "ma8": 1195.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:05.619743+00:00"
+      "_generated_at": "2026-07-24T07:57:03.364975+00:00"
     },
     {
       "ticker": "BRMS",
-      "last_price": 580.0,
-      "rsi": 58.8,
-      "macd_hist": 12.88,
+      "last_price": 585.0,
+      "rsi": 59.7,
+      "macd_hist": 13.2,
       "ma20": 535.0,
       "ma50": 574.0,
       "support": 450.0,
@@ -2573,9 +2500,9 @@
         540.0
       ],
       "tp": [
-        804.0,
-        952.0,
-        1176.0
+        816.0,
+        970.0,
+        1201.0
       ],
       "stop_loss": 431.0,
       "rrr": 1.5,
@@ -2593,12 +2520,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.47,
+        "ratio": 0.51,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 281132007045.0,
+        "avg_daily_value_idr": 281832460920.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -2608,64 +2535,13 @@
         "ma8": 541.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:08.588179+00:00"
-    },
-    {
-      "ticker": "BRPT",
-      "last_price": 1725.0,
-      "rsi": 64.3,
-      "macd_hist": 24.64,
-      "ma20": 1619.0,
-      "ma50": 1662.0,
-      "support": 1269.0,
-      "resistance": 1925.0,
-      "buy_area": [
-        1262.0,
-        1635.0
-      ],
-      "tp": [
-        2481.0,
-        2985.0,
-        3741.0
-      ],
-      "stop_loss": 1221.0,
-      "rrr": 1.5,
-      "confidence": 65,
-      "trend_up": false,
-      "sentiment": {
-        "label": "Positif",
-        "score": 0.33,
-        "headlines": [
-          "IHSG Melemah 1,75%, Saham CUAN dan BRPT Jadi Pemberat - Bloomberg Technoz",
-          "Saham BRPT: Profil, Kinerja & Prospek Barito 2026 - Pluang",
-          "ANALIS MARKET (24/7/2026): IHSG Masih Berpeluang Menguat - pasardana.id",
-          "IHSG Kian Positif, Saatnya Koreksi Sehat? | Update BRPT, TPIA, DEWA, DSSA & SSIA - maybanktrade.co.id",
-          "Masih Ada Bullish Pattern , Berikut Saham Pilihan Hari Ini: BRPT, CUAN, DEWA, dan SMRA - TopBusiness.id"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.62,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 390694039159.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": true,
-        "ma8": 1608.0
-      },
-      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:09.489703+00:00"
+      "_generated_at": "2026-07-24T07:57:06.449414+00:00"
     },
     {
       "ticker": "BSDE",
-      "last_price": 575.0,
-      "rsi": 56.2,
-      "macd_hist": 6.63,
+      "last_price": 580.0,
+      "rsi": 58.1,
+      "macd_hist": 6.95,
       "ma20": 566.0,
       "ma50": 601.0,
       "support": 530.0,
@@ -2675,12 +2551,12 @@
         571.0
       ],
       "tp": [
-        659.0,
-        715.0,
-        799.0
+        672.0,
+        732.0,
+        824.0
       ],
       "stop_loss": 519.0,
-      "rrr": 1.5,
+      "rrr": 1.51,
       "confidence": 65,
       "trend_up": false,
       "sentiment": {
@@ -2695,94 +2571,94 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.39,
+        "ratio": 0.4,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 8484636900.0,
+        "avg_daily_value_idr": 8490565425.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": false,
-        "ma8": 569.0
+        "ma8": 570.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:10.552316+00:00"
+      "_generated_at": "2026-07-24T07:57:08.763512+00:00"
     },
     {
-      "ticker": "CBDK",
-      "last_price": 3590.0,
-      "rsi": 62.5,
-      "macd_hist": 48.77,
-      "ma20": 3474.0,
-      "ma50": 3642.0,
-      "support": 3180.0,
-      "resistance": 3940.0,
+      "ticker": "CPIN",
+      "last_price": 3220.0,
+      "rsi": 60.9,
+      "macd_hist": 40.18,
+      "ma20": 3143.0,
+      "ma50": 3442.0,
+      "support": 3010.0,
+      "resistance": 3400.0,
       "buy_area": [
-        3164.0,
-        3509.0
+        2995.0,
+        3174.0
       ],
       "tp": [
-        4307.0,
-        4785.0,
-        5502.0
+        3590.0,
+        3838.0,
+        4208.0
       ],
-      "stop_loss": 3112.0,
+      "stop_loss": 2973.0,
       "rrr": 1.5,
       "confidence": 65,
       "trend_up": false,
       "sentiment": {
         "label": "Positif",
-        "score": 1.0,
+        "score": 0.71,
         "headlines": [
-          "CBDK Tebar Dividen Rp5 per Saham, Cair 8 Juli 2026 - Emitennews.com",
-          "CBDK gelar buyback saham kedua senilai Rp250 miliar - IDNFinancials.com",
-          "CBDK Akan Konservatif Hadapi Suku Bunga Tinggi - Bloomberg Technoz",
-          "Perkuat Ekspansi Bisnis, CBDK Suntik Modal ke Anak Usaha - KONTAN",
-          "CBDK Suntik Modal 2 Anak Usaha - Lotus Andalan Sekuritas"
+          "Daftar Saham PER Terendah & Tertinggi LQ45 (23 Juli 2026), BUMI dan CPIN Jadi Sorotan - kontan.co.id",
+          "Analisis Saham CPIN: Menguat 3.12%: Sinyal & Level Kunci - JournalArta",
+          "CPIN, JPFA, MAIN, Siapa Paling Dijagokan? - investor.id",
+          "Jalan Lapang Emiten Unggas CPIN, JPFA Cs di Sisa 2026 - Bisnis Indonesia Premium",
+          "Mirae Asset Pasang Target Harga CPIN Rp5.550, Nilai Saham Berpeluang Naik 81% - SWA.co.id"
         ]
       },
       "volume_signal": {
-        "ratio": 1.08,
+        "ratio": 0.8,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 4983203900.0,
+        "avg_daily_value_idr": 38927499250.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": false,
-        "ma8": 3493.0
+        "ma8": 3212.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:13.242539+00:00"
+      "_generated_at": "2026-07-24T07:57:14.441405+00:00"
     },
     {
       "ticker": "CTRA",
-      "last_price": 575.0,
-      "rsi": 63.6,
-      "macd_hist": 5.56,
+      "last_price": 570.0,
+      "rsi": 61.5,
+      "macd_hist": 5.24,
       "ma20": 552.0,
       "ma50": 562.0,
       "support": 520.0,
       "resistance": 605.0,
       "buy_area": [
         517.0,
-        558.0
+        557.0
       ],
       "tp": [
-        672.0,
-        738.0,
-        835.0
+        660.0,
+        720.0,
+        810.0
       ],
       "stop_loss": 510.0,
-      "rrr": 1.49,
+      "rrr": 1.5,
       "confidence": 65,
       "trend_up": false,
       "sentiment": {
@@ -2797,131 +2673,29 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.48,
+        "ratio": 0.51,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 9755132751.0,
+        "avg_daily_value_idr": 9770518726.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": false,
-        "ma8": 544.0
+        "ma8": 543.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:16.131921+00:00"
-    },
-    {
-      "ticker": "CUAN",
-      "last_price": 695.0,
-      "rsi": 62.1,
-      "macd_hist": 18.64,
-      "ma20": 638.0,
-      "ma50": 651.0,
-      "support": 525.0,
-      "resistance": 825.0,
-      "buy_area": [
-        522.0,
-        645.0
-      ],
-      "tp": [
-        984.0,
-        1178.0,
-        1467.0
-      ],
-      "stop_loss": 502.0,
-      "rrr": 1.5,
-      "confidence": 65,
-      "trend_up": false,
-      "sentiment": {
-        "label": "Positif",
-        "score": 0.33,
-        "headlines": [
-          "IHSG Punya Peluang Menguat hingga 6.545, Cek Analisa Saham AADI, CUAN, PTBA, dan VKTR - IDX Channel",
-          "IHSG Naik 1,51% ke 6.430 pada Sesi I Kamis (23/7), BUMI, CUAN, DEWA Top Gainers LQ45 - kontan.co.id",
-          "IHSG Sesi I Ditutup Turun 110 Poin ke 6.334,47, CUAN Melorot - Kompas.com",
-          "IHSG Melonjak 1,51%, Saham Konglomerat BUMI, DEWA, CUAN, PTRO Melambung - Katadata.co.id",
-          "IHSG Turun Tipis 0,09% ke 6.334, Top Losers LQ45: AMMN, UNTR, CUAN, Rabu (22/7) - kontan.co.id"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 1.38,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 204257561200.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": false,
-        "ma8": 649.0
-      },
-      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:17.105598+00:00"
-    },
-    {
-      "ticker": "INKP",
-      "last_price": 7650.0,
-      "rsi": 63.5,
-      "macd_hist": 71.82,
-      "ma20": 7386.0,
-      "ma50": 7509.0,
-      "support": 6801.0,
-      "resistance": 8075.0,
-      "buy_area": [
-        6767.0,
-        7460.0
-      ],
-      "tp": [
-        9124.0,
-        10108.0,
-        11582.0
-      ],
-      "stop_loss": 6667.0,
-      "rrr": 1.5,
-      "confidence": 65,
-      "trend_up": false,
-      "sentiment": {
-        "label": "Positif",
-        "score": 1.0,
-        "headlines": [
-          "AI Report - Laporan Bulanan Registrasi Pemegang Efek/Perubahan Struktur Pemegang Saham (INKP) - Indo Premier Sekuritas",
-          "Cek Rekomendasi Teknikal Saham SMGR, INKP, dan MAPI untuk Selasa (21/7) - kontan.co.id",
-          "Simak Rekomendasi Teknikal Saham SMGR, INKP dan MAPI untuk Hari Ini (21/7) - TradingView",
-          "IHSG Diproyeksi Lanjut Menguat Jelang Akhir Pekan - CNN Indonesia",
-          "Status Emerging Market Redam Capital Outflow, Saham BBCA Hingga INKP Jadi Pilihan Mirae Asset - Sinar Harapan - Sinar Harapan"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.77,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 28148283706.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": false,
-        "ma8": 7302.0
-      },
-      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:34.183571+00:00"
+      "_generated_at": "2026-07-24T07:57:15.475816+00:00"
     },
     {
       "ticker": "ISAT",
-      "last_price": 1925.0,
-      "rsi": 56.2,
-      "macd_hist": 13.48,
-      "ma20": 1871.0,
+      "last_price": 1935.0,
+      "rsi": 58.1,
+      "macd_hist": 14.12,
+      "ma20": 1872.0,
       "ma50": 1934.0,
       "support": 1695.0,
       "resistance": 2050.0,
@@ -2930,9 +2704,9 @@
         1890.0
       ],
       "tp": [
-        2314.0,
-        2572.0,
-        2961.0
+        2338.0,
+        2608.0,
+        3011.0
       ],
       "stop_loss": 1666.0,
       "rrr": 1.5,
@@ -2950,79 +2724,28 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.59,
+        "ratio": 0.66,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 30051228175.0,
+        "avg_daily_value_idr": 30161471175.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": false,
-        "ma8": 1856.0
+        "ma8": 1858.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:36.232415+00:00"
-    },
-    {
-      "ticker": "JPFA",
-      "last_price": 2100.0,
-      "rsi": 61.4,
-      "macd_hist": 19.6,
-      "ma20": 2032.0,
-      "ma50": 2135.0,
-      "support": 1915.0,
-      "resistance": 2200.0,
-      "buy_area": [
-        1905.0,
-        2053.0
-      ],
-      "tp": [
-        2432.0,
-        2652.0,
-        2984.0
-      ],
-      "stop_loss": 1879.0,
-      "rrr": 1.5,
-      "confidence": 65,
-      "trend_up": false,
-      "sentiment": {
-        "label": "Positif",
-        "score": 1.0,
-        "headlines": [
-          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (MEDC, JPFA, ESSA) - Ajaib",
-          "AI Report - Perubahan Kepemilikan Saham Japfa Comfeed Indonesia (JPFA) - Indo Premier Sekuritas",
-          "Bos JAPFA Lakukan Aksi Jual Saham JPFA, Nilai Transaksi Capai Rp 1 Triliun - SWA.co.id",
-          "JPFA terbitkan obligasi Rp500 miliar dalam dua seri, bunga capai 9,50% - IDNFinancials.com",
-          "Nyaring Kokok Saham Unggas JPFA MAIN Cs kala Euforia MBG Mereda - Bisnis Indonesia Premium"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.21,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 24603027725.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": false,
-        "ma8": 1992.0
-      },
-      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:38.074230+00:00"
+      "_generated_at": "2026-07-24T07:57:39.960160+00:00"
     },
     {
       "ticker": "KIJA",
-      "last_price": 129.0,
-      "rsi": 58.3,
-      "macd_hist": 1.11,
+      "last_price": 130.0,
+      "rsi": 59.3,
+      "macd_hist": 1.18,
       "ma20": 127.0,
       "ma50": 128.0,
       "support": 110.0,
@@ -3032,12 +2755,12 @@
         128.0
       ],
       "tp": [
-        164.0,
-        186.0,
-        221.0
+        166.0,
+        190.0,
+        226.0
       ],
       "stop_loss": 106.0,
-      "rrr": 1.52,
+      "rrr": 1.5,
       "confidence": 65,
       "trend_up": false,
       "sentiment": {
@@ -3052,12 +2775,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.59,
+        "ratio": 0.65,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 13335700335.0,
+        "avg_daily_value_idr": 13375405185.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -3067,7 +2790,7 @@
         "ma8": 122.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:40.046315+00:00"
+      "_generated_at": "2026-07-24T07:57:44.463095+00:00"
     },
     {
       "ticker": "PWON",
@@ -3096,19 +2819,19 @@
         "score": 1.0,
         "headlines": [
           "Pakuwon Jati bagi dividen Rp626 miliar, yield setara 4,96% - IDNFinancials.com",
-          "Kinerja PWON Tetap Tumbuh di 2025, Target Harga Saham Rp550 Masih Menarik? - Bareksa.com",
           "Saham Pakuwon (PWON) Meroket 23,86%, Komentar Anak Purbaya Jadi Pemicu? - Ajaib",
+          "Kinerja PWON Tetap Tumbuh di 2025, Target Harga Saham Rp550 Masih Menarik? - Bareksa.com",
           "Saham Konglo Salah Harga, Diramal Naik 103% - investor.id",
           "PWON Tetap Tinggi Okupansi, Target Harga Rp 430 per Saham - Indo Premier Sekuritas"
         ]
       },
       "volume_signal": {
-        "ratio": 0.46,
+        "ratio": 0.49,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 10344545950.0,
+        "avg_daily_value_idr": 10357539700.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -3118,25 +2841,25 @@
         "ma8": 255.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:55.069047+00:00"
+      "_generated_at": "2026-07-24T07:58:03.014716+00:00"
     },
     {
       "ticker": "SSIA",
-      "last_price": 1665.0,
-      "rsi": 61.3,
-      "macd_hist": 20.92,
-      "ma20": 1584.0,
+      "last_price": 1670.0,
+      "rsi": 61.7,
+      "macd_hist": 21.24,
+      "ma20": 1585.0,
       "ma50": 1597.0,
       "support": 1400.0,
       "resistance": 1865.0,
       "buy_area": [
         1393.0,
-        1600.0
+        1601.0
       ],
       "tp": [
-        2128.0,
-        2438.0,
-        2901.0
+        2141.0,
+        2455.0,
+        2926.0
       ],
       "stop_loss": 1356.0,
       "rrr": 1.5,
@@ -3154,40 +2877,40 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.77,
+        "ratio": 0.8,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 32564453250.0,
+        "avg_daily_value_idr": 32628780275.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": true,
-        "ma8": 1573.0
+        "ma8": 1574.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:30:02.429981+00:00"
+      "_generated_at": "2026-07-24T07:58:11.247326+00:00"
     },
     {
       "ticker": "TLKM",
-      "last_price": 2600.0,
-      "rsi": 60.7,
-      "macd_hist": 20.96,
-      "ma20": 2541.0,
+      "last_price": 2620.0,
+      "rsi": 63.0,
+      "macd_hist": 22.23,
+      "ma20": 2542.0,
       "ma50": 2617.0,
       "support": 2350.0,
       "resistance": 2770.0,
       "buy_area": [
         2338.0,
-        2566.0
+        2567.0
       ],
       "tp": [
-        3032.0,
-        3320.0,
-        3752.0
+        3082.0,
+        3390.0,
+        3852.0
       ],
       "stop_loss": 2312.0,
       "rrr": 1.5,
@@ -3205,40 +2928,40 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.46,
+        "ratio": 0.52,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 292926036950.0,
+        "avg_daily_value_idr": 293999330050.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": true,
-        "ma8": 2565.0
+        "ma8": 2567.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:30:04.200363+00:00"
+      "_generated_at": "2026-07-24T07:58:13.596417+00:00"
     },
     {
       "ticker": "HRTA",
-      "last_price": 1895.0,
-      "rsi": 56.2,
-      "macd_hist": 33.3,
-      "ma20": 1831.0,
+      "last_price": 1915.0,
+      "rsi": 58.1,
+      "macd_hist": 34.58,
+      "ma20": 1832.0,
       "ma50": 2036.0,
       "support": 1605.0,
       "resistance": 2060.0,
       "buy_area": [
         1597.0,
-        1849.0
+        1850.0
       ],
       "tp": [
-        2394.0,
-        2728.0,
-        3227.0
+        2444.0,
+        2798.0,
+        3327.0
       ],
       "stop_loss": 1562.0,
       "rrr": 1.5,
@@ -3256,22 +2979,22 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.57,
+        "ratio": 0.59,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 20975386550.0,
+        "avg_daily_value_idr": 21002064425.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": false,
         "macd_bullish": false,
-        "ma8": 1931.0
+        "ma8": 1934.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:28.675673+00:00"
+      "_generated_at": "2026-07-24T07:57:30.454862+00:00"
     },
     {
       "ticker": "MYOR",
@@ -3307,12 +3030,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.4,
+        "ratio": 0.47,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 9783754750.0,
+        "avg_daily_value_idr": 9818599750.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -3322,7 +3045,7 @@
         "ma8": 1763.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:48.345735+00:00"
+      "_generated_at": "2026-07-24T07:57:54.552407+00:00"
     },
     {
       "ticker": "PTBA",
@@ -3358,12 +3081,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.67,
+        "ratio": 0.76,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 23878953250.0,
+        "avg_daily_value_idr": 23994665100.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -3373,76 +3096,76 @@
         "ma8": 2406.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:53.255982+00:00"
+      "_generated_at": "2026-07-24T07:58:00.633935+00:00"
     },
     {
-      "ticker": "AMRT",
-      "last_price": 1380.0,
-      "rsi": 46.9,
-      "macd_hist": -0.98,
-      "ma20": 1386.0,
-      "ma50": 1350.0,
-      "support": 1315.0,
-      "resistance": 1460.0,
+      "ticker": "ADMR",
+      "last_price": 1490.0,
+      "rsi": 60.6,
+      "macd_hist": 12.9,
+      "ma20": 1464.0,
+      "ma50": 1494.0,
+      "support": 1330.0,
+      "resistance": 1625.0,
       "buy_area": [
-        1308.0,
-        1400.0
+        1323.0,
+        1479.0
       ],
       "tp": [
-        1509.0,
-        1595.0,
-        1724.0
+        1769.0,
+        1955.0,
+        2234.0
       ],
-      "stop_loss": 1294.0,
+      "stop_loss": 1304.0,
       "rrr": 1.5,
-      "confidence": 55,
+      "confidence": 57,
       "trend_up": false,
       "sentiment": {
         "label": "Positif",
         "score": 1.0,
         "headlines": [
-          "Analisis Saham AMRT: Menguat 1.07%, Momentum Menguat - JournalArta",
-          "AMRT bagikan dividen senilai Rp1,7 triliun tahun buku 2025 - IDNFinancials.com",
-          "Perkuat Ekspansi Global dan Domestik, Apakah Saham AMRT Masih Menarik? - KONTAN",
-          "Pilah-pilih Saham Ritel-Konsumer MAPI, AMRT, ACES Cs Semester II/2026 - Bisnis Indonesia Premium",
-          "Dividen Alfamart (AMRT) Berpotensi Naik, Ekspansi Jalan Terus - investor.id"
+          "Outlook Moody’s Negatif, Kenapa IHSG Lanjut Naik? ADMR & BREN Susul Rally? - maybanktrade.co.id",
+          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (BBRI, INET, ADMR) - Ajaib",
+          "Saham-saham yang Masih ‘Ketinggalan’, Tapi Punya Sisi Menarik, Ini Bocorannya - investor.id",
+          "ADMR Bagi Dividen US$120 Juta, Cek Potensi Yield dan Jadwal Lengkapnya - Bareksa.com",
+          "Penutupan LQ45 Hari Ini: INKP dan ADMR Moncer - TrenAsia"
         ]
       },
       "volume_signal": {
-        "ratio": 0.51,
-        "signal": "Normal",
-        "unusual": false
+        "ratio": 1.55,
+        "signal": "Distribution (volume tinggi + harga turun)",
+        "unusual": true
       },
       "liquidity": {
-        "avg_daily_value_idr": 47793072650.0,
+        "avg_daily_value_idr": 29797157700.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
-        "macd_bullish": true,
-        "ma8": 1359.0
+        "macd_bullish": false,
+        "ma8": 1471.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:28:58.269806+00:00"
+      "_generated_at": "2026-07-24T07:56:50.410897+00:00"
     },
     {
       "ticker": "ASII",
-      "last_price": 4910.0,
-      "rsi": 56.4,
-      "macd_hist": 27.44,
-      "ma20": 4875.0,
-      "ma50": 4980.0,
+      "last_price": 4950.0,
+      "rsi": 58.8,
+      "macd_hist": 29.99,
+      "ma20": 4877.0,
+      "ma50": 4981.0,
       "support": 4470.0,
       "resistance": 5300.0,
       "buy_area": [
         4448.0,
-        4924.0
+        4926.0
       ],
       "tp": [
-        5684.0,
-        6200.0,
-        6974.0
+        5784.0,
+        6340.0,
+        7174.0
       ],
       "stop_loss": 4394.0,
       "rrr": 1.5,
@@ -3460,22 +3183,22 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.97,
+        "ratio": 1.09,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 243046045500.0,
+        "avg_daily_value_idr": 244593143150.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": false,
-        "ma8": 4814.0
+        "ma8": 4819.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:01.573325+00:00"
+      "_generated_at": "2026-07-24T07:56:58.626623+00:00"
     },
     {
       "ticker": "BBNI",
@@ -3507,16 +3230,16 @@
           "Sah! Danantara Resmi Ambil Alih BNI Asset Management, BNI Tak Lagi Konsolidasikan BNI AM - pasardana.id",
           "TINS Gandeng BBNI dan MIND ID untuk Fasilitas Kredit dan Notional Pooling - SWA.co.id",
           "Proyeksi BBNI — Target Harga untuk 2027 - TradingView",
-          "BNI Rampungkan Penjualan 39,96 Juta Saham BNI AM ke Danantara AM - kontan.co.id"
+          "FAC Sekuritas - FAC Sekuritas"
         ]
       },
       "volume_signal": {
-        "ratio": 0.34,
+        "ratio": 0.39,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 167043622950.0,
+        "avg_daily_value_idr": 167520930300.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -3526,13 +3249,13 @@
         "ma8": 3440.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:03.495203+00:00"
+      "_generated_at": "2026-07-24T07:57:01.048482+00:00"
     },
     {
       "ticker": "BKSL",
-      "last_price": 68.0,
-      "rsi": 62.1,
-      "macd_hist": 1.47,
+      "last_price": 69.0,
+      "rsi": 64.3,
+      "macd_hist": 1.53,
       "ma20": 64.0,
       "ma50": 69.0,
       "support": 56.0,
@@ -3542,12 +3265,12 @@
         65.0
       ],
       "tp": [
-        89.0,
-        103.0,
-        124.0
+        92.0,
+        106.0,
+        129.0
       ],
       "stop_loss": 54.0,
-      "rrr": 1.5,
+      "rrr": 1.53,
       "confidence": 55,
       "trend_up": false,
       "sentiment": {
@@ -3562,12 +3285,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.94,
+        "ratio": 1.01,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 11428353140.0,
+        "avg_daily_value_idr": 11480579060.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -3577,58 +3300,7 @@
         "ma8": 64.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:06.502062+00:00"
-    },
-    {
-      "ticker": "MAPA",
-      "last_price": 600.0,
-      "rsi": 53.3,
-      "macd_hist": -0.6,
-      "ma20": 611.0,
-      "ma50": 599.0,
-      "support": 575.0,
-      "resistance": 655.0,
-      "buy_area": [
-        572.0,
-        617.0
-      ],
-      "tp": [
-        656.0,
-        692.0,
-        748.0
-      ],
-      "stop_loss": 563.0,
-      "rrr": 1.51,
-      "confidence": 55,
-      "trend_up": false,
-      "sentiment": {
-        "label": "Positif",
-        "score": 1.0,
-        "headlines": [
-          "Siap-Siap MAP Aktif (MAPA) Guyur Dividen - Bisnis Indonesia Premium",
-          "MAPA Siap Tebar Dividen Rp 114.01 Miliar, Investor Kebagian Rp 4 per Saham. Cek Jadwalnya di Sini! - pasardana.id",
-          "Rekomendasi Saham Tim Analis Bareksa: MAPA, MAPI & JPFA, IHSG Bisa Lanjut Rebound Terbatas - Bareksa.com",
-          "Simak Rekomendasi Teknikal Saham MAPA, ITMG, dan PGEO untuk Jumat (17/7) - kontan.co.id",
-          "MAPA Bagi Dividen Rp 144 Miliar, Ini Jadwalnya - investor.id"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.16,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 12519330642.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": true,
-        "ma8": 598.0
-      },
-      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:43.057055+00:00"
+      "_generated_at": "2026-07-24T07:57:04.302198+00:00"
     },
     {
       "ticker": "MBMA",
@@ -3664,12 +3336,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.89,
+        "ratio": 0.98,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 41606855225.0,
+        "avg_daily_value_idr": 41802975725.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -3679,64 +3351,64 @@
         "ma8": 499.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:44.965244+00:00"
+      "_generated_at": "2026-07-24T07:57:49.973984+00:00"
     },
     {
-      "ticker": "TPIA",
-      "last_price": 2050.0,
-      "rsi": 59.2,
-      "macd_hist": 72.62,
-      "ma20": 1911.0,
-      "ma50": 2053.0,
-      "support": 1625.0,
-      "resistance": 2370.0,
+      "ticker": "BRPT",
+      "last_price": 1765.0,
+      "rsi": 67.8,
+      "macd_hist": 27.19,
+      "ma20": 1621.0,
+      "ma50": 1663.0,
+      "support": 1269.0,
+      "resistance": 1925.0,
       "buy_area": [
-        1617.0,
-        1930.0
+        1262.0,
+        1637.0
       ],
       "tp": [
-        2780.0,
-        3268.0,
-        3998.0
+        2581.0,
+        3125.0,
+        3941.0
       ],
-      "stop_loss": 1563.0,
+      "stop_loss": 1221.0,
       "rrr": 1.5,
-      "confidence": 55,
+      "confidence": 50,
       "trend_up": false,
       "sentiment": {
-        "label": "Netral",
-        "score": 0.0,
+        "label": "Positif",
+        "score": 0.33,
         "headlines": [
-          "10 Saham Net Sell Asing IHSG Sesi I 23 Juli 2026, TPIA Banyak Dijual - Kompas.com",
-          "Mengintip Risiko Dari Euforia Rebound TPIA yang Diiringi Aksi Beli Investor Asing - KONTAN",
-          "2 Saham Unggulan Kini Dicampakkan - investor.id",
-          "IHSG Dibuka ke Zona Merah: Saham BMRI, TPIA hingga BBCA Ambrol - Bisnis.com - Market",
-          "Rekomendasi Saham Hari Ini: Ada TPIA, BULL, hingga BUMI - CNBC Indonesia"
+          "IHSG Melemah 1,75%, Saham CUAN dan BRPT Jadi Pemberat - Bloomberg Technoz",
+          "Saham BRPT: Profil, Kinerja & Prospek Barito 2026 - Pluang",
+          "ANALIS MARKET (24/7/2026): IHSG Masih Berpeluang Menguat - pasardana.id",
+          "IHSG Kian Positif, Saatnya Koreksi Sehat? | Update BRPT, TPIA, DEWA, DSSA & SSIA - maybanktrade.co.id",
+          "Masih Ada Bullish Pattern , Berikut Saham Pilihan Hari Ini: BRPT, CUAN, DEWA, dan SMRA - TopBusiness.id"
         ]
       },
       "volume_signal": {
-        "ratio": 0.92,
+        "ratio": 0.7,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 852755541775.0,
+        "avg_daily_value_idr": 392633601484.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
-        "macd_bullish": false,
-        "ma8": 1824.0
+        "macd_bullish": true,
+        "ma8": 1613.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:30:06.372937+00:00"
+      "_generated_at": "2026-07-24T07:57:07.578536+00:00"
     },
     {
       "ticker": "BUMI",
-      "last_price": 170.0,
-      "rsi": 71.6,
-      "macd_hist": 4.93,
+      "last_price": 174.0,
+      "rsi": 76.2,
+      "macd_hist": 5.18,
       "ma20": 149.0,
       "ma50": 158.0,
       "support": 129.0,
@@ -3746,9 +3418,9 @@
         150.0
       ],
       "tp": [
-        239.0,
-        285.0,
-        354.0
+        249.0,
+        299.0,
+        374.0
       ],
       "stop_loss": 124.0,
       "rrr": 1.5,
@@ -3766,12 +3438,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.28,
+        "ratio": 0.4,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 409491955189.0,
+        "avg_daily_value_idr": 412593521690.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -3781,14 +3453,65 @@
         "ma8": 151.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:12.319695+00:00"
+      "_generated_at": "2026-07-24T07:57:11.038985+00:00"
+    },
+    {
+      "ticker": "CBDK",
+      "last_price": 3630.0,
+      "rsi": 66.2,
+      "macd_hist": 51.33,
+      "ma20": 3476.0,
+      "ma50": 3642.0,
+      "support": 3180.0,
+      "resistance": 3940.0,
+      "buy_area": [
+        3164.0,
+        3511.0
+      ],
+      "tp": [
+        4407.0,
+        4925.0,
+        5702.0
+      ],
+      "stop_loss": 3112.0,
+      "rrr": 1.5,
+      "confidence": 50,
+      "trend_up": false,
+      "sentiment": {
+        "label": "Positif",
+        "score": 1.0,
+        "headlines": [
+          "CBDK Tebar Dividen Rp5 per Saham, Cair 8 Juli 2026 - Emitennews.com",
+          "CBDK gelar buyback saham kedua senilai Rp250 miliar - IDNFinancials.com",
+          "CBDK Akan Konservatif Hadapi Suku Bunga Tinggi - Bloomberg Technoz",
+          "Perkuat Ekspansi Bisnis, CBDK Suntik Modal ke Anak Usaha - KONTAN",
+          "CBDK Suntik Modal 2 Anak Usaha - Lotus Andalan Sekuritas"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 1.15,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 5004903300.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": false,
+        "ma8": 3498.0
+      },
+      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
+      "_generated_at": "2026-07-24T07:57:12.232742+00:00"
     },
     {
       "ticker": "ENRG",
-      "last_price": 1470.0,
-      "rsi": 73.2,
-      "macd_hist": 38.12,
-      "ma20": 1270.0,
+      "last_price": 1475.0,
+      "rsi": 73.6,
+      "macd_hist": 38.44,
+      "ma20": 1271.0,
       "ma50": 1327.0,
       "support": 955.0,
       "resistance": 1610.0,
@@ -3797,9 +3520,9 @@
         1283.0
       ],
       "tp": [
-        2314.0,
-        2878.0,
-        3722.0
+        2327.0,
+        2895.0,
+        3747.0
       ],
       "stop_loss": 907.0,
       "rrr": 1.5,
@@ -3810,29 +3533,29 @@
         "score": 1.0,
         "headlines": [
           "Suntik Modal Anak Usaha, ENRG Rilis Obligasi Rp 250 Miliar - KONTAN",
-          "ENRG terbitkan obligasi senilai Rp250 miliar berkupon tetap 8,95% - IDNFinancials.com",
           "ENRG Dinilai Siap Masuk Siklus Pertumbuhan, Rights Issue Rp4,12 Triliun Jadi Katalis - Bareksa.com",
+          "ENRG terbitkan obligasi senilai Rp250 miliar berkupon tetap 8,95% - IDNFinancials.com",
           "Harga Minyak Terus Mendaki, Saham ENRG hingga MEDC Naik Lagi - IDX Channel",
           "Harga Minyak Tembus USD90, Saham ENRG-AKRA Cs Naik Lagi - RCTI+"
         ]
       },
       "volume_signal": {
-        "ratio": 1.1,
+        "ratio": 1.15,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 124749567050.0,
+        "avg_daily_value_idr": 125093635450.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": false,
-        "ma8": 1267.0
+        "ma8": 1268.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:21.966600+00:00"
+      "_generated_at": "2026-07-24T07:57:22.235394+00:00"
     },
     {
       "ticker": "ESSA",
@@ -3868,12 +3591,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 1.46,
+        "ratio": 1.48,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 48927828625.0,
+        "avg_daily_value_idr": 48969411775.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -3883,7 +3606,7 @@
         "ma8": 574.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:23.704012+00:00"
+      "_generated_at": "2026-07-24T07:57:24.385346+00:00"
     },
     {
       "ticker": "HRUM",
@@ -3919,12 +3642,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 1.25,
+        "ratio": 1.34,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 4428497425.0,
+        "avg_daily_value_idr": 4448151150.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -3934,13 +3657,13 @@
         "ma8": 769.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:29.433128+00:00"
+      "_generated_at": "2026-07-24T07:57:31.498003+00:00"
     },
     {
       "ticker": "INCO",
-      "last_price": 4900.0,
-      "rsi": 66.2,
-      "macd_hist": 48.01,
+      "last_price": 4910.0,
+      "rsi": 66.8,
+      "macd_hist": 48.64,
       "ma20": 4704.0,
       "ma50": 4778.0,
       "support": 4120.0,
@@ -3950,9 +3673,9 @@
         4751.0
       ],
       "tp": [
-        6196.0,
-        7060.0,
-        8356.0
+        6221.0,
+        7095.0,
+        8406.0
       ],
       "stop_loss": 4036.0,
       "rrr": 1.5,
@@ -3970,42 +3693,42 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.73,
+        "ratio": 0.82,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 53911099650.0,
+        "avg_daily_value_idr": 54181506100.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": false,
-        "ma8": 4726.0
+        "ma8": 4727.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:31.642518+00:00"
+      "_generated_at": "2026-07-24T07:57:33.729429+00:00"
     },
     {
       "ticker": "INDY",
-      "last_price": 2410.0,
-      "rsi": 68.8,
-      "macd_hist": 61.23,
-      "ma20": 2159.0,
-      "ma50": 2222.0,
+      "last_price": 2580.0,
+      "rsi": 78.9,
+      "macd_hist": 72.08,
+      "ma20": 2168.0,
+      "ma50": 2226.0,
       "support": 1760.0,
       "resistance": 2720.0,
       "buy_area": [
         1751.0,
-        2181.0
+        2189.0
       ],
       "tp": [
-        3494.0,
-        4218.0,
-        5302.0
+        3922.0,
+        4818.0,
+        6160.0
       ],
-      "stop_loss": 1687.0,
+      "stop_loss": 1685.0,
       "rrr": 1.5,
       "confidence": 50,
       "trend_up": false,
@@ -4021,22 +3744,73 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.8,
+        "ratio": 1.26,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 40093513225.0,
+        "avg_daily_value_idr": 41272924575.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": false,
-        "ma8": 2144.0
+        "ma8": 2166.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:33.331008+00:00"
+      "_generated_at": "2026-07-24T07:57:36.174912+00:00"
+    },
+    {
+      "ticker": "INKP",
+      "last_price": 7700.0,
+      "rsi": 65.1,
+      "macd_hist": 75.01,
+      "ma20": 7389.0,
+      "ma50": 7510.0,
+      "support": 6801.0,
+      "resistance": 8075.0,
+      "buy_area": [
+        6767.0,
+        7463.0
+      ],
+      "tp": [
+        9250.0,
+        10282.0,
+        11832.0
+      ],
+      "stop_loss": 6667.0,
+      "rrr": 1.5,
+      "confidence": 50,
+      "trend_up": false,
+      "sentiment": {
+        "label": "Positif",
+        "score": 1.0,
+        "headlines": [
+          "AI Report - Laporan Bulanan Registrasi Pemegang Efek/Perubahan Struktur Pemegang Saham (INKP) - Indo Premier Sekuritas",
+          "Cek Rekomendasi Teknikal Saham SMGR, INKP, dan MAPI untuk Selasa (21/7) - kontan.co.id",
+          "Simak Rekomendasi Teknikal Saham SMGR, INKP dan MAPI untuk Hari Ini (21/7) - TradingView",
+          "IHSG Diproyeksi Lanjut Menguat Jelang Akhir Pekan - CNN Indonesia",
+          "Status Emerging Market Redam Capital Outflow, Saham BBCA Hingga INKP Jadi Pilihan Mirae Asset - Sinar Harapan - Sinar Harapan"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 0.8,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 28204579706.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": false,
+        "ma8": 7308.0
+      },
+      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
+      "_generated_at": "2026-07-24T07:57:37.480694+00:00"
     },
     {
       "ticker": "MAPI",
@@ -4077,7 +3851,7 @@
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 88751515699.0,
+        "avg_daily_value_idr": 88760022249.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -4087,7 +3861,7 @@
         "ma8": 1503.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:44.129317+00:00"
+      "_generated_at": "2026-07-24T07:57:48.950646+00:00"
     },
     {
       "ticker": "PGAS",
@@ -4123,12 +3897,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.41,
+        "ratio": 0.45,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 57130793575.0,
+        "avg_daily_value_idr": 57267388375.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -4138,7 +3912,7 @@
         "ma8": 1498.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:50.267546+00:00"
+      "_generated_at": "2026-07-24T07:57:56.937651+00:00"
     },
     {
       "ticker": "PNLF",
@@ -4169,17 +3943,17 @@
           "Hasil Investasi Panin Financial (PNLF) Tumbuh 8,51% Jadi Rp 543 Miliar di Kuartal III-2025 - InvestorTrust",
           "Saham ini breakout dari MA5, berpotensi menuju resistance baru? - IDNFinancials.com",
           "069 Analisis Teknikal Saham PNLF per 4 Desember 2025 untuk IDX:PNLF oleh TRANSITinvesting - TradingView",
-          "Rekomendasi Saham Tim Analis Bareksa: INDF, PGAS & PNLF, IHSG Diprediksi Rebound - Bareksa.com",
-          "Jelang Akhir Pekan, Koleksi Saham Ini: BUMI, PNLF, TOBA, GOTO, BBCA, dan VKTR - TopBusiness.id"
+          "Jelang Akhir Pekan, Koleksi Saham Ini: BUMI, PNLF, TOBA, GOTO, BBCA, dan VKTR - TopBusiness.id",
+          "BERITA POPULER: Harga Emas Antam (ANTM) Meroket hingga Saham PNLF Mendadak Laris - investor.id"
         ]
       },
       "volume_signal": {
-        "ratio": 1.18,
+        "ratio": 1.21,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 6283759780.0,
+        "avg_daily_value_idr": 6293577220.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -4189,25 +3963,25 @@
         "ma8": 217.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:52.281585+00:00"
+      "_generated_at": "2026-07-24T07:57:59.389136+00:00"
     },
     {
       "ticker": "WIFI",
-      "last_price": 1945.0,
-      "rsi": 65.2,
-      "macd_hist": 34.47,
-      "ma20": 1802.0,
-      "ma50": 1809.0,
+      "last_price": 1965.0,
+      "rsi": 67.0,
+      "macd_hist": 35.74,
+      "ma20": 1803.0,
+      "ma50": 1810.0,
       "support": 1508.0,
       "resistance": 2150.0,
       "buy_area": [
         1501.0,
-        1820.0
+        1821.0
       ],
       "tp": [
-        2671.0,
-        3155.0,
-        3881.0
+        2721.0,
+        3225.0,
+        3981.0
       ],
       "stop_loss": 1461.0,
       "rrr": 1.5,
@@ -4225,40 +3999,91 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.66,
+        "ratio": 0.68,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 38987731554.0,
+        "avg_daily_value_idr": 39050931004.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": true,
-        "ma8": 1706.0
+        "ma8": 1709.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:30:08.899815+00:00"
+      "_generated_at": "2026-07-24T07:58:19.320631+00:00"
+    },
+    {
+      "ticker": "AMRT",
+      "last_price": 1385.0,
+      "rsi": 47.9,
+      "macd_hist": -0.66,
+      "ma20": 1386.0,
+      "ma50": 1350.0,
+      "support": 1315.0,
+      "resistance": 1460.0,
+      "buy_area": [
+        1308.0,
+        1400.0
+      ],
+      "tp": [
+        1522.0,
+        1612.0,
+        1749.0
+      ],
+      "stop_loss": 1294.0,
+      "rrr": 1.51,
+      "confidence": 45,
+      "trend_up": false,
+      "sentiment": {
+        "label": "Positif",
+        "score": 1.0,
+        "headlines": [
+          "Analisis Saham AMRT: Menguat 1.07%, Momentum Menguat - JournalArta",
+          "AMRT bagikan dividen senilai Rp1,7 triliun tahun buku 2025 - IDNFinancials.com",
+          "Perkuat Ekspansi Global dan Domestik, Apakah Saham AMRT Masih Menarik? - KONTAN",
+          "Pilah-pilih Saham Ritel-Konsumer MAPI, AMRT, ACES Cs Semester II/2026 - Bisnis Indonesia Premium",
+          "Dividen Alfamart (AMRT) Berpotensi Naik, Ekspansi Jalan Terus - investor.id"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 0.58,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 47964457875.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": true,
+        "ma8": 1359.0
+      },
+      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
+      "_generated_at": "2026-07-24T07:56:55.140885+00:00"
     },
     {
       "ticker": "HEAL",
-      "last_price": 810.0,
-      "rsi": 32.6,
-      "macd_hist": -6.77,
+      "last_price": 820.0,
+      "rsi": 34.1,
+      "macd_hist": -6.13,
       "ma20": 872.0,
       "ma50": 890.0,
       "support": 805.0,
       "resistance": 935.0,
       "buy_area": [
         801.0,
-        880.0
+        881.0
       ],
       "tp": [
-        840.0,
-        860.0,
-        935.0
+        865.0,
+        895.0,
+        940.0
       ],
       "stop_loss": 790.0,
       "rrr": 1.5,
@@ -4276,22 +4101,73 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.77,
+        "ratio": 0.84,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 5417231950.0,
+        "avg_daily_value_idr": 5438926500.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": false,
         "macd_bullish": false,
-        "ma8": 858.0
+        "ma8": 859.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:27.290223+00:00"
+      "_generated_at": "2026-07-24T07:57:29.158970+00:00"
+    },
+    {
+      "ticker": "MAPA",
+      "last_price": 605.0,
+      "rsi": 55.2,
+      "macd_hist": -0.28,
+      "ma20": 611.0,
+      "ma50": 599.0,
+      "support": 575.0,
+      "resistance": 655.0,
+      "buy_area": [
+        572.0,
+        617.0
+      ],
+      "tp": [
+        668.0,
+        710.0,
+        773.0
+      ],
+      "stop_loss": 563.0,
+      "rrr": 1.5,
+      "confidence": 45,
+      "trend_up": false,
+      "sentiment": {
+        "label": "Positif",
+        "score": 1.0,
+        "headlines": [
+          "Siap-Siap MAP Aktif (MAPA) Guyur Dividen - Bisnis Indonesia Premium",
+          "MAPA Siap Tebar Dividen Rp 114.01 Miliar, Investor Kebagian Rp 4 per Saham. Cek Jadwalnya di Sini! - pasardana.id",
+          "Rekomendasi Saham Tim Analis Bareksa: MAPA, MAPI & JPFA, IHSG Bisa Lanjut Rebound Terbatas - Bareksa.com",
+          "Simak Rekomendasi Teknikal Saham MAPA, ITMG, dan PGEO untuk Jumat (17/7) - kontan.co.id",
+          "MAPA Bagi Dividen Rp 144 Miliar, Ini Jadwalnya - investor.id"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 0.17,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 12527068567.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": true,
+        "ma8": 599.0
+      },
+      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
+      "_generated_at": "2026-07-24T07:57:47.691813+00:00"
     },
     {
       "ticker": "MEDC",
@@ -4327,12 +4203,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 2.07,
+        "ratio": 2.16,
         "signal": "Distribution (volume tinggi + harga turun)",
         "unusual": true
       },
       "liquidity": {
-        "avg_daily_value_idr": 63230464275.0,
+        "avg_daily_value_idr": 63509542400.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -4342,25 +4218,25 @@
         "ma8": 1175.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:46.694528+00:00"
+      "_generated_at": "2026-07-24T07:57:52.194361+00:00"
     },
     {
       "ticker": "PTRO",
-      "last_price": 4670.0,
-      "rsi": 72.0,
-      "macd_hist": 115.81,
-      "ma20": 4071.0,
-      "ma50": 4106.0,
+      "last_price": 4770.0,
+      "rsi": 76.6,
+      "macd_hist": 122.19,
+      "ma20": 4076.0,
+      "ma50": 4108.0,
       "support": 3550.0,
       "resistance": 5200.0,
       "buy_area": [
         3532.0,
-        4112.0
+        4117.0
       ],
       "tp": [
-        6503.0,
-        7725.0,
-        9558.0
+        6753.0,
+        8075.0,
+        10058.0
       ],
       "stop_loss": 3448.0,
       "rrr": 1.5,
@@ -4378,22 +4254,22 @@
         ]
       },
       "volume_signal": {
-        "ratio": 1.86,
+        "ratio": 2.02,
         "signal": "Distribution (volume tinggi + harga turun)",
         "unusual": true
       },
       "liquidity": {
-        "avg_daily_value_idr": 170153953250.0,
+        "avg_daily_value_idr": 171929720450.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": true,
-        "ma8": 4054.0
+        "ma8": 4066.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:54.071474+00:00"
+      "_generated_at": "2026-07-24T07:58:01.725148+00:00"
     },
     {
       "ticker": "BUKA",
@@ -4421,20 +4297,20 @@
         "label": "Netral",
         "score": 0.0,
         "headlines": [
-          "Saham Express Trasindo (TAXI) Naik 8,33%, Buka Peluang Bermitra dengan Xanh SM - kontan.co.id",
           "Solusi Bangun Indonesia (SMCB) Buka Suara Soal Potensi Delisting Saham oleh BEI - TradingView",
+          "Saham Express Trasindo (TAXI) Naik 8,33%, Buka Peluang Bermitra dengan Xanh SM - kontan.co.id",
           "FAC Sekuritas - FAC Sekuritas",
           "ECB Buka Sinyal Kenaikan Suku Bunga, Saham Eropa Berguguran - Rmol.id",
           "Morgan Stanley buka layanan perdagangan saham dan bitcoin berdampingan - IDNFinancials.com"
         ]
       },
       "volume_signal": {
-        "ratio": 0.74,
+        "ratio": 0.88,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 16558952560.0,
+        "avg_daily_value_idr": 16694784500.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -4444,14 +4320,116 @@
         "ma8": 106.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:11.330635+00:00"
+      "_generated_at": "2026-07-24T07:57:09.895633+00:00"
+    },
+    {
+      "ticker": "JPFA",
+      "last_price": 2130.0,
+      "rsi": 65.1,
+      "macd_hist": 21.51,
+      "ma20": 2034.0,
+      "ma50": 2136.0,
+      "support": 1915.0,
+      "resistance": 2200.0,
+      "buy_area": [
+        1905.0,
+        2054.0
+      ],
+      "tp": [
+        2506.0,
+        2758.0,
+        3134.0
+      ],
+      "stop_loss": 1879.0,
+      "rrr": 1.5,
+      "confidence": 40,
+      "trend_up": false,
+      "sentiment": {
+        "label": "Netral",
+        "score": 0,
+        "headlines": [
+          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (MEDC, JPFA, ESSA) - Ajaib",
+          "Simak Rekomendasi Teknikal Saham BBCA, JPFA dan EMAS untuk Jumat (24/7) - TradingView",
+          "AI Report - Perubahan Kepemilikan Saham Japfa Comfeed Indonesia (JPFA) - Indo Premier Sekuritas",
+          "Bos JAPFA Lakukan Aksi Jual Saham JPFA, Nilai Transaksi Capai Rp 1 Triliun - SWA.co.id",
+          "JPFA terbitkan obligasi Rp500 miliar dalam dua seri, bunga capai 9,50% - IDNFinancials.com"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 0.23,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 24640999625.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": false,
+        "ma8": 1996.0
+      },
+      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
+      "_generated_at": "2026-07-24T07:57:42.230553+00:00"
+    },
+    {
+      "ticker": "TPIA",
+      "last_price": 2130.0,
+      "rsi": 65.0,
+      "macd_hist": 77.72,
+      "ma20": 1915.0,
+      "ma50": 2054.0,
+      "support": 1625.0,
+      "resistance": 2370.0,
+      "buy_area": [
+        1617.0,
+        1934.0
+      ],
+      "tp": [
+        2980.0,
+        3548.0,
+        4398.0
+      ],
+      "stop_loss": 1563.0,
+      "rrr": 1.5,
+      "confidence": 40,
+      "trend_up": false,
+      "sentiment": {
+        "label": "Netral",
+        "score": 0.0,
+        "headlines": [
+          "10 Saham Net Sell Asing IHSG Sesi I 23 Juli 2026, TPIA Banyak Dijual - Kompas.com",
+          "Mengintip Risiko Dari Euforia Rebound TPIA yang Diiringi Aksi Beli Investor Asing - KONTAN",
+          "2 Saham Unggulan Kini Dicampakkan - investor.id",
+          "IHSG Dibuka ke Zona Merah: Saham BMRI, TPIA hingga BBCA Ambrol - Bisnis.com - Market",
+          "Rekomendasi Saham Hari Ini: Ada TPIA, BULL, hingga BUMI - CNBC Indonesia"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 1.13,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 864190867975.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": false,
+        "ma8": 1834.0
+      },
+      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
+      "_generated_at": "2026-07-24T07:58:15.773647+00:00"
     },
     {
       "ticker": "UNVR",
-      "last_price": 1680.0,
-      "rsi": 32.0,
-      "macd_hist": -8.6,
-      "ma20": 1727.0,
+      "last_price": 1690.0,
+      "rsi": 34.6,
+      "macd_hist": -7.96,
+      "ma20": 1728.0,
       "ma50": 1659.0,
       "support": 1655.0,
       "resistance": 1845.0,
@@ -4460,9 +4438,9 @@
         1745.0
       ],
       "tp": [
-        1746.0,
-        1790.0,
-        1856.0
+        1771.0,
+        1825.0,
+        1906.0
       ],
       "stop_loss": 1636.0,
       "rrr": 1.5,
@@ -4480,28 +4458,79 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.4,
+        "ratio": 0.43,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 22478258100.0,
+        "avg_daily_value_idr": 22515468250.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": true,
-        "ma8": 1667.0
+        "ma8": 1669.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:30:08.148445+00:00"
+      "_generated_at": "2026-07-24T07:58:18.079873+00:00"
+    },
+    {
+      "ticker": "CUAN",
+      "last_price": 710.0,
+      "rsi": 65.1,
+      "macd_hist": 19.6,
+      "ma20": 639.0,
+      "ma50": 651.0,
+      "support": 525.0,
+      "resistance": 825.0,
+      "buy_area": [
+        522.0,
+        645.0
+      ],
+      "tp": [
+        1022.0,
+        1230.0,
+        1542.0
+      ],
+      "stop_loss": 502.0,
+      "rrr": 1.5,
+      "confidence": 32,
+      "trend_up": false,
+      "sentiment": {
+        "label": "Netral",
+        "score": 0.0,
+        "headlines": [
+          "IHSG Punya Peluang Menguat hingga 6.545, Cek Analisa Saham AADI, CUAN, PTBA, dan VKTR - IDX Channel",
+          "Saham Tambang Prajogo Diincar - investor.id",
+          "IHSG Naik 1,51% ke 6.430 pada Sesi I Kamis (23/7), BUMI, CUAN, DEWA Top Gainers LQ45 - kontan.co.id",
+          "IHSG Sesi I Ditutup Turun 110 Poin ke 6.334,47, CUAN Melorot - Kompas.com",
+          "Daftar Saham PER Terendah & Tertinggi LQ45 (21 Juli 2026), DEWA dan CUAN Jadi Sorotan - kontan.co.id"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 1.52,
+        "signal": "Distribution (volume tinggi + harga turun)",
+        "unusual": true
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 206087079125.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": false,
+        "ma8": 651.0
+      },
+      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
+      "_generated_at": "2026-07-24T07:57:16.715958+00:00"
     },
     {
       "ticker": "SCMA",
-      "last_price": 199.0,
-      "rsi": 38.3,
-      "macd_hist": -0.09,
+      "last_price": 200.0,
+      "rsi": 39.1,
+      "macd_hist": -0.02,
       "ma20": 206.0,
       "ma50": 208.0,
       "support": 192.0,
@@ -4511,12 +4540,12 @@
         208.0
       ],
       "tp": [
-        216.0,
-        226.0,
-        243.0
+        218.0,
+        230.0,
+        248.0
       ],
       "stop_loss": 188.0,
-      "rrr": 1.55,
+      "rrr": 1.5,
       "confidence": 32,
       "trend_up": false,
       "sentiment": {
@@ -4531,12 +4560,12 @@
         ]
       },
       "volume_signal": {
-        "ratio": 1.7,
+        "ratio": 1.73,
         "signal": "Distribution (volume tinggi + harga turun)",
         "unusual": true
       },
       "liquidity": {
-        "avg_daily_value_idr": 7914591410.0,
+        "avg_daily_value_idr": 7930358425.0,
         "is_liquid": true
       },
       "weekly_trend": {
@@ -4546,25 +4575,25 @@
         "ma8": 203.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-07-24T07:29:58.125310+00:00"
+      "_generated_at": "2026-07-24T07:58:06.619935+00:00"
     },
     {
       "ticker": "RATU",
-      "last_price": 4960.0,
-      "rsi": 31.2,
-      "macd_hist": -38.16,
-      "ma20": 5155.0,
-      "ma50": 4858.0,
+      "last_price": 5025.0,
+      "rsi": 32.7,
+      "macd_hist": -34.01,
+      "ma20": 5158.0,
+      "ma50": 4860.0,
       "support": 4250.0,
       "resistance": 5750.0,
       "buy_area": [
         4229.0,
-        5207.0
+        5210.0
       ],
       "tp": [
-        6220.0,
-        7060.0,
-        8320.0
+        6382.0,
+        7288.0,
+        8645.0
       ],
       "stop_loss": 4120.0,
       "rrr": 1.5,
@@ -4582,22 +4611,22 @@
         ]
       },
       "volume_signal": {
-        "ratio": 0.65,
+        "ratio": 0.69,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 44202797650.0,
+        "avg_daily_value_idr": 44293186900.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": false,
-        "ma8": 4848.0
+        "ma8": 4856.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-07-24T07:29:57.074389+00:00"
+      "_generated_at": "2026-07-24T07:58:05.426944+00:00"
     }
   ],
   "errors": [],
