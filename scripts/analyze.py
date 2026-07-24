@@ -51,6 +51,19 @@ NEWS_KEYWORDS_NEG = [
 ]
 
 OUTPUT_PATH = "docs/data.json"
+HISTORY_PATH = "docs/history.json"
+MAX_HISTORY_DAYS = 60
+
+# Konteks pasar global - biasanya mempengaruhi arah IHSG di jam buka
+GLOBAL_TICKERS = {
+    "Dow Jones": "^DJI",
+    "Nasdaq": "^IXIC",
+    "Nikkei 225": "^N225",
+    "Hang Seng": "^HSI",
+    "USD/IDR": "IDR=X",
+    "Brent Crude": "BZ=F",
+    "Emas (Gold)": "GC=F",
+}
 
 
 # ---------------------------------------------------------------------------
@@ -91,6 +104,33 @@ def support_resistance(df: pd.DataFrame, lookback: int = 20):
     return float(window["Low"].min()), float(window["High"].max())
 
 
+def compute_volume_signal(df: pd.DataFrame, avg_period: int = 20):
+    """
+    Proxy gratis untuk 'foreign flow' / bandarmology: rasio volume hari ini
+    vs rata-rata volume 20 hari. Volume tidak wajar (>1.5x rata-rata) sering
+    jadi sinyal awal ada pemain besar masuk/keluar - meski ini TIDAK sama
+    persis dengan data net buy/sell asing yang sesungguhnya (itu perlu data
+    berbayar dari KSEI/broker).
+    """
+    vol = df["Volume"]
+    avg_vol = float(vol.rolling(avg_period).mean().iloc[-2]) if len(vol) > avg_period else float(vol.mean())
+    today_vol = float(vol.iloc[-1])
+    ratio = round(today_vol / avg_vol, 2) if avg_vol > 0 else 1.0
+
+    # Arah harga saat volume naik -> indikasi accumulation vs distribution
+    price_change = float(df["Close"].iloc[-1] - df["Close"].iloc[-2])
+    if ratio >= 1.5 and price_change > 0:
+        signal = "Accumulation (volume tinggi + harga naik)"
+    elif ratio >= 1.5 and price_change < 0:
+        signal = "Distribution (volume tinggi + harga turun)"
+    elif ratio >= 1.5:
+        signal = "Volume tidak wajar"
+    else:
+        signal = "Normal"
+
+    return {"ratio": ratio, "signal": signal, "unusual": ratio >= 1.5}
+
+
 # ---------------------------------------------------------------------------
 # 3. SENTIMEN BERITA (GRATIS, VIA GOOGLE NEWS RSS + KEYWORD SCORING)
 # ---------------------------------------------------------------------------
@@ -121,6 +161,73 @@ def fetch_news_sentiment(ticker: str, company_query: str):
     return {"label": label, "score": score, "headlines": titles[:5]}
 
 
+def fetch_global_context():
+    context = {}
+    for name, symbol in GLOBAL_TICKERS.items():
+        try:
+            df = yf.download(symbol, period="5d", interval="1d", progress=False, auto_adjust=True)
+            if df.empty or len(df) < 2:
+                continue
+            last = float(df["Close"].iloc[-1])
+            prev = float(df["Close"].iloc[-2])
+            change_pct = round((last - prev) / prev * 100, 2)
+            context[name] = {"last": round(last, 2), "change_pct": change_pct}
+        except Exception:
+            continue
+    return context
+
+
+# ---------------------------------------------------------------------------
+# TRACK RECORD - evaluasi rekomendasi kemarin, kena TP atau SL?
+# ---------------------------------------------------------------------------
+def evaluate_track_record(prev_picks, price_data):
+    """
+    Cek rekomendasi dari run sebelumnya: sejak tanggal rekomendasi dibuat,
+    apakah harga sempat menyentuh salah satu TP (menang) atau SL (kalah)
+    duluan? price_data adalah dict {ticker: df} hasil download run ini.
+    """
+    records = []
+    for pick in prev_picks:
+        ticker = pick["ticker"]
+        df = price_data.get(ticker)
+        if df is None:
+            continue
+        try:
+            gen_date = datetime.fromisoformat(pick["_generated_at"]).date()
+        except Exception:
+            continue
+
+        df_since = df[df.index.date > gen_date]
+        if df_since.empty:
+            continue  # belum ada candle baru sejak rekomendasi dibuat
+
+        outcome = "Open"
+        exit_price = None
+        for _, row in df_since.iterrows():
+            hit_sl = row["Low"] <= pick["stop_loss"]
+            hit_tp1 = row["High"] >= pick["tp"][0]
+            if hit_sl and hit_tp1:
+                # ambigu dalam 1 candle, asumsikan konservatif: SL duluan
+                outcome, exit_price = "SL Hit", pick["stop_loss"]
+                break
+            elif hit_sl:
+                outcome, exit_price = "SL Hit", pick["stop_loss"]
+                break
+            elif hit_tp1:
+                outcome, exit_price = "TP1 Hit", pick["tp"][0]
+                break
+
+        records.append({
+            "ticker": ticker,
+            "date": pick["_generated_at"][:10],
+            "confidence": pick["confidence"],
+            "buy_price": pick["last_price"],
+            "outcome": outcome,
+            "exit_price": exit_price,
+        })
+    return records
+
+
 # ---------------------------------------------------------------------------
 # 4. LOGIKA REKOMENDASI (Buy Area, TP1-3, SL, RRR, Confidence)
 # ---------------------------------------------------------------------------
@@ -133,6 +240,7 @@ def build_recommendation(ticker: str, df: pd.DataFrame, sentiment: dict):
     macd_line, signal_line, hist = compute_macd(close)
     atr = compute_atr(df)
     support, resistance = support_resistance(df)
+    volume_signal = compute_volume_signal(df)
 
     trend_up = last_price > ma20 > ma50
     macd_bullish = macd_line > signal_line
@@ -160,6 +268,7 @@ def build_recommendation(ticker: str, df: pd.DataFrame, sentiment: dict):
     score += 10 if rsi_ok else -5
     score += 10 if near_support else 0
     score += 10 if sentiment["label"] == "Positif" else (-10 if sentiment["label"] == "Negatif" else 0)
+    score += 8 if volume_signal["signal"].startswith("Accumulation") else (-8 if volume_signal["signal"].startswith("Distribution") else 0)
     confidence = int(max(0, min(100, score)))
 
     return {
@@ -178,6 +287,8 @@ def build_recommendation(ticker: str, df: pd.DataFrame, sentiment: dict):
         "confidence": confidence,
         "trend_up": trend_up,
         "sentiment": sentiment,
+        "volume_signal": volume_signal,
+        "_generated_at": datetime.now(timezone.utc).isoformat(),
     }
 
 
@@ -185,8 +296,17 @@ def build_recommendation(ticker: str, df: pd.DataFrame, sentiment: dict):
 # 5. MAIN
 # ---------------------------------------------------------------------------
 def main():
+    # --- Baca hasil run sebelumnya (untuk track record) ---
+    prev_data = None
+    try:
+        with open(OUTPUT_PATH, "r", encoding="utf-8") as f:
+            prev_data = json.load(f)
+    except Exception:
+        prev_data = None
+
     results = []
     errors = []
+    price_data = {}
 
     for ticker in LQ45_TICKERS:
         yf_symbol = f"{ticker}.JK"
@@ -197,6 +317,7 @@ def main():
                 continue
             if isinstance(df.columns, pd.MultiIndex):
                 df.columns = df.columns.get_level_values(0)
+            price_data[ticker] = df
 
             sentiment = fetch_news_sentiment(ticker, ticker)
             rec = build_recommendation(ticker, df, sentiment)
@@ -208,7 +329,7 @@ def main():
 
     results.sort(key=lambda r: r["confidence"], reverse=True)
 
-    # Ringkasan pasar sederhana dari IHSG
+    # --- Ringkasan pasar dari IHSG ---
     try:
         ihsg = yf.download("^JKSE", period="1mo", interval="1d", progress=False, auto_adjust=True)
         ihsg_last = float(ihsg["Close"].iloc[-1])
@@ -217,18 +338,52 @@ def main():
     except Exception:
         ihsg_last, ihsg_change = None, None
 
+    # --- Konteks pasar global ---
+    global_context = fetch_global_context()
+
+    # --- Track record: evaluasi rekomendasi run sebelumnya ---
+    new_track_records = []
+    if prev_data and prev_data.get("top_picks"):
+        new_track_records = evaluate_track_record(prev_data["top_picks"], price_data)
+
+    try:
+        with open(HISTORY_PATH, "r", encoding="utf-8") as f:
+            history = json.load(f)
+    except Exception:
+        history = []
+
+    # Update entri "Open" lama yang sekarang statusnya berubah, tambah entri baru
+    existing_keys = {(h["ticker"], h["date"]) for h in history}
+    for rec in new_track_records:
+        key = (rec["ticker"], rec["date"])
+        if key in existing_keys:
+            history = [rec if (h["ticker"], h["date"]) == key else h for h in history]
+        else:
+            history.append(rec)
+
+    history = history[-MAX_HISTORY_DAYS * 10:]  # batasi ukuran file
+
+    closed = [h for h in history if h["outcome"] in ("TP1 Hit", "SL Hit")]
+    wins = [h for h in closed if h["outcome"] == "TP1 Hit"]
+    win_rate = round(len(wins) / len(closed) * 100, 1) if closed else None
+
+    with open(HISTORY_PATH, "w", encoding="utf-8") as f:
+        json.dump({"records": history, "win_rate": win_rate, "total_closed": len(closed)}, f, ensure_ascii=False, indent=2)
+
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "ihsg": {"last": ihsg_last, "change_pct": ihsg_change},
+        "global_context": global_context,
         "top_picks": results[:10],
         "all_results": results,
         "errors": errors,
+        "track_record": {"win_rate": win_rate, "total_closed": len(closed)},
     }
 
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"Selesai. {len(results)} saham berhasil dianalisis, {len(errors)} gagal.")
+    print(f"Selesai. {len(results)} saham berhasil dianalisis, {len(errors)} gagal. Win rate: {win_rate}")
 
 
 if __name__ == "__main__":

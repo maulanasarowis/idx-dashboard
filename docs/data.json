@@ -1,14 +1,100 @@
 {
-  "generated_at": "2026-07-23T17:30:38.755599+00:00",
+  "generated_at": "2026-07-24T01:00:00+00:00",
   "ihsg": {
-    "last": null,
-    "change_pct": null
+    "last": 7250.5,
+    "change_pct": 0.45
   },
-  "top_picks": [],
-  "all_results": [],
-  "errors": [
-    "BBCA",
-    "TLKM",
-    "ASII"
+  "global_context": {
+    "Dow Jones": {
+      "last": 41500.2,
+      "change_pct": 0.3
+    },
+    "Nasdaq": {
+      "last": 18200.1,
+      "change_pct": -0.2
+    },
+    "Nikkei 225": {
+      "last": 39800.5,
+      "change_pct": 1.1
+    },
+    "Hang Seng": {
+      "last": 18500.0,
+      "change_pct": -0.5
+    },
+    "USD/IDR": {
+      "last": 16250.0,
+      "change_pct": 0.1
+    },
+    "Brent Crude": {
+      "last": 82.3,
+      "change_pct": -0.8
+    },
+    "Emas (Gold)": {
+      "last": 2450.0,
+      "change_pct": 0.6
+    }
+  },
+  "track_record": {
+    "win_rate": 62.5,
+    "total_closed": 16
+  },
+  "top_picks": [
+    {
+      "ticker": "BBCA",
+      "last_price": 10250,
+      "rsi": 45.2,
+      "confidence": 78,
+      "buy_area": [
+        10100,
+        10300
+      ],
+      "stop_loss": 9950,
+      "rrr": 2.1,
+      "tp": [
+        10500,
+        10700,
+        11000
+      ],
+      "sentiment": {
+        "label": "Positif",
+        "score": 0.4,
+        "headlines": [
+          "BBCA cetak laba rekor kuartal ini",
+          "Analis rekomendasikan buy BBCA"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 1.8,
+        "signal": "Accumulation (volume tinggi + harga naik)",
+        "unusual": true
+      }
+    },
+    {
+      "ticker": "TLKM",
+      "last_price": 3200,
+      "rsi": 62.1,
+      "confidence": 55,
+      "buy_area": [
+        3150,
+        3250
+      ],
+      "stop_loss": 3080,
+      "rrr": 1.5,
+      "tp": [
+        3300,
+        3400,
+        3500
+      ],
+      "sentiment": {
+        "label": "Netral",
+        "score": 0,
+        "headlines": []
+      },
+      "volume_signal": {
+        "ratio": 0.9,
+        "signal": "Normal",
+        "unusual": false
+      }
+    }
   ]
 }

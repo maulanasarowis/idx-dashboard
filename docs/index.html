@@ -100,6 +100,55 @@
     text-align:center; padding:60px 20px; color:var(--muted); font-family:var(--mono); font-size:13px;
   }
   .refresh-time{font-family:var(--mono); font-size:11px; color:var(--muted); text-align:center; padding:20px;}
+
+  .global-strip{
+    display:flex; gap:10px; overflow-x:auto; padding-bottom:6px; margin-top:14px;
+    -webkit-overflow-scrolling:touch;
+  }
+  .global-chip{
+    flex:0 0 auto; background:var(--panel); border:1px solid var(--line);
+    border-radius:10px; padding:8px 12px; min-width:100px;
+  }
+  .global-chip .name{font-size:10px; color:var(--muted); text-transform:uppercase; letter-spacing:0.04em;}
+  .global-chip .num{font-family:var(--mono); font-size:14px; font-weight:600; margin-top:2px;}
+
+  .stats-row{display:flex; gap:10px; margin-top:14px;}
+  .stat-box{
+    flex:1; background:var(--panel); border:1px solid var(--line); border-radius:10px;
+    padding:12px; text-align:center;
+  }
+  .stat-box .num{font-family:var(--mono); font-size:22px; font-weight:700; color:var(--amber);}
+  .stat-box .lbl{font-size:10px; color:var(--muted); text-transform:uppercase; margin-top:2px;}
+
+  .risk-calc{
+    background:var(--panel); border:1px solid var(--line); border-radius:12px;
+    padding:16px; margin-bottom:20px;
+  }
+  .risk-calc h3{margin:0 0 10px; font-family:var(--display); font-size:15px;}
+  .risk-inputs{display:flex; gap:10px;}
+  .risk-inputs label{flex:1; font-size:11px; color:var(--muted); font-family:var(--mono);}
+  .risk-inputs input{
+    width:100%; margin-top:4px; padding:8px; border-radius:8px; border:1px solid var(--line);
+    background:var(--panel-2); color:var(--ink); font-family:var(--mono); font-size:13px;
+  }
+  .lot-suggestion{
+    margin-top:10px; padding:8px 10px; background:var(--panel-2); border-radius:8px;
+    font-family:var(--mono); font-size:12px; color:var(--amber); display:none;
+  }
+
+  .vol-badge{
+    font-family:var(--mono); font-size:10px; padding:2px 7px; border-radius:6px;
+    margin-left:8px; white-space:nowrap;
+  }
+  .vol-accum{background:rgba(76,175,125,0.15); color:var(--green);}
+  .vol-distrib{background:rgba(209,100,87,0.15); color:var(--red);}
+  .vol-unusual{background:rgba(217,164,65,0.15); color:var(--amber);}
+
+  .history-item{
+    display:flex; justify-content:space-between; padding:8px 0; border-top:1px solid var(--line);
+    font-family:var(--mono); font-size:12px;
+  }
+  .badge-win{color:var(--green);} .badge-loss{color:var(--red);} .badge-open{color:var(--muted);}
 </style>
 </head>
 <body>
@@ -112,9 +161,30 @@
     <span>IHSG</span>
     <span class="val" id="ihsgVal">—</span>
   </div>
+  <div class="global-strip" id="globalStrip"></div>
 </header>
 
 <main>
+  <div class="section-label">Track Record Sistem</div>
+  <div class="stats-row" id="statsRow">
+    <div class="stat-box"><div class="num" id="winRateVal">—</div><div class="lbl">Win Rate</div></div>
+    <div class="stat-box"><div class="num" id="closedVal">—</div><div class="lbl">Trade Selesai</div></div>
+  </div>
+
+  <div class="section-label">Kalkulator Position Size</div>
+  <div class="risk-calc">
+    <h3>Berapa lot yang aman dibeli?</h3>
+    <div class="risk-inputs">
+      <label>Modal (Rp)
+        <input type="number" id="modalInput" placeholder="10000000" value="10000000">
+      </label>
+      <label>Risiko per Transaksi (%)
+        <input type="number" id="riskInput" placeholder="1" value="1" step="0.1">
+      </label>
+    </div>
+    <div class="lot-suggestion" id="lotHint">Isi angka lalu lihat saran lot di tiap kartu saham di bawah.</div>
+  </div>
+
   <div class="section-label">Top Picks — Confidence Tertinggi</div>
   <div id="cardsContainer"><div class="empty-state">Memuat data...</div></div>
 </main>
@@ -127,12 +197,17 @@
 <div class="refresh-time" id="refreshLabel"></div>
 
 <script>
+let currentPicks = [];
+
 async function loadData(){
   try{
     const res = await fetch('data.json?t=' + Date.now());
     const data = await res.json();
     renderIHSG(data.ihsg);
-    renderCards(data.top_picks || []);
+    renderGlobal(data.global_context || {});
+    renderTrackRecord(data.track_record || {});
+    currentPicks = data.top_picks || [];
+    renderCards(currentPicks);
     const dt = new Date(data.generated_at);
     document.getElementById('dateLabel').textContent =
       dt.toLocaleDateString('id-ID', {weekday:'long', day:'numeric', month:'long', year:'numeric'});
@@ -142,6 +217,48 @@ async function loadData(){
     document.getElementById('cardsContainer').innerHTML =
       '<div class="empty-state">Data belum tersedia. Jalankan workflow GitHub Actions pertama kali secara manual untuk membuat data.json.</div>';
   }
+}
+
+function renderGlobal(ctx){
+  const el = document.getElementById('globalStrip');
+  const entries = Object.entries(ctx);
+  if(entries.length === 0){ el.innerHTML=''; return; }
+  el.innerHTML = entries.map(([name, v]) => {
+    const cls = v.change_pct >= 0 ? 'up' : 'down';
+    const sign = v.change_pct >= 0 ? '+' : '';
+    return `<div class="global-chip">
+      <div class="name">${name}</div>
+      <div class="num ${cls}">${sign}${v.change_pct}%</div>
+    </div>`;
+  }).join('');
+}
+
+function renderTrackRecord(tr){
+  document.getElementById('winRateVal').textContent = tr.win_rate != null ? tr.win_rate + '%' : '—';
+  document.getElementById('closedVal').textContent = tr.total_closed != null ? tr.total_closed : '—';
+}
+
+function calcLots(pick){
+  const modal = parseFloat(document.getElementById('modalInput').value) || 0;
+  const riskPct = parseFloat(document.getElementById('riskInput').value) || 0;
+  const riskAmount = modal * (riskPct / 100);
+  const riskPerShare = Math.max(pick.last_price - pick.stop_loss, 1);
+  const shares = riskAmount / riskPerShare;
+  const lots = Math.floor(shares / 100);
+  const capitalNeeded = lots * 100 * pick.last_price;
+  return {lots, capitalNeeded};
+}
+
+function updateAllLots(){
+  document.querySelectorAll('.lot-result').forEach(el => {
+    const idx = parseInt(el.dataset.idx);
+    const pick = currentPicks[idx];
+    if(!pick) return;
+    const {lots, capitalNeeded} = calcLots(pick);
+    el.textContent = lots > 0
+      ? `Saran: ${lots} lot (≈ Rp ${Math.round(capitalNeeded).toLocaleString('id-ID')})`
+      : 'Modal/risiko terlalu kecil untuk 1 lot';
+  });
 }
 
 function renderIHSG(ihsg){
@@ -167,13 +284,20 @@ function sentClass(label){
   return 'sent-net';
 }
 
+function volBadgeClass(signal){
+  if(signal.startsWith('Accumulation')) return 'vol-accum';
+  if(signal.startsWith('Distribution')) return 'vol-distrib';
+  if(signal === 'Volume tidak wajar') return 'vol-unusual';
+  return '';
+}
+
 function renderCards(picks){
   const container = document.getElementById('cardsContainer');
   if(picks.length === 0){
     container.innerHTML = '<div class="empty-state">Belum ada data saham.</div>';
     return;
   }
-  container.innerHTML = picks.map(p => `
+  container.innerHTML = picks.map((p, idx) => `
     <div class="card">
       <div class="card-top">
         <div>
@@ -211,7 +335,12 @@ function renderCards(picks){
         </div>
       </div>
 
-      <span class="sentiment-tag ${sentClass(p.sentiment.label)}">Sentimen berita: ${p.sentiment.label}</span>
+      <div style="margin-top:10px;">
+        <span class="sentiment-tag ${sentClass(p.sentiment.label)}">Sentimen: ${p.sentiment.label}</span>
+        <span class="vol-badge ${volBadgeClass(p.volume_signal.signal)}">Vol ${p.volume_signal.ratio}x — ${p.volume_signal.signal}</span>
+      </div>
+
+      <div class="lot-result" data-idx="${idx}" style="margin-top:10px; font-family:var(--mono); font-size:12px; color:var(--amber);"></div>
 
       <details>
         <summary>Lihat headline berita terkait</summary>
@@ -219,7 +348,11 @@ function renderCards(picks){
       </details>
     </div>
   `).join('');
+  updateAllLots();
 }
+
+document.getElementById('modalInput').addEventListener('input', updateAllLots);
+document.getElementById('riskInput').addEventListener('input', updateAllLots);
 
 loadData();
 </script>

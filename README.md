@@ -68,6 +68,26 @@ idx-dashboard/
     └── data.json                 # Hasil analisis (dibuat otomatis tiap hari)
 ```
 
+## Fitur Tambahan (v2)
+
+- **Konteks pasar global** — Dow Jones, Nasdaq, Nikkei 225, Hang Seng, USD/IDR,
+  Brent Crude, dan harga emas ditampilkan di bagian atas dashboard, karena arah
+  IHSG di pagi hari sering dipengaruhi sentimen global semalam.
+- **Volume signal (proxy foreign flow)** — rasio volume hari ini vs rata-rata
+  20 hari, dilabeli "Accumulation" (volume tinggi + harga naik) atau
+  "Distribution" (volume tinggi + harga turun). **Catatan jujur**: ini BUKAN
+  data net buy/sell asing yang sesungguhnya (itu perlu data berbayar dari
+  KSEI/broker seperti Stockbit Pro) — ini proxy gratis berbasis volume yang
+  polanya sering mirip.
+- **Position size calculator** — masukkan modal & risiko per transaksi (%),
+  dashboard otomatis hitung berapa lot yang aman dibeli per saham berdasarkan
+  jarak ke Stop Loss. Perhitungan ini di browser kamu sendiri, datanya tidak
+  dikirim ke mana-mana.
+- **Track record otomatis** — sistem menyimpan tiap rekomendasi ke
+  `docs/history.json`, lalu di run berikutnya mengecek apakah harga sudah
+  menyentuh TP1 (menang) atau SL (kalah) duluan. Win rate ditampilkan di
+  dashboard supaya kamu bisa evaluasi akurasi sistem dari waktu ke waktu.
+
 ## Kustomisasi
 
 - **Ubah daftar saham**: edit list `LQ45_TICKERS` di `scripts/analyze.py`
