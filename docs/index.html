@@ -149,6 +149,14 @@
     font-family:var(--mono); font-size:12px;
   }
   .badge-win{color:var(--green);} .badge-loss{color:var(--red);} .badge-open{color:var(--muted);}
+
+  .mtf-badge{
+    font-family:var(--mono); font-size:11px; padding:4px 9px; border-radius:6px;
+    margin-top:8px; display:inline-block;
+  }
+  .mtf-align{background:rgba(76,175,125,0.15); color:var(--green);}
+  .mtf-conflict{background:rgba(209,100,87,0.15); color:var(--red);}
+  .mtf-neutral{background:rgba(139,160,149,0.15); color:var(--muted);}
 </style>
 </head>
 <body>
@@ -291,6 +299,12 @@ function volBadgeClass(signal){
   return '';
 }
 
+function mtfBadgeClass(alignment){
+  if(alignment.startsWith('Selaras (Uptrend')) return 'mtf-align';
+  if(alignment.startsWith('Konflik')) return 'mtf-conflict';
+  return 'mtf-neutral';
+}
+
 function renderCards(picks){
   const container = document.getElementById('cardsContainer');
   if(picks.length === 0){
@@ -338,7 +352,10 @@ function renderCards(picks){
       <div style="margin-top:10px;">
         <span class="sentiment-tag ${sentClass(p.sentiment.label)}">Sentimen: ${p.sentiment.label}</span>
         <span class="vol-badge ${volBadgeClass(p.volume_signal.signal)}">Vol ${p.volume_signal.ratio}x — ${p.volume_signal.signal}</span>
+        ${!p.liquidity.is_liquid ? '<span class="vol-badge vol-distrib">⚠ Likuiditas Rendah</span>' : ''}
       </div>
+
+      <div class="mtf-badge ${mtfBadgeClass(p.mtf_alignment)}">📊 ${p.mtf_alignment}</div>
 
       <div class="lot-result" data-idx="${idx}" style="margin-top:10px; font-family:var(--mono); font-size:12px; color:var(--amber);"></div>
 

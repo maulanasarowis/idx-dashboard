@@ -68,8 +68,26 @@ idx-dashboard/
     └── data.json                 # Hasil analisis (dibuat otomatis tiap hari)
 ```
 
+## Fitur Tambahan (v3)
+
+- **Konfirmasi multi-timeframe** — sinyal daily sekarang dicocokkan dengan
+  trend mingguan (dihitung dari resample data harian yang sudah ada, tanpa
+  request tambahan). Kalau harian & mingguan **selaras uptrend** → confidence
+  +15. Kalau **konflik** (harian kelihatan naik tapi mingguan masih downtrend
+  besar) → confidence -15 dan ditandai badge "⚠ Konflik" di dashboard. Ini
+  mengurangi jebakan classic: saham kelihatan bagus di chart harian padahal
+  cuma technical rebound sesaat di tengah downtrend besar.
+
 ## Fitur Tambahan (v2)
 
+- **Universe saham: IDX80** (bukan LQ45 lagi) — 80 saham periode 4 Mei-31 Juli
+  2026. BEI evaluasi ulang tiap Januari/April/Juli/Oktober, jadi cek berkala
+  apakah `IDX80_TICKERS` di `scripts/analyze.py` masih sesuai daftar terbaru.
+- **Filter likuiditas** — karena IDX80 mencakup saham lebih kecil dari LQ45,
+  sistem otomatis mengecek rata-rata nilai transaksi harian. Saham dengan
+  nilai transaksi di bawah Rp 3 miliar/hari (bisa diubah di `min_value_idr`)
+  kena penalti besar ke confidence score dan ditandai "⚠ Likuiditas Rendah"
+  di dashboard, supaya kamu tidak terjebak saham yang susah dieksekusi.
 - **Konteks pasar global** — Dow Jones, Nasdaq, Nikkei 225, Hang Seng, USD/IDR,
   Brent Crude, dan harga emas ditampilkan di bagian atas dashboard, karena arah
   IHSG di pagi hari sering dipengaruhi sentimen global semalam.

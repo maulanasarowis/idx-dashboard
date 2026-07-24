@@ -28,15 +28,18 @@ import pandas as pd
 import yfinance as yf
 
 # ---------------------------------------------------------------------------
-# 1. DAFTAR SAHAM LQ45 (edit bebas sesuai kebutuhan - update berkala oleh IDX)
+# 1. DAFTAR SAHAM IDX80 (periode 4 Mei - 31 Juli 2026, evaluasi ulang oleh BEI
+#    tiap Januari/April/Juli/Oktober - cek ulang & update tiap ada rebalancing)
 # ---------------------------------------------------------------------------
-LQ45_TICKERS = [
-    "ACES", "ADRO", "AKRA", "AMMN", "AMRT", "ANTM", "ARTO", "ASII", "AUTO", "AVIA",
-    "BBCA", "BBNI", "BBRI", "BBTN", "BBYB", "BFIN", "BMRI", "BMTR", "BRIS", "BRPT",
-    "BUKA", "CPIN", "CTRA", "ESSA", "EXCL", "GGRM", "GOTO", "HRUM", "ICBP", "INCO",
-    "INDF", "INKP", "INTP", "ISAT", "ITMG", "JPFA", "JSMR", "KLBF", "MAPI", "MBMA",
-    "MDKA", "MEDC", "MIKA", "PGAS", "PGEO", "PTBA", "SIDO", "SMGR", "SRTG", "TLKM",
-    "TOWR", "UNTR", "UNVR",
+IDX80_TICKERS = [
+    "AADI", "ACES", "ADMR", "ADRO", "AKRA", "AMMN", "AMRT", "ANTM", "ARTO", "ASII",
+    "BBCA", "BBNI", "BBRI", "BBTN", "BKSL", "BMRI", "BRMS", "BRPT", "BSDE", "BUKA",
+    "BUMI", "CBDK", "CMRY", "CPIN", "CTRA", "CUAN", "DEWA", "DSNG", "ELSA", "EMTK",
+    "ENRG", "ERAA", "ESSA", "EXCL", "GGRM", "GOTO", "HEAL", "HRTA", "HRUM", "ICBP",
+    "INCO", "INDF", "INDY", "INKP", "INTP", "ISAT", "ITMG", "JPFA", "JSMR", "KIJA",
+    "KLBF", "KPIG", "MAPA", "MAPI", "MBMA", "MDKA", "MEDC", "MIKA", "MYOR", "PANI",
+    "PGAS", "PGEO", "PNLF", "PTBA", "PTRO", "PWON", "RAJA", "RATU", "SCMA", "SIDO",
+    "SMGR", "SMRA", "SSIA", "TAPG", "TLKM", "TOWR", "TPIA", "UNTR", "UNVR", "WIFI",
 ]
 
 NEWS_KEYWORDS_POS = [
@@ -97,6 +100,21 @@ def compute_atr(df: pd.DataFrame, period: int = 14) -> float:
         (low - close.shift()).abs(),
     ], axis=1).max(axis=1)
     return float(tr.rolling(period).mean().iloc[-1])
+
+
+def compute_liquidity(df: pd.DataFrame, lookback: int = 20, min_value_idr: float = 3_000_000_000):
+    """
+    Nilai transaksi harian rata-rata (Rp) = harga close x volume, dirata-ratakan
+    N hari terakhir. Saham dengan nilai transaksi terlalu kecil rawan slippage
+    besar (harga order kamu bisa jauh meleset dari harga yang terlihat di layar).
+    Default ambang: Rp 3 miliar/hari - bisa diubah sesuai selera risiko kamu.
+    """
+    window = df.tail(lookback)
+    avg_value = float((window["Close"] * window["Volume"]).mean())
+    return {
+        "avg_daily_value_idr": round(avg_value, 0),
+        "is_liquid": avg_value >= min_value_idr,
+    }
 
 
 def support_resistance(df: pd.DataFrame, lookback: int = 20):
@@ -177,6 +195,36 @@ def fetch_global_context():
     return context
 
 
+def compute_weekly_trend(df: pd.DataFrame):
+    """
+    Konfirmasi multi-timeframe: resample data harian jadi mingguan (tanpa
+    request tambahan ke Yahoo Finance), lalu cek trend & MACD di timeframe
+    mingguan. Sinyal daily yang SEARAH dengan trend mingguan jauh lebih
+    meyakinkan daripada sinyal daily doang - mengurangi jebakan "kelihatan
+    bagus di chart harian tapi sebenarnya masih downtrend besar".
+    """
+    dfw = df.resample("W").agg({
+        "Open": "first", "High": "max", "Low": "min", "Close": "last", "Volume": "sum"
+    }).dropna()
+
+    if len(dfw) < 10:
+        return {"available": False}
+
+    close_w = dfw["Close"]
+    ma8_w = close_w.rolling(8).mean()
+    macd_line_w, signal_line_w, _ = compute_macd(close_w)
+
+    trend_up = bool(close_w.iloc[-1] > ma8_w.iloc[-1]) if not math.isnan(ma8_w.iloc[-1]) else None
+    macd_bullish = bool(macd_line_w > signal_line_w)
+
+    return {
+        "available": True,
+        "trend_up": trend_up,
+        "macd_bullish": macd_bullish,
+        "ma8": round(float(ma8_w.iloc[-1]), 0) if not math.isnan(ma8_w.iloc[-1]) else None,
+    }
+
+
 # ---------------------------------------------------------------------------
 # TRACK RECORD - evaluasi rekomendasi kemarin, kena TP atau SL?
 # ---------------------------------------------------------------------------
@@ -241,6 +289,8 @@ def build_recommendation(ticker: str, df: pd.DataFrame, sentiment: dict):
     atr = compute_atr(df)
     support, resistance = support_resistance(df)
     volume_signal = compute_volume_signal(df)
+    liquidity = compute_liquidity(df)
+    weekly = compute_weekly_trend(df)
 
     trend_up = last_price > ma20 > ma50
     macd_bullish = macd_line > signal_line
@@ -261,6 +311,24 @@ def build_recommendation(ticker: str, df: pd.DataFrame, sentiment: dict):
 
     rrr = round((tp1 - last_price) / risk, 2) if risk > 0 else 0
 
+    # --- Konfirmasi multi-timeframe (harian vs mingguan) ---
+    if weekly["available"] and weekly["trend_up"] is not None:
+        if trend_up and weekly["trend_up"]:
+            mtf_alignment = "Selaras (Uptrend Harian + Mingguan)"
+            mtf_bonus = 15
+        elif (not trend_up) and (not weekly["trend_up"]):
+            mtf_alignment = "Selaras (Downtrend Harian + Mingguan)"
+            mtf_bonus = 0
+        elif trend_up and not weekly["trend_up"]:
+            mtf_alignment = "Konflik (Naik harian, tapi mingguan masih downtrend)"
+            mtf_bonus = -15
+        else:
+            mtf_alignment = "Konflik (Turun harian, tapi mingguan uptrend)"
+            mtf_bonus = -5
+    else:
+        mtf_alignment = "Data mingguan belum cukup"
+        mtf_bonus = 0
+
     # --- Confidence score sederhana (0-100), gabungan beberapa sinyal ---
     score = 50
     score += 15 if trend_up else -10
@@ -269,6 +337,8 @@ def build_recommendation(ticker: str, df: pd.DataFrame, sentiment: dict):
     score += 10 if near_support else 0
     score += 10 if sentiment["label"] == "Positif" else (-10 if sentiment["label"] == "Negatif" else 0)
     score += 8 if volume_signal["signal"].startswith("Accumulation") else (-8 if volume_signal["signal"].startswith("Distribution") else 0)
+    score += 0 if liquidity["is_liquid"] else -25  # penalti besar untuk saham tipis/tidak likuid
+    score += mtf_bonus
     confidence = int(max(0, min(100, score)))
 
     return {
@@ -288,6 +358,9 @@ def build_recommendation(ticker: str, df: pd.DataFrame, sentiment: dict):
         "trend_up": trend_up,
         "sentiment": sentiment,
         "volume_signal": volume_signal,
+        "liquidity": liquidity,
+        "weekly_trend": weekly,
+        "mtf_alignment": mtf_alignment,
         "_generated_at": datetime.now(timezone.utc).isoformat(),
     }
 
@@ -308,7 +381,7 @@ def main():
     errors = []
     price_data = {}
 
-    for ticker in LQ45_TICKERS:
+    for ticker in IDX80_TICKERS:
         yf_symbol = f"{ticker}.JK"
         try:
             df = yf.download(yf_symbol, period="6mo", interval="1d", progress=False, auto_adjust=True)
