@@ -3,9 +3,13 @@
   "alerted": {
     "AMMN": [],
     "ANTM": [],
-    "BMRI": [],
+    "BMRI": [
+      "buy_zone"
+    ],
     "INDF": [],
-    "MDKA": [],
+    "MDKA": [
+      "buy_zone"
+    ],
     "RAJA": [],
     "UNTR": [],
     "AADI": [],
