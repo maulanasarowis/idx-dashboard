@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IDX Screener — Ringkasan Pagi</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500&display=swap');
+
+  :root{
+    --bg: #0d1210;
+    --panel: #141b18;
+    --panel-2: #1a2320;
+    --line: #26332e;
+    --ink: #e8ede9;
+    --muted: #8ba095;
+    --amber: #d9a441;
+    --green: #4caf7d;
+    --red: #d16457;
+    --mono: 'IBM Plex Mono', monospace;
+    --display: 'Space Grotesk', sans-serif;
+    --body: 'Inter', sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:var(--body); padding-bottom:60px;
+  }
+  header{
+    padding:28px 20px 20px; border-bottom:1px solid var(--line);
+    display:flex; flex-direction:column; gap:6px;
+  }
+  .eyebrow{
+    font-family:var(--mono); font-size:11px; letter-spacing:0.12em;
+    text-transform:uppercase; color:var(--amber);
+  }
+  h1{
+    font-family:var(--display); font-size:26px; margin:0; font-weight:700;
+    letter-spacing:-0.01em;
+  }
+  .subtitle{color:var(--muted); font-size:13px; font-family:var(--mono);}
+  .ihsg-bar{
+    margin-top:10px; padding:12px 16px; background:var(--panel);
+    border:1px solid var(--line); border-radius:10px;
+    display:flex; justify-content:space-between; align-items:center;
+  }
+  .ihsg-bar .val{font-family:var(--mono); font-size:20px; font-weight:600;}
+  .up{color:var(--green);} .down{color:var(--red);}
+
+  main{padding:20px;}
+  .section-label{
+    font-family:var(--mono); font-size:11px; text-transform:uppercase;
+    letter-spacing:0.1em; color:var(--muted); margin:24px 0 10px;
+  }
+
+  .card{
+    background:var(--panel); border:1px solid var(--line);
+    border-radius:12px; padding:16px; margin-bottom:12px;
+  }
+  .card-top{display:flex; justify-content:space-between; align-items:flex-start;}
+  .ticker{font-family:var(--display); font-size:19px; font-weight:700;}
+  .price{font-family:var(--mono); color:var(--muted); font-size:13px;}
+  .confidence{
+    font-family:var(--mono); font-size:13px; font-weight:600;
+    padding:4px 10px; border-radius:20px; white-space:nowrap;
+  }
+  .conf-high{background:rgba(76,175,125,0.15); color:var(--green);}
+  .conf-mid{background:rgba(217,164,65,0.15); color:var(--amber);}
+  .conf-low{background:rgba(209,100,87,0.15); color:var(--red);}
+
+  .grid-metrics{
+    display:grid; grid-template-columns:1fr 1fr; gap:10px;
+    margin-top:14px; font-family:var(--mono); font-size:13px;
+  }
+  .metric{
+    background:var(--panel-2); border-radius:8px; padding:8px 10px;
+  }
+  .metric .label{color:var(--muted); font-size:10px; text-transform:uppercase; letter-spacing:0.05em; display:block; margin-bottom:3px;}
+  .metric .value{font-weight:600;}
+  .tp-row{display:flex; gap:6px; margin-top:2px; flex-wrap:wrap;}
+  .tp-chip{background:rgba(76,175,125,0.12); color:var(--green); padding:2px 8px; border-radius:6px; font-size:12px;}
+
+  .sentiment-tag{
+    font-family:var(--mono); font-size:11px; padding:3px 8px; border-radius:6px;
+    margin-top:10px; display:inline-block;
+  }
+  .sent-pos{background:rgba(76,175,125,0.15); color:var(--green);}
+  .sent-neg{background:rgba(209,100,87,0.15); color:var(--red);}
+  .sent-net{background:rgba(139,160,149,0.15); color:var(--muted);}
+
+  details{margin-top:10px;}
+  summary{font-family:var(--mono); font-size:11px; color:var(--muted); cursor:pointer;}
+  .headline{font-size:12px; color:var(--muted); padding:4px 0; border-top:1px solid var(--line);}
+
+  .disclaimer{
+    margin:30px 20px 0; padding:14px 16px; border:1px dashed var(--line);
+    border-radius:10px; color:var(--muted); font-size:12px; line-height:1.6;
+  }
+  .empty-state{
+    text-align:center; padding:60px 20px; color:var(--muted); font-family:var(--mono); font-size:13px;
+  }
+  .refresh-time{font-family:var(--mono); font-size:11px; color:var(--muted); text-align:center; padding:20px;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">IDX Daily Screener</div>
+  <h1>Ringkasan Pagi Ini</h1>
+  <div class="subtitle" id="dateLabel">Memuat...</div>
+  <div class="ihsg-bar">
+    <span>IHSG</span>
+    <span class="val" id="ihsgVal">—</span>
+  </div>
+</header>
+
+<main>
+  <div class="section-label">Top Picks — Confidence Tertinggi</div>
+  <div id="cardsContainer"><div class="empty-state">Memuat data...</div></div>
+</main>
+
+<div class="disclaimer">
+  Catatan: Ini adalah alat bantu riset otomatis berbasis indikator teknikal dan sentimen berita sederhana,
+  bukan rekomendasi finansial resmi. Selalu lakukan riset tambahan dan kelola risiko sendiri sebelum
+  mengambil keputusan transaksi.
+</div>
+<div class="refresh-time" id="refreshLabel"></div>
+
+<script>
+async function loadData(){
+  try{
+    const res = await fetch('data.json?t=' + Date.now());
+    const data = await res.json();
+    renderIHSG(data.ihsg);
+    renderCards(data.top_picks || []);
+    const dt = new Date(data.generated_at);
+    document.getElementById('dateLabel').textContent =
+      dt.toLocaleDateString('id-ID', {weekday:'long', day:'numeric', month:'long', year:'numeric'});
+    document.getElementById('refreshLabel').textContent =
+      'Terakhir diperbarui: ' + dt.toLocaleString('id-ID', {timeZone:'Asia/Jakarta'}) + ' WIB';
+  }catch(e){
+    document.getElementById('cardsContainer').innerHTML =
+      '<div class="empty-state">Data belum tersedia. Jalankan workflow GitHub Actions pertama kali secara manual untuk membuat data.json.</div>';
+  }
+}
+
+function renderIHSG(ihsg){
+  if(!ihsg || ihsg.last == null){
+    document.getElementById('ihsgVal').textContent = '—';
+    return;
+  }
+  const cls = ihsg.change_pct >= 0 ? 'up' : 'down';
+  const sign = ihsg.change_pct >= 0 ? '+' : '';
+  document.getElementById('ihsgVal').innerHTML =
+    ihsg.last.toLocaleString('id-ID', {maximumFractionDigits:0}) +
+    ` <span class="${cls}">(${sign}${ihsg.change_pct}%)</span>`;
+}
+
+function confClass(c){
+  if(c >= 70) return 'conf-high';
+  if(c >= 50) return 'conf-mid';
+  return 'conf-low';
+}
+function sentClass(label){
+  if(label === 'Positif') return 'sent-pos';
+  if(label === 'Negatif') return 'sent-neg';
+  return 'sent-net';
+}
+
+function renderCards(picks){
+  const container = document.getElementById('cardsContainer');
+  if(picks.length === 0){
+    container.innerHTML = '<div class="empty-state">Belum ada data saham.</div>';
+    return;
+  }
+  container.innerHTML = picks.map(p => `
+    <div class="card">
+      <div class="card-top">
+        <div>
+          <div class="ticker">${p.ticker}</div>
+          <div class="price">Rp ${p.last_price.toLocaleString('id-ID', {maximumFractionDigits:0})}</div>
+        </div>
+        <div class="confidence ${confClass(p.confidence)}">${p.confidence}/100</div>
+      </div>
+
+      <div class="grid-metrics">
+        <div class="metric">
+          <span class="label">Buy Area</span>
+          <span class="value">${p.buy_area[0].toLocaleString('id-ID')} – ${p.buy_area[1].toLocaleString('id-ID')}</span>
+        </div>
+        <div class="metric">
+          <span class="label">Stop Loss</span>
+          <span class="value">${p.stop_loss.toLocaleString('id-ID')}</span>
+        </div>
+        <div class="metric">
+          <span class="label">Risk/Reward</span>
+          <span class="value">1 : ${p.rrr}</span>
+        </div>
+        <div class="metric">
+          <span class="label">RSI (14)</span>
+          <span class="value">${p.rsi}</span>
+        </div>
+      </div>
+
+      <div class="metric" style="margin-top:10px;">
+        <span class="label">Target Profit</span>
+        <div class="tp-row">
+          <span class="tp-chip">TP1 ${p.tp[0].toLocaleString('id-ID')}</span>
+          <span class="tp-chip">TP2 ${p.tp[1].toLocaleString('id-ID')}</span>
+          <span class="tp-chip">TP3 ${p.tp[2].toLocaleString('id-ID')}</span>
+        </div>
+      </div>
+
+      <span class="sentiment-tag ${sentClass(p.sentiment.label)}">Sentimen berita: ${p.sentiment.label}</span>
+
+      <details>
+        <summary>Lihat headline berita terkait</summary>
+        ${(p.sentiment.headlines || []).map(h => `<div class="headline">${h}</div>`).join('') || '<div class="headline">Tidak ada berita ditemukan.</div>'}
+      </details>
+    </div>
+  `).join('');
+}
+
+loadData();
+</script>
+</body>
+</html>
