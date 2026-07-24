@@ -179,13 +179,32 @@ def fetch_news_sentiment(ticker: str, company_query: str):
     return {"label": label, "score": score, "headlines": titles[:5]}
 
 
+def download_with_retry(symbol: str, period: str, interval: str, attempts: int = 3, delay: float = 2.0):
+    """
+    Yahoo Finance kadang rate-limit request dari server GitHub Actions,
+    terutama setelah banyak request beruntun. Retry dengan jeda supaya
+    lebih tahan terhadap gangguan sementara semacam itu.
+    """
+    last_error = None
+    for i in range(attempts):
+        try:
+            df = yf.download(symbol, period=period, interval=interval, progress=False, auto_adjust=True)
+            if not df.empty:
+                return df, None
+            last_error = "data kosong"
+        except Exception as e:
+            last_error = str(e)
+        time.sleep(delay)
+    return pd.DataFrame(), last_error
+
+
 def fetch_global_context():
     context = {}
     for name, symbol in GLOBAL_TICKERS.items():
+        df, err = download_with_retry(symbol, period="5d", interval="1d", attempts=2, delay=1.5)
+        if df.empty or len(df) < 2:
+            continue
         try:
-            df = yf.download(symbol, period="5d", interval="1d", progress=False, auto_adjust=True)
-            if df.empty or len(df) < 2:
-                continue
             last = float(df["Close"].iloc[-1])
             prev = float(df["Close"].iloc[-2])
             change_pct = round((last - prev) / prev * 100, 2)
@@ -381,6 +400,22 @@ def main():
     errors = []
     price_data = {}
 
+    # --- Ambil IHSG & konteks global DULUAN, sebelum request beruntun ke 80
+    #     saham individual, supaya belum kena rate-limit Yahoo Finance ---
+    ihsg_last, ihsg_change, ihsg_error = None, None, None
+    ihsg_df, ihsg_err = download_with_retry("^JKSE", period="1mo", interval="1d")
+    if not ihsg_df.empty and len(ihsg_df) >= 2:
+        try:
+            ihsg_last = float(ihsg_df["Close"].iloc[-1])
+            ihsg_prev = float(ihsg_df["Close"].iloc[-2])
+            ihsg_change = round((ihsg_last - ihsg_prev) / ihsg_prev * 100, 2)
+        except Exception as e:
+            ihsg_error = str(e)
+    else:
+        ihsg_error = ihsg_err or "gagal mengambil data IHSG"
+
+    global_context = fetch_global_context()
+
     for ticker in IDX80_TICKERS:
         yf_symbol = f"{ticker}.JK"
         try:
@@ -401,18 +436,6 @@ def main():
             continue
 
     results.sort(key=lambda r: r["confidence"], reverse=True)
-
-    # --- Ringkasan pasar dari IHSG ---
-    try:
-        ihsg = yf.download("^JKSE", period="1mo", interval="1d", progress=False, auto_adjust=True)
-        ihsg_last = float(ihsg["Close"].iloc[-1])
-        ihsg_prev = float(ihsg["Close"].iloc[-2])
-        ihsg_change = round((ihsg_last - ihsg_prev) / ihsg_prev * 100, 2)
-    except Exception:
-        ihsg_last, ihsg_change = None, None
-
-    # --- Konteks pasar global ---
-    global_context = fetch_global_context()
 
     # --- Track record: evaluasi rekomendasi run sebelumnya ---
     new_track_records = []
@@ -446,7 +469,7 @@ def main():
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "ihsg": {"last": ihsg_last, "change_pct": ihsg_change},
+        "ihsg": {"last": ihsg_last, "change_pct": ihsg_change, "error": ihsg_error},
         "global_context": global_context,
         "top_picks": results[:10],
         "all_results": results,

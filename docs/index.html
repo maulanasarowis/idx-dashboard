@@ -271,7 +271,9 @@ function updateAllLots(){
 
 function renderIHSG(ihsg){
   if(!ihsg || ihsg.last == null){
-    document.getElementById('ihsgVal').textContent = '—';
+    document.getElementById('ihsgVal').innerHTML = ihsg && ihsg.error
+      ? `<span class="down" style="font-size:11px;">Gagal: ${ihsg.error}</span>`
+      : '—';
     return;
   }
   const cls = ihsg.change_pct >= 0 ? 'up' : 'down';

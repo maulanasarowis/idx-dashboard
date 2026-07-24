@@ -1,0 +1,40 @@
+name: Intraday Alert
+
+on:
+  schedule:
+    # Tiap 30 menit, jam 2:00-8:59 UTC = 09:00-15:59 WIB, Senin-Jumat
+    # (mencakup sesi 1 & sesi 2 perdagangan BEI, dengan buffer)
+    - cron: "0,30 2-8 * * 1-5"
+  workflow_dispatch: {}   # tombol "Run workflow" manual untuk testing
+
+permissions:
+  contents: write
+
+jobs:
+  check-alerts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Cek harga & kirim alert kalau perlu
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/intraday_alert.py
+
+      - name: Commit state alert
+        run: |
+          git config user.name "idx-screener-bot"
+          git config user.email "actions@github.com"
+          git add docs/alert_state.json
+          git diff --staged --quiet || git commit -m "Update status alert $(date -u +'%Y-%m-%d %H:%M')"
+          git push

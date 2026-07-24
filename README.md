@@ -68,6 +68,48 @@ idx-dashboard/
     └── data.json                 # Hasil analisis (dibuat otomatis tiap hari)
 ```
 
+## Fitur Tambahan (v4) — Alert Intraday Telegram
+
+Sistem sekarang cek harga tiap 30 menit **selama jam bursa** (09:00-15:59 WIB,
+Senin-Jumat) dan kirim notifikasi Telegram otomatis kalau:
+- 🟢 Harga masuk **Buy Area**
+- 🔴 Harga menyentuh **Stop Loss**
+- 🎯 Harga mencapai **Target Profit 1**
+
+Tiap kondisi cuma dikirim **sekali per hari per saham** (tidak spam berulang).
+
+### Cara Setup Telegram Bot (±5 menit, gratis)
+
+1. **Buat bot**: buka Telegram, cari **@BotFather**, kirim `/newbot`, ikuti
+   instruksinya (kasih nama bebas). Nanti kamu dapat **token bot** seperti
+   `123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ` — simpan ini.
+
+2. **Dapatkan Chat ID kamu**: cari **@userinfobot** di Telegram, klik Start,
+   dia akan balas dengan Chat ID kamu (angka, misal `987654321`).
+
+3. **Mulai chat dengan bot kamu sendiri**: cari nama bot yang kamu buat tadi
+   di Telegram, klik **Start** (wajib, supaya bot bisa kirim pesan ke kamu).
+
+4. **Masukkan ke GitHub Secrets** (supaya token tidak ketahuan publik):
+   - Buka repo → **Settings** → **Secrets and variables** → **Actions**
+   - Klik **New repository secret**, buat 2 secret:
+     - Name: `TELEGRAM_BOT_TOKEN`, Value: token dari langkah 1
+     - Name: `TELEGRAM_CHAT_ID`, Value: chat ID dari langkah 2
+
+5. **Test manual**: tab **Actions** → workflow **"Intraday Alert"** → **Run
+   workflow**. Kalau ada saham di watchlist yang masuk kondisi alert, kamu
+   akan dapat pesan di Telegram dalam ±1 menit.
+
+### Catatan
+
+- Alert jalan otomatis mulai besok tanpa perlu setting apa-apa lagi.
+- GitHub Actions jadwal cron tidak selalu presisi ke menit (kadang telat
+  beberapa menit karena antrian server gratis) — cukup akurat untuk swing
+  trading, tapi jangan andalkan untuk scalping detik-demi-detik.
+- Watchlist yang dipantau = top picks dari hasil analisis pagi (`data.json`).
+  Kalau mau pantau saham lain di luar itu, edit `docs/data.json` manual atau
+  minta saya sesuaikan skripnya.
+
 ## Fitur Tambahan (v3)
 
 - **Konfirmasi multi-timeframe** — sinyal daily sekarang dicocokkan dengan
