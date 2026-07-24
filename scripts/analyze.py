@@ -421,7 +421,8 @@ def main():
 
     try:
         with open(HISTORY_PATH, "r", encoding="utf-8") as f:
-            history = json.load(f)
+            history_raw = json.load(f)
+            history = history_raw.get("records", []) if isinstance(history_raw, dict) else history_raw
     except Exception:
         history = []
 
