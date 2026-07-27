@@ -1,21 +1,21 @@
 {
-  "date": "2026-07-24",
+  "date": "2026-07-27",
   "alerted": {
-    "AMMN": [],
-    "ANTM": [],
-    "BMRI": [
+    "ACES": [
       "buy_zone"
     ],
+    "ANTM": [
+      "buy_zone"
+    ],
+    "ARTO": [],
+    "CMRY": [],
+    "ELSA": [],
+    "ICBP": [],
     "INDF": [],
-    "MDKA": [
+    "INTP": [],
+    "KIJA": [
       "buy_zone"
     ],
-    "RAJA": [],
-    "UNTR": [],
-    "AADI": [],
-    "ACES": [],
-    "ADRO": [],
-    "MIKA": [],
-    "AKRA": []
+    "MIKA": []
   }
 }
