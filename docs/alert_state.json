@@ -8,7 +8,9 @@
       "buy_zone"
     ],
     "PGEO": [],
-    "PWON": [],
+    "PWON": [
+      "buy_zone"
+    ],
     "SSIA": [
       "buy_zone"
     ],
