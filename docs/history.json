@@ -1,5 +1,86 @@
 {
-  "records": [],
+  "records": [
+    {
+      "ticker": "ACES",
+      "date": "2026-07-27",
+      "confidence": 100,
+      "buy_price": 348.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ANTM",
+      "date": "2026-07-27",
+      "confidence": 100,
+      "buy_price": 2960.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ARTO",
+      "date": "2026-07-27",
+      "confidence": 100,
+      "buy_price": 1230.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CMRY",
+      "date": "2026-07-27",
+      "confidence": 100,
+      "buy_price": 4710.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ELSA",
+      "date": "2026-07-27",
+      "confidence": 100,
+      "buy_price": 660.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ICBP",
+      "date": "2026-07-27",
+      "confidence": 100,
+      "buy_price": 7000.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INDF",
+      "date": "2026-07-27",
+      "confidence": 100,
+      "buy_price": 6850.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INTP",
+      "date": "2026-07-27",
+      "confidence": 100,
+      "buy_price": 4590.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "KIJA",
+      "date": "2026-07-27",
+      "confidence": 100,
+      "buy_price": 128.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "MIKA",
+      "date": "2026-07-27",
+      "confidence": 100,
+      "buy_price": 1760.0,
+      "outcome": "Open",
+      "exit_price": null
+    }
+  ],
   "win_rate": null,
   "total_closed": 0
 }
