@@ -9,7 +9,9 @@
     ],
     "PGEO": [],
     "PWON": [],
-    "SSIA": [],
+    "SSIA": [
+      "buy_zone"
+    ],
     "AADI": [],
     "ADRO": [],
     "AKRA": []
