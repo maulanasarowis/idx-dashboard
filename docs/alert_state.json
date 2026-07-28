@@ -1,21 +1,17 @@
 {
-  "date": "2026-07-27",
+  "date": "2026-07-28",
   "alerted": {
-    "ACES": [
-      "buy_zone"
-    ],
-    "ANTM": [
-      "buy_zone"
-    ],
-    "ARTO": [],
     "CMRY": [],
+    "CUAN": [],
     "ELSA": [],
-    "ICBP": [],
-    "INDF": [],
-    "INTP": [],
-    "KIJA": [
+    "INCO": [
       "buy_zone"
     ],
-    "MIKA": []
+    "PGEO": [],
+    "PWON": [],
+    "SSIA": [],
+    "AADI": [],
+    "ADRO": [],
+    "AKRA": []
   }
 }
