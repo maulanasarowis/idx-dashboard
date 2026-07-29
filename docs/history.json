@@ -79,6 +79,86 @@
       "buy_price": 1760.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "CMRY",
+      "date": "2026-07-28",
+      "confidence": 100,
+      "buy_price": 4690.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CUAN",
+      "date": "2026-07-28",
+      "confidence": 100,
+      "buy_price": 685.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ELSA",
+      "date": "2026-07-28",
+      "confidence": 100,
+      "buy_price": 675.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INCO",
+      "date": "2026-07-28",
+      "confidence": 100,
+      "buy_price": 4760.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PGEO",
+      "date": "2026-07-28",
+      "confidence": 100,
+      "buy_price": 1015.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PWON",
+      "date": "2026-07-28",
+      "confidence": 100,
+      "buy_price": 262.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "SSIA",
+      "date": "2026-07-28",
+      "confidence": 100,
+      "buy_price": 1605.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AADI",
+      "date": "2026-07-28",
+      "confidence": 95,
+      "buy_price": 8925.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADRO",
+      "date": "2026-07-28",
+      "confidence": 95,
+      "buy_price": 2510.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AKRA",
+      "date": "2026-07-28",
+      "confidence": 95,
+      "buy_price": 1440.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": null,
