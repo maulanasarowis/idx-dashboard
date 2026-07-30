@@ -3,10 +3,12 @@ name: Intraday Alert
 on:
   schedule:
     # Tiap 30 menit, jam 2:00-8:30 UTC = 09:00-15:30 WIB, Senin-Jumat
-    - cron: "0,30 2-8 * * 1-5"
+    # - cron: "0,30 2-8 * * 1-5"
+    - cron: "7,37 2-8 * * 1-5"   # ganti 0,30 -> 7,37
     # Trigger tambahan jam 8:45 UTC = 15:45 WIB, biar dekat dengan jam tutup
     # sesi 2 BEI (15:49 WIB) tetap ter-cover
-    - cron: "45 8 * * 1-5"
+    # - cron: "45 8 * * 1-5"
+    - cron: "52 8 * * 1-5"        # ganti 45 -> 52
   workflow_dispatch: {}   # tombol "Run workflow" manual untuk testing
 
 permissions:
