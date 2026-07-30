@@ -3,7 +3,8 @@ name: Daily IDX Screener
 on:
   schedule:
     # 01:00 UTC = 08:00 WIB (Senin-Jumat, hari bursa buka)
-    - cron: "0 1 * * 1-5"
+    # - cron: "0 1 * * 1-5"
+    - cron: "17 0 * * 1-5"   # 00:17 UTC ≈ 07:17 WIB, kasih buffer sebelum jam 8
   workflow_dispatch: {}   # tombol "Run workflow" manual di tab Actions
 
 permissions:
