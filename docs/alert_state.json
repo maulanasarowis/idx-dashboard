@@ -1,19 +1,17 @@
 {
-  "date": "2026-07-30",
+  "date": "2026-07-31",
   "alerted": {
-    "ASII": [
-      "buy_zone"
-    ],
-    "CMRY": [],
+    "ADMR": [],
+    "AMMN": [],
+    "ASII": [],
+    "BBRI": [],
+    "BKSL": [],
+    "BRPT": [],
+    "BUMI": [],
+    "CTRA": [],
     "CUAN": [
       "buy_zone"
     ],
-    "ELSA": [],
-    "HRUM": [],
-    "INDF": [],
-    "MEDC": [],
-    "TPIA": [],
-    "AADI": [],
-    "AKRA": []
+    "ELSA": []
   }
 }
