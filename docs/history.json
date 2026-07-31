@@ -159,6 +159,86 @@
       "buy_price": 1440.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "ASII",
+      "date": "2026-07-30",
+      "confidence": 100,
+      "buy_price": 4960.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CMRY",
+      "date": "2026-07-30",
+      "confidence": 100,
+      "buy_price": 4680.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CUAN",
+      "date": "2026-07-30",
+      "confidence": 100,
+      "buy_price": 660.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ELSA",
+      "date": "2026-07-30",
+      "confidence": 100,
+      "buy_price": 670.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "HRUM",
+      "date": "2026-07-30",
+      "confidence": 100,
+      "buy_price": 795.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INDF",
+      "date": "2026-07-30",
+      "confidence": 100,
+      "buy_price": 6875.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "MEDC",
+      "date": "2026-07-30",
+      "confidence": 100,
+      "buy_price": 1235.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "TPIA",
+      "date": "2026-07-30",
+      "confidence": 100,
+      "buy_price": 2200.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AADI",
+      "date": "2026-07-30",
+      "confidence": 95,
+      "buy_price": 8850.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AKRA",
+      "date": "2026-07-30",
+      "confidence": 95,
+      "buy_price": 1465.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": null,
