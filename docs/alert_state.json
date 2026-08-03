@@ -8,10 +8,14 @@
     "BBNI": [
       "buy_zone"
     ],
-    "BKSL": [],
+    "BKSL": [
+      "buy_zone"
+    ],
     "BUMI": [],
     "CTRA": [],
-    "CUAN": [],
+    "CUAN": [
+      "buy_zone"
+    ],
     "ELSA": [],
     "ESSA": [],
     "INCO": []
