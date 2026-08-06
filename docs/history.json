@@ -319,6 +319,86 @@
       "buy_price": 620.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "ADMR",
+      "date": "2026-08-05",
+      "confidence": 100,
+      "buy_price": 1615.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ASII",
+      "date": "2026-08-05",
+      "confidence": 100,
+      "buy_price": 5075.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBCA",
+      "date": "2026-08-05",
+      "confidence": 100,
+      "buy_price": 6475.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBNI",
+      "date": "2026-08-05",
+      "confidence": 100,
+      "buy_price": 3630.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBTN",
+      "date": "2026-08-05",
+      "confidence": 100,
+      "buy_price": 1230.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BKSL",
+      "date": "2026-08-05",
+      "confidence": 100,
+      "buy_price": 71.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BRMS",
+      "date": "2026-08-05",
+      "confidence": 100,
+      "buy_price": 600.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CMRY",
+      "date": "2026-08-05",
+      "confidence": 100,
+      "buy_price": 4790.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CUAN",
+      "date": "2026-08-05",
+      "confidence": 100,
+      "buy_price": 680.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ELSA",
+      "date": "2026-08-05",
+      "confidence": 100,
+      "buy_price": 685.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": null,
