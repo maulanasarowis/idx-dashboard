@@ -1,21 +1,17 @@
 {
-  "date": "2026-08-05",
+  "date": "2026-08-06",
   "alerted": {
+    "AADI": [],
     "ADMR": [],
-    "ASII": [
-      "buy_zone"
-    ],
-    "BBCA": [],
+    "AMMN": [],
+    "AMRT": [],
+    "ANTM": [],
+    "ASII": [],
     "BBNI": [],
+    "BBRI": [],
     "BBTN": [
       "buy_zone"
     ],
-    "BKSL": [],
-    "BRMS": [],
-    "CMRY": [],
-    "CUAN": [
-      "buy_zone"
-    ],
-    "ELSA": []
+    "BKSL": []
   }
 }
