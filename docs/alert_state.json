@@ -13,7 +13,9 @@
     "BBRI": [],
     "BKSL": [],
     "BRMS": [],
-    "BRPT": [],
+    "BRPT": [
+      "buy_zone"
+    ],
     "BUMI": []
   }
 }
