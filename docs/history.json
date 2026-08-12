@@ -559,6 +559,86 @@
       "buy_price": 630.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "ACES",
+      "date": "2026-08-11",
+      "confidence": 100,
+      "buy_price": 356.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADMR",
+      "date": "2026-08-11",
+      "confidence": 100,
+      "buy_price": 1585.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AMMN",
+      "date": "2026-08-11",
+      "confidence": 100,
+      "buy_price": 4330.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ANTM",
+      "date": "2026-08-11",
+      "confidence": 100,
+      "buy_price": 3160.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBNI",
+      "date": "2026-08-11",
+      "confidence": 100,
+      "buy_price": 3610.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBRI",
+      "date": "2026-08-11",
+      "confidence": 100,
+      "buy_price": 3080.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BKSL",
+      "date": "2026-08-11",
+      "confidence": 100,
+      "buy_price": 73.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BRMS",
+      "date": "2026-08-11",
+      "confidence": 100,
+      "buy_price": 605.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BRPT",
+      "date": "2026-08-11",
+      "confidence": 100,
+      "buy_price": 1825.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BUMI",
+      "date": "2026-08-11",
+      "confidence": 100,
+      "buy_price": 183.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": null,
