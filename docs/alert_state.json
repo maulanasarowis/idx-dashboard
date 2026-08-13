@@ -5,7 +5,9 @@
       "buy_zone"
     ],
     "ADMR": [],
-    "ANTM": [],
+    "ANTM": [
+      "buy_zone"
+    ],
     "BBNI": [
       "buy_zone"
     ],
