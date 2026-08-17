@@ -1,19 +1,4 @@
 {
-  "date": "2026-08-14",
-  "alerted": {
-    "AADI": [],
-    "ADMR": [],
-    "BBNI": [
-      "buy_zone"
-    ],
-    "BKSL": [],
-    "BRMS": [],
-    "BUMI": [],
-    "CTRA": [],
-    "HRTA": [],
-    "PTRO": [],
-    "UNVR": [
-      "buy_zone"
-    ]
-  }
+  "date": "2026-08-17",
+  "alerted": {}
 }
