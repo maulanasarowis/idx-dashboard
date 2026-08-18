@@ -3,7 +3,9 @@
   "alerted": {
     "ADMR": [],
     "ANTM": [],
-    "BBNI": [],
+    "BBNI": [
+      "buy_zone"
+    ],
     "BKSL": [],
     "BRMS": [],
     "BUMI": [],
