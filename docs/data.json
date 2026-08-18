@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T01:57:12.169234+00:00",
+  "generated_at": "2026-08-18T01:53:16.552887+00:00",
   "ihsg": {
     "last": 6401.88818359375,
     "change_pct": 1.59,
@@ -7,32 +7,32 @@
   },
   "global_context": {
     "Dow Jones": {
-      "last": 53732.41,
-      "change_pct": -0.2
+      "last": 53459.78,
+      "change_pct": -0.51
     },
     "Nasdaq": {
-      "last": 26729.16,
-      "change_pct": -0.28
+      "last": 26644.91,
+      "change_pct": -0.32
     },
     "Nikkei 225": {
-      "last": 68722.28,
-      "change_pct": 0.01
+      "last": 68730.8,
+      "change_pct": 0.02
     },
     "Hang Seng": {
-      "last": 25431.9,
-      "change_pct": 1.25
+      "last": 25416.51,
+      "change_pct": 1.19
     },
     "USD/IDR": {
-      "last": 17831.0,
-      "change_pct": -0.18
+      "last": 17830.0,
+      "change_pct": 0.0
     },
     "Brent Crude": {
-      "last": 89.17,
-      "change_pct": 0.73
+      "last": 91.3,
+      "change_pct": 3.14
     },
     "Emas (Gold)": {
-      "last": 4457.5,
-      "change_pct": 1.76
+      "last": 4476.9,
+      "change_pct": 2.2
     }
   },
   "top_picks": [
@@ -60,12 +60,12 @@
       "trend_up": true,
       "sentiment": {
         "label": "Positif",
-        "score": 0.6,
+        "score": 0.67,
         "headlines": [
           "Rekomendasi Saham Ajaib Sekuritas Hari Ini (BRIS, MYOR, ADMR) - Ajaib",
-          "5 Saham Kompas100 Paling Cuan Akhir Pekan, ADMR Naik 7,01 Persen - Kompas.com",
+          "Saham Grup ADRO Masih Diakumulasi, Tiga Emiten Ini Berpeluang Lanjut Naik - Herald ID",
+          "5 Saham Kompas100 Paling Cuan Akhir Pekan, ADMR Naik 7,01 Persen - money.kompas.com",
           "Rekomendasi Saham Tim Analis Bareksa Hari Ini: CBDK, SGER & ADMR, IHSG Berpeluang Menguat - Bareksa.com",
-          "IHSG Makin Kinclong, Serbu Saham BFIN, TINS, ARCI, PSAB, dan ADMR - Emitennews.com",
           "IHSG Menguat 1,59% ke 6.401 pada Jumat (14/8/2026), ADMR, EXCL, INCO Top Gainers LQ45 - kontan.co.id"
         ]
       },
@@ -85,7 +85,7 @@
         "ma8": 1511.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:02.844265+00:00"
+      "_generated_at": "2026-08-18T01:51:38.091940+00:00"
     },
     {
       "ticker": "ANTM",
@@ -110,14 +110,14 @@
       "confidence": 100,
       "trend_up": true,
       "sentiment": {
-        "label": "Netral",
-        "score": 0,
+        "label": "Positif",
+        "score": 1.0,
         "headlines": [
-          "Asing Net Sell Rp377 Miliar di Sesi I, Saham BBRI-ANTM Malah Diborong - CNBC Indonesia",
-          "Jelang Lapkeu Semester I, Cek Target dan Rekomendasi Saham ANTM - Bloomberg Technoz",
-          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (ANTM, ARCI, BRPT) - Ajaib",
-          "IHSG Sepekan Terkoreksi: Investor Asing Bidik Saham TINS hingga ANTM di Akhir Pekan! - Sinar Harapan - Sinar Harapan",
-          "Jelang Pidato Nota Keuangan, Saham Ini Direkomendasikan Beli: INTP, ANTM, DSSA, CUAN, TINS, dan ICBP - topbusiness.id"
+          "Penjualan ANTM Masih Tumbuh, Tapi Ada Risiko dari Tekanan Harga Komoditas - KONTAN",
+          "IHSG Diprediksi Menguat, Ritel Bisa Cermati Saham AADI, ANTM, Hingga VKTR - money.kompas.com",
+          "IHSG Cenderung Menguat, Angkut Saham TLKM, ANTM, INCO, dan ARCI - Emitennews.com",
+          "Kinerja Antam (ANTM) - investor.id",
+          "Saham ANTM Masuk Top 5 Pembelian Asing Sejak Juli 2026, Bentuk Support Lebih Tinggi - KONTAN"
         ]
       },
       "volume_signal": {
@@ -136,7 +136,7 @@
         "ma8": 2964.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:07.402676+00:00"
+      "_generated_at": "2026-08-18T01:51:45.384944+00:00"
     },
     {
       "ticker": "BBNI",
@@ -164,11 +164,11 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
+          "Investor Asing Akumulasi Beli Saham BBNI Senilai Rp 130 Miliar - achmadnurhidayat.id",
           "Reliance Sekuritas Jagokan 4 Saham, Ada BBCA, BBRI dan BBNI - InvestorTrust",
+          "NIM BBNI Tertekan, Samuel Sekuritas: Valuasi Murah & Potensi Dividen Jadi Daya Tarik - keuangan.kontan.co.id",
           "Tahan tekanan jual, BBNI buyback saham Rp627 miliar - idnfinancials.com",
-          "Sentimen MSCI Masih Bayangi Pasar, Analis Sarankan Buy Empat Saham Ini: BBCA, BBRI, BBNI, dan SMRA. - topbusiness.id",
-          "BBNI Jadi Pilihan di Tengah Ketidakpastian MSCI, Target Harga hingga Rp 4.800 - InvestorTrust",
-          "BNI Perkuat BNIdirect, Dorong UMKM Naik Kelas dan Transaksi Digital Melonjak - pasardana.id"
+          "Emiten Untung Rp 10,7 Triliun, PBV di Bawah 1, Lagi Dicicil Terus - investor.id"
         ]
       },
       "volume_signal": {
@@ -187,7 +187,7 @@
         "ma8": 3485.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:10.892976+00:00"
+      "_generated_at": "2026-08-18T01:51:50.662932+00:00"
     },
     {
       "ticker": "BKSL",
@@ -238,7 +238,7 @@
         "ma8": 67.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:13.473082+00:00"
+      "_generated_at": "2026-08-18T01:51:54.376732+00:00"
     },
     {
       "ticker": "BRMS",
@@ -266,10 +266,10 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
+          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (BRIS, BRMS, INET) - Ajaib",
           "Ramalan Laba Bumi Resources Minerals (BRMS), plus Target Baru Sahamnya - investor.id",
-          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (ADMR, BRMS, CDIA) - Ajaib",
           "Laba BRMS Diproyeksikan Stagnan US$ 50 Juta Pada 2026 - achmadnurhidayat.id",
-          "Harga Emas Sentuh Level Tertinggi 2 Bulan, Saham BRMS-HRTA Cs Malah Loyo - IDX Channel",
+          "Sinyal Saham Emas: AMMN, SIMP, BRMS Siap Rally? - maybanktrade.co.id",
           "Direktur Adrian Wicaksono perdana borong saham BRMS Rp442 miliar - idnfinancials.com"
         ]
       },
@@ -289,7 +289,7 @@
         "ma8": 553.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:15.289232+00:00"
+      "_generated_at": "2026-08-18T01:51:56.947703+00:00"
     },
     {
       "ticker": "BUMI",
@@ -317,10 +317,10 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
-          "Ramalan Laba Bumi Resources Minerals (BRMS), plus Target Baru Sahamnya - investor.id",
+          "Raup Cuan dari Saham BUMI - investor.id",
+          "Harga Saham Grup Bakrie Ini Naik 13% Lebih Sebulan, Saatnya Beli / Jual? - kontan.co.id",
           "BUMI Jadi Saham Paling Ramai Diperdagangkan Kemarin, Apa yang Bisa Dicermati Trader? - Ajaib",
-          "Saham BUMI Masuk IDX30, Apa Dampaknya? - maybanktrade.co.id",
-          "Bumi Resources (BUMI) Punya Dua Mesin Pertumbuhan, Sahamnya Bisa Cuan 64% - InvestorTrust",
+          "Investor BUMI Berkurang 17.452 Pihak pada Juli 2026, Jumlah Free Float Naik Tipis - KabarBursa.com",
           "Perdagangan asing net buy, BUMI jadi saham top buy - idnfinancials.com"
         ]
       },
@@ -340,7 +340,7 @@
         "ma8": 160.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:18.831693+00:00"
+      "_generated_at": "2026-08-18T01:52:01.830006+00:00"
     },
     {
       "ticker": "CMRY",
@@ -366,13 +366,13 @@
       "trend_up": true,
       "sentiment": {
         "label": "Positif",
-        "score": 0.5,
+        "score": 0.56,
         "headlines": [
           "Laba CMRY naik 17,88% pada semester I 2026, jadi Rp1,17 triliun - idnfinancials.com",
-          "IHSG Melemah ke Level 6.365 Saat Saham CMRY dan TAPG Tumbuh - achmadnurhidayat.id",
-          "TAPG Bagi Dividen Rp1,19 T, CMRY dan IFSH Catat Kinerja Positif - detikFinance",
           "Rekomendasi Saham Tim Analis Bareksa Hari Ini: CMRY, AKRA & AADI, IHSG Diprediksi Melemah - Bareksa.com",
-          "Manfaat Program MBG Diproyeksi Masih akan Menopang (CMRY) di Paruh Kedua 2026 - KONTAN"
+          "Manfaat Program MBG Diproyeksi Masih akan Menopang (CMRY) di Paruh Kedua 2026 - KONTAN",
+          "Dividen Saham CMRY 2026 Capai Rp1,58 Triliun, Cek Yield dan Jadwal Pembagiannya - Ajaib",
+          "IHSG Melemah ke Level 6.365 Saat Saham CMRY dan TAPG Tumbuh - achmadnurhidayat.id"
         ]
       },
       "volume_signal": {
@@ -391,7 +391,7 @@
         "ma8": 4574.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:20.596907+00:00"
+      "_generated_at": "2026-08-18T01:52:04.285517+00:00"
     },
     {
       "ticker": "CTRA",
@@ -419,11 +419,11 @@
         "label": "Positif",
         "score": 0.33,
         "headlines": [
-          "Morgan Stanley Borong Saham Emiten Ciputra (CTRA) di Harga Rp560 - CNBC Indonesia",
           "Ciputra (CTRA) Tebar Dividen Rp667M Setara Rp36/Saham, Cek Jadwalnya - Emitennews.com",
+          "Morgan Stanley Borong Saham Emiten Ciputra (CTRA) di Harga Rp560 - CNBC Indonesia",
           "CTRA proyeksikan laba turun 10% pada 2026,mengapa? - idnfinancials.com",
-          "Marketing Sales Turun, Begini Prospek Saham Ciputra (CTRA) Semester II/2026 - Bisnis.com - Market",
-          "Tren Suku Bunga Tinggi, Simak Rekomendasi Saham Ciputra Development (CTRA) - kontan.co.id"
+          "Tren Suku Bunga Tinggi, Simak Rekomendasi Saham Ciputra Development (CTRA) - kontan.co.id",
+          "Marketing Sales Turun, Begini Prospek Saham Ciputra (CTRA) Semester II/2026 - Bisnis.com - Market"
         ]
       },
       "volume_signal": {
@@ -442,7 +442,7 @@
         "ma8": 570.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:22.398888+00:00"
+      "_generated_at": "2026-08-18T01:52:06.681635+00:00"
     },
     {
       "ticker": "HRTA",
@@ -470,11 +470,11 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
-          "Saham Emiten Emas Ada Target Harga Baru, Potensi Cuan Hampir 50% - investor.id",
-          "BRI Danareksa Pertahankan Rekomendasi Beli Saham HRTA - achmadnurhidayat.id",
-          "Intip Prospek Terbaru Saham Harta (HRTA), Potensi Cuan Bisa Capai 54% - InvestorTrust",
+          "Rekomendasi Saham Hari Ini, Selasa 18 Agustus 2026: HRTA, SRTG, INDY - investor.id",
+          "IHSG Berpeluang Lanjutkan Rebound Hari Ini, Tiga Saham Dipimpin HRTA Layak Dilirik - InvestorTrust",
+          "BRI Danareksa Sekuritas Rekomendasikan HRTA SRTG dan INDY - achmadnurhidayat.id",
           "Rekomendasi Saham Tim Analis Bareksa Hari Ini: PSAB, HRTA & MDKA, IHSG Berpotensi Koreksi - Bareksa.com",
-          "Harga Emas Sentuh Level Tertinggi 2 Bulan, Saham BRMS-HRTA Cs Malah Loyo - IDX Channel"
+          "Kontribusi Pegadaian dan BSI melonjak, laba bersih HRTA meroket 100,9% - idnfinancials.com"
         ]
       },
       "volume_signal": {
@@ -493,7 +493,7 @@
         "ma8": 1921.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:33.918604+00:00"
+      "_generated_at": "2026-08-18T01:52:22.563963+00:00"
     },
     {
       "ticker": "ISAT",
@@ -521,11 +521,11 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
-          "Membongkar Risiko Bisnis Zankore by ISAT yang Diproyeksikan Menambah Laba Rp1,4 triliun - Mikir Duit",
-          "Indosat (ISAT) Resmi Jadwalkan RUPSLB Akhir September, Apa Agendanya? - KabarBursa.com",
+          "ISAT Mencatatkan Kenaikan Mingguan +17%, Perseroan akan Adakan RUPS Luar Biasa - fxstreet-id.com",
+          "Usai Jadi Top Gainer, Gerak ISAT Pekan ini Terbatas - KabarBursa.com",
           "Rekomendasi Saham Tim Analis Bareksa Hari Ini: ISAT & PNLF, IHSG Berpotensi Konsolidasi - Bareksa.com",
-          "Indosat (ISAT) Masuk Bisnis AI, Zankore Bisa Tambah Laba Rp 1,4 Triliun per Tahun - kontan.co.id",
-          "Tim Analis Bareksa Rekomendasikan Saham ISAT dan PNLF Saat IHSG Konsolidasi - achmadnurhidayat.id"
+          "Membongkar Risiko Bisnis Zankore by ISAT yang Diproyeksikan Menambah Laba Rp1,4 triliun - Mikir Duit",
+          "Dua Saham Telko EXCL-ISAT Kompak Melesat, Intip Proyeksinya - IDX Channel"
         ]
       },
       "volume_signal": {
@@ -544,7 +544,7 @@
         "ma8": 2002.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:41.265115+00:00"
+      "_generated_at": "2026-08-18T01:52:33.138206+00:00"
     }
   ],
   "all_results": [
@@ -572,12 +572,12 @@
       "trend_up": true,
       "sentiment": {
         "label": "Positif",
-        "score": 0.6,
+        "score": 0.67,
         "headlines": [
           "Rekomendasi Saham Ajaib Sekuritas Hari Ini (BRIS, MYOR, ADMR) - Ajaib",
-          "5 Saham Kompas100 Paling Cuan Akhir Pekan, ADMR Naik 7,01 Persen - Kompas.com",
+          "Saham Grup ADRO Masih Diakumulasi, Tiga Emiten Ini Berpeluang Lanjut Naik - Herald ID",
+          "5 Saham Kompas100 Paling Cuan Akhir Pekan, ADMR Naik 7,01 Persen - money.kompas.com",
           "Rekomendasi Saham Tim Analis Bareksa Hari Ini: CBDK, SGER & ADMR, IHSG Berpeluang Menguat - Bareksa.com",
-          "IHSG Makin Kinclong, Serbu Saham BFIN, TINS, ARCI, PSAB, dan ADMR - Emitennews.com",
           "IHSG Menguat 1,59% ke 6.401 pada Jumat (14/8/2026), ADMR, EXCL, INCO Top Gainers LQ45 - kontan.co.id"
         ]
       },
@@ -597,7 +597,7 @@
         "ma8": 1511.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:02.844265+00:00"
+      "_generated_at": "2026-08-18T01:51:38.091940+00:00"
     },
     {
       "ticker": "ANTM",
@@ -622,14 +622,14 @@
       "confidence": 100,
       "trend_up": true,
       "sentiment": {
-        "label": "Netral",
-        "score": 0,
+        "label": "Positif",
+        "score": 1.0,
         "headlines": [
-          "Asing Net Sell Rp377 Miliar di Sesi I, Saham BBRI-ANTM Malah Diborong - CNBC Indonesia",
-          "Jelang Lapkeu Semester I, Cek Target dan Rekomendasi Saham ANTM - Bloomberg Technoz",
-          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (ANTM, ARCI, BRPT) - Ajaib",
-          "IHSG Sepekan Terkoreksi: Investor Asing Bidik Saham TINS hingga ANTM di Akhir Pekan! - Sinar Harapan - Sinar Harapan",
-          "Jelang Pidato Nota Keuangan, Saham Ini Direkomendasikan Beli: INTP, ANTM, DSSA, CUAN, TINS, dan ICBP - topbusiness.id"
+          "Penjualan ANTM Masih Tumbuh, Tapi Ada Risiko dari Tekanan Harga Komoditas - KONTAN",
+          "IHSG Diprediksi Menguat, Ritel Bisa Cermati Saham AADI, ANTM, Hingga VKTR - money.kompas.com",
+          "IHSG Cenderung Menguat, Angkut Saham TLKM, ANTM, INCO, dan ARCI - Emitennews.com",
+          "Kinerja Antam (ANTM) - investor.id",
+          "Saham ANTM Masuk Top 5 Pembelian Asing Sejak Juli 2026, Bentuk Support Lebih Tinggi - KONTAN"
         ]
       },
       "volume_signal": {
@@ -648,7 +648,7 @@
         "ma8": 2964.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:07.402676+00:00"
+      "_generated_at": "2026-08-18T01:51:45.384944+00:00"
     },
     {
       "ticker": "BBNI",
@@ -676,11 +676,11 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
+          "Investor Asing Akumulasi Beli Saham BBNI Senilai Rp 130 Miliar - achmadnurhidayat.id",
           "Reliance Sekuritas Jagokan 4 Saham, Ada BBCA, BBRI dan BBNI - InvestorTrust",
+          "NIM BBNI Tertekan, Samuel Sekuritas: Valuasi Murah & Potensi Dividen Jadi Daya Tarik - keuangan.kontan.co.id",
           "Tahan tekanan jual, BBNI buyback saham Rp627 miliar - idnfinancials.com",
-          "Sentimen MSCI Masih Bayangi Pasar, Analis Sarankan Buy Empat Saham Ini: BBCA, BBRI, BBNI, dan SMRA. - topbusiness.id",
-          "BBNI Jadi Pilihan di Tengah Ketidakpastian MSCI, Target Harga hingga Rp 4.800 - InvestorTrust",
-          "BNI Perkuat BNIdirect, Dorong UMKM Naik Kelas dan Transaksi Digital Melonjak - pasardana.id"
+          "Emiten Untung Rp 10,7 Triliun, PBV di Bawah 1, Lagi Dicicil Terus - investor.id"
         ]
       },
       "volume_signal": {
@@ -699,7 +699,7 @@
         "ma8": 3485.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:10.892976+00:00"
+      "_generated_at": "2026-08-18T01:51:50.662932+00:00"
     },
     {
       "ticker": "BKSL",
@@ -750,7 +750,7 @@
         "ma8": 67.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:13.473082+00:00"
+      "_generated_at": "2026-08-18T01:51:54.376732+00:00"
     },
     {
       "ticker": "BRMS",
@@ -778,10 +778,10 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
+          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (BRIS, BRMS, INET) - Ajaib",
           "Ramalan Laba Bumi Resources Minerals (BRMS), plus Target Baru Sahamnya - investor.id",
-          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (ADMR, BRMS, CDIA) - Ajaib",
           "Laba BRMS Diproyeksikan Stagnan US$ 50 Juta Pada 2026 - achmadnurhidayat.id",
-          "Harga Emas Sentuh Level Tertinggi 2 Bulan, Saham BRMS-HRTA Cs Malah Loyo - IDX Channel",
+          "Sinyal Saham Emas: AMMN, SIMP, BRMS Siap Rally? - maybanktrade.co.id",
           "Direktur Adrian Wicaksono perdana borong saham BRMS Rp442 miliar - idnfinancials.com"
         ]
       },
@@ -801,7 +801,7 @@
         "ma8": 553.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:15.289232+00:00"
+      "_generated_at": "2026-08-18T01:51:56.947703+00:00"
     },
     {
       "ticker": "BUMI",
@@ -829,10 +829,10 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
-          "Ramalan Laba Bumi Resources Minerals (BRMS), plus Target Baru Sahamnya - investor.id",
+          "Raup Cuan dari Saham BUMI - investor.id",
+          "Harga Saham Grup Bakrie Ini Naik 13% Lebih Sebulan, Saatnya Beli / Jual? - kontan.co.id",
           "BUMI Jadi Saham Paling Ramai Diperdagangkan Kemarin, Apa yang Bisa Dicermati Trader? - Ajaib",
-          "Saham BUMI Masuk IDX30, Apa Dampaknya? - maybanktrade.co.id",
-          "Bumi Resources (BUMI) Punya Dua Mesin Pertumbuhan, Sahamnya Bisa Cuan 64% - InvestorTrust",
+          "Investor BUMI Berkurang 17.452 Pihak pada Juli 2026, Jumlah Free Float Naik Tipis - KabarBursa.com",
           "Perdagangan asing net buy, BUMI jadi saham top buy - idnfinancials.com"
         ]
       },
@@ -852,7 +852,7 @@
         "ma8": 160.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:18.831693+00:00"
+      "_generated_at": "2026-08-18T01:52:01.830006+00:00"
     },
     {
       "ticker": "CMRY",
@@ -878,13 +878,13 @@
       "trend_up": true,
       "sentiment": {
         "label": "Positif",
-        "score": 0.5,
+        "score": 0.56,
         "headlines": [
           "Laba CMRY naik 17,88% pada semester I 2026, jadi Rp1,17 triliun - idnfinancials.com",
-          "IHSG Melemah ke Level 6.365 Saat Saham CMRY dan TAPG Tumbuh - achmadnurhidayat.id",
-          "TAPG Bagi Dividen Rp1,19 T, CMRY dan IFSH Catat Kinerja Positif - detikFinance",
           "Rekomendasi Saham Tim Analis Bareksa Hari Ini: CMRY, AKRA & AADI, IHSG Diprediksi Melemah - Bareksa.com",
-          "Manfaat Program MBG Diproyeksi Masih akan Menopang (CMRY) di Paruh Kedua 2026 - KONTAN"
+          "Manfaat Program MBG Diproyeksi Masih akan Menopang (CMRY) di Paruh Kedua 2026 - KONTAN",
+          "Dividen Saham CMRY 2026 Capai Rp1,58 Triliun, Cek Yield dan Jadwal Pembagiannya - Ajaib",
+          "IHSG Melemah ke Level 6.365 Saat Saham CMRY dan TAPG Tumbuh - achmadnurhidayat.id"
         ]
       },
       "volume_signal": {
@@ -903,7 +903,7 @@
         "ma8": 4574.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:20.596907+00:00"
+      "_generated_at": "2026-08-18T01:52:04.285517+00:00"
     },
     {
       "ticker": "CTRA",
@@ -931,11 +931,11 @@
         "label": "Positif",
         "score": 0.33,
         "headlines": [
-          "Morgan Stanley Borong Saham Emiten Ciputra (CTRA) di Harga Rp560 - CNBC Indonesia",
           "Ciputra (CTRA) Tebar Dividen Rp667M Setara Rp36/Saham, Cek Jadwalnya - Emitennews.com",
+          "Morgan Stanley Borong Saham Emiten Ciputra (CTRA) di Harga Rp560 - CNBC Indonesia",
           "CTRA proyeksikan laba turun 10% pada 2026,mengapa? - idnfinancials.com",
-          "Marketing Sales Turun, Begini Prospek Saham Ciputra (CTRA) Semester II/2026 - Bisnis.com - Market",
-          "Tren Suku Bunga Tinggi, Simak Rekomendasi Saham Ciputra Development (CTRA) - kontan.co.id"
+          "Tren Suku Bunga Tinggi, Simak Rekomendasi Saham Ciputra Development (CTRA) - kontan.co.id",
+          "Marketing Sales Turun, Begini Prospek Saham Ciputra (CTRA) Semester II/2026 - Bisnis.com - Market"
         ]
       },
       "volume_signal": {
@@ -954,7 +954,7 @@
         "ma8": 570.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:22.398888+00:00"
+      "_generated_at": "2026-08-18T01:52:06.681635+00:00"
     },
     {
       "ticker": "HRTA",
@@ -982,11 +982,11 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
-          "Saham Emiten Emas Ada Target Harga Baru, Potensi Cuan Hampir 50% - investor.id",
-          "BRI Danareksa Pertahankan Rekomendasi Beli Saham HRTA - achmadnurhidayat.id",
-          "Intip Prospek Terbaru Saham Harta (HRTA), Potensi Cuan Bisa Capai 54% - InvestorTrust",
+          "Rekomendasi Saham Hari Ini, Selasa 18 Agustus 2026: HRTA, SRTG, INDY - investor.id",
+          "IHSG Berpeluang Lanjutkan Rebound Hari Ini, Tiga Saham Dipimpin HRTA Layak Dilirik - InvestorTrust",
+          "BRI Danareksa Sekuritas Rekomendasikan HRTA SRTG dan INDY - achmadnurhidayat.id",
           "Rekomendasi Saham Tim Analis Bareksa Hari Ini: PSAB, HRTA & MDKA, IHSG Berpotensi Koreksi - Bareksa.com",
-          "Harga Emas Sentuh Level Tertinggi 2 Bulan, Saham BRMS-HRTA Cs Malah Loyo - IDX Channel"
+          "Kontribusi Pegadaian dan BSI melonjak, laba bersih HRTA meroket 100,9% - idnfinancials.com"
         ]
       },
       "volume_signal": {
@@ -1005,7 +1005,7 @@
         "ma8": 1921.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:33.918604+00:00"
+      "_generated_at": "2026-08-18T01:52:22.563963+00:00"
     },
     {
       "ticker": "ISAT",
@@ -1033,11 +1033,11 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
-          "Membongkar Risiko Bisnis Zankore by ISAT yang Diproyeksikan Menambah Laba Rp1,4 triliun - Mikir Duit",
-          "Indosat (ISAT) Resmi Jadwalkan RUPSLB Akhir September, Apa Agendanya? - KabarBursa.com",
+          "ISAT Mencatatkan Kenaikan Mingguan +17%, Perseroan akan Adakan RUPS Luar Biasa - fxstreet-id.com",
+          "Usai Jadi Top Gainer, Gerak ISAT Pekan ini Terbatas - KabarBursa.com",
           "Rekomendasi Saham Tim Analis Bareksa Hari Ini: ISAT & PNLF, IHSG Berpotensi Konsolidasi - Bareksa.com",
-          "Indosat (ISAT) Masuk Bisnis AI, Zankore Bisa Tambah Laba Rp 1,4 Triliun per Tahun - kontan.co.id",
-          "Tim Analis Bareksa Rekomendasikan Saham ISAT dan PNLF Saat IHSG Konsolidasi - achmadnurhidayat.id"
+          "Membongkar Risiko Bisnis Zankore by ISAT yang Diproyeksikan Menambah Laba Rp1,4 triliun - Mikir Duit",
+          "Dua Saham Telko EXCL-ISAT Kompak Melesat, Intip Proyeksinya - IDX Channel"
         ]
       },
       "volume_signal": {
@@ -1056,7 +1056,7 @@
         "ma8": 2002.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:41.265115+00:00"
+      "_generated_at": "2026-08-18T01:52:33.138206+00:00"
     },
     {
       "ticker": "ITMG",
@@ -1084,11 +1084,11 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
+          "Saham AADI dan ITMG Jadi Pilihan Utama Sektor Batu Bara - achmadnurhidayat.id",
           "Rekomendasi Saham Tim Analis Bareksa Hari Ini: BULL, AKRA & ITMG - Bareksa.com",
           "ITMG 1H26: Laba Bersih +17% YoY, Sejalan dengan Ekspektasi - Stockbit Snips",
           "Indo Tambangraya (ITMG) Raih Kinerja Positif Semester I-2026,Cek Rekomendasi Sahamnya - kontan.co.id",
-          "Saham PBV di Bawah 1, Omzet Rp 17 T, Diramal ke Rp 34.000 - investor.id",
-          "Indo Tambangraya (ITMG) Cetak Kenaikan Pendapatan 9% di Semester I-2026, Laba Segini - InvestorTrust"
+          "Adu Potensi Cuan Saham Batu Bara, BUMI Menang Telak - Halaman 2 - investor.id"
         ]
       },
       "volume_signal": {
@@ -1107,7 +1107,7 @@
         "ma8": 23866.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:42.173140+00:00"
+      "_generated_at": "2026-08-18T01:52:34.503847+00:00"
     },
     {
       "ticker": "MDKA",
@@ -1133,13 +1133,13 @@
       "trend_up": true,
       "sentiment": {
         "label": "Positif",
-        "score": 0.33,
+        "score": 1.0,
         "headlines": [
-          "MDKA Tambah Kepemilikan Saham EMAS - KONTAN",
-          "Saham Tambang Pilihan Asing, Ledakan Cuan 50% - investor.id",
-          "MDKA Borong 100 Juta Saham EMAS - BeritaSatu.com",
-          "IHSG Dibuka Turun ke 6.286, Top Losers LQ45: MAPI, ESSA, MDKA, Jumat (14/8) - kontan.co.id",
-          "Merdeka Copper Gold (MDKA) Tambah Kepemilikan Saham EMAS Jadi 64,01% - kontan.co.id"
+          "Cermati Rekomendasi Saham dan Prospek Emiten Bahan Baku - TradingView",
+          "Daftar Saham PER Terendah & Tertinggi LQ45 (14 Agustus 2026), JPFA dan MDKA Disorot - kontan.co.id",
+          "MDKA Borong Saham EMAS, Kepemilikan Naik Jadi 64% - investor.id",
+          "Merdeka Copper (MDKA) Borong Saham EMAS Senilai Rp 657,60 Miliar, Intip Harganya - InvestorTrust",
+          "MDKA Borong 100 Juta Saham EMAS, Rogoh Rp657,6 Miliar - Bloomberg Technoz"
         ]
       },
       "volume_signal": {
@@ -1158,7 +1158,7 @@
         "ma8": 2727.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:49.916586+00:00"
+      "_generated_at": "2026-08-18T01:52:46.003323+00:00"
     },
     {
       "ticker": "PGEO",
@@ -1186,11 +1186,11 @@
         "label": "Netral",
         "score": 0,
         "headlines": [
+          "Cermati Rekomendasi Teknikal Saham TLKM, INDF, PGEO untuk Selasa (18/8) - kontan.co.id",
           "Rekomendasi Saham Tim Analis Bareksa Hari Ini: HRUM, PGEO & MBMA - Bareksa.com",
           "PGEO Bicara Valuasi & Harga Saham - Bloomberg Technoz",
-          "Kans Pasar Lanjutkan Bearish, Empat Saham Ini Direkomendasikan Buy: BBRI, PGEO, BRPT, dan CUAN - topbusiness.id",
-          "Kinerja Emiten Energi Terbarukan Bervariasi, BREN dan PGEO Diprediksi Lebih Unggul - kontan.co.id",
-          "Dua Sekuritas Kompak Rekomendasikan Beli PGEO, Target Harga Tembus Rp1.540 - InvestorTrust"
+          "Dua Sekuritas Kompak Rekomendasikan Beli PGEO, Target Harga Tembus Rp1.540 - InvestorTrust",
+          "Gubernur BI Mundur, Depresiasi Rupiah 7,6% Ytd. PGEO Raih Pendanaan Rp1,35 T - Ajaib"
         ]
       },
       "volume_signal": {
@@ -1209,7 +1209,7 @@
         "ma8": 992.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:55.251428+00:00"
+      "_generated_at": "2026-08-18T01:52:53.246971+00:00"
     },
     {
       "ticker": "PNLF",
@@ -1260,7 +1260,7 @@
         "ma8": 224.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:56.027589+00:00"
+      "_generated_at": "2026-08-18T01:52:54.486378+00:00"
     },
     {
       "ticker": "PTRO",
@@ -1289,10 +1289,10 @@
         "score": 1.0,
         "headlines": [
           "Rekomendasi Saham Hari Ini: PTRO, BRPT, hingga TUGU - CNBC Indonesia",
-          "Asing Borong Saham Rp 725,4 Miliar, Investor Asing Borong Tiga Saham Emiten Prajogo Ini - InvestorTrust",
-          "Aksi Net Sell Kepung Saham Prajogo, PTRO dan CUAN Amblas Paling Dalam di Sesi I - KabarBursa.com",
           "BEI Umumkan Saham Hilang Petrosea (PTRO), Ini Dampaknya bagi Investor - Bareksa.com",
-          "Kompas100 Menguat 1,64 Persen, Ditopang Saham CUAN dan PTRO - Kompas.com"
+          "Aksi Net Sell Kepung Saham Prajogo, PTRO dan CUAN Amblas Paling Dalam di Sesi I - KabarBursa.com",
+          "Asing Borong Saham Rp 725,4 Miliar, Investor Asing Borong Tiga Saham Emiten Prajogo Ini - InvestorTrust",
+          "Saham PTRO 2026: Analisis Kinerja & Target - maybanktrade.co.id"
         ]
       },
       "volume_signal": {
@@ -1311,7 +1311,7 @@
         "ma8": 4427.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:57.788514+00:00"
+      "_generated_at": "2026-08-18T01:52:57.518337+00:00"
     },
     {
       "ticker": "SMGR",
@@ -1339,11 +1339,11 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
-          "Saham SMGR dan GIAA Kompak Melonjak Usai Disinggung Prabowo - Kompas.com",
           "Proyeksi SMGR — Target Harga untuk 2027 - TradingView",
+          "Saham SMGR dan GIAA Kompak Melonjak Usai Disinggung Prabowo - money.kompas.com",
           "Prabowo Pamer Laba TINS dan SMGR, Harga Saham Langsung Lompat - Market - Bloomberg Technoz",
-          "MSCI Hapus 9 Saham dari Daftar MSCI Small Cap, Ada ARTO, FILM, hingga SMGR - InvestorTrust",
-          "Investor Asing Borong Saham SMGR Rp 45 Miliar - achmadnurhidayat.id"
+          "Investor Asing Borong Saham SMGR Rp 45 Miliar - achmadnurhidayat.id",
+          "MSCI Hapus 9 Saham dari Daftar MSCI Small Cap, Ada ARTO, FILM, hingga SMGR - InvestorTrust"
         ]
       },
       "volume_signal": {
@@ -1362,7 +1362,7 @@
         "ma8": 1491.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:57:03.317747+00:00"
+      "_generated_at": "2026-08-18T01:53:05.407913+00:00"
     },
     {
       "ticker": "BBRI",
@@ -1388,13 +1388,13 @@
       "trend_up": true,
       "sentiment": {
         "label": "Positif",
-        "score": 1.0,
+        "score": 0.5,
         "headlines": [
-          "Asing Kembali Borong Saham BBRI, Valuasi Jadi Pemicu Repricing - KONTAN",
+          "Posisi Investor Lokal Kian Berpengaruh Terhadap Gerak Saham Bank - KONTAN",
+          "BBRI Diborong Saat IHSG Melemah, Analis Ungkap Proyeksi Pasar Saham Hari Ini - Suara.com",
           "Reliance Sekuritas Jagokan 4 Saham, Ada BBCA, BBRI dan BBNI - InvestorTrust",
           "Kenyataan Saham Bank Rakyat Indonesia (BBRI) - investor.id",
-          "Asing Net Sell Rp377 Miliar di Sesi I, Saham BBRI-ANTM Malah Diborong - CNBC Indonesia",
-          "BBRI Tebar Dividen Rp52,1 Triliun, Transformasi Bisnis Jadi Katalis Pertumbuhan - Ajaib"
+          "Asing Net Sell Rp377 Miliar di Sesi I, Saham BBRI-ANTM Malah Diborong - CNBC Indonesia"
         ]
       },
       "volume_signal": {
@@ -1413,7 +1413,7 @@
         "ma8": 2949.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:11.777538+00:00"
+      "_generated_at": "2026-08-18T01:51:51.857585+00:00"
     },
     {
       "ticker": "ERAA",
@@ -1442,9 +1442,9 @@
         "score": 1.0,
         "headlines": [
           "Erajaya Group bawa Oriental Kopi ke Indonesia, bentuk usaha patungan - idnfinancials.com",
+          "Emiten Istri Aguan Panen, Target Harga Saham Tinggi - investor.id",
           "9 Saham Cum Date Hari Ini (7/7): ERAA, RUIS, hingga DEWA Siap Tebar Dividen! - Ajaib",
           "Saham Erajaya Swasembada Dinilai Termurah di Sektornya - achmadnurhidayat.id",
-          "Emiten Istri Aguan Panen, Target Harga Saham Tinggi - investor.id",
           "Erajaya (ERAA) Tetapkan Dividen Rp389,6 Miliar, Setara Rp25 per Saham - IDX Channel"
         ]
       },
@@ -1464,7 +1464,7 @@
         "ma8": 390.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:28.526031+00:00"
+      "_generated_at": "2026-08-18T01:52:15.067448+00:00"
     },
     {
       "ticker": "ICBP",
@@ -1490,13 +1490,13 @@
       "trend_up": true,
       "sentiment": {
         "label": "Positif",
-        "score": 0.67,
+        "score": 0.33,
         "headlines": [
           "Saham Emiten Anthoni Salim Lagi Murah-murahnya, Dicicil Terus, Ramalan ke Rp 12.000 - investor.id",
           "Saham Indofood CBP Alami Net Sell Asing Tipis Setelah Net Buy Besar - achmadnurhidayat.id",
-          "INDF dan ICBP Tertekan Rugi Kurs, Bagaimana Prospek Sahamnya? - Ajaib",
           "Jelang Pidato Nota Keuangan, Saham Ini Direkomendasikan Beli: INTP, ANTM, DSSA, CUAN, TINS, dan ICBP - topbusiness.id",
-          "IHSG Bakal Bangkit? Investor Ritel Cermati Saham AMRT, HRUM, dan ICBP - Kompas.com"
+          "IHSG Bakal Bangkit? Investor Ritel Cermati Saham AMRT, HRUM, dan ICBP - money.kompas.com",
+          "Kinerja Semester I Solid, Mandiri Sekuritas Naikkan Optimisme pada Saham ICBP dan INDF - InvestorTrust"
         ]
       },
       "volume_signal": {
@@ -1515,7 +1515,7 @@
         "ma8": 6979.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:35.643573+00:00"
+      "_generated_at": "2026-08-18T01:52:24.897072+00:00"
     },
     {
       "ticker": "INDF",
@@ -1543,11 +1543,11 @@
         "label": "Positif",
         "score": 0.33,
         "headlines": [
-          "Harga Gandum Melonjak di Tengah Tekanan Rupiah, Saham INDF Jadi Pilihan - KONTAN",
+          "Cermati Rekomendasi Teknikal Saham TLKM, INDF, PGEO untuk Selasa (18/8) - kontan.co.id",
           "IHSG Berpeluang Menguat dengan Target 6.440-6.544, Simak Analisa Saham BMRI, INDF, RAJA, dan ULTJ - IDX Channel",
-          "Awas Kembali Koreksi, Enam Saham Ini Jadi Pilihan: INDF, JPFA, ULTJ, AMMN, ELSA, dan ADRO - topbusiness.id",
           "MSCI Hapus 9 Saham dari Daftar MSCI Small Cap, Ada ARTO, FILM, hingga SMGR - InvestorTrust",
-          "INDF dan ICBP Tertekan Rugi Kurs, Bagaimana Prospek Sahamnya? - Ajaib"
+          "Awas Kembali Koreksi, Enam Saham Ini Jadi Pilihan: INDF, JPFA, ULTJ, AMMN, ELSA, dan ADRO - topbusiness.id",
+          "Prospek Saham Indofood (INDF) di Tengah Tekanan Rugi Kurs - investor.id"
         ]
       },
       "volume_signal": {
@@ -1566,7 +1566,7 @@
         "ma8": 6906.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:37.624167+00:00"
+      "_generated_at": "2026-08-18T01:52:28.086642+00:00"
     },
     {
       "ticker": "INKP",
@@ -1594,10 +1594,10 @@
         "label": "Positif",
         "score": 0.71,
         "headlines": [
+          "Daftar Saham PER Terendah & Tertinggi LQ45 (14 Agustus 2026), JPFA dan MDKA Disorot - kontan.co.id",
           "Dividen INKP Rp75 per Saham Cair 24 Juli 2026, Ini Jadwal & Estimasi Dividend Yield - Bareksa.com",
           "Saham Emiten Sinar Mas Diramal Naik 142%, Laba Meroket 816% - investor.id",
           "Saham INKP Melesat Ke Rp 8.500 Dan Laba Meroket 127 Persen - achmadnurhidayat.id",
-          "Prospek INCO, INKP, CUAN, dan INDY Menarik, Cek Rekomendasi Sahamnya - kontan.co.id",
           "Rekomendasi Saham Ajaib Sekuritas Hari Ini (INKP, PTBA, MEDC) - Ajaib"
         ]
       },
@@ -1617,7 +1617,7 @@
         "ma8": 7753.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:39.424562+00:00"
+      "_generated_at": "2026-08-18T01:52:30.682972+00:00"
     },
     {
       "ticker": "INTP",
@@ -1648,8 +1648,8 @@
           "Proyeksi INTP — Target Harga untuk 2027 - TradingView",
           "Indocement (INTP) Sebar Dividen Rp468 per Saham, Potensi Yield 9,55% - Bareksa.com",
           "Jelang Pidato Nota Keuangan, Saham Ini Direkomendasikan Beli: INTP, ANTM, DSSA, CUAN, TINS, dan ICBP - topbusiness.id",
-          "Laba INTP melesat 19,18%, pendapatan capai Rp8,45 triliun - idnfinancials.com",
-          "Rekomendasi Saham Hari Ini: Ada TLKM hingga INTP - CNBC Indonesia"
+          "Rekomendasi Saham Hari Ini: Ada TLKM hingga INTP - CNBC Indonesia",
+          "Laba INTP melesat 19,18%, pendapatan capai Rp8,45 triliun - idnfinancials.com"
         ]
       },
       "volume_signal": {
@@ -1668,7 +1668,7 @@
         "ma8": 4691.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:40.328300+00:00"
+      "_generated_at": "2026-08-18T01:52:31.861244+00:00"
     },
     {
       "ticker": "JPFA",
@@ -1696,11 +1696,11 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
+          "Daftar Saham PER Terendah & Tertinggi LQ45 (14 Agustus 2026), JPFA dan MDKA Disorot - kontan.co.id",
           "JPFA terbitkan obligasi Rp500 miliar dalam dua seri, bunga capai 9,50% - idnfinancials.com",
           "Beda Nasib Laba dan Saham Emiten Unggas CPIN, JPFA hingga MAIN - Bisnis Indonesia Premium",
           "Awas Kembali Koreksi, Enam Saham Ini Jadi Pilihan: INDF, JPFA, ULTJ, AMMN, ELSA, dan ADRO - topbusiness.id",
-          "Emiten Poultry CPIN-JPFA Cs Diproyeksi Bangkit di Semester II-2026 - Lotus Andalan Sekuritas",
-          "JPFA Tetapkan Dividen Rp140 per Saham, Yield Capai 5,55%! - Ajaib"
+          "Emiten Poultry CPIN-JPFA Cs Diproyeksi Bangkit di Semester II-2026 - Lotus Andalan Sekuritas"
         ]
       },
       "volume_signal": {
@@ -1719,7 +1719,7 @@
         "ma8": 2108.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:43.058346+00:00"
+      "_generated_at": "2026-08-18T01:52:35.743569+00:00"
     },
     {
       "ticker": "KLBF",
@@ -1770,7 +1770,7 @@
         "ma8": 758.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:45.656079+00:00"
+      "_generated_at": "2026-08-18T01:52:39.329148+00:00"
     },
     {
       "ticker": "AADI",
@@ -1798,11 +1798,11 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
-          "Saham ADRO, AADI, dan EMAS Masih Masuk Daftar MSCI - InvestorTrust",
-          "Simak Rekomendasi Teknikal Saham WIFI, BMRI, AADI untuk Rabu (12/8) - KONTAN",
-          "Ada Kans Koreksi Terbatas, Disarankan Trading Enam Saham Ini: BBCA, AADI, ADRO, MEDC, RAJA, dan ELSA - topbusiness.id",
-          "Rekomendasi Saham Tim Analis Bareksa Hari Ini: ITMG, AADI & HMSP, IHSG Diprediksi Naik Lagi - Bareksa.com",
-          "AADI beri pinjaman ke Kaltara Power Indonesia senilai US$100,8 juta - idnfinancials.com"
+          "Saham AADI dan ITMG Jadi Pilihan Utama Sektor Batu Bara - achmadnurhidayat.id",
+          "IHSG Diprediksi Menguat, Ritel Bisa Cermati Saham AADI, ANTM, Hingga VKTR - money.kompas.com",
+          "Bara Cuan AADI Belum Padam, Ada Target Besar di Depan - investor.id",
+          "IHSG Berpeluang Menguat ke 6.544, Cek Saham AADI, ANTM, hingga VKTR - Bisnis.com - Market",
+          "Saham Grup ADRO Masih Diakumulasi, Tiga Emiten Ini Berpeluang Lanjut Naik - Herald ID"
         ]
       },
       "volume_signal": {
@@ -1821,7 +1821,7 @@
         "ma8": 8700.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:00.456184+00:00"
+      "_generated_at": "2026-08-18T01:51:35.547842+00:00"
     },
     {
       "ticker": "ADRO",
@@ -1849,11 +1849,11 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
+          "ADRO Temukan Tambang Duit Baru, Saham Diramal Ngacir 26% - investor.id",
           "Saham ADRO (Alamtri): Panduan Lengkap Kinerja & Dividen 2026 - Pluang",
-          "Saham ADRO, AADI, dan EMAS Masih Masuk Daftar MSCI - InvestorTrust",
-          "ADRO Masuki Babak Baru, Target Harga Sahamnya juga Baru - investor.id",
-          "Ada Kans Koreksi Terbatas, Disarankan Trading Enam Saham Ini: BBCA, AADI, ADRO, MEDC, RAJA, dan ELSA - topbusiness.id",
-          "Cek Saham Rekomendasi Hari Ini, dari INDF hingga ADRO - MetroTVNews.com"
+          "DBS Pertahankan Rekomendasi Beli Saham ADRO dengan Target Rp3.200 - achmadnurhidayat.id",
+          "Saham Grup ADRO Masih Diakumulasi, Tiga Emiten Ini Berpeluang Lanjut Naik - Herald ID",
+          "Saham ADRO, AADI, dan EMAS Masih Masuk Daftar MSCI - InvestorTrust"
         ]
       },
       "volume_signal": {
@@ -1872,7 +1872,7 @@
         "ma8": 2438.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:03.779857+00:00"
+      "_generated_at": "2026-08-18T01:51:39.592620+00:00"
     },
     {
       "ticker": "AMMN",
@@ -1901,8 +1901,8 @@
         "score": 1.0,
         "headlines": [
           "BEI Catat 5 Saham Pemberat IHSG, ASII hingga AMMN Masuk Daftar - Infobanknews",
-          "IHSG Ditutup di 6.301, Saham AMMN Jadi Pemberat - Bloomberg Technoz",
           "Alexander Ramlie Borong Saham AMMN Rp 18,16 Miliar - CNBC Indonesia",
+          "IHSG Ditutup di 6.301, Saham AMMN Jadi Pemberat - Bloomberg Technoz",
           "Direktur baru AMMN Anthony Mathias perdana borong 1,4 juta saham - idnfinancials.com",
           "Pilihan Teratas Saham Komoditas, Ada yang Diramal ke Rp 34.000 - investor.id"
         ]
@@ -1923,7 +1923,7 @@
         "ma8": 3888.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:05.674554+00:00"
+      "_generated_at": "2026-08-18T01:51:42.226434+00:00"
     },
     {
       "ticker": "BRPT",
@@ -1955,7 +1955,7 @@
           "Barito Pacific (BRPT) Masuk Sembilan Saham Indonesia yang Bertahan di MSCI Global Standard - InvestorTrust",
           "Rekomendasi Saham Hari Ini: PTRO, BRPT, hingga TUGU - CNBC Indonesia",
           "Nihil Kejutan dari MSCI, Nasib IHSG? BREN & BRPT Naik? ISAT Rally, Emiten Lain? - maybanktrade.co.id",
-          "Cermati Rekomendasi Teknikal MBMA, BRPT, dan ANTM untuk Perdagangan Jumat (14/8) - kontan.co.id"
+          "Saham Pilihan untuk Trading 18 Agustus dan Target Harganya - investor.id"
         ]
       },
       "volume_signal": {
@@ -1974,7 +1974,7 @@
         "ma8": 1706.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:16.214539+00:00"
+      "_generated_at": "2026-08-18T01:51:58.242188+00:00"
     },
     {
       "ticker": "BSDE",
@@ -2025,7 +2025,7 @@
         "ma8": 574.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:17.098043+00:00"
+      "_generated_at": "2026-08-18T01:51:59.351642+00:00"
     },
     {
       "ticker": "DSNG",
@@ -2056,7 +2056,7 @@
           "DSNG tebar dividen Rp47 per saham, tertinggi dalam lima tahun - idnfinancials.com",
           "Rekomendasi Saham Tim Analis Bareksa 31 Juli 2026: DSNG, SMIL, INKP Saat IHSG Rebound - Bareksa.com",
           "Cek Teknikal Saham CTRA, BULL, dan DSNG Berikut Rekomendasinya untuk Jumat (31/7) - kontan.co.id",
-          "RUPST DSNG 2026: Setujui Pembagian Dividen Rp 47 per Lembar Saham - news.majalahhortus.com",
+          "RUPST DSNG 2026: Setujui Pembagian Dividen Rp 47 per Lembar Saham - Majalah HORTUS Archipelago",
           "Rekomendasi Saham Ajaib Sekuritas Hari Ini (TAPG, DSNG, BRMS) - Ajaib"
         ]
       },
@@ -2076,7 +2076,7 @@
         "ma8": 1251.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:25.016649+00:00"
+      "_generated_at": "2026-08-18T01:52:10.264193+00:00"
     },
     {
       "ticker": "ESSA",
@@ -2106,8 +2106,8 @@
         "headlines": [
           "IHSG Turun, Saham ESSA Jatuh 7% Imbas Didepak MSCI - Bloomberg Technoz",
           "MSCI hapus 10 saham RI dari indeks global, berikut daftarnya - idnfinancials.com",
-          "Rekomendasi Saham Hari Ini, Rabu 12 Agustus 2026: MEDC, ESSA, WIRG - investor.id",
           "Cek! Daftar 10 Saham RI Didepak MSCI - detikFinance",
+          "Rekomendasi Saham Hari Ini, Rabu 12 Agustus 2026: MEDC, ESSA, WIRG - investor.id",
           "Rekomendasi Saham Ajaib Sekuritas Hari Ini (ESSA, RATU, CDIA) - Ajaib"
         ]
       },
@@ -2127,7 +2127,7 @@
         "ma8": 606.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:29.388523+00:00"
+      "_generated_at": "2026-08-18T01:52:16.185234+00:00"
     },
     {
       "ticker": "HRUM",
@@ -2156,10 +2156,10 @@
         "score": 1.0,
         "headlines": [
           "Rekomendasi Saham Tim Analis Bareksa Hari Ini: HRUM, PGEO & MBMA - Bareksa.com",
+          "Saham Nikel Super Murah, PER 3,7 Kali, Potensi Cuan 58% - investor.id",
           "Ditinggal Investor Institusi, Indo Premier Kerek Target Harga HRUM Efek Sentimen Ini! - kontan.co.id",
-          "Emiten Nikel Diterawang Kasih Cuan dan Dividen 50%, Gara-gara Laba Meroket 200% - investor.id",
           "HRUM alokasikan capex sebesar US$310 juta pada 2026 - idnfinancials.com",
-          "IHSG Bakal Bangkit? Investor Ritel Cermati Saham AMRT, HRUM, dan ICBP - Kompas.com"
+          "IHSG Bakal Bangkit? Investor Ritel Cermati Saham AMRT, HRUM, dan ICBP - money.kompas.com"
         ]
       },
       "volume_signal": {
@@ -2178,7 +2178,7 @@
         "ma8": 794.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:34.766078+00:00"
+      "_generated_at": "2026-08-18T01:52:23.731831+00:00"
     },
     {
       "ticker": "INCO",
@@ -2206,11 +2206,11 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
+          "IHSG Cenderung Menguat, Angkut Saham TLKM, ANTM, INCO, dan ARCI - Emitennews.com",
+          "IHSG Berpotensi Menguat Terbatas, 6 Saham Siap Tebar Cuan - investor.id",
           "INCO Memacu Pembangunan Smelter HPAL - KONTAN",
           "EKAD Bersiap Ganti Pengendali, Sementara ELSA dan INCO Kembangkan Proyek Bisnis - detikFinance",
-          "Indeks Bisnis-27 Ditutup Menguat, Saham INCO-ADRO Tancap Gas - Bisnis.com - Market",
-          "Saham INCO vs CITA: Adu Prospek Emiten Tambang di Tengah Tren Hilirisasi Mineral - Ajaib",
-          "Target Harga Saham Vale Indonesia (INCO) Layak Direvisi Naik, Ini Dasar Perhitungannya - InvestorTrust"
+          "Indeks Bisnis-27 Ditutup Menguat, Saham INCO-ADRO Tancap Gas - Bisnis.com - Market"
         ]
       },
       "volume_signal": {
@@ -2229,7 +2229,7 @@
         "ma8": 4925.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:36.654749+00:00"
+      "_generated_at": "2026-08-18T01:52:26.353269+00:00"
     },
     {
       "ticker": "INDY",
@@ -2257,11 +2257,11 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
+          "Rekomendasi Saham Hari Ini, Selasa 18 Agustus 2026: HRTA, SRTG, INDY - investor.id",
+          "BRI Danareksa Sekuritas Rekomendasikan HRTA SRTG dan INDY - achmadnurhidayat.id",
           "Prabowo resmikan motor listrik nasional buatan Grup Indika - idnfinancials.com",
-          "Emiten Omzetnya Rp 20 T, PBV Cuma 0,62 - investor.id",
-          "Indika Energy (INDY) Bagi Dividen US$10,25 per Saham, Yield Diperkirakan 7,36% - Bareksa.com",
-          "Prabowo Cuap Insentif Motor Listrik di Peresmian Produk INDY, Begini Dampaknya ke Saham Terkait - Mikir Duit",
-          "INDY Bentuk 2 Anak Usaha Baru, Sasar Bisnis Ini - Emitennews.com"
+          "IHSG Berpeluang Lanjutkan Rebound Hari Ini, Tiga Saham Dipimpin HRTA Layak Dilirik - InvestorTrust",
+          "Indika Energy (INDY) Bagi Dividen US$10,25 per Saham, Yield Diperkirakan 7,36% - Bareksa.com"
         ]
       },
       "volume_signal": {
@@ -2280,7 +2280,7 @@
         "ma8": 2324.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:38.546327+00:00"
+      "_generated_at": "2026-08-18T01:52:29.256278+00:00"
     },
     {
       "ticker": "MBMA",
@@ -2331,7 +2331,7 @@
         "ma8": 514.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:49.029011+00:00"
+      "_generated_at": "2026-08-18T01:52:44.440881+00:00"
     },
     {
       "ticker": "MEDC",
@@ -2362,7 +2362,7 @@
           "Rekomendasi Saham Ajaib Sekuritas Hari Ini (BMRI, MEDC, EXCL) - Ajaib",
           "Rekomendasi Saham Hari Ini, Rabu 12 Agustus 2026: MEDC, ESSA, WIRG - investor.id",
           "MEDC lunasi Obligasi Berkelanjutan IV sebesar Rp600 miliar - idnfinancials.com",
-          "MEDC Bagikan Dividen US$45 Juta, Ini Estimasi Yield & Jadwal Lengkapnya - Bareksa.com",
+          "Medco Energi (MEDC) Masuki Fase Pertumbuhan Baru, Analis Rekomendasi Buy dengan Target Rp1.800 - Bareksa.com",
           "BRI Danareksa Rekomendasikan Saham MEDC ESSA WIRG 12 Agustus 2026 - achmadnurhidayat.id"
         ]
       },
@@ -2382,7 +2382,7 @@
         "ma8": 1224.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:50.814869+00:00"
+      "_generated_at": "2026-08-18T01:52:47.214447+00:00"
     },
     {
       "ticker": "TAPG",
@@ -2408,13 +2408,13 @@
       "trend_up": true,
       "sentiment": {
         "label": "Positif",
-        "score": 0.71,
+        "score": 1.0,
         "headlines": [
-          "2 Saham Cum Date Hari Ini (10/8): TAPG dan AMAR Siap Tebar Dividen! - Ajaib",
-          "IHSG Masih Sideways, Saham Sawit dan Otomotif Mulai Jadi Perhatian Investor - Herald ID",
+          "Proyeksi CPO Dipangkas, Saham Sawit Mana yang Masih Menarik? - KONTAN",
           "Direktur TAPG Borong 200 Ribu Saham, Kepemilikan Meningkat - Emitennews.com",
+          "2 Saham Cum Date Hari Ini (10/8): TAPG dan AMAR Siap Tebar Dividen! - Ajaib",
           "Rekomendasi Saham Tim Analis Bareksa Hari Ini: RAJA, TAPG & TOBA - Bareksa.com",
-          "TAPG Bagi Dividen Rp1,19 T, CMRY dan IFSH Catat Kinerja Positif - detikFinance"
+          "TAPG tetapkan dividen final Rp91 per lembar, TP Rachmat raup miliaran - idnfinancials.com"
         ]
       },
       "volume_signal": {
@@ -2433,7 +2433,7 @@
         "ma8": 1613.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:57:06.139416+00:00"
+      "_generated_at": "2026-08-18T01:53:08.921987+00:00"
     },
     {
       "ticker": "UNVR",
@@ -2484,7 +2484,7 @@
         "ma8": 1749.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:57:10.967527+00:00"
+      "_generated_at": "2026-08-18T01:53:15.105430+00:00"
     },
     {
       "ticker": "EXCL",
@@ -2513,10 +2513,10 @@
         "score": -0.2,
         "headlines": [
           "Rekomendasi Saham Ajaib Sekuritas Hari Ini (BMRI, MEDC, EXCL) - Ajaib",
+          "Dua Saham Telko EXCL-ISAT Kompak Melesat, Intip Proyeksinya - IDX Channel",
           "IHSG Menguat ke Level 6.373 Saham EXCL dan INPP Jadi Perhatian - achmadnurhidayat.id",
           "EXCL dan INPP Jadi Sorotan, IHSG Menguat 1,69%, serta MSCI Ubah Konstituen Saham - detikFinance",
-          "Saham EXCL Tiba-Tiba Melesat! Kinerja Terbaru Wajib Dicermati - Sinar Harapan - Sinar Harapan",
-          "DSSA ungkap tujuan ambil alih entitas pengendali EXCL - idnfinancials.com"
+          "Saham EXCL Tiba-Tiba Melesat! Kinerja Terbaru Wajib Dicermati - Sinar Harapan - Sinar Harapan"
         ]
       },
       "volume_signal": {
@@ -2535,7 +2535,7 @@
         "ma8": 2530.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:30.491808+00:00"
+      "_generated_at": "2026-08-18T01:52:17.486032+00:00"
     },
     {
       "ticker": "JSMR",
@@ -2586,7 +2586,7 @@
         "ma8": 2766.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:43.947207+00:00"
+      "_generated_at": "2026-08-18T01:52:36.946897+00:00"
     },
     {
       "ticker": "PTBA",
@@ -2615,10 +2615,10 @@
         "score": 0.78,
         "headlines": [
           "Saham PTBA: Profil, Dividen & Prospek Bukit Asam - Pluang",
-          "PTBA Bukukan Laba Bersih Rp801,79 Miliar di Kuartal I 2026, Naik 105% YoY Berkat Efisiensi dan Ketahanan Operasional - PT Bukit Asam Tbk",
+          "PTBA Bukukan Laba Bersih Rp2,93 Triliun di FY2025, Operasional Tumbuh dan Profitabilitas Berangsur Pulih - PT Bukit Asam Tbk",
+          "Adu Potensi Cuan Saham Batu Bara, BUMI Menang Telak - investor.id",
           "PTBA Diuntungkan Reli Batu Bara, Rekomendasi Saham Naik Jadi Neutral - Bareksa.com",
-          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (PGAS, PTBA, MYOR) - Ajaib",
-          "PTBA bagi dividen Rp1,32 triliun, payout ratio turun jadi 45% - idnfinancials.com"
+          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (PGAS, PTBA, MYOR) - Ajaib"
         ]
       },
       "volume_signal": {
@@ -2637,7 +2637,7 @@
         "ma8": 2362.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:56.905747+00:00"
+      "_generated_at": "2026-08-18T01:52:56.228939+00:00"
     },
     {
       "ticker": "SMRA",
@@ -2667,9 +2667,9 @@
         "headlines": [
           "Sentimen MSCI Masih Bayangi Pasar, Analis Sarankan Buy Empat Saham Ini: BBCA, BBRI, BBNI, dan SMRA. - topbusiness.id",
           "Borong 20,4 Juta Saham SMRA, Liliawati Rahardjo Pertebal Kepemilikan hingga Tembus 6,08%! - pasardana.id",
-          "Marketing Sales SMRA Q1 2026 Naik 36%, Rekomendasi Buy, Target Harga Turun Jadi Segini - Bareksa.com",
           "Semarop Agung beli 2 juta saham SMRA, kini kuasai 22,91% - idnfinancials.com",
-          "Direktur Summarecon Borong 20,41 Juta Saham SMRA - Bloomberg Technoz"
+          "Direktur Summarecon Borong 20,41 Juta Saham SMRA - Bloomberg Technoz",
+          "Marketing Sales SMRA Q1 2026 Naik 36%, Rekomendasi Buy, Target Harga Turun Jadi Segini - Bareksa.com"
         ]
       },
       "volume_signal": {
@@ -2688,7 +2688,7 @@
         "ma8": 308.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:57:04.496163+00:00"
+      "_generated_at": "2026-08-18T01:53:06.705953+00:00"
     },
     {
       "ticker": "CUAN",
@@ -2716,10 +2716,10 @@
         "label": "Netral",
         "score": 0,
         "headlines": [
+          "Raup Cuan dari Saham BUMI - investor.id",
           "Jelang Pengumuman MSCI, Prajogo Pangestu Borong 51,7 Juta Saham CUAN, Ini yang Perlu Dicermati Investor! - Ajaib",
           "Prajogo Pangestu Borong 51,7 Juta Saham CUAN di Harga Segini - CNBC Indonesia",
           "Saham TINS Cuan, Prabowo: Sayang Kita Tak Diberi Proyeksi - InvestorTrust",
-          "Harvard Kantongi Saham SpaceX Rp 39,2 Triliun, Raup Cuan dari Elon Musk - kumparan.com - Kumparan.com",
           "Prajogo Pangestu Serok 51,7 Juta Saham CUAN, Kepemilikan Tembus 80,41% - pasardana.id"
         ]
       },
@@ -2739,7 +2739,7 @@
         "ma8": 669.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:23.252139+00:00"
+      "_generated_at": "2026-08-18T01:52:07.799068+00:00"
     },
     {
       "ticker": "MAPA",
@@ -2790,7 +2790,7 @@
         "ma8": 631.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:47.258197+00:00"
+      "_generated_at": "2026-08-18T01:52:41.670745+00:00"
     },
     {
       "ticker": "AMRT",
@@ -2819,9 +2819,9 @@
         "score": 1.0,
         "headlines": [
           "Pertumbuhan EPS AMRT Melambat, Ini Rekomendasi Saham dari Analis - kontan.co.id",
-          "MSCI Hapus 9 Saham dari Daftar MSCI Small Cap, Ada ARTO, FILM, hingga SMGR - InvestorTrust",
-          "IHSG Bakal Bangkit? Investor Ritel Cermati Saham AMRT, HRUM, dan ICBP - Kompas.com",
           "AMRT bagikan dividen senilai Rp1,7 triliun tahun buku 2025 - idnfinancials.com",
+          "MSCI Hapus 9 Saham dari Daftar MSCI Small Cap, Ada ARTO, FILM, hingga SMGR - InvestorTrust",
+          "IHSG Bakal Bangkit? Investor Ritel Cermati Saham AMRT, HRUM, dan ICBP - money.kompas.com",
           "Investor Bisa Raih Dividen Rp 4.150, Hari Ini Cum Date Saham Blue Chip AMRT - TradingView"
         ]
       },
@@ -2841,7 +2841,7 @@
         "ma8": 1385.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:06.590968+00:00"
+      "_generated_at": "2026-08-18T01:51:44.182920+00:00"
     },
     {
       "ticker": "GGRM",
@@ -2869,11 +2869,11 @@
         "label": "Netral",
         "score": 0.0,
         "headlines": [
+          "Gudang Garam (GGRM) Disorot - investor.id",
           "Laba Meroket 2.440%, Saham Gudang Garam (GGRM) Malah Anjlok - CNBC Indonesia",
+          "5 Berita Paling Populer di Investor.id Hari Ini - achmadnurhidayat.id",
           "Gudang Garam suntik Rp200 miliar untuk Bandara Dhoho - idnfinancials.com",
-          "BERITA POPULER: Saham GGRM Berbalik Arah hingga Target Harga BUMI Dipatok Tinggi - investor.id",
-          "Gudang Garam Kucurkan Rp200 Miliar ke SDHI, Modal Operasional Bandara Kediri Diperkuat - pasardana.id",
-          "GGRM Suntik Rp200 Miliar ke Bandara Dhoho - Bloomberg Technoz"
+          "Gudang Garam Kucurkan Rp200 Miliar ke SDHI, Modal Operasional Bandara Kediri Diperkuat - pasardana.id"
         ]
       },
       "volume_signal": {
@@ -2892,7 +2892,7 @@
         "ma8": 17906.0
       },
       "mtf_alignment": "Selaras (Uptrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:31.386912+00:00"
+      "_generated_at": "2026-08-18T01:52:18.786360+00:00"
     },
     {
       "ticker": "ASII",
@@ -2921,10 +2921,10 @@
         "score": 1.0,
         "headlines": [
           "BEI Catat 5 Saham Pemberat IHSG, ASII hingga AMMN Masuk Daftar - Infobanknews",
-          "Cuma 9 Saham RI Bertahan di MSCI, Astra International (ASII) dan United Tractors (UNTR) Masih Jadi Andalan - InvestorTrust",
           "Borong 500.000 Saham ASII, Direksi Astra Ini Rasakan Unrealized Loss Rp 12,5 Juta - kontan.co.id",
-          "Djap Tet Fa Borong 500 Ribu Saham ASII, Nilainya Rp2,41 Miliar - IDX Channel",
-          "Saham ASII: Profil Astra, Dividen & Prospek 2026 - Pluang"
+          "Cuma 9 Saham RI Bertahan di MSCI, Astra International (ASII) dan United Tractors (UNTR) Masih Jadi Andalan - InvestorTrust",
+          "Saham ASII: Profil Astra, Dividen & Prospek 2026 - Pluang",
+          "Djap Tet Fa Borong 500 Ribu Saham ASII, Nilainya Rp2,41 Miliar - IDX Channel"
         ]
       },
       "volume_signal": {
@@ -2943,7 +2943,7 @@
         "ma8": 4930.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:09.117704+00:00"
+      "_generated_at": "2026-08-18T01:51:48.100031+00:00"
     },
     {
       "ticker": "EMTK",
@@ -2974,8 +2974,8 @@
           "Breakdown Pendapatan PT Elang Mahkota Teknologi Tbk – IDX:EMTK - TradingView",
           "EMTK Pangkas Seluruh Kenaikan Kemarin, RUPS Setujui Perubahan Jajaran Direksi - fxstreet-id.com",
           "Grup Emtek Tambah Lagi Kepemilikan Saham JECX - investor.id",
-          "Bisnis digital bawa untung, laba EMTK melonjak 4,6 kali lipat - idnfinancials.com",
-          "Elang Mahkota Teknologi (EMTK) Bagi Dividen Final Rp5 per Saham, Cek Jadwal & Estimasi Yield - Bareksa.com"
+          "Elang Mahkota Teknologi (EMTK) Bagi Dividen Final Rp5 per Saham, Cek Jadwal & Estimasi Yield - Bareksa.com",
+          "Bisnis digital bawa untung, laba EMTK melonjak 4,6 kali lipat - idnfinancials.com"
         ]
       },
       "volume_signal": {
@@ -2994,7 +2994,7 @@
         "ma8": 519.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:26.789214+00:00"
+      "_generated_at": "2026-08-18T01:52:12.768016+00:00"
     },
     {
       "ticker": "MYOR",
@@ -3024,9 +3024,9 @@
         "headlines": [
           "Rekomendasi Saham Ajaib Sekuritas Hari Ini (BRIS, MYOR, ADMR) - Ajaib",
           "Proyeksi MYOR — Target Harga untuk 2027 - TradingView",
-          "Prospek Terbaru Saham Konsumen, Cek Target & Rekomendasi Harganya - Market - Bloomberg Technoz",
           "Produsen Kopiko, Mayora (MYOR) Tebar Dividen Rp1,32 Triliun, Estimasi Yield 3,68% - Bareksa.com",
-          "MYOR kantongi laba Rp1,70 triliun, naik 46,5% hingga Juni - idnfinancials.com"
+          "MYOR kantongi laba Rp1,70 triliun, naik 46,5% hingga Juni - idnfinancials.com",
+          "Prospek Terbaru Saham Konsumen, Cek Target & Rekomendasi Harganya - Market - Bloomberg Technoz"
         ]
       },
       "volume_signal": {
@@ -3045,7 +3045,7 @@
         "ma8": 1735.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:52.582164+00:00"
+      "_generated_at": "2026-08-18T01:52:49.466086+00:00"
     },
     {
       "ticker": "PANI",
@@ -3074,10 +3074,10 @@
         "score": 1.0,
         "headlines": [
           "PANI Siapkan Private Placement di Harga Rp6.875 per Saham - Ajaib",
-          "Aguan Buka Suara soal PIK2, PANI Terus Perkuat Pengembangan Kawasan - konstruksimedia.com",
-          "Lompatan Besar Emiten Agung Sedayu & Salim, Keluar Target Harga Saham - investor.id",
+          "Merdeka Copper (MDKA) Tambah Porsi Saham EMAS, Tambang Emas PANI Jadi Fokus Utama - Sinar Harapan - Sinar Harapan",
           "Kata Aguan, PANI akan Tonjolkan Komunikasi Transparan - topbusiness.id",
-          "Merdeka Copper (MDKA) Tambah Porsi Saham EMAS, Tambang Emas PANI Jadi Fokus Utama - Sinar Harapan - Sinar Harapan"
+          "Lompatan Besar Emiten Agung Sedayu & Salim, Keluar Target Harga Saham - investor.id",
+          "Free float PANI milik Aguan naik jadi 16,25% usai private placement - idnfinancials.com"
         ]
       },
       "volume_signal": {
@@ -3096,7 +3096,7 @@
         "ma8": 6134.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:53.496952+00:00"
+      "_generated_at": "2026-08-18T01:52:50.714798+00:00"
     },
     {
       "ticker": "PWON",
@@ -3128,7 +3128,7 @@
           "Laba Bertumbuh Kuat di Tengah Pelemahan Pasar Properti, Saham Pakuwon (PWON) Layak Dihargai Segini - InvestorTrust",
           "Saham Pakuwon (PWON) Meroket 23,86%, Komentar Anak Purbaya Jadi Pemicu? - Ajaib",
           "Kinerja PWON Tetap Tumbuh di 2025, Target Harga Saham Rp550 Masih Menarik? - Bareksa.com",
-          "Saham Konglo Salah Harga, Diramal Naik 103% - investor.id"
+          "Okupansi Mal Hampir Penuh, Saham Pakuwon (PWON) Diproyeksi Masih Punya Ruang Naik - kontan.co.id"
         ]
       },
       "volume_signal": {
@@ -3147,7 +3147,7 @@
         "ma8": 260.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:58.626865+00:00"
+      "_generated_at": "2026-08-18T01:52:58.869654+00:00"
     },
     {
       "ticker": "RAJA",
@@ -3173,13 +3173,13 @@
       "trend_up": false,
       "sentiment": {
         "label": "Positif",
-        "score": 0.5,
+        "score": 1.0,
         "headlines": [
-          "Blackrock Diam-diam Akumulasi Saham RAJA - Market - Bloomberg Technoz",
           "Rekomendasi Saham Tim Analis Bareksa Hari Ini: RAJA, TAPG & TOBA - Bareksa.com",
-          "Tarik minat investor ritel, RAJA milik Hapsoro akan stock split 1:5 - idnfinancials.com",
+          "Blackrock Diam-diam Akumulasi Saham RAJA - Market - Bloomberg Technoz",
           "Potensi Cuan Saham Raja Mi Instan - investor.id",
-          "RAJA Bagi Dividen Gelar Stock Split 1:5 - maybanktrade.co.id"
+          "IHSG Berpeluang Menguat dengan Target 6.440-6.544, Simak Analisa Saham BMRI, INDF, RAJA, dan ULTJ - RCTI+",
+          "Kepemilikan Saham RAJA oleh Pemerintah Norwegia Naik, Cek Kondisi Pasca Stock Split - kontan.co.id"
         ]
       },
       "volume_signal": {
@@ -3198,7 +3198,58 @@
         "ma8": 847.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:59.492283+00:00"
+      "_generated_at": "2026-08-18T01:53:00.118539+00:00"
+    },
+    {
+      "ticker": "SCMA",
+      "last_price": 200.0,
+      "rsi": 50.0,
+      "macd_hist": -0.11,
+      "ma20": 202.0,
+      "ma50": 203.0,
+      "support": 192.0,
+      "resistance": 218.0,
+      "buy_area": [
+        191.0,
+        204.0
+      ],
+      "tp": [
+        216.0,
+        228.0,
+        244.0
+      ],
+      "stop_loss": 189.0,
+      "rrr": 1.45,
+      "confidence": 60,
+      "trend_up": false,
+      "sentiment": {
+        "label": "Positif",
+        "score": 0.5,
+        "headlines": [
+          "Rekomendasi Saham Tim Analis Bareksa: MYOR, SCMA & MIKA, IHSG Diprediksi Melemah - Bareksa.com",
+          "SCMA Kurangi Modal 10,4 Miliar Saham, Free Float & EPS Potensi Naik? - Emitennews.com",
+          "Ada Kans Lanjutkan Rebound, Empat Saham Ini: AMMN, BRMS, HMSP, dan SCMA Berstatus Buy - topbusiness.id",
+          "SCMA tebar dividen final Rp21 per saham, yield capai 9,5% - idnfinancials.com",
+          "Saham EMTK Makin Agresif, Borong 300 Juta Saham SCMA di Harga Premium - Ajaib"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 0.46,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 8868611265.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": false,
+        "macd_bullish": true,
+        "ma8": 205.0
+      },
+      "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
+      "_generated_at": "2026-08-18T01:53:02.950070+00:00"
     },
     {
       "ticker": "TOWR",
@@ -3228,7 +3279,7 @@
         "headlines": [
           "TOWR kantongi kredit senilai Rp1,5 triliun dari CIMB Niaga - idnfinancials.com",
           "Sarana Menara (TOWR) Bagikan Dividen Final Rp6,89 per Saham, Yield Berpotensi 1,72% - Bareksa.com",
-          "Sarana Menara (TOWR) Raih Kredit Rp 1,5 Triliun dari CIMB Niaga, Ini Tujuannya - kontan.co.id",
+          "Kinerja TOWR Berpotensi Terus Tumbuh dari Bisnis Selain Menara - KONTAN",
           "TOWR Tebar Dividen Dua Tahap, Total Rp13,76 per Saham Siap Masuk Rekening Investor - pasardana.id",
           "Saham Emiten Grup Djarum Terlalu Murah, Harga Harusnya Segini - investor.id"
         ]
@@ -3249,7 +3300,7 @@
         "ma8": 391.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:57:08.242060+00:00"
+      "_generated_at": "2026-08-18T01:53:11.196304+00:00"
     },
     {
       "ticker": "ACES",
@@ -3279,9 +3330,9 @@
         "headlines": [
           "Dibayangi Sentimen Daya Beli, Simak Rekomendasi Saham Aspirasi Hidup (ACES) - kontan.co.id",
           "Saham ACES Melompat ke Rp 360 Usai Diborong Asing Rp 4,45 Miliar - achmadnurhidayat.id",
-          "ACES tebar dividen Rp548 miliar, rekor payout tertinggi - idnfinancials.com",
           "Saham Konglo Lagi Murah-murahnya Tetiba Diborong, PBV di Bawah 1, Raup Rp 4,5 T - investor.id",
-          "Daya Beli Masyarakat Dinilai Masih Lemah, Analis Pilih Saham ACES dan ERAL - Bareksa.com"
+          "Rekomendasi Saham Tim Analis Bareksa Hari Ini: INDF, HMSP & ACES, Prediksi Sinyal IHSG Bullish - Bareksa.com",
+          "ACES tebar dividen Rp548 miliar, rekor payout tertinggi - idnfinancials.com"
         ]
       },
       "volume_signal": {
@@ -3300,7 +3351,7 @@
         "ma8": 350.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-08-17T01:56:01.358664+00:00"
+      "_generated_at": "2026-08-18T01:51:36.712970+00:00"
     },
     {
       "ticker": "ARTO",
@@ -3329,10 +3380,10 @@
         "score": 1.0,
         "headlines": [
           "MSCI Hapus 9 Saham dari Daftar MSCI Small Cap, Ada ARTO, FILM, hingga SMGR - InvestorTrust",
-          "Saham ARTO 2026: Laba +42%, Panduan Lengkap untuk Investor - Pluang",
+          "Presdir ARTO Arief Harris bicara soal free float dan lonjakan laba 42% - idnfinancials.com",
           "Saham ARTO, BUKA, RATU Cs Jatuh usai Didepak dari MSCI Small Cap - Lotus Andalan Sekuritas",
           "9 Saham Terdepak dari MSCI Small Cap Index, Ada ARTO hingga RATU - IDX Channel",
-          "Presdir ARTO Arief Harris bicara soal free float dan lonjakan laba 42% - idnfinancials.com"
+          "Saham ARTO 2026: Laba +42%, Panduan Lengkap untuk Investor - Pluang"
         ]
       },
       "volume_signal": {
@@ -3351,7 +3402,7 @@
         "ma8": 1166.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-08-17T01:56:08.238892+00:00"
+      "_generated_at": "2026-08-18T01:51:46.670888+00:00"
     },
     {
       "ticker": "BBTN",
@@ -3402,58 +3453,7 @@
         "ma8": 1198.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-08-17T01:56:12.677995+00:00"
-    },
-    {
-      "ticker": "BMRI",
-      "last_price": 4170.0,
-      "rsi": 50.9,
-      "macd_hist": -11.47,
-      "ma20": 4219.0,
-      "ma50": 4158.0,
-      "support": 4060.0,
-      "resistance": 4520.0,
-      "buy_area": [
-        4040.0,
-        4261.0
-      ],
-      "tp": [
-        4394.0,
-        4542.0,
-        4766.0
-      ],
-      "stop_loss": 4021.0,
-      "rrr": 1.5,
-      "confidence": 55,
-      "trend_up": false,
-      "sentiment": {
-        "label": "Positif",
-        "score": 1.0,
-        "headlines": [
-          "BERITA POPULER: Harga Emas Perhiasan Kokoh hingga Saham BMRI Lagi Murah - investor.id",
-          "Gerak Investor Jumbo di Saham Bank Mandiri (BMRI) - maybanktrade.co.id",
-          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (BMRI, MEDC, EXCL) - Ajaib",
-          "Saham Mandiri (BMRI): Cara Hitung Lot, Lembar, dan Harganya 2026 - Pluang",
-          "Bank Mandiri (BMRI) Salurkan KUR Rp 25,63 Triliun, 56.043 Debitur Naik Kelas - InvestorTrust"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.5,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 604925776750.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": true,
-        "ma8": 4161.0
-      },
-      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-08-17T01:56:14.397482+00:00"
+      "_generated_at": "2026-08-18T01:51:53.089010+00:00"
     },
     {
       "ticker": "ENRG",
@@ -3481,11 +3481,11 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
+          "Penjualan dan Laba Energi Mega Persada (ENRG) Meningkat di Semester I-2026 - kontan.co.id",
+          "Bertahap, Broker Boy Thohir (TRIM) Kempit 12,13 Persen Saham ENRG - Emitennews.com",
           "Rights Issue ENRG: Bakrie Kalila Jadi Standby Buyer, Ini Arti Eksekusi Rp310/Saham buat Trader - Ajaib",
-          "Kelar Rights Issue, Simak Target Harga Saham Terbaru Energi Mega Persada (ENRG) - kontan.co.id",
           "Sinyal Dividen Perdana Energi Mega Persada (ENRG) - investor.id",
-          "ENRG Right Issue Rp4,1 Triliun, Hari Ini Cum Date Right Issuenya! - Ajaib",
-          "ENRG Dinilai Siap Masuk Siklus Pertumbuhan, Rights Issue Rp4,12 Triliun Jadi Katalis - Bareksa.com"
+          "Energi Mega Persada Cetak Pertumbuhan Solid di Semester I 2026, Penjualan Naik 19% dan Laba Bersih Meroket 27% - pasardana.id"
         ]
       },
       "volume_signal": {
@@ -3504,7 +3504,58 @@
         "ma8": 1249.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-08-17T01:56:27.635374+00:00"
+      "_generated_at": "2026-08-18T01:52:13.962481+00:00"
+    },
+    {
+      "ticker": "MIKA",
+      "last_price": 1760.0,
+      "rsi": 50.9,
+      "macd_hist": -5.8,
+      "ma20": 1782.0,
+      "ma50": 1689.0,
+      "support": 1690.0,
+      "resistance": 1905.0,
+      "buy_area": [
+        1682.0,
+        1800.0
+      ],
+      "tp": [
+        1919.0,
+        2025.0,
+        2184.0
+      ],
+      "stop_loss": 1654.0,
+      "rrr": 1.5,
+      "confidence": 55,
+      "trend_up": false,
+      "sentiment": {
+        "label": "Positif",
+        "score": 0.33,
+        "headlines": [
+          "Mitra Keluarga (MIKA) Kandidat Kuat Peraih ‘The Best Investortrust Companies 2026’ - InvestorTrust",
+          "Kinerja Mitra Keluarga (MIKA) Positif, Simak Rekomendasi Sahamnya dari Analis Berikut - kontan.co.id",
+          "MIKA Tebar Dividen Jumbo! Pemegang Saham Bakal Kantongi Rp43 per Lembar, Cair 10 Juli - pasardana.id",
+          "AI Report - Laporan Bulanan Registrasi Pemegang Efek/Perubahan Struktur Pemegang Saham (MIKA) - Indo Premier Sekuritas",
+          "Analis Jagokan Saham Rumah Sakit MIKA dan SILO di Tengah Beban Depresiasi Rupiah - Bisnis.com - Market"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 0.33,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 7659767200.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": true,
+        "ma8": 1756.0
+      },
+      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
+      "_generated_at": "2026-08-18T01:52:48.317850+00:00"
     },
     {
       "ticker": "PGAS",
@@ -3535,8 +3586,8 @@
           "Lo Kheng Hong Borong Saham PGN (PGAS), Ada Apa? - Ajaib",
           "Mengapa Lo Kheng Hong Kembali Borong Saham PGN (PGAS)? - Bisnis.com - Market",
           "Dirut PGAS Arief Kurnia Risdianto borong saham hampir Rp1 miliar - idnfinancials.com",
-          "Pipa Cuan Saham PGAS Belum Kering, Siap-siap Mengalir Deras - investor.id",
-          "PGN (PGAS) Bagi Dividen Rp125,6 per Saham, Ini Estimasi Yield & Jadwal Lengkapnya - Bareksa.com"
+          "IHSG Berpeluang Cerah Usai Libur Panjang - CNN Indonesia",
+          "Pipa Cuan Saham PGAS Belum Kering, Siap-siap Mengalir Deras - investor.id"
         ]
       },
       "volume_signal": {
@@ -3555,7 +3606,7 @@
         "ma8": 1487.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-08-17T01:56:54.413818+00:00"
+      "_generated_at": "2026-08-18T01:52:51.844437+00:00"
     },
     {
       "ticker": "TLKM",
@@ -3581,13 +3632,13 @@
       "trend_up": false,
       "sentiment": {
         "label": "Positif",
-        "score": 0.33,
+        "score": 1.0,
         "headlines": [
-          "Saham TLKM: Profil Telkom, Dividen & Prospek 2026 - Pluang",
-          "Dipertahankan MSCI, Saham Telkom (TLKM) Ditargetkan Tembus Rp3.400 - InvestorTrust",
-          "Bersih-bersih, Bos TLKM Dikabarkan Memenuhi Panggilan SEC - KONTAN",
-          "Dividen Telkom Terendus, Potensi Cuan Saham 35% - investor.id",
-          "IHSG Meringkat ke Level 6.373 Saat Asing Lepas Saham BMRI dan TLKM - achmadnurhidayat.id"
+          "KB Valbury dan Samuel Sekuritas Optimalkan Peluang Saham Telkom di Agustus 2026 - achmadnurhidayat.id",
+          "TLKM Kirim Sinyal Penting, Bersiap Tangkap Peluang Cuan - investor.id",
+          "IHSG Cenderung Menguat, Angkut Saham TLKM, ANTM, INCO, dan ARCI - Emitennews.com",
+          "Cermati Rekomendasi Teknikal Saham TLKM, INDF, PGEO untuk Selasa (18/8) - kontan.co.id",
+          "Saham TLKM: Profil Telkom, Dividen & Prospek 2026 - Pluang"
         ]
       },
       "volume_signal": {
@@ -3606,7 +3657,58 @@
         "ma8": 2591.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-08-17T01:57:07.184418+00:00"
+      "_generated_at": "2026-08-18T01:53:10.093875+00:00"
+    },
+    {
+      "ticker": "TPIA",
+      "last_price": 2010.0,
+      "rsi": 45.7,
+      "macd_hist": -5.54,
+      "ma20": 2128.0,
+      "ma50": 1959.0,
+      "support": 1955.0,
+      "resistance": 2370.0,
+      "buy_area": [
+        1945.0,
+        2149.0
+      ],
+      "tp": [
+        2178.0,
+        2290.0,
+        2458.0
+      ],
+      "stop_loss": 1898.0,
+      "rrr": 1.5,
+      "confidence": 55,
+      "trend_up": false,
+      "sentiment": {
+        "label": "Positif",
+        "score": 1.0,
+        "headlines": [
+          "Asing Lepas Rp1,58 Triliun Saham RI, Ini Daftarnya - CNBC Indonesia",
+          "Perdagangan asing net sell Rp1,4 triliun, TPIA top net sell - idnfinancials.com",
+          "2 Saham Ramai Dilego Asing - investor.id",
+          "Investor Asing Lepas Saham TPIA dan DSSA Sesi I - achmadnurhidayat.id",
+          "Jadi Saham Teraktif Sepekan, JP Morgan: Kinerja TPIA Terdongkrak Kilang Aster - kontan.co.id"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 0.87,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 1063588306850.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": true,
+        "ma8": 1979.0
+      },
+      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
+      "_generated_at": "2026-08-18T01:53:12.589148+00:00"
     },
     {
       "ticker": "WIFI",
@@ -3637,8 +3739,8 @@
           "WIFI jual seluruh sahamnya di perusahaan layanan digital - idnfinancials.com",
           "Solusi Sinergi Digital (WIFI) Lakukan Divestasi - investor.id",
           "WIFI Lepas 70 Persen Saham JDU, Kinerja Masih Aman? - KabarBursa.com",
-          "WIFI Lepas Saham JDU dan Rencanakan Ekspansi Usaha Telekomunikasi - achmadnurhidayat.id",
-          "WIFI Divestasi Seluruh Saham di Anak Usaha Jejaring Digital Utama - IDX Channel"
+          "WIFI Divestasi Seluruh Saham di Anak Usaha Jejaring Digital Utama - IDX Channel",
+          "WIFI Lepas Saham JDU dan Rencanakan Ekspansi Usaha Telekomunikasi - achmadnurhidayat.id"
         ]
       },
       "volume_signal": {
@@ -3657,58 +3759,7 @@
         "ma8": 1858.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-08-17T01:57:11.866275+00:00"
-    },
-    {
-      "ticker": "SCMA",
-      "last_price": 200.0,
-      "rsi": 50.0,
-      "macd_hist": -0.11,
-      "ma20": 202.0,
-      "ma50": 203.0,
-      "support": 192.0,
-      "resistance": 218.0,
-      "buy_area": [
-        191.0,
-        204.0
-      ],
-      "tp": [
-        216.0,
-        228.0,
-        244.0
-      ],
-      "stop_loss": 189.0,
-      "rrr": 1.45,
-      "confidence": 50,
-      "trend_up": false,
-      "sentiment": {
-        "label": "Netral",
-        "score": 0.0,
-        "headlines": [
-          "SCMA tebar dividen final Rp21 per saham, yield capai 9,5% - idnfinancials.com",
-          "Rekomendasi Saham Tim Analis Bareksa: MYOR, SCMA & MIKA, IHSG Diprediksi Melemah - Bareksa.com",
-          "SCMA Kurangi Modal 10,4 Miliar Saham, Free Float & EPS Potensi Naik? - Emitennews.com",
-          "Reliance Sekuritas Prediksi Penguatan IHSG dengan Saham Pilihan AMMN, BRMS, hingga SCMA - InvestorTrust",
-          "Ada Kans Lanjutkan Rebound, Empat Saham Ini: AMMN, BRMS, HMSP, dan SCMA Berstatus Buy - topbusiness.id"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.46,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 8868611265.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": false,
-        "macd_bullish": true,
-        "ma8": 205.0
-      },
-      "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:57:01.271153+00:00"
+      "_generated_at": "2026-08-18T01:53:16.250473+00:00"
     },
     {
       "ticker": "AKRA",
@@ -3736,11 +3787,11 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
-          "Pengendali AKRA Serok 4 Juta Saham, Rogoh Kocek Rp5,59 Miliar - Emitennews.com",
-          "Free Float dan Investor AKRA Kompak Naik pada Juli 2026, Siapa Penguasa Saham? - KabarBursa.com",
           "Pengendali AKR Corporindo (AKRA) Tambah Kepemilikan 4,01 Juta Saham - SWA.co.id",
           "AKRA Bagi-Bagi Dividen: Cek Jadwalnya - maybanktrade.co.id",
-          "AKRA catat laba melonjak 21,2%, siap bagi dividen interim Rp1 triliun - idnfinancials.com"
+          "Free Float dan Investor AKRA Kompak Naik pada Juli 2026, Siapa Penguasa Saham? - KabarBursa.com",
+          "AKRA catat laba melonjak 21,2%, siap bagi dividen interim Rp1 triliun - idnfinancials.com",
+          "Prospek AKR Corporindo (AKRA) Solid Ditopang Bisnis JIIPE dan LNG, Intip Analisisnya - kontan.co.id"
         ]
       },
       "volume_signal": {
@@ -3759,58 +3810,58 @@
         "ma8": 1332.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-08-17T01:56:04.765339+00:00"
+      "_generated_at": "2026-08-18T01:51:41.080219+00:00"
     },
     {
-      "ticker": "BBCA",
-      "last_price": 6350.0,
-      "rsi": 52.5,
-      "macd_hist": -16.23,
-      "ma20": 6368.0,
-      "ma50": 6126.0,
-      "support": 6125.0,
-      "resistance": 6625.0,
+      "ticker": "BMRI",
+      "last_price": 4170.0,
+      "rsi": 50.9,
+      "macd_hist": -11.47,
+      "ma20": 4219.0,
+      "ma50": 4158.0,
+      "support": 4060.0,
+      "resistance": 4520.0,
       "buy_area": [
-        6094.0,
-        6431.0
+        4040.0,
+        4261.0
       ],
       "tp": [
-        6782.0,
-        7070.0,
-        7502.0
+        4394.0,
+        4542.0,
+        4766.0
       ],
-      "stop_loss": 6062.0,
+      "stop_loss": 4021.0,
       "rrr": 1.5,
       "confidence": 45,
       "trend_up": false,
       "sentiment": {
         "label": "Netral",
-        "score": 0.0,
+        "score": 0,
         "headlines": [
-          "BBCA Jauh dari Rata-rata - investor.id",
-          "Investor Asing Akumulasi Net Buy Saham BBCA Rp221 Miliar Pekan Lalu - achmadnurhidayat.id",
-          "Reliance Sekuritas Jagokan 4 Saham, Ada BBCA, BBRI dan BBNI - InvestorTrust",
-          "Perdagangan asing net buy, BBCA pimpin top net buy - idnfinancials.com",
-          "Intip Siapa Saja Pemilik Saham BCA (BBCA): Kepemilikan di Atas 1% - Ajaib"
+          "Posisi Investor Lokal Kian Berpengaruh Terhadap Gerak Saham Bank - KONTAN",
+          "Gerak Investor Jumbo di Saham Bank Mandiri (BMRI) - maybanktrade.co.id",
+          "Asing Lepas Rp1,58 Triliun Saham RI, Ini Daftarnya - CNBC Indonesia",
+          "Rekomendasi Saham Ajaib Sekuritas Hari Ini (BMRI, MEDC, EXCL) - Ajaib",
+          "IHSG Bakal Uji Leve 6.450, Saham-Saham Ini Dijagokan Cuan - investor.id"
         ]
       },
       "volume_signal": {
-        "ratio": 0.4,
+        "ratio": 0.5,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 816122660250.0,
+        "avg_daily_value_idr": 604925776750.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": true,
-        "ma8": 6275.0
+        "ma8": 4161.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-08-17T01:56:09.996832+00:00"
+      "_generated_at": "2026-08-18T01:51:55.775756+00:00"
     },
     {
       "ticker": "CBDK",
@@ -3842,7 +3893,7 @@
           "Rekomendasi Saham Tim Analis Bareksa Hari Ini: CBDK, SGER & ADMR, IHSG Berpeluang Menguat - Bareksa.com",
           "CBDK Akan Konservatif Hadapi Suku Bunga Tinggi - Bloomberg Technoz",
           "Siapkan Dana Rp 250 Miliar, Bangun Kosambi Sukses (CBDK) Mulai Buyback Saham - KONTAN",
-          "Tiger Insights Journey (Active Watchlist) - 7 - 13 Agustus 2026 - maybanktrade.co.id"
+          "CBDK Tebar Dividen Rp5 per Saham, Cair 8 Juli 2026 - Emitennews.com"
         ]
       },
       "volume_signal": {
@@ -3861,58 +3912,7 @@
         "ma8": 3581.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-08-17T01:56:19.733417+00:00"
-    },
-    {
-      "ticker": "DEWA",
-      "last_price": 450.0,
-      "rsi": 52.8,
-      "macd_hist": -4.87,
-      "ma20": 453.0,
-      "ma50": 376.0,
-      "support": 364.0,
-      "resistance": 496.0,
-      "buy_area": [
-        362.0,
-        458.0
-      ],
-      "tp": [
-        596.0,
-        692.0,
-        838.0
-      ],
-      "stop_loss": 353.0,
-      "rrr": 1.51,
-      "confidence": 45,
-      "trend_up": false,
-      "sentiment": {
-        "label": "Positif",
-        "score": 1.0,
-        "headlines": [
-          "Usai Dapat Kontrak Rp 22 Triliun Saham DEWA Melandai, Investor Tunggu Pembuktian - KONTAN",
-          "Laba DEWA Melejit 164%, Saham Wajarnya Segini - investor.id",
-          "Saham Darma Henwa (DEWA) Jadi Konstituen IDX30, Sejajar dengan AADI hingga UNTR - IDX Channel",
-          "DEWA incar sumber pendapatan baru lewat 3 anak usaha ini - idnfinancials.com",
-          "Rekomendasi Saham Tim Analis Bareksa Hari Ini: ISAT, INDF & DEWA, Prediksi IHSG Bergerak Terbatas - Bareksa.com"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.35,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 409780455930.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": true,
-        "ma8": 394.0
-      },
-      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-08-17T01:56:24.061989+00:00"
+      "_generated_at": "2026-08-18T01:52:03.010193+00:00"
     },
     {
       "ticker": "ELSA",
@@ -3942,9 +3942,9 @@
         "headlines": [
           "EKAD Bersiap Ganti Pengendali, Sementara ELSA dan INCO Kembangkan Proyek Bisnis - detikFinance",
           "Rogoh Dana Rp 100 Miliar, Elnusa (ELSA) Siap Buyback Saham - KONTAN",
-          "Prediksi IHSG: Profit Taking Bikin Lunglai, Rekomendasi OmFin di Saham ELSA, IPCC, ASII - TrenAsia",
-          "Awas Kembali Koreksi, Enam Saham Ini Jadi Pilihan: INDF, JPFA, ULTJ, AMMN, ELSA, dan ADRO - topbusiness.id",
-          "Harga Minyak Melonjak Lagi, Saham ELSA-ENRG Cs Justru Tertekan - IDX Channel"
+          "📝 ELSA 1H26 Results & Earnings Call Takeaways - Stockbit Snips",
+          "Rekomendasi Saham Tim Analis Bareksa Hari Ini: INDY, ELSA & BUKA, Begini Prediksi IHSG - Bareksa.com",
+          "Rekomendasi Saham Hari Ini: ELSA, MDIA, hingga SOCI - CNBC Indonesia"
         ]
       },
       "volume_signal": {
@@ -3963,7 +3963,7 @@
         "ma8": 643.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-08-17T01:56:25.827410+00:00"
+      "_generated_at": "2026-08-18T01:52:11.581860+00:00"
     },
     {
       "ticker": "HEAL",
@@ -3991,11 +3991,11 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
+          "Saham Hermina (HEAL) Keluar dari MSCI, Ini Prospeknya - kontan.co.id",
           "Yustinus Immanuel Herawan Borong 60.000 Saham HEAL di Harga Rp710, Kepemilikan Melonjak jadi 12% - pasardana.id",
-          "Direktur HEAL Borong 60.000 Saham, Porsi Kepemilikan Jadi 12% - Lotus Andalan Sekuritas",
-          "Bos Hermina (HEAL) Borong 60 Ribu Saham, Porsi Melonjak Jadi 12 Persen - KabarBursa.com",
-          "AI Report - Perubahan Kepemilikan Saham Medikaloka Hermina (HEAL) - Indo Premier Sekuritas",
-          "Beban usaha naik, laba bersih HEAL susut 14,08% pada semester I 2026 - idnfinancials.com"
+          "Hasmoro hingga Astra kembali borong saham HEAL - idnfinancials.com",
+          "Aksi Senyap Astra Healthcare Serok Saham HEAL 6 Hari Beruntun! - Emitennews.com",
+          "Bos Hermina (HEAL) Borong 60 Ribu Saham, Porsi Melonjak Jadi 12 Persen - KabarBursa.com"
         ]
       },
       "volume_signal": {
@@ -4014,58 +4014,7 @@
         "ma8": 829.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:33.096643+00:00"
-    },
-    {
-      "ticker": "MIKA",
-      "last_price": 1760.0,
-      "rsi": 50.9,
-      "macd_hist": -5.8,
-      "ma20": 1782.0,
-      "ma50": 1689.0,
-      "support": 1690.0,
-      "resistance": 1905.0,
-      "buy_area": [
-        1682.0,
-        1800.0
-      ],
-      "tp": [
-        1919.0,
-        2025.0,
-        2184.0
-      ],
-      "stop_loss": 1654.0,
-      "rrr": 1.5,
-      "confidence": 45,
-      "trend_up": false,
-      "sentiment": {
-        "label": "Netral",
-        "score": 0.0,
-        "headlines": [
-          "Pendapatan Masih Kuat, Prospek MIKA Semakin Sehat - KONTAN",
-          "MIKA Tebar Dividen Jumbo! Pemegang Saham Bakal Kantongi Rp43 per Lembar, Cair 10 Juli - pasardana.id",
-          "Mitra Keluarga (MIKA) Kandidat Kuat Peraih ‘The Best Investortrust Companies 2026’ - InvestorTrust",
-          "AI Report - Laporan Bulanan Registrasi Pemegang Efek/Perubahan Struktur Pemegang Saham (MIKA) - Indo Premier Sekuritas",
-          "Analis Jagokan Saham Rumah Sakit MIKA dan SILO di Tengah Beban Depresiasi Rupiah - Bisnis.com - Market"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.33,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 7659767200.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": true,
-        "ma8": 1756.0
-      },
-      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-08-17T01:56:51.663976+00:00"
+      "_generated_at": "2026-08-18T01:52:21.366538+00:00"
     },
     {
       "ticker": "SSIA",
@@ -4093,11 +4042,11 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
+          "Minyak Lesu, IHSG Rebound Sesaat? Kabar BRPT, RAJA, SSIA, Saham AI & Data Center - maybanktrade.co.id",
           "Prospek Cerah Kawasan Industri dan Harga Saham SSIA - KONTAN",
-          "Henan Putihrai terus alokasi saham SSIA - idnfinancials.com",
           "Surya Semesta Internusa (SSIA) Terbitkan 235 Juta Saham Baru via MESOP, Ini Dampak & Rekomendasinya - Bareksa.com",
-          "Breakdown Pendapatan PT Surya Semesta Internusa Tbk – IDX:SSIA - TradingView",
-          "Minyak Lesu, IHSG Rebound Sesaat? Kabar BRPT, RAJA, SSIA, Saham AI & Data Center - maybanktrade.co.id"
+          "Henan Putihrai terus alokasi saham SSIA - idnfinancials.com",
+          "Breakdown Pendapatan PT Surya Semesta Internusa Tbk – IDX:SSIA - TradingView"
         ]
       },
       "volume_signal": {
@@ -4116,58 +4065,7 @@
         "ma8": 1611.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-08-17T01:57:05.339358+00:00"
-    },
-    {
-      "ticker": "TPIA",
-      "last_price": 2010.0,
-      "rsi": 45.7,
-      "macd_hist": -5.54,
-      "ma20": 2128.0,
-      "ma50": 1959.0,
-      "support": 1955.0,
-      "resistance": 2370.0,
-      "buy_area": [
-        1945.0,
-        2149.0
-      ],
-      "tp": [
-        2178.0,
-        2290.0,
-        2458.0
-      ],
-      "stop_loss": 1898.0,
-      "rrr": 1.5,
-      "confidence": 45,
-      "trend_up": false,
-      "sentiment": {
-        "label": "Netral",
-        "score": 0,
-        "headlines": [
-          "Perdagangan asing net sell Rp1,4 triliun, TPIA top net sell - idnfinancials.com",
-          "Chandra Asri (TPIA) Tingkatkan Free Float Saham Jadi 25,7% - CNBC Indonesia",
-          "Investor Asing Lepas Saham TPIA dan DSSA Sesi I - achmadnurhidayat.id",
-          "TPIA Jadi Target Utama - investor.id",
-          "Jadi Saham Teraktif Sepekan, JP Morgan: Kinerja TPIA Terdongkrak Kilang Aster - kontan.co.id"
-        ]
-      },
-      "volume_signal": {
-        "ratio": 0.87,
-        "signal": "Normal",
-        "unusual": false
-      },
-      "liquidity": {
-        "avg_daily_value_idr": 1063588306850.0,
-        "is_liquid": true
-      },
-      "weekly_trend": {
-        "available": true,
-        "trend_up": true,
-        "macd_bullish": true,
-        "ma8": 1979.0
-      },
-      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-08-17T01:57:09.114780+00:00"
+      "_generated_at": "2026-08-18T01:53:07.831756+00:00"
     },
     {
       "ticker": "UNTR",
@@ -4197,9 +4095,9 @@
         "headlines": [
           "Cuma 9 Saham RI Bertahan di MSCI, Astra International (ASII) dan United Tractors (UNTR) Masih Jadi Andalan - InvestorTrust",
           "UNTR Rugi di Proyek Panas Bumi, Saham Lagi Murah - investor.id",
-          "Bedah Saham UNTR, Bagaimana Prospeknya Tahun 2026? - Ajaib",
           "United Tractors kembali buyback saham Rp2 triliun - idnfinancials.com",
-          "AI Report - Laporan Bulanan Registrasi Pemegang Efek/Perubahan Struktur Pemegang Saham (UNTR) - Indo Premier Sekuritas"
+          "AI Report - Laporan Bulanan Registrasi Pemegang Efek/Perubahan Struktur Pemegang Saham (UNTR) - Indo Premier Sekuritas",
+          "Bedah Saham UNTR, Bagaimana Prospeknya Tahun 2026? - Ajaib"
         ]
       },
       "volume_signal": {
@@ -4218,7 +4116,7 @@
         "ma8": 24256.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:57:10.030842+00:00"
+      "_generated_at": "2026-08-18T01:53:13.863846+00:00"
     },
     {
       "ticker": "KIJA",
@@ -4247,8 +4145,8 @@
         "score": 0,
         "headlines": [
           "Hadapi fluktuasi dolar AS, KIJA milik SD Darmono refinancing utang - idnfinancials.com",
-          "Benahi Struktur Grup, Jababeka (KIJA) Alihkan Saham Anak Usaha - IDX Channel",
           "Rekomendasi Saham Ajaib Sekuritas Hari Ini (PTBA, UNVR, KIJA) - Ajaib",
+          "Benahi Struktur Grup, Jababeka (KIJA) Alihkan Saham Anak Usaha - IDX Channel",
           "Saham KIJA Makin Panas, Disokong Booming Kawasan Industri Indonesia - KONTAN",
           "KIJA Restrukturisasi Saham Internal, 3 Entitas Sudah Tampung - Emitennews.com"
         ]
@@ -4269,7 +4167,7 @@
         "ma8": 125.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:44.810499+00:00"
+      "_generated_at": "2026-08-18T01:52:38.126343+00:00"
     },
     {
       "ticker": "CPIN",
@@ -4297,11 +4195,11 @@
         "label": "Negatif",
         "score": -1.0,
         "headlines": [
-          "Nasib Charoen Pokphand (CPIN) di Tengah Pemangkasan Penerima MBG - investor.id",
+          "Efek Turun Kelas di Indeks MSCI, Asing Lepas CPIN Rp31,3 Miliar Hanya dalam Dua Hari - KabarBursa.com",
           "Hasil Rebalancing MSCI Agustus 2026: GOTO Dihapus, CPIN Turun ke Small Cap, 9 Saham Keluar - Ajaib",
-          "Target Harga CPIN Usai Turun Kelas di Indeks MSCI - Bisnis Indonesia Premium",
-          "MSCI Agustus 2026: CPIN dan GOTO Keluar dari Global Standard, Ini Daftarnya - InvestorTrust",
-          "Intip Performa GOTO dan CPIN Usai Terlempar dari MSCI Global Standard - Emitennews.com"
+          "MSCI Rombak Indeks Indonesia: CPIN dan GOTO Tereliminasi, 9 Saham Small Cap Merosot, Begini Tanggapan Bos BEI - pasardana.id",
+          "Nasib Charoen Pokphand (CPIN) di Tengah Pemangkasan Penerima MBG - investor.id",
+          "Target Harga CPIN Usai Turun Kelas di Indeks MSCI - Bisnis Indonesia Premium"
         ]
       },
       "volume_signal": {
@@ -4320,7 +4218,58 @@
         "ma8": 3151.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:21.425798+00:00"
+      "_generated_at": "2026-08-18T01:52:05.436289+00:00"
+    },
+    {
+      "ticker": "MAPI",
+      "last_price": 1495.0,
+      "rsi": 53.6,
+      "macd_hist": -17.44,
+      "ma20": 1566.0,
+      "ma50": 1529.0,
+      "support": 1360.0,
+      "resistance": 1940.0,
+      "buy_area": [
+        1353.0,
+        1582.0
+      ],
+      "tp": [
+        1783.0,
+        1975.0,
+        2263.0
+      ],
+      "stop_loss": 1303.0,
+      "rrr": 1.5,
+      "confidence": 40,
+      "trend_up": false,
+      "sentiment": {
+        "label": "Netral",
+        "score": 0.0,
+        "headlines": [
+          "Tiba-Tiba Ada Transaksi Jumbo Rp 9,3 T di MAPI - CNBC Indonesia",
+          "Tender Offer MAPI Rp1.550 per Saham Mulai 18 Juni 2026, Ini Profil UBO Pengendali Barunya - Bareksa.com",
+          "IHSG Dibuka Turun ke 6.286, Top Losers LQ45: MAPI, ESSA, MDKA, Jumat (14/8) - kontan.co.id",
+          "MAPI, Saham Paling Banyak Diburu Investor Asing Sepekan Terakhir (27-31 Juli 2026) - Databoks",
+          "IHSG Ditutup Menguat 1,56% Setelah Koreksi 6 Hari, Saham MAPI hingga TLKM Pimpin Top Gainer LQ45 - Ajaib"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 0.32,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 23667568450.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": false,
+        "macd_bullish": true,
+        "ma8": 1531.0
+      },
+      "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
+      "_generated_at": "2026-08-18T01:52:42.864120+00:00"
     },
     {
       "ticker": "RATU",
@@ -4349,10 +4298,10 @@
         "score": -1.0,
         "headlines": [
           "RATU Turun ke 4.610, Perseroan Ungkap Agenda RUPS Luar Biasa - fxstreet-id.com",
+          "Sucor dan Komunitas Belimbing Diskusi Investasi dan Bahas Saham RATU - pasardana.id",
           "MSCI Hapus 9 Saham dari Daftar MSCI Small Cap, Ada ARTO, FILM, hingga SMGR - InvestorTrust",
           "9 Saham Terdepak dari MSCI Small Cap Index, Ada ARTO hingga RATU - IDX Channel",
-          "Saham ARTO, BUKA, RATU Cs Jatuh usai Didepak dari MSCI Small Cap - Lotus Andalan Sekuritas",
-          "Sucor dan Komunitas Belimbing Diskusi Investasi dan Bahas Saham RATU - pasardana.id"
+          "Saham ARTO, BUKA, RATU Cs Jatuh usai Didepak dari MSCI Small Cap - Lotus Andalan Sekuritas"
         ]
       },
       "volume_signal": {
@@ -4371,58 +4320,58 @@
         "ma8": 5022.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:57:00.337409+00:00"
+      "_generated_at": "2026-08-18T01:53:01.541220+00:00"
     },
     {
-      "ticker": "BUKA",
-      "last_price": 115.0,
-      "rsi": 37.5,
-      "macd_hist": -0.57,
-      "ma20": 116.0,
-      "ma50": 108.0,
-      "support": 105.0,
-      "resistance": 125.0,
+      "ticker": "BBCA",
+      "last_price": 6350.0,
+      "rsi": 52.5,
+      "macd_hist": -16.23,
+      "ma20": 6368.0,
+      "ma50": 6126.0,
+      "support": 6125.0,
+      "resistance": 6625.0,
       "buy_area": [
-        104.0,
-        118.0
+        6094.0,
+        6431.0
       ],
       "tp": [
-        133.0,
-        145.0,
-        163.0
+        6782.0,
+        7070.0,
+        7502.0
       ],
-      "stop_loss": 103.0,
+      "stop_loss": 6062.0,
       "rrr": 1.5,
       "confidence": 35,
       "trend_up": false,
       "sentiment": {
-        "label": "Netral",
-        "score": 0.0,
+        "label": "Negatif",
+        "score": -1.0,
         "headlines": [
-          "Selamat HUT Ke-81 RI, Apakah Bursa Saham Buka? Ini Jadwal Transaksi Di BEI Agustus - kontan.co.id",
-          "BEI Buka Suspensi Perdagangan Saham TRUK - pasardana.id",
-          "Saham ARTO, BUKA, RATU Cs Jatuh usai Didepak dari MSCI Small Cap - Lotus Andalan Sekuritas",
-          "BEI Buka Data Pemegang Saham di Atas 1 Persen - Perluas Tipe Investor - CNN Indonesia",
-          "Bos Bursa Buka-bukaan soal Rencana Danantara Genggam Saham BEI - detikFinance"
+          "Bersiap Potensi Saham BBCA - investor.id",
+          "Reliance Sekuritas Jagokan 4 Saham, Ada BBCA, BBRI dan BBNI - InvestorTrust",
+          "Perdagangan asing net buy, BBCA pimpin top net buy - idnfinancials.com",
+          "Investor Asing Akumulasi Net Buy Saham BBCA Rp221 Miliar Pekan Lalu - achmadnurhidayat.id",
+          "Cara Investasi Saham BCA: Panduan Lengkap Beli Saham BBCA 2026 - Pluang"
         ]
       },
       "volume_signal": {
-        "ratio": 0.49,
+        "ratio": 0.4,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 14543986200.0,
+        "avg_daily_value_idr": 816122660250.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
         "trend_up": true,
         "macd_bullish": true,
-        "ma8": 109.0
+        "ma8": 6275.0
       },
       "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
-      "_generated_at": "2026-08-17T01:56:17.967285+00:00"
+      "_generated_at": "2026-08-18T01:51:49.331032+00:00"
     },
     {
       "ticker": "GOTO",
@@ -4452,9 +4401,9 @@
         "headlines": [
           "Strategi Keluar dari Saham GOTO Saat Harga Semakin Loyo - KONTAN",
           "Ini Deretan Alasan Kenapa Saham GOTO Susah Gerak dari Harga Rp50 - CNBC Indonesia",
+          "Ada Nego Saham GoTo Gojek (GOTO) di Rp 25 - investor.id",
           "Ini Alasan MSCI Depak Saham GOTO - detikFinance",
-          "GoTo Bersuara usai Saham Keluar dari Indeks MSCI - CNN Indonesia",
-          "Jadi saham gocap, begini cara MSCI hapus GOTO dari indeks global - idnfinancials.com"
+          "GoTo Bersuara usai Saham Keluar dari Indeks MSCI - CNN Indonesia"
         ]
       },
       "volume_signal": {
@@ -4473,7 +4422,7 @@
         "ma8": 50.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:32.263118+00:00"
+      "_generated_at": "2026-08-18T01:52:20.131231+00:00"
     },
     {
       "ticker": "KPIG",
@@ -4501,10 +4450,10 @@
         "label": "Positif",
         "score": 1.0,
         "headlines": [
-          "MSCI Gusur Emiten Hary Tanoe (KPIG), Wakil MNC Group Tamat - Emitennews.com",
           "KPIG selesaikan private placement, saham terkerek 4,41% di sesi II - idnfinancials.com",
-          "Indeks MSCI Usir 2 Emiten Milik Hary Tanoe: Harga Sahamnya Ambruk Tak Kira-kira - Inilah.com",
+          "MSCI Gusur Emiten Hary Tanoe (KPIG), Wakil MNC Group Tamat - Emitennews.com",
           "Rekomendasi Saham Tim Analis Bareksa: PGEO, MEDC & KPIG, IHSG Diprediksi Kembali Menguat - Bareksa.com",
+          "Indeks MSCI Usir 2 Emiten Milik Hary Tanoe: Harga Sahamnya Ambruk Tak Kira-kira - Inilah.com",
           "Rekomendasi Saham Ajaib Sekuritas Hari Ini: BULL, KPIG, IMPC - Ajaib"
         ]
       },
@@ -4524,7 +4473,7 @@
         "ma8": 78.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:46.477383+00:00"
+      "_generated_at": "2026-08-18T01:52:40.542455+00:00"
     },
     {
       "ticker": "SIDO",
@@ -4552,11 +4501,11 @@
         "label": "Netral",
         "score": 0.0,
         "headlines": [
-          "IHSG Masih Sideways, Saham Sawit dan Otomotif Mulai Jadi Perhatian Investor - Herald ID",
-          "Prospek Saham Sido Muncul (SIDO) Setelah Lepas dari Indeks Kompas100 - Kompas.com",
           "SIDO bagi dividen final Rp441,5 miliar, Irwan Hidayat jadi Dirut - idnfinancials.com",
           "Ujian Berat Sido Muncul (SIDO) Belum Usai, Target 2026 Berbalik Arah - investor.id",
-          "Saham Barang Konsumsi Stabil, Sido Muncul Perluas Pasar Ekspor - Kompas.id"
+          "Saham Barang Konsumsi Stabil, Sido Muncul Perluas Pasar Ekspor - Kompas.id",
+          "Prospek Saham Sido Muncul (SIDO) Setelah Lepas dari Indeks Kompas100 - money.kompas.com",
+          "Harga Anjlok 30%, Presdir Sido Muncul Borong Sejuta Saham SIDO - kontan.co.id"
         ]
       },
       "volume_signal": {
@@ -4575,58 +4524,109 @@
         "ma8": 367.0
       },
       "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:57:02.468435+00:00"
+      "_generated_at": "2026-08-18T01:53:04.189661+00:00"
     },
     {
-      "ticker": "MAPI",
-      "last_price": 1495.0,
-      "rsi": 53.6,
-      "macd_hist": -17.44,
-      "ma20": 1566.0,
-      "ma50": 1529.0,
-      "support": 1360.0,
-      "resistance": 1940.0,
+      "ticker": "BUKA",
+      "last_price": 115.0,
+      "rsi": 37.5,
+      "macd_hist": -0.57,
+      "ma20": 116.0,
+      "ma50": 108.0,
+      "support": 105.0,
+      "resistance": 125.0,
       "buy_area": [
-        1353.0,
-        1582.0
+        104.0,
+        118.0
       ],
       "tp": [
-        1783.0,
-        1975.0,
-        2263.0
+        133.0,
+        145.0,
+        163.0
       ],
-      "stop_loss": 1303.0,
+      "stop_loss": 103.0,
       "rrr": 1.5,
-      "confidence": 30,
+      "confidence": 25,
       "trend_up": false,
       "sentiment": {
         "label": "Negatif",
         "score": -0.33,
         "headlines": [
-          "Tender Offer MAPI Rp1.550 per Saham Mulai 18 Juni 2026, Ini Profil UBO Pengendali Barunya - Bareksa.com",
-          "IHSG Dibuka Turun ke 6.286, Top Losers LQ45: MAPI, ESSA, MDKA, Jumat (14/8) - kontan.co.id",
-          "Indeks Bisnis-27 Ditutup Melemah, Saham DEWA, MAPI hingga BUMI Jadi Pemberat - Bisnis.com - Market",
-          "IHSG Ambruk 1,53 Persen, Saham DEWA, HRTA dan MAPI Jadi Beban LQ45 - Herald ID",
-          "MAPI, Saham Paling Banyak Diburu Investor Asing Sepekan Terakhir (27-31 Juli 2026) - databoks.katadata.co.id"
+          "Nasdaq Siap Buka Perdagangan Saham 23 Jam Mulai Desember 2026 - Cryptowave",
+          "Saham Intermedia (MDIA) Melejit 318% Akhirnya Disuspensi BEI, Manajemen Buka Suara - kontan.co.id",
+          "BEI Buka Suspensi Perdagangan Saham TRUK - pasardana.id",
+          "Saham ARTO, BUKA, RATU Cs Jatuh usai Didepak dari MSCI Small Cap - Lotus Andalan Sekuritas",
+          "Demutualisasi Bursa Buka Peluang Pembagian Dividen kepada Pemegang Saham - InvestorTrust"
         ]
       },
       "volume_signal": {
-        "ratio": 0.32,
+        "ratio": 0.49,
         "signal": "Normal",
         "unusual": false
       },
       "liquidity": {
-        "avg_daily_value_idr": 23667568450.0,
+        "avg_daily_value_idr": 14543986200.0,
         "is_liquid": true
       },
       "weekly_trend": {
         "available": true,
-        "trend_up": false,
+        "trend_up": true,
         "macd_bullish": true,
-        "ma8": 1531.0
+        "ma8": 109.0
       },
-      "mtf_alignment": "Selaras (Downtrend Harian + Mingguan)",
-      "_generated_at": "2026-08-17T01:56:48.132076+00:00"
+      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
+      "_generated_at": "2026-08-18T01:52:00.500255+00:00"
+    },
+    {
+      "ticker": "DEWA",
+      "last_price": 450.0,
+      "rsi": 52.8,
+      "macd_hist": -4.87,
+      "ma20": 453.0,
+      "ma50": 376.0,
+      "support": 364.0,
+      "resistance": 496.0,
+      "buy_area": [
+        362.0,
+        458.0
+      ],
+      "tp": [
+        596.0,
+        692.0,
+        838.0
+      ],
+      "stop_loss": 353.0,
+      "rrr": 1.51,
+      "confidence": 25,
+      "trend_up": false,
+      "sentiment": {
+        "label": "Negatif",
+        "score": -1.0,
+        "headlines": [
+          "Prospek DEWA Semester II, Ada Proyek Besar, Target Harga Baru - investor.id",
+          "Usai Dapat Kontrak Rp 22 Triliun Saham DEWA Melandai, Investor Tunggu Pembuktian - KONTAN",
+          "Saham Darma Henwa (DEWA) Jadi Konstituen IDX30, Sejajar dengan AADI hingga UNTR - IDX Channel",
+          "Rekomendasi Saham Tim Analis Bareksa Hari Ini: ISAT, INDF & DEWA, Prediksi IHSG Bergerak Terbatas - Bareksa.com",
+          "BUMI vs DEWA di LQ45, Mana Saham Bakrie yang Paling Cuan? - Emitennews.com"
+        ]
+      },
+      "volume_signal": {
+        "ratio": 0.35,
+        "signal": "Normal",
+        "unusual": false
+      },
+      "liquidity": {
+        "avg_daily_value_idr": 409780455930.0,
+        "is_liquid": true
+      },
+      "weekly_trend": {
+        "available": true,
+        "trend_up": true,
+        "macd_bullish": true,
+        "ma8": 394.0
+      },
+      "mtf_alignment": "Konflik (Turun harian, tapi mingguan uptrend)",
+      "_generated_at": "2026-08-18T01:52:09.124965+00:00"
     }
   ],
   "errors": [],
