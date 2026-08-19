@@ -1,19 +1,19 @@
 {
-  "date": "2026-08-18",
+  "date": "2026-08-19",
   "alerted": {
-    "ADMR": [],
-    "ANTM": [],
+    "AADI": [],
     "BBNI": [
       "buy_zone"
     ],
     "BKSL": [],
-    "BRMS": [],
-    "BUMI": [],
-    "CMRY": [
+    "CMRY": [],
+    "HRUM": [],
+    "ISAT": [],
+    "JSMR": [],
+    "KIJA": [],
+    "MDKA": [],
+    "PGAS": [
       "buy_zone"
-    ],
-    "CTRA": [],
-    "HRTA": [],
-    "ISAT": []
+    ]
   }
 }
