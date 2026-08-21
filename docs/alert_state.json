@@ -1,16 +1,18 @@
 {
-  "date": "2026-08-20",
+  "date": "2026-08-21",
   "alerted": {
-    "ANTM": [],
-    "BKSL": [],
-    "BSDE": [],
-    "ERAA": [],
+    "BBCA": [],
+    "BBNI": [],
+    "BRMS": [],
+    "CBDK": [],
+    "CMRY": [
+      "buy_zone"
+    ],
+    "CTRA": [],
+    "DSNG": [],
+    "HRTA": [],
     "HRUM": [],
-    "ISAT": [],
-    "ITMG": [],
-    "MDKA": [],
-    "MEDC": [],
-    "SMGR": [
+    "JPFA": [
       "buy_zone"
     ]
   }
