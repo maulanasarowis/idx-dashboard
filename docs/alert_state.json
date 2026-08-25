@@ -1,21 +1,4 @@
 {
-  "date": "2026-08-24",
-  "alerted": {
-    "AADI": [],
-    "ACES": [
-      "buy_zone"
-    ],
-    "ADMR": [],
-    "BBNI": [],
-    "BBRI": [],
-    "BBTN": [
-      "buy_zone"
-    ],
-    "BUMI": [],
-    "CBDK": [],
-    "CMRY": [
-      "buy_zone"
-    ],
-    "CTRA": []
-  }
+  "date": "2026-08-25",
+  "alerted": {}
 }
