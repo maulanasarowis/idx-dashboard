@@ -3,7 +3,9 @@
   "alerted": {
     "AADI": [],
     "AMMN": [],
-    "BBCA": [],
+    "BBCA": [
+      "buy_zone"
+    ],
     "BBNI": [],
     "CBDK": [],
     "CTRA": [],
