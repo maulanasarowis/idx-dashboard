@@ -10,7 +10,9 @@
     "CBDK": [
       "buy_zone"
     ],
-    "CTRA": [],
+    "CTRA": [
+      "buy_zone"
+    ],
     "DSNG": [],
     "HRUM": [],
     "INKP": [],
