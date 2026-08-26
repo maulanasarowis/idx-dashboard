@@ -1,4 +1,15 @@
 {
-  "date": "2026-08-25",
-  "alerted": {}
+  "date": "2026-08-26",
+  "alerted": {
+    "AADI": [],
+    "AMMN": [],
+    "BBCA": [],
+    "BBNI": [],
+    "CBDK": [],
+    "CTRA": [],
+    "DSNG": [],
+    "HRUM": [],
+    "INKP": [],
+    "ITMG": []
+  }
 }
