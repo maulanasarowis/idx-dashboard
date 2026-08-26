@@ -7,7 +7,9 @@
       "buy_zone"
     ],
     "BBNI": [],
-    "CBDK": [],
+    "CBDK": [
+      "buy_zone"
+    ],
     "CTRA": [],
     "DSNG": [],
     "HRUM": [],
