@@ -719,6 +719,86 @@
       "buy_price": 4640.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "AADI",
+      "date": "2026-08-26",
+      "confidence": 100,
+      "buy_price": 10250.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AMMN",
+      "date": "2026-08-26",
+      "confidence": 100,
+      "buy_price": 4500.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBCA",
+      "date": "2026-08-26",
+      "confidence": 100,
+      "buy_price": 6400.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBNI",
+      "date": "2026-08-26",
+      "confidence": 100,
+      "buy_price": 3680.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CBDK",
+      "date": "2026-08-26",
+      "confidence": 100,
+      "buy_price": 3890.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CTRA",
+      "date": "2026-08-26",
+      "confidence": 100,
+      "buy_price": 620.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "DSNG",
+      "date": "2026-08-26",
+      "confidence": 100,
+      "buy_price": 1460.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "HRUM",
+      "date": "2026-08-26",
+      "confidence": 100,
+      "buy_price": 930.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INKP",
+      "date": "2026-08-26",
+      "confidence": 100,
+      "buy_price": 8725.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ITMG",
+      "date": "2026-08-26",
+      "confidence": 100,
+      "buy_price": 25400.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": null,
