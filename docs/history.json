@@ -799,6 +799,86 @@
       "buy_price": 25400.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "ACES",
+      "date": "2026-08-27",
+      "confidence": 100,
+      "buy_price": 358.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADMR",
+      "date": "2026-08-27",
+      "confidence": 100,
+      "buy_price": 1720.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADRO",
+      "date": "2026-08-27",
+      "confidence": 100,
+      "buy_price": 2700.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ANTM",
+      "date": "2026-08-27",
+      "confidence": 100,
+      "buy_price": 3180.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBNI",
+      "date": "2026-08-27",
+      "confidence": 100,
+      "buy_price": 3710.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBTN",
+      "date": "2026-08-27",
+      "confidence": 100,
+      "buy_price": 1220.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BUMI",
+      "date": "2026-08-27",
+      "confidence": 100,
+      "buy_price": 194.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CBDK",
+      "date": "2026-08-27",
+      "confidence": 100,
+      "buy_price": 3820.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CMRY",
+      "date": "2026-08-27",
+      "confidence": 100,
+      "buy_price": 4670.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "HRUM",
+      "date": "2026-08-27",
+      "confidence": 100,
+      "buy_price": 915.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": null,
