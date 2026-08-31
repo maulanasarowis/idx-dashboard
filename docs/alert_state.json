@@ -8,7 +8,9 @@
     "BBTN": [
       "buy_zone"
     ],
-    "BMRI": [],
+    "BMRI": [
+      "buy_zone"
+    ],
     "BSDE": [],
     "CMRY": [
       "buy_zone"
