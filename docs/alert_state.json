@@ -1,21 +1,17 @@
 {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "alerted": {
     "ADMR": [],
-    "ADRO": [],
     "BBCA": [],
-    "BBRI": [],
-    "BBTN": [
+    "BBTN": [],
+    "BMRI": [],
+    "BUMI": [],
+    "CMRY": [],
+    "CTRA": [],
+    "EMTK": [
       "buy_zone"
     ],
-    "BMRI": [
-      "buy_zone"
-    ],
-    "BSDE": [],
-    "CMRY": [
-      "buy_zone"
-    ],
-    "EXCL": [],
-    "HRTA": []
+    "ESSA": [],
+    "EXCL": []
   }
 }
