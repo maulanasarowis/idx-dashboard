@@ -959,6 +959,86 @@
       "buy_price": 4690.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "ADMR",
+      "date": "2026-08-31",
+      "confidence": 100,
+      "buy_price": 1720.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADRO",
+      "date": "2026-08-31",
+      "confidence": 100,
+      "buy_price": 2750.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBCA",
+      "date": "2026-08-31",
+      "confidence": 100,
+      "buy_price": 6500.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBRI",
+      "date": "2026-08-31",
+      "confidence": 100,
+      "buy_price": 3240.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBTN",
+      "date": "2026-08-31",
+      "confidence": 100,
+      "buy_price": 1230.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BMRI",
+      "date": "2026-08-31",
+      "confidence": 100,
+      "buy_price": 4270.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BSDE",
+      "date": "2026-08-31",
+      "confidence": 100,
+      "buy_price": 640.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CMRY",
+      "date": "2026-08-31",
+      "confidence": 100,
+      "buy_price": 4700.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "EXCL",
+      "date": "2026-08-31",
+      "confidence": 100,
+      "buy_price": 2850.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "HRTA",
+      "date": "2026-08-31",
+      "confidence": 100,
+      "buy_price": 2200.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": null,
