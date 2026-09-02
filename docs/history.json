@@ -1039,6 +1039,86 @@
       "buy_price": 2200.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "ADMR",
+      "date": "2026-09-01",
+      "confidence": 100,
+      "buy_price": 1730.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBCA",
+      "date": "2026-09-01",
+      "confidence": 100,
+      "buy_price": 6550.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBTN",
+      "date": "2026-09-01",
+      "confidence": 100,
+      "buy_price": 1235.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BMRI",
+      "date": "2026-09-01",
+      "confidence": 100,
+      "buy_price": 4300.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BUMI",
+      "date": "2026-09-01",
+      "confidence": 100,
+      "buy_price": 204.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CMRY",
+      "date": "2026-09-01",
+      "confidence": 100,
+      "buy_price": 4770.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CTRA",
+      "date": "2026-09-01",
+      "confidence": 100,
+      "buy_price": 640.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "EMTK",
+      "date": "2026-09-01",
+      "confidence": 100,
+      "buy_price": 525.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ESSA",
+      "date": "2026-09-01",
+      "confidence": 100,
+      "buy_price": 700.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "EXCL",
+      "date": "2026-09-01",
+      "confidence": 100,
+      "buy_price": 2790.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": null,
