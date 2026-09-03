@@ -1119,6 +1119,86 @@
       "buy_price": 2790.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "ADRO",
+      "date": "2026-09-02",
+      "confidence": 100,
+      "buy_price": 2670.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBTN",
+      "date": "2026-09-02",
+      "confidence": 100,
+      "buy_price": 1230.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CMRY",
+      "date": "2026-09-02",
+      "confidence": 100,
+      "buy_price": 4720.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CTRA",
+      "date": "2026-09-02",
+      "confidence": 100,
+      "buy_price": 635.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "EMTK",
+      "date": "2026-09-02",
+      "confidence": 100,
+      "buy_price": 525.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ESSA",
+      "date": "2026-09-02",
+      "confidence": 100,
+      "buy_price": 705.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INDY",
+      "date": "2026-09-02",
+      "confidence": 100,
+      "buy_price": 2740.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "MAPA",
+      "date": "2026-09-02",
+      "confidence": 100,
+      "buy_price": 695.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "MEDC",
+      "date": "2026-09-02",
+      "confidence": 100,
+      "buy_price": 1480.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTBA",
+      "date": "2026-09-02",
+      "confidence": 100,
+      "buy_price": 2800.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": null,
