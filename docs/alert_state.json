@@ -1,21 +1,19 @@
 {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "alerted": {
     "ADRO": [],
-    "BBTN": [
+    "AKRA": [
       "buy_zone"
     ],
-    "CMRY": [
-      "buy_zone"
-    ],
-    "CTRA": [],
+    "BBTN": [],
+    "CMRY": [],
+    "CUAN": [],
     "EMTK": [
       "buy_zone"
     ],
+    "ERAA": [],
     "ESSA": [],
-    "INDY": [],
-    "MAPA": [],
-    "MEDC": [],
-    "PTBA": []
+    "JPFA": [],
+    "MAPA": []
   }
 }
