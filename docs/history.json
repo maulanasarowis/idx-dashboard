@@ -1199,6 +1199,86 @@
       "buy_price": 2800.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "ADRO",
+      "date": "2026-09-04",
+      "confidence": 100,
+      "buy_price": 2700.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBTN",
+      "date": "2026-09-04",
+      "confidence": 100,
+      "buy_price": 1250.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CMRY",
+      "date": "2026-09-04",
+      "confidence": 100,
+      "buy_price": 4630.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CTRA",
+      "date": "2026-09-04",
+      "confidence": 100,
+      "buy_price": 635.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ELSA",
+      "date": "2026-09-04",
+      "confidence": 100,
+      "buy_price": 735.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "EMTK",
+      "date": "2026-09-04",
+      "confidence": 100,
+      "buy_price": 525.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ERAA",
+      "date": "2026-09-04",
+      "confidence": 100,
+      "buy_price": 600.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ESSA",
+      "date": "2026-09-04",
+      "confidence": 100,
+      "buy_price": 705.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "JPFA",
+      "date": "2026-09-04",
+      "confidence": 100,
+      "buy_price": 2360.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "MAPA",
+      "date": "2026-09-04",
+      "confidence": 100,
+      "buy_price": 695.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": null,
