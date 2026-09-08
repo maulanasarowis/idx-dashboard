@@ -1279,6 +1279,86 @@
       "buy_price": 695.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "ADRO",
+      "date": "2026-09-07",
+      "confidence": 100,
+      "buy_price": 2710.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AKRA",
+      "date": "2026-09-07",
+      "confidence": 100,
+      "buy_price": 1410.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBCA",
+      "date": "2026-09-07",
+      "confidence": 100,
+      "buy_price": 6600.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBTN",
+      "date": "2026-09-07",
+      "confidence": 100,
+      "buy_price": 1240.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ELSA",
+      "date": "2026-09-07",
+      "confidence": 100,
+      "buy_price": 730.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ESSA",
+      "date": "2026-09-07",
+      "confidence": 100,
+      "buy_price": 695.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INDF",
+      "date": "2026-09-07",
+      "confidence": 100,
+      "buy_price": 7350.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "JPFA",
+      "date": "2026-09-07",
+      "confidence": 100,
+      "buy_price": 2350.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "MAPA",
+      "date": "2026-09-07",
+      "confidence": 100,
+      "buy_price": 700.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTBA",
+      "date": "2026-09-07",
+      "confidence": 100,
+      "buy_price": 3010.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": null,
