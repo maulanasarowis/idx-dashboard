@@ -1439,6 +1439,86 @@
       "buy_price": 338.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "BBCA",
+      "date": "2026-09-09",
+      "confidence": 100,
+      "buy_price": 6550.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBTN",
+      "date": "2026-09-09",
+      "confidence": 100,
+      "buy_price": 1230.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BSDE",
+      "date": "2026-09-09",
+      "confidence": 100,
+      "buy_price": 655.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ELSA",
+      "date": "2026-09-09",
+      "confidence": 100,
+      "buy_price": 735.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "JPFA",
+      "date": "2026-09-09",
+      "confidence": 100,
+      "buy_price": 2350.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "MEDC",
+      "date": "2026-09-09",
+      "confidence": 100,
+      "buy_price": 1535.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PGAS",
+      "date": "2026-09-09",
+      "confidence": 100,
+      "buy_price": 1540.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PWON",
+      "date": "2026-09-09",
+      "confidence": 100,
+      "buy_price": 276.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "SMRA",
+      "date": "2026-09-09",
+      "confidence": 100,
+      "buy_price": 336.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "TLKM",
+      "date": "2026-09-09",
+      "confidence": 100,
+      "buy_price": 2650.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": null,
