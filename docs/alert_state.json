@@ -1,21 +1,15 @@
 {
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "alerted": {
-    "BBCA": [
-      "buy_zone"
-    ],
-    "BBTN": [
-      "buy_zone"
-    ],
-    "BSDE": [],
+    "AKRA": [],
+    "BBRI": [],
+    "BMRI": [],
+    "CBDK": [],
     "ELSA": [],
+    "ESSA": [],
+    "HRUM": [],
+    "INKP": [],
     "JPFA": [],
-    "MEDC": [],
-    "PGAS": [
-      "buy_zone"
-    ],
-    "PWON": [],
-    "SMRA": [],
-    "TLKM": []
+    "MDKA": []
   }
 }
