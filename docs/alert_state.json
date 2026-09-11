@@ -1,15 +1,17 @@
 {
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "alerted": {
     "AKRA": [],
-    "BBRI": [],
-    "BMRI": [],
-    "CBDK": [],
-    "ELSA": [],
-    "ESSA": [],
-    "HRUM": [],
-    "INKP": [],
-    "JPFA": [],
-    "MDKA": []
+    "AMMN": [],
+    "BMRI": [
+      "buy_zone"
+    ],
+    "BUMI": [],
+    "JSMR": [],
+    "SMGR": [],
+    "SMRA": [],
+    "AADI": [],
+    "DSNG": [],
+    "PTBA": []
   }
 }
