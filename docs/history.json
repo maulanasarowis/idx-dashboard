@@ -1519,6 +1519,86 @@
       "buy_price": 2650.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "AKRA",
+      "date": "2026-09-10",
+      "confidence": 100,
+      "buy_price": 1510.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBRI",
+      "date": "2026-09-10",
+      "confidence": 100,
+      "buy_price": 3360.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BMRI",
+      "date": "2026-09-10",
+      "confidence": 100,
+      "buy_price": 4360.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CBDK",
+      "date": "2026-09-10",
+      "confidence": 100,
+      "buy_price": 4050.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ELSA",
+      "date": "2026-09-10",
+      "confidence": 100,
+      "buy_price": 745.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ESSA",
+      "date": "2026-09-10",
+      "confidence": 100,
+      "buy_price": 685.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "HRUM",
+      "date": "2026-09-10",
+      "confidence": 100,
+      "buy_price": 960.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INKP",
+      "date": "2026-09-10",
+      "confidence": 100,
+      "buy_price": 9225.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "JPFA",
+      "date": "2026-09-10",
+      "confidence": 100,
+      "buy_price": 2290.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "MDKA",
+      "date": "2026-09-10",
+      "confidence": 100,
+      "buy_price": 3100.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": null,
