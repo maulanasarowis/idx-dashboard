@@ -1599,6 +1599,86 @@
       "buy_price": 3100.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "AKRA",
+      "date": "2026-09-11",
+      "confidence": 100,
+      "buy_price": 1505.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AMMN",
+      "date": "2026-09-11",
+      "confidence": 100,
+      "buy_price": 4840.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BMRI",
+      "date": "2026-09-11",
+      "confidence": 100,
+      "buy_price": 4320.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BUMI",
+      "date": "2026-09-11",
+      "confidence": 100,
+      "buy_price": 210.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "JSMR",
+      "date": "2026-09-11",
+      "confidence": 100,
+      "buy_price": 2930.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "SMGR",
+      "date": "2026-09-11",
+      "confidence": 100,
+      "buy_price": 1685.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "SMRA",
+      "date": "2026-09-11",
+      "confidence": 100,
+      "buy_price": 332.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AADI",
+      "date": "2026-09-11",
+      "confidence": 95,
+      "buy_price": 12125.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "DSNG",
+      "date": "2026-09-11",
+      "confidence": 95,
+      "buy_price": 1640.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTBA",
+      "date": "2026-09-11",
+      "confidence": 95,
+      "buy_price": 3080.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": null,
