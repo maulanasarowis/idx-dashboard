@@ -1679,6 +1679,86 @@
       "buy_price": 3080.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "ANTM",
+      "date": "2026-09-14",
+      "confidence": 100,
+      "buy_price": 3160.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CUAN",
+      "date": "2026-09-14",
+      "confidence": 100,
+      "buy_price": 895.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "SMGR",
+      "date": "2026-09-14",
+      "confidence": 100,
+      "buy_price": 1640.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AADI",
+      "date": "2026-09-14",
+      "confidence": 95,
+      "buy_price": 12075.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AKRA",
+      "date": "2026-09-14",
+      "confidence": 95,
+      "buy_price": 1520.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ERAA",
+      "date": "2026-09-14",
+      "confidence": 95,
+      "buy_price": 580.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTBA",
+      "date": "2026-09-14",
+      "confidence": 95,
+      "buy_price": 3040.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AMMN",
+      "date": "2026-09-14",
+      "confidence": 90,
+      "buy_price": 4880.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BUMI",
+      "date": "2026-09-14",
+      "confidence": 90,
+      "buy_price": 202.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ITMG",
+      "date": "2026-09-14",
+      "confidence": 90,
+      "buy_price": 26175.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": null,
