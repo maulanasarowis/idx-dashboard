@@ -1,21 +1,17 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "alerted": {
-    "ANTM": [
-      "buy_zone"
-    ],
-    "CUAN": [],
-    "SMGR": [
+    "AKRA": [],
+    "ANTM": [],
+    "BMRI": [],
+    "TLKM": [],
+    "PGAS": [
       "buy_zone"
     ],
     "AADI": [],
-    "AKRA": [],
-    "ERAA": [],
-    "PTBA": [],
     "AMMN": [],
-    "BUMI": [
-      "buy_zone"
-    ],
-    "ITMG": []
+    "CUAN": [],
+    "ENRG": [],
+    "ERAA": []
   }
 }
