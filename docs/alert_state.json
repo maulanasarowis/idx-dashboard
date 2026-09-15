@@ -3,7 +3,9 @@
   "alerted": {
     "AKRA": [],
     "ANTM": [],
-    "BMRI": [],
+    "BMRI": [
+      "buy_zone"
+    ],
     "TLKM": [],
     "PGAS": [
       "buy_zone"
