@@ -6,13 +6,17 @@
     ],
     "AKRA": [],
     "ANTM": [],
-    "BMRI": [],
+    "BMRI": [
+      "buy_zone"
+    ],
     "PGAS": [
       "buy_zone"
     ],
     "TLKM": [],
     "AADI": [],
-    "ENRG": [],
+    "ENRG": [
+      "buy_zone"
+    ],
     "ERAA": [],
     "PTBA": []
   }
