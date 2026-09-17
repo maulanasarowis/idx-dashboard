@@ -1839,6 +1839,86 @@
       "buy_price": 595.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "ACES",
+      "date": "2026-09-16",
+      "confidence": 100,
+      "buy_price": 358.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AKRA",
+      "date": "2026-09-16",
+      "confidence": 100,
+      "buy_price": 1485.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ANTM",
+      "date": "2026-09-16",
+      "confidence": 100,
+      "buy_price": 3280.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BMRI",
+      "date": "2026-09-16",
+      "confidence": 100,
+      "buy_price": 4310.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PGAS",
+      "date": "2026-09-16",
+      "confidence": 100,
+      "buy_price": 1535.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "TLKM",
+      "date": "2026-09-16",
+      "confidence": 100,
+      "buy_price": 2670.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AADI",
+      "date": "2026-09-16",
+      "confidence": 95,
+      "buy_price": 12400.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ENRG",
+      "date": "2026-09-16",
+      "confidence": 95,
+      "buy_price": 1410.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ERAA",
+      "date": "2026-09-16",
+      "confidence": 95,
+      "buy_price": 590.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTBA",
+      "date": "2026-09-16",
+      "confidence": 95,
+      "buy_price": 3030.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": null,
