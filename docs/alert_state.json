@@ -1,21 +1,19 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "alerted": {
-    "AKRA": [],
+    "AMMN": [],
     "ANTM": [],
-    "TLKM": [
-      "buy_zone"
-    ],
+    "UNTR": [],
     "AADI": [],
     "ERAA": [],
     "PTBA": [],
-    "UNTR": [],
-    "ADRO": [
+    "AKRA": [
       "buy_zone"
     ],
-    "BBRI": [
+    "BRMS": [
       "buy_zone"
     ],
-    "BMRI": []
+    "DSNG": [],
+    "ITMG": []
   }
 }
