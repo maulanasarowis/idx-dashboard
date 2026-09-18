@@ -1,9 +1,13 @@
 {
   "date": "2026-09-18",
   "alerted": {
-    "AMMN": [],
+    "AMMN": [
+      "buy_zone"
+    ],
     "ANTM": [],
-    "UNTR": [],
+    "UNTR": [
+      "buy_zone"
+    ],
     "AADI": [],
     "ERAA": [],
     "PTBA": [],
