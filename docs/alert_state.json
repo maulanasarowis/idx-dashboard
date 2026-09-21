@@ -11,7 +11,11 @@
     "DSNG": [],
     "MAPA": [],
     "PTRO": [],
-    "SIDO": [],
-    "AMMN": []
+    "SIDO": [
+      "buy_zone"
+    ],
+    "AMMN": [
+      "buy_zone"
+    ]
   }
 }
