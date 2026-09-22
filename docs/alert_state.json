@@ -1,21 +1,29 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "alerted": {
-    "ANTM": [],
-    "ITMG": [
+    "MEDC": [
       "buy_zone"
     ],
-    "ERAA": [],
-    "PTBA": [],
-    "AADI": [],
-    "DSNG": [],
-    "MAPA": [],
-    "PTRO": [],
-    "SIDO": [
+    "AKRA": [
       "buy_zone"
     ],
     "AMMN": [
       "buy_zone"
-    ]
+    ],
+    "CPIN": [
+      "buy_zone"
+    ],
+    "CUAN": [],
+    "JPFA": [
+      "buy_zone"
+    ],
+    "PTRO": [
+      "buy_zone"
+    ],
+    "MAPA": [
+      "buy_zone"
+    ],
+    "ERAA": [],
+    "PTBA": []
   }
 }
