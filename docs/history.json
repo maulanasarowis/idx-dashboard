@@ -2159,6 +2159,86 @@
       "buy_price": 4720.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "MEDC",
+      "date": "2026-09-22",
+      "confidence": 98,
+      "buy_price": 1495.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AKRA",
+      "date": "2026-09-22",
+      "confidence": 90,
+      "buy_price": 1470.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AMMN",
+      "date": "2026-09-22",
+      "confidence": 90,
+      "buy_price": 4740.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CPIN",
+      "date": "2026-09-22",
+      "confidence": 90,
+      "buy_price": 3160.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CUAN",
+      "date": "2026-09-22",
+      "confidence": 90,
+      "buy_price": 930.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "JPFA",
+      "date": "2026-09-22",
+      "confidence": 90,
+      "buy_price": 2300.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTRO",
+      "date": "2026-09-22",
+      "confidence": 90,
+      "buy_price": 5350.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "MAPA",
+      "date": "2026-09-22",
+      "confidence": 80,
+      "buy_price": 690.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ERAA",
+      "date": "2026-09-22",
+      "confidence": 75,
+      "buy_price": 615.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTBA",
+      "date": "2026-09-22",
+      "confidence": 75,
+      "buy_price": 3010.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": 0.0,
