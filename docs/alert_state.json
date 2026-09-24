@@ -1,23 +1,17 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "alerted": {
+    "MDKA": [],
     "PGEO": [],
-    "AKRA": [
-      "buy_zone"
-    ],
     "AMMN": [],
     "CUAN": [],
     "ERAA": [],
-    "MAPA": [
-      "buy_zone"
-    ],
-    "MDKA": [],
+    "HRTA": [],
     "PTBA": [],
-    "PTRO": [
+    "PTRO": [],
+    "AMRT": [
       "buy_zone"
     ],
-    "ANTM": [
-      "buy_zone"
-    ]
+    "ANTM": []
   }
 }
