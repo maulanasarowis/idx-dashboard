@@ -2239,6 +2239,86 @@
       "buy_price": 3010.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "PGEO",
+      "date": "2026-09-23",
+      "confidence": 100,
+      "buy_price": 1070.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AKRA",
+      "date": "2026-09-23",
+      "confidence": 90,
+      "buy_price": 1460.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AMMN",
+      "date": "2026-09-23",
+      "confidence": 90,
+      "buy_price": 4840.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CUAN",
+      "date": "2026-09-23",
+      "confidence": 90,
+      "buy_price": 965.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ERAA",
+      "date": "2026-09-23",
+      "confidence": 90,
+      "buy_price": 605.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "MAPA",
+      "date": "2026-09-23",
+      "confidence": 90,
+      "buy_price": 695.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "MDKA",
+      "date": "2026-09-23",
+      "confidence": 90,
+      "buy_price": 3000.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTBA",
+      "date": "2026-09-23",
+      "confidence": 90,
+      "buy_price": 3010.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTRO",
+      "date": "2026-09-23",
+      "confidence": 90,
+      "buy_price": 5375.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ANTM",
+      "date": "2026-09-23",
+      "confidence": 80,
+      "buy_price": 3210.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": 0.0,
