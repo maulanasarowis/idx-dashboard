@@ -3,7 +3,9 @@
   "alerted": {
     "MDKA": [],
     "PGEO": [],
-    "AMMN": [],
+    "AMMN": [
+      "buy_zone"
+    ],
     "CUAN": [],
     "ERAA": [],
     "HRTA": [],
