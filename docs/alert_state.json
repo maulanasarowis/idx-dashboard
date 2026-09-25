@@ -1,19 +1,25 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "alerted": {
+    "HRTA": [],
     "MDKA": [],
-    "PGEO": [],
     "AMMN": [
       "buy_zone"
     ],
-    "CUAN": [],
-    "ERAA": [],
-    "HRTA": [],
-    "PTBA": [],
-    "PTRO": [],
-    "AMRT": [
+    "CUAN": [
       "buy_zone"
     ],
-    "ANTM": []
+    "ERAA": [],
+    "PTBA": [],
+    "PTRO": [
+      "buy_zone"
+    ],
+    "AKRA": [
+      "buy_zone"
+    ],
+    "PGEO": [],
+    "AMRT": [
+      "buy_zone"
+    ]
   }
 }
