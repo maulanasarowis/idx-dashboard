@@ -17,7 +17,9 @@
     "AKRA": [
       "buy_zone"
     ],
-    "PGEO": [],
+    "PGEO": [
+      "buy_zone"
+    ],
     "AMRT": [
       "buy_zone"
     ]
