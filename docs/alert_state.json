@@ -1,28 +1,30 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "alerted": {
+    "ERAA": [
+      "buy_zone"
+    ],
     "MDKA": [
-      "buy_zone"
-    ],
-    "ERAA": [],
-    "PTBA": [],
-    "PTRO": [
-      "buy_zone"
-    ],
-    "SIDO": [
       "buy_zone"
     ],
     "UNVR": [
       "buy_zone"
     ],
-    "AADI": [
-      "buy_zone"
-    ],
     "AMRT": [],
-    "CUAN": [
+    "PTBA": [],
+    "SIDO": [
       "buy_zone"
     ],
-    "ADMR": [
+    "CMRY": [
+      "buy_zone"
+    ],
+    "DSNG": [
+      "buy_zone"
+    ],
+    "MAPA": [
+      "buy_zone"
+    ],
+    "MBMA": [
       "buy_zone"
     ]
   }
