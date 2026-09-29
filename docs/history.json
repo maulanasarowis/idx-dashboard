@@ -2479,8 +2479,88 @@
       "buy_price": 1305.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "MDKA",
+      "date": "2026-09-28",
+      "confidence": 100,
+      "buy_price": 2980.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ERAA",
+      "date": "2026-09-28",
+      "confidence": 90,
+      "buy_price": 600.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTBA",
+      "date": "2026-09-28",
+      "confidence": 90,
+      "buy_price": 3180.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTRO",
+      "date": "2026-09-28",
+      "confidence": 90,
+      "buy_price": 5350.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "SIDO",
+      "date": "2026-09-28",
+      "confidence": 80,
+      "buy_price": 348.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "UNVR",
+      "date": "2026-09-28",
+      "confidence": 80,
+      "buy_price": 1640.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AADI",
+      "date": "2026-09-28",
+      "confidence": 70,
+      "buy_price": 11750.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AMRT",
+      "date": "2026-09-28",
+      "confidence": 70,
+      "buy_price": 1330.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CUAN",
+      "date": "2026-09-28",
+      "confidence": 70,
+      "buy_price": 935.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADMR",
+      "date": "2026-09-28",
+      "confidence": 60,
+      "buy_price": 1535.0,
+      "outcome": "SL Hit",
+      "exit_price": 1478.0
     }
   ],
   "win_rate": 0.0,
-  "total_closed": 1
+  "total_closed": 2
 }
