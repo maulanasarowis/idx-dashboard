@@ -1,30 +1,26 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "alerted": {
-    "ERAA": [
+    "ANTM": [
       "buy_zone"
     ],
-    "MDKA": [
-      "buy_zone"
-    ],
+    "UNTR": [],
+    "PTBA": [],
     "UNVR": [
       "buy_zone"
     ],
     "AMRT": [],
-    "PTBA": [],
+    "HRTA": [],
     "SIDO": [
+      "buy_zone"
+    ],
+    "BBRI": [
       "buy_zone"
     ],
     "CMRY": [
       "buy_zone"
     ],
     "DSNG": [
-      "buy_zone"
-    ],
-    "MAPA": [
-      "buy_zone"
-    ],
-    "MBMA": [
       "buy_zone"
     ]
   }
