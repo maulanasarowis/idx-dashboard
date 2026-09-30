@@ -2559,6 +2559,86 @@
       "buy_price": 1535.0,
       "outcome": "SL Hit",
       "exit_price": 1478.0
+    },
+    {
+      "ticker": "ERAA",
+      "date": "2026-09-29",
+      "confidence": 90,
+      "buy_price": 605.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "MDKA",
+      "date": "2026-09-29",
+      "confidence": 80,
+      "buy_price": 2960.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "UNVR",
+      "date": "2026-09-29",
+      "confidence": 80,
+      "buy_price": 1630.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AMRT",
+      "date": "2026-09-29",
+      "confidence": 70,
+      "buy_price": 1325.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTBA",
+      "date": "2026-09-29",
+      "confidence": 70,
+      "buy_price": 3160.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "SIDO",
+      "date": "2026-09-29",
+      "confidence": 70,
+      "buy_price": 350.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CMRY",
+      "date": "2026-09-29",
+      "confidence": 60,
+      "buy_price": 4360.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "DSNG",
+      "date": "2026-09-29",
+      "confidence": 60,
+      "buy_price": 1530.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "MAPA",
+      "date": "2026-09-29",
+      "confidence": 60,
+      "buy_price": 660.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "MBMA",
+      "date": "2026-09-29",
+      "confidence": 60,
+      "buy_price": 500.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": 0.0,
