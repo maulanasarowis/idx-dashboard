@@ -2639,6 +2639,86 @@
       "buy_price": 500.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "ANTM",
+      "date": "2026-09-30",
+      "confidence": 90,
+      "buy_price": 3210.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "UNTR",
+      "date": "2026-09-30",
+      "confidence": 90,
+      "buy_price": 26250.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTBA",
+      "date": "2026-09-30",
+      "confidence": 80,
+      "buy_price": 3130.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "UNVR",
+      "date": "2026-09-30",
+      "confidence": 80,
+      "buy_price": 1630.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AMRT",
+      "date": "2026-09-30",
+      "confidence": 70,
+      "buy_price": 1330.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "HRTA",
+      "date": "2026-09-30",
+      "confidence": 70,
+      "buy_price": 2260.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "SIDO",
+      "date": "2026-09-30",
+      "confidence": 70,
+      "buy_price": 350.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBRI",
+      "date": "2026-09-30",
+      "confidence": 60,
+      "buy_price": 3180.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CMRY",
+      "date": "2026-09-30",
+      "confidence": 60,
+      "buy_price": 4390.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "DSNG",
+      "date": "2026-09-30",
+      "confidence": 60,
+      "buy_price": 1535.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": 0.0,
