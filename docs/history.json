@@ -2719,8 +2719,88 @@
       "buy_price": 1535.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "ENRG",
+      "date": "2026-10-01",
+      "confidence": 100,
+      "buy_price": 1435.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "UNTR",
+      "date": "2026-10-01",
+      "confidence": 100,
+      "buy_price": 26000.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTBA",
+      "date": "2026-10-01",
+      "confidence": 90,
+      "buy_price": 3070.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "UNVR",
+      "date": "2026-10-01",
+      "confidence": 80,
+      "buy_price": 1615.0,
+      "outcome": "SL Hit",
+      "exit_price": 1600.0
+    },
+    {
+      "ticker": "AMRT",
+      "date": "2026-10-01",
+      "confidence": 70,
+      "buy_price": 1310.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BUKA",
+      "date": "2026-10-01",
+      "confidence": 70,
+      "buy_price": 107.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AMMN",
+      "date": "2026-10-01",
+      "confidence": 60,
+      "buy_price": 4440.0,
+      "outcome": "SL Hit",
+      "exit_price": 4249.0
+    },
+    {
+      "ticker": "BBCA",
+      "date": "2026-10-01",
+      "confidence": 60,
+      "buy_price": 6075.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBRI",
+      "date": "2026-10-01",
+      "confidence": 60,
+      "buy_price": 3110.0,
+      "outcome": "SL Hit",
+      "exit_price": 3071.0
+    },
+    {
+      "ticker": "CMRY",
+      "date": "2026-10-01",
+      "confidence": 60,
+      "buy_price": 4350.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": 0.0,
-  "total_closed": 2
+  "total_closed": 5
 }
