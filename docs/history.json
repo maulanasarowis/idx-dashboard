@@ -2799,8 +2799,88 @@
       "buy_price": 4350.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "UNTR",
+      "date": "2026-10-02",
+      "confidence": 100,
+      "buy_price": 26075.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AKRA",
+      "date": "2026-10-02",
+      "confidence": 90,
+      "buy_price": 1495.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ENRG",
+      "date": "2026-10-02",
+      "confidence": 90,
+      "buy_price": 1410.0,
+      "outcome": "SL Hit",
+      "exit_price": 1162.0
+    },
+    {
+      "ticker": "PTBA",
+      "date": "2026-10-02",
+      "confidence": 90,
+      "buy_price": 3160.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "UNVR",
+      "date": "2026-10-02",
+      "confidence": 80,
+      "buy_price": 1585.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AMRT",
+      "date": "2026-10-02",
+      "confidence": 60,
+      "buy_price": 1240.0,
+      "outcome": "TP1 Hit",
+      "exit_price": 1284.0
+    },
+    {
+      "ticker": "ANTM",
+      "date": "2026-10-02",
+      "confidence": 60,
+      "buy_price": 3130.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CMRY",
+      "date": "2026-10-02",
+      "confidence": 60,
+      "buy_price": 4360.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "DSNG",
+      "date": "2026-10-02",
+      "confidence": 60,
+      "buy_price": 1550.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ICBP",
+      "date": "2026-10-02",
+      "confidence": 60,
+      "buy_price": 6725.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
-  "win_rate": 0.0,
-  "total_closed": 5
+  "win_rate": 14.3,
+  "total_closed": 7
 }
