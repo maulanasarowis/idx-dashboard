@@ -2879,6 +2879,86 @@
       "buy_price": 6725.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "UNTR",
+      "date": "2026-10-05",
+      "confidence": 100,
+      "buy_price": 25525.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AADI",
+      "date": "2026-10-05",
+      "confidence": 90,
+      "buy_price": 11800.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AKRA",
+      "date": "2026-10-05",
+      "confidence": 90,
+      "buy_price": 1495.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ERAA",
+      "date": "2026-10-05",
+      "confidence": 90,
+      "buy_price": 605.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTBA",
+      "date": "2026-10-05",
+      "confidence": 90,
+      "buy_price": 3210.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "RATU",
+      "date": "2026-10-05",
+      "confidence": 70,
+      "buy_price": 4140.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AMRT",
+      "date": "2026-10-05",
+      "confidence": 60,
+      "buy_price": 1260.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ANTM",
+      "date": "2026-10-05",
+      "confidence": 60,
+      "buy_price": 3120.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ASII",
+      "date": "2026-10-05",
+      "confidence": 60,
+      "buy_price": 4690.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BUKA",
+      "date": "2026-10-05",
+      "confidence": 60,
+      "buy_price": 103.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": 14.3,
