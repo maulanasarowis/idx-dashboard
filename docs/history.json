@@ -3039,6 +3039,86 @@
       "buy_price": 372.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "AKRA",
+      "date": "2026-10-07",
+      "confidence": 100,
+      "buy_price": 1500.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "UNTR",
+      "date": "2026-10-07",
+      "confidence": 100,
+      "buy_price": 25225.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTBA",
+      "date": "2026-10-07",
+      "confidence": 95,
+      "buy_price": 3390.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AADI",
+      "date": "2026-10-07",
+      "confidence": 90,
+      "buy_price": 12125.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ERAA",
+      "date": "2026-10-07",
+      "confidence": 90,
+      "buy_price": 635.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INDY",
+      "date": "2026-10-07",
+      "confidence": 90,
+      "buy_price": 2760.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CMRY",
+      "date": "2026-10-07",
+      "confidence": 80,
+      "buy_price": 4420.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ICBP",
+      "date": "2026-10-07",
+      "confidence": 80,
+      "buy_price": 6800.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INDF",
+      "date": "2026-10-07",
+      "confidence": 80,
+      "buy_price": 6925.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "TPIA",
+      "date": "2026-10-07",
+      "confidence": 80,
+      "buy_price": 1750.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": 14.3,
