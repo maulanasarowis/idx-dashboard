@@ -1,14 +1,11 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "alerted": {
-    "AKRA": [],
-    "UNTR": [],
     "PTBA": [],
-    "AADI": [],
-    "ERAA": [
+    "AADI": [
       "buy_zone"
     ],
-    "INDY": [
+    "ERAA": [
       "buy_zone"
     ],
     "CMRY": [
@@ -17,10 +14,19 @@
     "ICBP": [
       "buy_zone"
     ],
-    "INDF": [
+    "ITMG": [
       "buy_zone"
     ],
-    "TPIA": [
+    "UNVR": [
+      "buy_zone"
+    ],
+    "ADRO": [
+      "buy_zone"
+    ],
+    "DEWA": [
+      "buy_zone"
+    ],
+    "INKP": [
       "buy_zone"
     ]
   }
