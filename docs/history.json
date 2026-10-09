@@ -3119,6 +3119,86 @@
       "buy_price": 1750.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "PTBA",
+      "date": "2026-10-08",
+      "confidence": 95,
+      "buy_price": 3350.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AADI",
+      "date": "2026-10-08",
+      "confidence": 90,
+      "buy_price": 11800.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ERAA",
+      "date": "2026-10-08",
+      "confidence": 90,
+      "buy_price": 610.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CMRY",
+      "date": "2026-10-08",
+      "confidence": 80,
+      "buy_price": 4430.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ICBP",
+      "date": "2026-10-08",
+      "confidence": 80,
+      "buy_price": 6800.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ITMG",
+      "date": "2026-10-08",
+      "confidence": 80,
+      "buy_price": 25675.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "UNVR",
+      "date": "2026-10-08",
+      "confidence": 80,
+      "buy_price": 1600.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADRO",
+      "date": "2026-10-08",
+      "confidence": 70,
+      "buy_price": 2560.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "DEWA",
+      "date": "2026-10-08",
+      "confidence": 70,
+      "buy_price": 360.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INKP",
+      "date": "2026-10-08",
+      "confidence": 70,
+      "buy_price": 8350.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": 14.3,
