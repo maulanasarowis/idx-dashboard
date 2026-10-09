@@ -1,7 +1,9 @@
 {
   "date": "2026-10-09",
   "alerted": {
-    "AKRA": [],
+    "AKRA": [
+      "buy_zone"
+    ],
     "PTBA": [],
     "AADI": [
       "buy_zone"
