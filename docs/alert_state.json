@@ -1,28 +1,28 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "alerted": {
     "AKRA": [
       "buy_zone"
     ],
     "ERAA": [],
-    "CTRA": [
-      "buy_zone"
-    ],
-    "PGAS": [
-      "buy_zone"
-    ],
-    "UNVR": [
-      "buy_zone"
-    ],
-    "CMRY": [],
     "PTBA": [],
     "ADMR": [
       "buy_zone"
     ],
-    "ADRO": [
+    "ASII": [
       "buy_zone"
     ],
     "DEWA": [
+      "buy_zone"
+    ],
+    "PNLF": [
+      "buy_zone"
+    ],
+    "CTRA": [],
+    "CMRY": [
+      "buy_zone"
+    ],
+    "ADRO": [
       "buy_zone"
     ]
   }
