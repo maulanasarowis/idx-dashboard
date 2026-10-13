@@ -3279,6 +3279,86 @@
       "buy_price": 2580.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "AKRA",
+      "date": "2026-10-12",
+      "confidence": 90,
+      "buy_price": 1480.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ERAA",
+      "date": "2026-10-12",
+      "confidence": 90,
+      "buy_price": 615.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CTRA",
+      "date": "2026-10-12",
+      "confidence": 80,
+      "buy_price": 540.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PGAS",
+      "date": "2026-10-12",
+      "confidence": 80,
+      "buy_price": 1395.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "UNVR",
+      "date": "2026-10-12",
+      "confidence": 80,
+      "buy_price": 1585.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CMRY",
+      "date": "2026-10-12",
+      "confidence": 75,
+      "buy_price": 4500.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTBA",
+      "date": "2026-10-12",
+      "confidence": 75,
+      "buy_price": 3280.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADMR",
+      "date": "2026-10-12",
+      "confidence": 70,
+      "buy_price": 1500.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADRO",
+      "date": "2026-10-12",
+      "confidence": 70,
+      "buy_price": 2540.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "DEWA",
+      "date": "2026-10-12",
+      "confidence": 70,
+      "buy_price": 344.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": 14.3,
