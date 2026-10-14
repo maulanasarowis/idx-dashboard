@@ -3359,6 +3359,86 @@
       "buy_price": 344.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "AKRA",
+      "date": "2026-10-13",
+      "confidence": 90,
+      "buy_price": 1490.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ERAA",
+      "date": "2026-10-13",
+      "confidence": 90,
+      "buy_price": 620.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTBA",
+      "date": "2026-10-13",
+      "confidence": 90,
+      "buy_price": 3210.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADMR",
+      "date": "2026-10-13",
+      "confidence": 80,
+      "buy_price": 1460.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ASII",
+      "date": "2026-10-13",
+      "confidence": 80,
+      "buy_price": 4730.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "DEWA",
+      "date": "2026-10-13",
+      "confidence": 80,
+      "buy_price": 338.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PNLF",
+      "date": "2026-10-13",
+      "confidence": 80,
+      "buy_price": 193.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CTRA",
+      "date": "2026-10-13",
+      "confidence": 78,
+      "buy_price": 560.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CMRY",
+      "date": "2026-10-13",
+      "confidence": 75,
+      "buy_price": 4490.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADRO",
+      "date": "2026-10-13",
+      "confidence": 70,
+      "buy_price": 2530.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": 14.3,
