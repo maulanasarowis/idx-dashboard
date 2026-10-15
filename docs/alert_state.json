@@ -1,29 +1,27 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "alerted": {
-    "AKRA": [
-      "buy_zone"
-    ],
     "MEDC": [],
-    "AADI": [
-      "buy_zone"
-    ],
     "ERAA": [],
-    "ITMG": [
+    "UNTR": [],
+    "HEAL": [
       "buy_zone"
     ],
-    "MAPI": [],
-    "UNTR": [
+    "INDF": [
       "buy_zone"
     ],
-    "BSDE": [
-      "buy_zone"
-    ],
-    "DEWA": [
+    "MIKA": [
       "buy_zone"
     ],
     "PNLF": [
       "buy_zone"
-    ]
+    ],
+    "UNVR": [
+      "buy_zone"
+    ],
+    "BRPT": [
+      "buy_zone"
+    ],
+    "CBDK": []
   }
 }
