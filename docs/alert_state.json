@@ -2,7 +2,9 @@
   "date": "2026-10-15",
   "alerted": {
     "MEDC": [],
-    "ERAA": [],
+    "ERAA": [
+      "buy_zone"
+    ],
     "UNTR": [],
     "HEAL": [
       "buy_zone"
