@@ -3439,8 +3439,88 @@
       "buy_price": 2530.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "AKRA",
+      "date": "2026-10-14",
+      "confidence": 100,
+      "buy_price": 1470.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "MEDC",
+      "date": "2026-10-14",
+      "confidence": 100,
+      "buy_price": 1505.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AADI",
+      "date": "2026-10-14",
+      "confidence": 90,
+      "buy_price": 11600.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ERAA",
+      "date": "2026-10-14",
+      "confidence": 90,
+      "buy_price": 630.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ITMG",
+      "date": "2026-10-14",
+      "confidence": 90,
+      "buy_price": 25800.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "MAPI",
+      "date": "2026-10-14",
+      "confidence": 90,
+      "buy_price": 1545.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "UNTR",
+      "date": "2026-10-14",
+      "confidence": 90,
+      "buy_price": 24975.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BSDE",
+      "date": "2026-10-14",
+      "confidence": 80,
+      "buy_price": 550.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "DEWA",
+      "date": "2026-10-14",
+      "confidence": 80,
+      "buy_price": 338.0,
+      "outcome": "SL Hit",
+      "exit_price": 316.0
+    },
+    {
+      "ticker": "PNLF",
+      "date": "2026-10-14",
+      "confidence": 80,
+      "buy_price": 194.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
-  "win_rate": 14.3,
-  "total_closed": 7
+  "win_rate": 12.5,
+  "total_closed": 8
 }
