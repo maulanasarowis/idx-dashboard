@@ -3519,8 +3519,88 @@
       "buy_price": 194.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "MEDC",
+      "date": "2026-10-15",
+      "confidence": 100,
+      "buy_price": 1485.0,
+      "outcome": "SL Hit",
+      "exit_price": 1322.0
+    },
+    {
+      "ticker": "ERAA",
+      "date": "2026-10-15",
+      "confidence": 90,
+      "buy_price": 615.0,
+      "outcome": "SL Hit",
+      "exit_price": 562.0
+    },
+    {
+      "ticker": "UNTR",
+      "date": "2026-10-15",
+      "confidence": 90,
+      "buy_price": 25100.0,
+      "outcome": "SL Hit",
+      "exit_price": 23331.0
+    },
+    {
+      "ticker": "HEAL",
+      "date": "2026-10-15",
+      "confidence": 80,
+      "buy_price": 590.0,
+      "outcome": "SL Hit",
+      "exit_price": 564.0
+    },
+    {
+      "ticker": "INDF",
+      "date": "2026-10-15",
+      "confidence": 80,
+      "buy_price": 6875.0,
+      "outcome": "SL Hit",
+      "exit_price": 6525.0
+    },
+    {
+      "ticker": "MIKA",
+      "date": "2026-10-15",
+      "confidence": 80,
+      "buy_price": 1730.0,
+      "outcome": "SL Hit",
+      "exit_price": 1637.0
+    },
+    {
+      "ticker": "PNLF",
+      "date": "2026-10-15",
+      "confidence": 80,
+      "buy_price": 190.0,
+      "outcome": "SL Hit",
+      "exit_price": 188.0
+    },
+    {
+      "ticker": "UNVR",
+      "date": "2026-10-15",
+      "confidence": 80,
+      "buy_price": 1590.0,
+      "outcome": "SL Hit",
+      "exit_price": 1550.0
+    },
+    {
+      "ticker": "BRPT",
+      "date": "2026-10-15",
+      "confidence": 70,
+      "buy_price": 1380.0,
+      "outcome": "SL Hit",
+      "exit_price": 1238.0
+    },
+    {
+      "ticker": "CBDK",
+      "date": "2026-10-15",
+      "confidence": 70,
+      "buy_price": 3630.0,
+      "outcome": "SL Hit",
+      "exit_price": 3171.0
     }
   ],
-  "win_rate": 12.5,
-  "total_closed": 8
+  "win_rate": 5.6,
+  "total_closed": 18
 }
