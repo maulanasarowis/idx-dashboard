@@ -1,29 +1,35 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "alerted": {
-    "MEDC": [],
-    "ERAA": [
+    "PANI": [
       "buy_zone"
     ],
-    "UNTR": [],
-    "HEAL": [
+    "CBDK": [
       "buy_zone"
     ],
-    "INDF": [
+    "CTRA": [
       "buy_zone"
     ],
-    "MIKA": [
+    "ACES": [
       "buy_zone"
     ],
-    "PNLF": [
+    "TOWR": [
       "buy_zone"
     ],
-    "UNVR": [
+    "CMRY": [
       "buy_zone"
     ],
-    "BRPT": [
+    "ICBP": [
       "buy_zone"
     ],
-    "CBDK": []
+    "INTP": [
+      "buy_zone"
+    ],
+    "PWON": [
+      "buy_zone"
+    ],
+    "KLBF": [
+      "buy_zone"
+    ]
   }
 }
