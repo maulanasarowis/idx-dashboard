@@ -1,34 +1,34 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-19",
   "alerted": {
-    "PANI": [
-      "buy_zone"
-    ],
-    "CBDK": [
-      "buy_zone"
-    ],
     "CTRA": [
       "buy_zone"
     ],
     "ACES": [
       "buy_zone"
     ],
+    "INTP": [
+      "buy_zone"
+    ],
+    "MYOR": [
+      "buy_zone"
+    ],
     "TOWR": [
       "buy_zone"
     ],
-    "CMRY": [
+    "CBDK": [
       "buy_zone"
     ],
-    "ICBP": [
-      "buy_zone"
-    ],
-    "INTP": [
+    "PANI": [
       "buy_zone"
     ],
     "PWON": [
       "buy_zone"
     ],
-    "KLBF": [
+    "ADMR": [
+      "buy_zone"
+    ],
+    "AKRA": [
       "buy_zone"
     ]
   }
