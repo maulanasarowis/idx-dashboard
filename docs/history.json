@@ -3599,8 +3599,88 @@
       "buy_price": 3630.0,
       "outcome": "SL Hit",
       "exit_price": 3171.0
+    },
+    {
+      "ticker": "PANI",
+      "date": "2026-10-16",
+      "confidence": 80,
+      "buy_price": 4250.0,
+      "outcome": "SL Hit",
+      "exit_price": 4059.0
+    },
+    {
+      "ticker": "CBDK",
+      "date": "2026-10-16",
+      "confidence": 72,
+      "buy_price": 3130.0,
+      "outcome": "SL Hit",
+      "exit_price": 3036.0
+    },
+    {
+      "ticker": "CTRA",
+      "date": "2026-10-16",
+      "confidence": 72,
+      "buy_price": 525.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ACES",
+      "date": "2026-10-16",
+      "confidence": 70,
+      "buy_price": 334.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "TOWR",
+      "date": "2026-10-16",
+      "confidence": 70,
+      "buy_price": 418.0,
+      "outcome": "SL Hit",
+      "exit_price": 362.0
+    },
+    {
+      "ticker": "CMRY",
+      "date": "2026-10-16",
+      "confidence": 62,
+      "buy_price": 4320.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ICBP",
+      "date": "2026-10-16",
+      "confidence": 62,
+      "buy_price": 6275.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INTP",
+      "date": "2026-10-16",
+      "confidence": 62,
+      "buy_price": 5100.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PWON",
+      "date": "2026-10-16",
+      "confidence": 62,
+      "buy_price": 266.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "KLBF",
+      "date": "2026-10-16",
+      "confidence": 60,
+      "buy_price": 680.0,
+      "outcome": "SL Hit",
+      "exit_price": 659.0
     }
   ],
-  "win_rate": 5.6,
-  "total_closed": 18
+  "win_rate": 4.5,
+  "total_closed": 22
 }
