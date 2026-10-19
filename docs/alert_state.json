@@ -11,7 +11,8 @@
       "buy_zone"
     ],
     "MYOR": [
-      "buy_zone"
+      "buy_zone",
+      "tp1_hit"
     ],
     "TOWR": [
       "buy_zone"
