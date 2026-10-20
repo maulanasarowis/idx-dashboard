@@ -3679,8 +3679,88 @@
       "buy_price": 680.0,
       "outcome": "SL Hit",
       "exit_price": 659.0
+    },
+    {
+      "ticker": "CTRA",
+      "date": "2026-10-19",
+      "confidence": 80,
+      "buy_price": 515.0,
+      "outcome": "TP1 Hit",
+      "exit_price": 548.0
+    },
+    {
+      "ticker": "ACES",
+      "date": "2026-10-19",
+      "confidence": 72,
+      "buy_price": 318.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INTP",
+      "date": "2026-10-19",
+      "confidence": 70,
+      "buy_price": 4890.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "MYOR",
+      "date": "2026-10-19",
+      "confidence": 60,
+      "buy_price": 1275.0,
+      "outcome": "TP1 Hit",
+      "exit_price": 1338.0
+    },
+    {
+      "ticker": "TOWR",
+      "date": "2026-10-19",
+      "confidence": 60,
+      "buy_price": 362.0,
+      "outcome": "TP1 Hit",
+      "exit_price": 382.0
+    },
+    {
+      "ticker": "CBDK",
+      "date": "2026-10-19",
+      "confidence": 52,
+      "buy_price": 2920.0,
+      "outcome": "TP1 Hit",
+      "exit_price": 3064.0
+    },
+    {
+      "ticker": "PANI",
+      "date": "2026-10-19",
+      "confidence": 52,
+      "buy_price": 3960.0,
+      "outcome": "TP1 Hit",
+      "exit_price": 4176.0
+    },
+    {
+      "ticker": "PWON",
+      "date": "2026-10-19",
+      "confidence": 52,
+      "buy_price": 250.0,
+      "outcome": "TP1 Hit",
+      "exit_price": 265.0
+    },
+    {
+      "ticker": "ADMR",
+      "date": "2026-10-19",
+      "confidence": 45,
+      "buy_price": 1085.0,
+      "outcome": "TP1 Hit",
+      "exit_price": 1136.0
+    },
+    {
+      "ticker": "AKRA",
+      "date": "2026-10-19",
+      "confidence": 45,
+      "buy_price": 1165.0,
+      "outcome": "TP1 Hit",
+      "exit_price": 1208.0
     }
   ],
-  "win_rate": 4.5,
-  "total_closed": 22
+  "win_rate": 30.0,
+  "total_closed": 30
 }
