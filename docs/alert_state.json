@@ -1,35 +1,32 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "alerted": {
-    "CTRA": [
-      "buy_zone"
-    ],
     "ACES": [
       "buy_zone"
     ],
-    "INTP": [
+    "CTRA": [
       "buy_zone"
     ],
-    "MYOR": [
-      "buy_zone",
-      "tp1_hit"
-    ],
-    "TOWR": [
-      "buy_zone"
-    ],
-    "CBDK": [
-      "buy_zone"
-    ],
-    "PANI": [
-      "buy_zone"
-    ],
+    "INTP": [],
     "PWON": [
       "buy_zone"
     ],
-    "ADMR": [
+    "BBNI": [
       "buy_zone"
     ],
     "AKRA": [
+      "buy_zone"
+    ],
+    "AADI": [
+      "buy_zone"
+    ],
+    "ADRO": [
+      "buy_zone"
+    ],
+    "ASII": [
+      "buy_zone"
+    ],
+    "BRPT": [
       "buy_zone"
     ]
   }
