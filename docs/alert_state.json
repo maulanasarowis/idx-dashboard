@@ -1,32 +1,24 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "alerted": {
-    "ACES": [
+    "ACES": [],
+    "BRPT": [],
+    "CTRA": [],
+    "GOTO": [
       "buy_zone"
     ],
-    "CTRA": [
+    "PANI": [
       "buy_zone"
     ],
-    "INTP": [],
-    "PWON": [
+    "BUKA": [],
+    "PWON": [],
+    "MAPI": [
       "buy_zone"
     ],
-    "BBNI": [
-      "buy_zone"
-    ],
-    "AKRA": [
+    "MIKA": [
       "buy_zone"
     ],
     "AADI": [
-      "buy_zone"
-    ],
-    "ADRO": [
-      "buy_zone"
-    ],
-    "ASII": [
-      "buy_zone"
-    ],
-    "BRPT": [
       "buy_zone"
     ]
   }
