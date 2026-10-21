@@ -3759,8 +3759,88 @@
       "buy_price": 1165.0,
       "outcome": "TP1 Hit",
       "exit_price": 1208.0
+    },
+    {
+      "ticker": "ACES",
+      "date": "2026-10-20",
+      "confidence": 70,
+      "buy_price": 336.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CTRA",
+      "date": "2026-10-20",
+      "confidence": 70,
+      "buy_price": 555.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INTP",
+      "date": "2026-10-20",
+      "confidence": 65,
+      "buy_price": 5275.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PWON",
+      "date": "2026-10-20",
+      "confidence": 65,
+      "buy_price": 270.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBNI",
+      "date": "2026-10-20",
+      "confidence": 58,
+      "buy_price": 3170.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AKRA",
+      "date": "2026-10-20",
+      "confidence": 53,
+      "buy_price": 1210.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AADI",
+      "date": "2026-10-20",
+      "confidence": 50,
+      "buy_price": 10750.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADRO",
+      "date": "2026-10-20",
+      "confidence": 50,
+      "buy_price": 2380.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ASII",
+      "date": "2026-10-20",
+      "confidence": 50,
+      "buy_price": 4440.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BRPT",
+      "date": "2026-10-20",
+      "confidence": 50,
+      "buy_price": 1245.0,
+      "outcome": "TP1 Hit",
+      "exit_price": 1482.0
     }
   ],
-  "win_rate": 30.0,
-  "total_closed": 30
+  "win_rate": 32.3,
+  "total_closed": 31
 }
