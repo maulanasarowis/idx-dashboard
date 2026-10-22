@@ -1,24 +1,22 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "alerted": {
-    "ACES": [],
+    "ERAA": [
+      "buy_zone"
+    ],
     "BRPT": [],
-    "CTRA": [],
+    "ELSA": [],
     "GOTO": [
       "buy_zone"
     ],
     "PANI": [
       "buy_zone"
     ],
-    "BUKA": [],
+    "ACES": [],
+    "CTRA": [],
+    "PGEO": [],
     "PWON": [],
-    "MAPI": [
-      "buy_zone"
-    ],
-    "MIKA": [
-      "buy_zone"
-    ],
-    "AADI": [
+    "BBTN": [
       "buy_zone"
     ]
   }
