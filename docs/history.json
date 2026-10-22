@@ -3839,8 +3839,88 @@
       "buy_price": 1245.0,
       "outcome": "TP1 Hit",
       "exit_price": 1482.0
+    },
+    {
+      "ticker": "ACES",
+      "date": "2026-10-21",
+      "confidence": 70,
+      "buy_price": 334.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BRPT",
+      "date": "2026-10-21",
+      "confidence": 70,
+      "buy_price": 1440.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CTRA",
+      "date": "2026-10-21",
+      "confidence": 70,
+      "buy_price": 555.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "GOTO",
+      "date": "2026-10-21",
+      "confidence": 70,
+      "buy_price": 26.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PANI",
+      "date": "2026-10-21",
+      "confidence": 70,
+      "buy_price": 4420.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BUKA",
+      "date": "2026-10-21",
+      "confidence": 65,
+      "buy_price": 105.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PWON",
+      "date": "2026-10-21",
+      "confidence": 65,
+      "buy_price": 272.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "MAPI",
+      "date": "2026-10-21",
+      "confidence": 60,
+      "buy_price": 1235.0,
+      "outcome": "TP1 Hit",
+      "exit_price": 1370.0
+    },
+    {
+      "ticker": "MIKA",
+      "date": "2026-10-21",
+      "confidence": 53,
+      "buy_price": 1320.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AADI",
+      "date": "2026-10-21",
+      "confidence": 50,
+      "buy_price": 11125.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
-  "win_rate": 32.3,
-  "total_closed": 31
+  "win_rate": 34.4,
+  "total_closed": 32
 }
