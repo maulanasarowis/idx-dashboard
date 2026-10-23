@@ -3919,6 +3919,86 @@
       "buy_price": 11125.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "ERAA",
+      "date": "2026-10-22",
+      "confidence": 90,
+      "buy_price": 600.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BRPT",
+      "date": "2026-10-22",
+      "confidence": 70,
+      "buy_price": 1480.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ELSA",
+      "date": "2026-10-22",
+      "confidence": 70,
+      "buy_price": 650.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "GOTO",
+      "date": "2026-10-22",
+      "confidence": 70,
+      "buy_price": 26.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PANI",
+      "date": "2026-10-22",
+      "confidence": 70,
+      "buy_price": 4500.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ACES",
+      "date": "2026-10-22",
+      "confidence": 65,
+      "buy_price": 346.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CTRA",
+      "date": "2026-10-22",
+      "confidence": 65,
+      "buy_price": 575.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PGEO",
+      "date": "2026-10-22",
+      "confidence": 65,
+      "buy_price": 1015.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PWON",
+      "date": "2026-10-22",
+      "confidence": 65,
+      "buy_price": 276.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBTN",
+      "date": "2026-10-22",
+      "confidence": 58,
+      "buy_price": 960.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": 34.4,
