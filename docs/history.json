@@ -3999,6 +3999,86 @@
       "buy_price": 960.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "AADI",
+      "date": "2026-10-23",
+      "confidence": 90,
+      "buy_price": 11675.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTBA",
+      "date": "2026-10-23",
+      "confidence": 90,
+      "buy_price": 3340.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "UNTR",
+      "date": "2026-10-23",
+      "confidence": 80,
+      "buy_price": 24950.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBNI",
+      "date": "2026-10-23",
+      "confidence": 70,
+      "buy_price": 3420.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BRPT",
+      "date": "2026-10-23",
+      "confidence": 70,
+      "buy_price": 1430.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CBDK",
+      "date": "2026-10-23",
+      "confidence": 70,
+      "buy_price": 3360.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "EMTK",
+      "date": "2026-10-23",
+      "confidence": 70,
+      "buy_price": 354.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "GOTO",
+      "date": "2026-10-23",
+      "confidence": 70,
+      "buy_price": 25.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "JSMR",
+      "date": "2026-10-23",
+      "confidence": 70,
+      "buy_price": 2650.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PANI",
+      "date": "2026-10-23",
+      "confidence": 70,
+      "buy_price": 4450.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": 34.4,
