@@ -1,19 +1,13 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "alerted": {
-    "UNTR": [
-      "buy_zone"
-    ],
-    "AADI": [
-      "buy_zone"
-    ],
+    "AADI": [],
+    "PWON": [],
+    "UNTR": [],
     "PTBA": [
       "buy_zone"
     ],
     "TPIA": [
-      "buy_zone"
-    ],
-    "ITMG": [
       "buy_zone"
     ],
     "ADRO": [
@@ -22,11 +16,13 @@
     "BBNI": [
       "buy_zone"
     ],
-    "BMRI": [
+    "BBTN": [
       "buy_zone"
     ],
-    "BRPT": [],
-    "BSDE": [
+    "BRPT": [
+      "buy_zone"
+    ],
+    "GGRM": [
       "buy_zone"
     ]
   }
