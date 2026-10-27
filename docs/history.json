@@ -4079,6 +4079,86 @@
       "buy_price": 4450.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "UNTR",
+      "date": "2026-10-26",
+      "confidence": 100,
+      "buy_price": 25050.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AADI",
+      "date": "2026-10-26",
+      "confidence": 90,
+      "buy_price": 11450.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTBA",
+      "date": "2026-10-26",
+      "confidence": 90,
+      "buy_price": 3240.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "TPIA",
+      "date": "2026-10-26",
+      "confidence": 78,
+      "buy_price": 1460.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ITMG",
+      "date": "2026-10-26",
+      "confidence": 73,
+      "buy_price": 25525.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADRO",
+      "date": "2026-10-26",
+      "confidence": 70,
+      "buy_price": 2450.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBNI",
+      "date": "2026-10-26",
+      "confidence": 70,
+      "buy_price": 3360.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BMRI",
+      "date": "2026-10-26",
+      "confidence": 70,
+      "buy_price": 3850.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BRPT",
+      "date": "2026-10-26",
+      "confidence": 70,
+      "buy_price": 1425.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BSDE",
+      "date": "2026-10-26",
+      "confidence": 70,
+      "buy_price": 500.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": 34.4,
