@@ -4159,6 +4159,86 @@
       "buy_price": 500.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "AADI",
+      "date": "2026-10-27",
+      "confidence": 100,
+      "buy_price": 11775.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PWON",
+      "date": "2026-10-27",
+      "confidence": 100,
+      "buy_price": 290.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "UNTR",
+      "date": "2026-10-27",
+      "confidence": 100,
+      "buy_price": 25800.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PTBA",
+      "date": "2026-10-27",
+      "confidence": 90,
+      "buy_price": 3240.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "TPIA",
+      "date": "2026-10-27",
+      "confidence": 78,
+      "buy_price": 1500.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADRO",
+      "date": "2026-10-27",
+      "confidence": 70,
+      "buy_price": 2490.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBNI",
+      "date": "2026-10-27",
+      "confidence": 70,
+      "buy_price": 3440.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBTN",
+      "date": "2026-10-27",
+      "confidence": 70,
+      "buy_price": 960.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BRPT",
+      "date": "2026-10-27",
+      "confidence": 70,
+      "buy_price": 1375.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "GGRM",
+      "date": "2026-10-27",
+      "confidence": 70,
+      "buy_price": 17200.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": 34.4,
