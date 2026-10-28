@@ -1,28 +1,28 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "alerted": {
-    "AADI": [],
     "PWON": [],
     "UNTR": [],
-    "PTBA": [
-      "buy_zone"
-    ],
-    "TPIA": [
+    "AADI": [],
+    "PANI": [
       "buy_zone"
     ],
     "ADRO": [
       "buy_zone"
     ],
+    "AKRA": [
+      "buy_zone"
+    ],
     "BBNI": [
       "buy_zone"
     ],
-    "BBTN": [
+    "BBRI": [
       "buy_zone"
     ],
-    "BRPT": [
+    "BSDE": [
       "buy_zone"
     ],
-    "GGRM": [
+    "BUKA": [
       "buy_zone"
     ]
   }
