@@ -1,21 +1,18 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "alerted": {
     "INTP": [],
     "PWON": [],
-    "AADI": [
+    "GOTO": [
+      "buy_zone"
+    ],
+    "ADRO": [
       "buy_zone"
     ],
     "AKRA": [
       "buy_zone"
     ],
     "BBNI": [
-      "buy_zone"
-    ],
-    "BBRI": [
-      "buy_zone"
-    ],
-    "BSDE": [
       "buy_zone"
     ],
     "ELSA": [
@@ -25,6 +22,9 @@
       "buy_zone"
     ],
     "HEAL": [
+      "buy_zone"
+    ],
+    "ITMG": [
       "buy_zone"
     ]
   }
