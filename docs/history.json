@@ -4319,6 +4319,86 @@
       "buy_price": 100.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "INTP",
+      "date": "2026-10-29",
+      "confidence": 100,
+      "buy_price": 5575.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PWON",
+      "date": "2026-10-29",
+      "confidence": 100,
+      "buy_price": 286.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AADI",
+      "date": "2026-10-29",
+      "confidence": 70,
+      "buy_price": 11325.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AKRA",
+      "date": "2026-10-29",
+      "confidence": 70,
+      "buy_price": 1400.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBNI",
+      "date": "2026-10-29",
+      "confidence": 70,
+      "buy_price": 3300.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBRI",
+      "date": "2026-10-29",
+      "confidence": 70,
+      "buy_price": 2860.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BSDE",
+      "date": "2026-10-29",
+      "confidence": 70,
+      "buy_price": 498.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ELSA",
+      "date": "2026-10-29",
+      "confidence": 70,
+      "buy_price": 645.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "GGRM",
+      "date": "2026-10-29",
+      "confidence": 70,
+      "buy_price": 16050.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "HEAL",
+      "date": "2026-10-29",
+      "confidence": 70,
+      "buy_price": 530.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": 34.4,
