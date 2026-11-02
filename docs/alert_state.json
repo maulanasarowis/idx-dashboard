@@ -1,9 +1,8 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-11-02",
   "alerted": {
     "INTP": [],
-    "PWON": [],
-    "GOTO": [
+    "ADMR": [
       "buy_zone"
     ],
     "ADRO": [
@@ -15,16 +14,19 @@
     "BBNI": [
       "buy_zone"
     ],
+    "BSDE": [
+      "buy_zone"
+    ],
+    "CTRA": [
+      "buy_zone"
+    ],
+    "DSNG": [
+      "buy_zone"
+    ],
     "ELSA": [
       "buy_zone"
     ],
     "GGRM": [
-      "buy_zone"
-    ],
-    "HEAL": [
-      "buy_zone"
-    ],
-    "ITMG": [
       "buy_zone"
     ]
   }
