@@ -4479,6 +4479,86 @@
       "buy_price": 24525.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "INTP",
+      "date": "2026-11-02",
+      "confidence": 100,
+      "buy_price": 5550.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADMR",
+      "date": "2026-11-02",
+      "confidence": 70,
+      "buy_price": 1340.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADRO",
+      "date": "2026-11-02",
+      "confidence": 70,
+      "buy_price": 2450.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AKRA",
+      "date": "2026-11-02",
+      "confidence": 70,
+      "buy_price": 1365.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBNI",
+      "date": "2026-11-02",
+      "confidence": 70,
+      "buy_price": 3330.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BSDE",
+      "date": "2026-11-02",
+      "confidence": 70,
+      "buy_price": 490.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CTRA",
+      "date": "2026-11-02",
+      "confidence": 70,
+      "buy_price": 555.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "DSNG",
+      "date": "2026-11-02",
+      "confidence": 70,
+      "buy_price": 1445.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ELSA",
+      "date": "2026-11-02",
+      "confidence": 70,
+      "buy_price": 620.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "GGRM",
+      "date": "2026-11-02",
+      "confidence": 70,
+      "buy_price": 16325.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": 34.4,
