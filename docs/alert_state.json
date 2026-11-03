@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "alerted": {
     "INTP": [],
     "ADMR": [
@@ -11,22 +11,22 @@
     "AKRA": [
       "buy_zone"
     ],
-    "BBNI": [
-      "buy_zone"
-    ],
-    "BSDE": [
-      "buy_zone"
-    ],
-    "CTRA": [
-      "buy_zone"
-    ],
     "DSNG": [
       "buy_zone"
     ],
-    "ELSA": [
+    "ESSA": [
       "buy_zone"
     ],
-    "GGRM": [
+    "GOTO": [
+      "buy_zone"
+    ],
+    "ITMG": [
+      "buy_zone"
+    ],
+    "KLBF": [
+      "buy_zone"
+    ],
+    "MAPA": [
       "buy_zone"
     ]
   }
