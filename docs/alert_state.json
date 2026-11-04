@@ -1,32 +1,30 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "alerted": {
     "INTP": [],
     "ADMR": [
       "buy_zone"
     ],
-    "ADRO": [
-      "buy_zone"
-    ],
-    "AKRA": [
-      "buy_zone"
-    ],
-    "DSNG": [
+    "BBNI": [
       "buy_zone"
     ],
     "ESSA": [
       "buy_zone"
     ],
-    "GOTO": [
-      "buy_zone"
-    ],
-    "ITMG": [
+    "INDF": [
       "buy_zone"
     ],
     "KLBF": [
       "buy_zone"
     ],
     "MAPA": [
+      "buy_zone"
+    ],
+    "PGAS": [],
+    "TAPG": [
+      "buy_zone"
+    ],
+    "TPIA": [
       "buy_zone"
     ]
   }
