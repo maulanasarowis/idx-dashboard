@@ -4639,6 +4639,86 @@
       "buy_price": 560.0,
       "outcome": "Open",
       "exit_price": null
+    },
+    {
+      "ticker": "INTP",
+      "date": "2026-11-04",
+      "confidence": 100,
+      "buy_price": 5675.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADMR",
+      "date": "2026-11-04",
+      "confidence": 70,
+      "buy_price": 1300.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBNI",
+      "date": "2026-11-04",
+      "confidence": 70,
+      "buy_price": 3210.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ESSA",
+      "date": "2026-11-04",
+      "confidence": 70,
+      "buy_price": 490.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INDF",
+      "date": "2026-11-04",
+      "confidence": 70,
+      "buy_price": 6675.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "KLBF",
+      "date": "2026-11-04",
+      "confidence": 70,
+      "buy_price": 725.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "MAPA",
+      "date": "2026-11-04",
+      "confidence": 70,
+      "buy_price": 545.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PGAS",
+      "date": "2026-11-04",
+      "confidence": 70,
+      "buy_price": 1350.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "TAPG",
+      "date": "2026-11-04",
+      "confidence": 70,
+      "buy_price": 1895.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "TPIA",
+      "date": "2026-11-04",
+      "confidence": 70,
+      "buy_price": 1190.0,
+      "outcome": "Open",
+      "exit_price": null
     }
   ],
   "win_rate": 34.4,
