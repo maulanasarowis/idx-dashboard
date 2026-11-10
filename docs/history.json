@@ -1,86 +1,6 @@
 {
   "records": [
     {
-      "ticker": "CMRY",
-      "date": "2026-07-28",
-      "confidence": 100,
-      "buy_price": 4690.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "CUAN",
-      "date": "2026-07-28",
-      "confidence": 100,
-      "buy_price": 685.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "ELSA",
-      "date": "2026-07-28",
-      "confidence": 100,
-      "buy_price": 675.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "INCO",
-      "date": "2026-07-28",
-      "confidence": 100,
-      "buy_price": 4760.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "PGEO",
-      "date": "2026-07-28",
-      "confidence": 100,
-      "buy_price": 1015.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "PWON",
-      "date": "2026-07-28",
-      "confidence": 100,
-      "buy_price": 262.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "SSIA",
-      "date": "2026-07-28",
-      "confidence": 100,
-      "buy_price": 1605.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "AADI",
-      "date": "2026-07-28",
-      "confidence": 95,
-      "buy_price": 8925.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "ADRO",
-      "date": "2026-07-28",
-      "confidence": 95,
-      "buy_price": 2510.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "AKRA",
-      "date": "2026-07-28",
-      "confidence": 95,
-      "buy_price": 1440.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
       "ticker": "ASII",
       "date": "2026-07-30",
       "confidence": 100,
@@ -4797,6 +4717,86 @@
       "date": "2026-11-06",
       "confidence": 70,
       "buy_price": 25.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INTP",
+      "date": "2026-11-09",
+      "confidence": 100,
+      "buy_price": 5850.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "EMTK",
+      "date": "2026-11-09",
+      "confidence": 80,
+      "buy_price": 302.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AKRA",
+      "date": "2026-11-09",
+      "confidence": 70,
+      "buy_price": 1340.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AMRT",
+      "date": "2026-11-09",
+      "confidence": 70,
+      "buy_price": 960.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ANTM",
+      "date": "2026-11-09",
+      "confidence": 70,
+      "buy_price": 2760.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBCA",
+      "date": "2026-11-09",
+      "confidence": 70,
+      "buy_price": 5350.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBRI",
+      "date": "2026-11-09",
+      "confidence": 70,
+      "buy_price": 2820.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBTN",
+      "date": "2026-11-09",
+      "confidence": 70,
+      "buy_price": 945.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BMRI",
+      "date": "2026-11-09",
+      "confidence": 70,
+      "buy_price": 3730.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BSDE",
+      "date": "2026-11-09",
+      "confidence": 70,
+      "buy_price": 466.0,
       "outcome": "Open",
       "exit_price": null
     }
