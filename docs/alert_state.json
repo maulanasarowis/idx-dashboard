@@ -1,25 +1,21 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "alerted": {
-    "INTP": [],
     "ASII": [],
-    "EMTK": [
+    "INTP": [
       "buy_zone"
     ],
-    "PNLF": [
+    "RATU": [
       "buy_zone"
     ],
     "RAJA": [],
+    "ADMR": [],
     "AMMN": [
-      "buy_zone"
-    ],
-    "AMRT": [
       "buy_zone"
     ],
     "ANTM": [],
     "BBCA": [],
-    "BBRI": [
-      "buy_zone"
-    ]
+    "BBRI": [],
+    "BMRI": []
   }
 }
