@@ -1,86 +1,6 @@
 {
   "records": [
     {
-      "ticker": "ADMR",
-      "date": "2026-08-05",
-      "confidence": 100,
-      "buy_price": 1615.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "ASII",
-      "date": "2026-08-05",
-      "confidence": 100,
-      "buy_price": 5075.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "BBCA",
-      "date": "2026-08-05",
-      "confidence": 100,
-      "buy_price": 6475.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "BBNI",
-      "date": "2026-08-05",
-      "confidence": 100,
-      "buy_price": 3630.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "BBTN",
-      "date": "2026-08-05",
-      "confidence": 100,
-      "buy_price": 1230.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "BKSL",
-      "date": "2026-08-05",
-      "confidence": 100,
-      "buy_price": 71.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "BRMS",
-      "date": "2026-08-05",
-      "confidence": 100,
-      "buy_price": 600.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "CMRY",
-      "date": "2026-08-05",
-      "confidence": 100,
-      "buy_price": 4790.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "CUAN",
-      "date": "2026-08-05",
-      "confidence": 100,
-      "buy_price": 680.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "ELSA",
-      "date": "2026-08-05",
-      "confidence": 100,
-      "buy_price": 685.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
       "ticker": "ACES",
       "date": "2026-08-07",
       "confidence": 100,
@@ -4797,6 +4717,86 @@
       "date": "2026-11-11",
       "confidence": 70,
       "buy_price": 3750.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INTP",
+      "date": "2026-11-12",
+      "confidence": 90,
+      "buy_price": 5800.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ASII",
+      "date": "2026-11-12",
+      "confidence": 85,
+      "buy_price": 5350.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "RATU",
+      "date": "2026-11-12",
+      "confidence": 78,
+      "buy_price": 2470.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "RAJA",
+      "date": "2026-11-12",
+      "confidence": 73,
+      "buy_price": 555.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADMR",
+      "date": "2026-11-12",
+      "confidence": 70,
+      "buy_price": 1320.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "AMMN",
+      "date": "2026-11-12",
+      "confidence": 70,
+      "buy_price": 3720.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ANTM",
+      "date": "2026-11-12",
+      "confidence": 70,
+      "buy_price": 2790.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBTN",
+      "date": "2026-11-12",
+      "confidence": 70,
+      "buy_price": 975.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BUMI",
+      "date": "2026-11-12",
+      "confidence": 70,
+      "buy_price": 128.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CMRY",
+      "date": "2026-11-12",
+      "confidence": 70,
+      "buy_price": 4270.0,
       "outcome": "Open",
       "exit_price": null
     }
