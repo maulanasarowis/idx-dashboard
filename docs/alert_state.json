@@ -1,17 +1,25 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-16",
   "alerted": {
     "INTP": [],
     "PWON": [],
     "ASII": [],
-    "ESSA": [],
-    "ADMR": [],
-    "AMMN": [
+    "ADMR": [
       "buy_zone"
     ],
     "AMRT": [],
-    "ANTM": [],
-    "BKSL": [],
-    "BSDE": []
+    "ANTM": [
+      "buy_zone"
+    ],
+    "ARTO": [
+      "buy_zone"
+    ],
+    "BKSL": [
+      "buy_zone"
+    ],
+    "BSDE": [
+      "buy_zone"
+    ],
+    "BUMI": []
   }
 }
