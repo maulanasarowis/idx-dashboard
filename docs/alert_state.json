@@ -1,24 +1,22 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "alerted": {
-    "PWON": [
-      "buy_zone"
-    ],
+    "PWON": [],
     "ASII": [],
+    "BUKA": [],
     "INTP": [],
     "KLBF": [],
-    "BRMS": [
-      "buy_zone"
-    ],
-    "ARTO": [],
-    "MAPA": [],
-    "ADMR": [
-      "buy_zone"
-    ],
+    "PGAS": [],
     "ADRO": [
       "buy_zone"
     ],
-    "ANTM": [
+    "CMRY": [
+      "buy_zone"
+    ],
+    "CUAN": [
+      "buy_zone"
+    ],
+    "EMTK": [
       "buy_zone"
     ]
   }
