@@ -1,86 +1,6 @@
 {
   "records": [
     {
-      "ticker": "ACES",
-      "date": "2026-08-13",
-      "confidence": 100,
-      "buy_price": 356.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "ADMR",
-      "date": "2026-08-13",
-      "confidence": 100,
-      "buy_price": 1590.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "ANTM",
-      "date": "2026-08-13",
-      "confidence": 100,
-      "buy_price": 3060.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "BBNI",
-      "date": "2026-08-13",
-      "confidence": 100,
-      "buy_price": 3590.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "BBRI",
-      "date": "2026-08-13",
-      "confidence": 100,
-      "buy_price": 3090.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "BKSL",
-      "date": "2026-08-13",
-      "confidence": 100,
-      "buy_price": 71.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "BRMS",
-      "date": "2026-08-13",
-      "confidence": 100,
-      "buy_price": 620.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "BRPT",
-      "date": "2026-08-13",
-      "confidence": 100,
-      "buy_price": 1895.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "BUMI",
-      "date": "2026-08-13",
-      "confidence": 100,
-      "buy_price": 181.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "CMRY",
-      "date": "2026-08-13",
-      "confidence": 100,
-      "buy_price": 4640.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
       "ticker": "AADI",
       "date": "2026-08-26",
       "confidence": 100,
@@ -4797,6 +4717,86 @@
       "date": "2026-11-17",
       "confidence": 70,
       "buy_price": 131.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PWON",
+      "date": "2026-11-18",
+      "confidence": 100,
+      "buy_price": 280.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ASII",
+      "date": "2026-11-18",
+      "confidence": 95,
+      "buy_price": 5675.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INTP",
+      "date": "2026-11-18",
+      "confidence": 95,
+      "buy_price": 6200.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "KLBF",
+      "date": "2026-11-18",
+      "confidence": 95,
+      "buy_price": 805.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BRMS",
+      "date": "2026-11-18",
+      "confidence": 80,
+      "buy_price": 296.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ARTO",
+      "date": "2026-11-18",
+      "confidence": 78,
+      "buy_price": 560.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "MAPA",
+      "date": "2026-11-18",
+      "confidence": 73,
+      "buy_price": 620.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADMR",
+      "date": "2026-11-18",
+      "confidence": 70,
+      "buy_price": 1200.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADRO",
+      "date": "2026-11-18",
+      "confidence": 70,
+      "buy_price": 2390.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ANTM",
+      "date": "2026-11-18",
+      "confidence": 70,
+      "buy_price": 2690.0,
       "outcome": "Open",
       "exit_price": null
     }
