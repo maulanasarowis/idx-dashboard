@@ -1,86 +1,6 @@
 {
   "records": [
     {
-      "ticker": "AADI",
-      "date": "2026-08-26",
-      "confidence": 100,
-      "buy_price": 10250.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "AMMN",
-      "date": "2026-08-26",
-      "confidence": 100,
-      "buy_price": 4500.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "BBCA",
-      "date": "2026-08-26",
-      "confidence": 100,
-      "buy_price": 6400.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "BBNI",
-      "date": "2026-08-26",
-      "confidence": 100,
-      "buy_price": 3680.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "CBDK",
-      "date": "2026-08-26",
-      "confidence": 100,
-      "buy_price": 3890.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "CTRA",
-      "date": "2026-08-26",
-      "confidence": 100,
-      "buy_price": 620.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "DSNG",
-      "date": "2026-08-26",
-      "confidence": 100,
-      "buy_price": 1460.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "HRUM",
-      "date": "2026-08-26",
-      "confidence": 100,
-      "buy_price": 930.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "INKP",
-      "date": "2026-08-26",
-      "confidence": 100,
-      "buy_price": 8725.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "ITMG",
-      "date": "2026-08-26",
-      "confidence": 100,
-      "buy_price": 25400.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
       "ticker": "ACES",
       "date": "2026-08-27",
       "confidence": 100,
@@ -4797,6 +4717,86 @@
       "date": "2026-11-18",
       "confidence": 70,
       "buy_price": 2690.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PWON",
+      "date": "2026-11-19",
+      "confidence": 100,
+      "buy_price": 278.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ASII",
+      "date": "2026-11-19",
+      "confidence": 95,
+      "buy_price": 5350.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BUKA",
+      "date": "2026-11-19",
+      "confidence": 95,
+      "buy_price": 116.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INTP",
+      "date": "2026-11-19",
+      "confidence": 95,
+      "buy_price": 6250.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "KLBF",
+      "date": "2026-11-19",
+      "confidence": 95,
+      "buy_price": 780.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PGAS",
+      "date": "2026-11-19",
+      "confidence": 85,
+      "buy_price": 1560.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ADRO",
+      "date": "2026-11-19",
+      "confidence": 80,
+      "buy_price": 2340.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CMRY",
+      "date": "2026-11-19",
+      "confidence": 80,
+      "buy_price": 4260.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "CUAN",
+      "date": "2026-11-19",
+      "confidence": 80,
+      "buy_price": 350.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "EMTK",
+      "date": "2026-11-19",
+      "confidence": 80,
+      "buy_price": 284.0,
       "outcome": "Open",
       "exit_price": null
     }
