@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-23",
   "alerted": {
+    "ACES": [],
     "ASII": [],
-    "INTP": [],
-    "KLBF": [],
-    "PGAS": [],
-    "PWON": [],
     "BUKA": [],
+    "INTP": [],
+    "PGAS": [],
+    "KLBF": [],
     "ADRO": [
       "buy_zone"
     ],
@@ -16,7 +16,7 @@
     "BSDE": [
       "buy_zone"
     ],
-    "CMRY": [
+    "CPIN": [
       "buy_zone"
     ]
   }
