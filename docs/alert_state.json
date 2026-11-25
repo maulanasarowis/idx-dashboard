@@ -1,17 +1,19 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "alerted": {
     "INDF": [],
     "INTP": [],
-    "PWON": [],
-    "ACES": [],
-    "ASII": [],
     "KLBF": [],
+    "ACES": [],
+    "BBNI": [],
+    "MYOR": [],
     "PGAS": [],
-    "JPFA": [
+    "PWON": [],
+    "ADRO": [
       "buy_zone"
     ],
-    "BUKA": [],
-    "MYOR": []
+    "AKRA": [
+      "buy_zone"
+    ]
   }
 }
