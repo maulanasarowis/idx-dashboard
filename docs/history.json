@@ -2,86 +2,6 @@
   "records": [
     {
       "ticker": "ADRO",
-      "date": "2026-09-02",
-      "confidence": 100,
-      "buy_price": 2670.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "BBTN",
-      "date": "2026-09-02",
-      "confidence": 100,
-      "buy_price": 1230.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "CMRY",
-      "date": "2026-09-02",
-      "confidence": 100,
-      "buy_price": 4720.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "CTRA",
-      "date": "2026-09-02",
-      "confidence": 100,
-      "buy_price": 635.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "EMTK",
-      "date": "2026-09-02",
-      "confidence": 100,
-      "buy_price": 525.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "ESSA",
-      "date": "2026-09-02",
-      "confidence": 100,
-      "buy_price": 705.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "INDY",
-      "date": "2026-09-02",
-      "confidence": 100,
-      "buy_price": 2740.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "MAPA",
-      "date": "2026-09-02",
-      "confidence": 100,
-      "buy_price": 695.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "MEDC",
-      "date": "2026-09-02",
-      "confidence": 100,
-      "buy_price": 1480.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "PTBA",
-      "date": "2026-09-02",
-      "confidence": 100,
-      "buy_price": 2800.0,
-      "outcome": "Open",
-      "exit_price": null
-    },
-    {
-      "ticker": "ADRO",
       "date": "2026-09-04",
       "confidence": 100,
       "buy_price": 2700.0,
@@ -4797,6 +4717,86 @@
       "date": "2026-11-25",
       "confidence": 80,
       "buy_price": 1240.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INDF",
+      "date": "2026-11-26",
+      "confidence": 100,
+      "buy_price": 7100.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ACES",
+      "date": "2026-11-26",
+      "confidence": 95,
+      "buy_price": 356.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "ASII",
+      "date": "2026-11-26",
+      "confidence": 95,
+      "buy_price": 5650.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BBNI",
+      "date": "2026-11-26",
+      "confidence": 95,
+      "buy_price": 3580.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "INTP",
+      "date": "2026-11-26",
+      "confidence": 95,
+      "buy_price": 6225.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "KLBF",
+      "date": "2026-11-26",
+      "confidence": 95,
+      "buy_price": 810.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PGAS",
+      "date": "2026-11-26",
+      "confidence": 95,
+      "buy_price": 1545.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "PWON",
+      "date": "2026-11-26",
+      "confidence": 95,
+      "buy_price": 306.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "SMGR",
+      "date": "2026-11-26",
+      "confidence": 95,
+      "buy_price": 1550.0,
+      "outcome": "Open",
+      "exit_price": null
+    },
+    {
+      "ticker": "BSDE",
+      "date": "2026-11-26",
+      "confidence": 80,
+      "buy_price": 466.0,
       "outcome": "Open",
       "exit_price": null
     }
