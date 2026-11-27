@@ -1,17 +1,15 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "alerted": {
-    "INDF": [],
     "ACES": [],
+    "INDF": [],
+    "INTP": [],
+    "PGAS": [],
     "ASII": [],
     "BBNI": [],
-    "INTP": [],
     "KLBF": [],
-    "PGAS": [],
     "PWON": [],
-    "SMGR": [],
-    "BSDE": [
-      "buy_zone"
-    ]
+    "BUKA": [],
+    "ICBP": []
   }
 }
